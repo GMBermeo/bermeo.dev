@@ -3217,7 +3217,8 @@ table.alt tbody tr td {
 #header.alt .logo img {
   display: block;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 250px;
+  padding: 4em 2em 1em 2em;
   border-radius: 0;
 }
 
@@ -3318,8 +3319,8 @@ body.is-preload #header.alt .logo {
   max-width: calc(100% - 4em);
   padding: 1em;
   background-color: #f7f7f7;
-  border-top-left-radius: 0.25em;
-  border-top-right-radius: 0.25em;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
   cursor: default;
   text-align: center;
 }
@@ -3438,7 +3439,7 @@ body.is-preload #header.alt .logo {
 #main {
   background-color: #fff;
   color: #636363;
-  border-radius: 1em;
+  border-radius: 2em;
 }
 
 #main input,
