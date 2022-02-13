@@ -192,11 +192,11 @@ body {
   background-image: url("images/overlay.png"),
     -moz-linear-gradient(45deg, #000 15%, #111 85%);
   background-image: url("images/overlay.png"),
-    -webkit-linear-gradient(45deg, #111 15%, #000 85%);
+    -webkit-linear-gradient(21deg, #000 15%, #111 85%);
   background-image: url("images/overlay.png"),
-    -ms-linear-gradient(45deg, #000 15%, #111 85%);
+    -ms-linear-gradient(35deg, #000 15%, #333 85%);
   background-image: url("images/overlay.png"),
-    linear-gradient(45deg, #111 15%, #000 85%);
+    linear-gradient(45deg, #111 15%, #000 50%);
 }
 
 body.is-preload *,
@@ -3217,8 +3217,8 @@ table.alt tbody tr td {
 #header.alt .logo img {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
-  border-radius: 100%;
+  max-width: 200px;
+  border-radius: 0;
 }
 
 .about {
