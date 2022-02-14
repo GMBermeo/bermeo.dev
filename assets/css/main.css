@@ -3439,7 +3439,7 @@ body.is-preload #header.alt .logo {
 #main {
   background-color: #fff;
   color: #636363;
-  border-radius: 2em;
+  border-radius: 1.25em;
 }
 
 #main input,
