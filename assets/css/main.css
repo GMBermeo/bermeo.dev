@@ -3100,15 +3100,15 @@ table.alt tbody tr td {
 .spotlight .image {
   display: inline-block;
   margin-left: 4em;
-  padding: 0.65em;
+  /* padding: 0.65em; */
   border-radius: 100%;
-  border: solid 1px;
+  /* border: solid 1px; */
 }
 
 .spotlight .image img {
   display: block;
   border-radius: 100%;
-  width: 16em;
+  width: 14em;
 }
 
 @media screen and (max-width: 980px) {
@@ -3182,7 +3182,7 @@ table.alt tbody tr td {
 }
 
 #header.alt {
-  padding: 7em 5em 4em 5em;
+  padding: 1em 5em 1em 5em;
 }
 
 #header.alt h1 {
@@ -3692,7 +3692,7 @@ body.is-preload #header.alt .logo {
 }
 
 #main > .main {
-  padding: 5em 5em 3em 5em;
+  padding: 2em 3em 1em 3em;
   border-top: solid 1px #dddddd;
 }
 
