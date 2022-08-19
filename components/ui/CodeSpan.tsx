@@ -9,20 +9,19 @@ interface TCodeSpanProps {
 export const CodeSpan = ({ type, name, value }: TCodeSpanProps) => {
   return (
     <>
-      <span className="text-dracula-purple font-code textsm font-bold">
+      <span className="font-code textsm font-bold text-dracula-purple">
         {type}{" "}
       </span>
-      <span className="text-dracula-pink font-code text-sm font-bold">
+      <span className="font-code text-sm font-bold text-dracula-pink">
         {name}
       </span>
-      <span className="text-dracula-purple font-code text-sm font-bold">
+      <span className="font-code text-sm font-bold text-dracula-purple">
         {" "}
         ={" "}
       </span>
-      <span className="text-dracula-yellow font-code text-sm font-bold">
-        {value}
+      <span className="font-code text-sm font-bold text-dracula-yellow">
+        &quot;{value}&quot;
       </span>
     </>
   );
 };
-const telephone = "tel:+55 (11) 9 9999-9999";

@@ -7,6 +7,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        background: "#0E1012",
+        primary: "#FF6358",
+        balde: {
+          green: "#41B883",
+          blue: "#58A1FF",
+          cyan: "#58F4FF",
+        },
         dracula: {
           background: "	#282a36",
           currentLine: "	#44475a",
