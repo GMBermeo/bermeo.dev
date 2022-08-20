@@ -1,16 +1,19 @@
 import React from "react";
 import { Title } from "../ui/Title";
+import { WorkCard } from "../WorkCard";
 
 const experiences: {
   title: string;
   company: string;
+  companyShort: string;
   dateStart: string;
   dateEnd: string;
   description: string[];
 }[] = [
   {
     title: "Desenvolvedor Front-end",
-    company: "AGU",
+    companyShort: "AGU",
+    company: "Advocacia-Geral da União",
     dateStart: "01.2022",
     dateEnd: "Presente",
     description: [
@@ -19,7 +22,8 @@ const experiences: {
   },
   {
     title: "UI/UX Designer Sênior",
-    company: "AGU",
+    companyShort: "AGU",
+    company: "Advocacia-Geral da União",
     dateStart: "09.2018",
     dateEnd: "01.2022",
     description: [
@@ -30,7 +34,8 @@ const experiences: {
   },
   {
     title: "UI/UX Designer",
-    company: "BBTS",
+    companyShort: "BBTS",
+    company: "Banco do Brasil Tecnologia & Serviços",
     dateStart: "04.2015",
     dateEnd: "09.2018",
     description: [
@@ -41,7 +46,8 @@ const experiences: {
   },
   {
     title: "Assistente Administrativo",
-    company: "CAER",
+    companyShort: "CAER",
+    company: "Companhia de Águas e Esgotos de Roraima",
     dateStart: "12.2012",
     dateEnd: "06.2011",
     description: [
@@ -52,38 +58,13 @@ const experiences: {
 
 export const Experience = () => {
   return (
-    <div className="mt-12" id="Experiencia">
+    <>
       <Title title="Experiência" />
       {experiences.map((experience) => (
-        <div
-          className="mb-6 text-sm font-medium leading-6"
-          key={experience.dateStart}
-        >
-          <div className="flex items-center">
-            <div className="flex w-full justify-between font-bold">
-              <div className="text-base leading-5 text-white underline decoration-primary decoration-2">
-                {experience.title}
-              </div>
-
-              <div className="self-end text-base leading-5">
-                <span className="text-primary">@</span>
-                {experience.company}
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-2 ml-1 text-sm leading-5 text-dracula-foreground">
-            {experience.description.map((description) => (
-              <div key={description}>{description}</div>
-            ))}
-          </div>
-          <div className="ml-2 text-sm font-bold leading-7 text-dracula-currentLine">
-            {experience.dateEnd} - {experience.dateStart}
-          </div>
-        </div>
+        <WorkCard {...experience} key={experience.dateEnd} />
       ))}
 
       <div className="p mb-4 text-sm font-medium leading-6"></div>
-    </div>
+    </>
   );
 };
