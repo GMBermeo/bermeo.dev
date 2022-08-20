@@ -7,20 +7,21 @@ export const EducationCard = ({
   type,
   dateStart,
   dateEnd,
+  hours,
 }: TEducation) => {
-  if (type === "Pós-graduação Lato Sensu" || type === "Ensino Superior")
+  if (type && !hours)
     return (
       <>
-        <li className="mb-4 flex flex-col gap-x-2">
-          <div className="text-base font-bold leading-5 text-white ">
-            {title}
+        <li className="mb-6 flex gap-x-2 text-sm md:text-base">
+          <div className="flex flex-col justify-between leading-6">
+            <div>{dateEnd}</div>
+            <div className="text-dracula-currentLine">{dateStart}</div>
           </div>
-          <div className="ml-1 flex gap-x-2 text-sm">
-            <div className="text-dracula-currentLine flex flex-col justify-between font-medium">
-              <div className="text-primary">{dateEnd}</div>
-              <div>{dateStart}</div>
-            </div>
-            <div className="flex-col font-medium">
+          <div className="flex-col">
+            <div className="flex flex-col font-medium">
+              <div className="text-base font-bold text-white md:text-lg">
+                {title}
+              </div>
               <div className="text-primary">{type}</div>
               <div className="text-dracula-currentLine">{company}</div>
             </div>
@@ -28,104 +29,41 @@ export const EducationCard = ({
         </li>
       </>
     );
-  if (type === "Cursos")
+  if (!type && hours)
     return (
       <>
-        <div className="flex">
-          <div className="flex flex-col justify-center">
-            <div>{dateEnd}</div>
-            <div>{dateStart}</div>
+        <li className="mb-3 flex justify-between text-sm sm:mb-0 md:text-base">
+          <div className="flex w-full gap-x-2">
+            <div className="leading-6">{dateEnd}</div>
+            <div className="mr-2 flex w-full flex-col justify-between sm:flex-row">
+              <div className="font-bold text-white">{title}</div>
+              <div className="text-primary font-medium sm:leading-7">
+                {company}
+              </div>
+            </div>
           </div>
-          <div className="flex-col">
-            <div>{title}</div>
-            <div>{company}</div>
+          <div className="font-bold leading-7">
+            {hours}
+            <span className="text-primary">h</span>
           </div>
-        </div>
+        </li>
       </>
     );
-  if (type === "Certificado")
+  if (!type && !hours)
     return (
-      <div>
-        <div className="flex">
-          <div className="flex flex-col justify-center">
-            <div>{dateStart}</div>
+      <>
+        <li className="mb-4 flex justify-between text-sm md:text-base">
+          <div className="flex w-full gap-x-2">
+            <div className="leading-6">{dateEnd}</div>
+            <div className="flex w-full flex-col justify-between gap-x-4 sm:flex-row">
+              <div className="text-base font-bold text-white">{title}</div>
+              <div className="text-primary font-medium sm:leading-6">
+                {company}
+              </div>
+            </div>
           </div>
-          <div className="flex-col">
-            <div>{title}</div>
-            <div>{company}</div>
-          </div>
-        </div>
-      </div>
+        </li>
+      </>
     );
-  return (
-    <div>
-      <div className="flex">
-        <div className="flex flex-col justify-center">
-          <div>{dateEnd}</div>
-          <div>{dateStart}</div>
-        </div>
-        <div className="flex-col">
-          <div>{title}</div>
-          <div>{company}</div>
-        </div>
-      </div>
-    </div>
-  );
+  else return null;
 };
-
-// import React from "react";
-// import { TEducation } from "./sections/Education";
-//
-// export const EducationCard = ({
-//   title,
-//   company,
-//   type,
-//   dateStart,
-//   dateEnd,
-// }: TEducation) => {
-//   if (type === "Pós-graduação Lato Sensu" || type === "Ensino Superior")
-//     return (
-//       <>
-//         <div className="flex">
-//           <div className="flex flex-col justify-center">
-//             <div>{dateEnd}</div>
-//             <div>{dateStart}</div>
-//           </div>
-//           <div className="flex-col">
-//             <div>{type}</div>
-//             <div>{title}</div>
-//             <div>{company}</div>
-//           </div>
-//         </div>
-//       </>
-//     );
-//   if (type === "Cursos")
-//     return (
-//       <>
-//         <div className="flex">
-//           <div
-
-{
-  /* <div
-        className="mb-6 text-sm font-medium leading-6 md:text-base"
-        key={dateStart}
-      >
-        <div className="flex items-center">
-          <div className="mr-2 flex w-full justify-between text-base md:text-xl">
-            <div className="decoration-primary font-bold leading-5 text-white underline decoration-2">
-              {title}
-            </div>
-
-            <div className="text-bold cursor-help self-end leading-5">
-              <span className="text-primary font-thin">@</span>
-              {company}
-            </div>
-          </div>
-        </div>
-
-        <div className="text-dracula-foreground my-2 ml-2 text-sm leading-5 md:text-base"></div>
-        <div className="text-dracula-currentLine mx-2 text-sm font-bold  leading-7 md:text-base">
-          {dateEnd} - {dateStart}
-        </div>
-      </div> */
-}

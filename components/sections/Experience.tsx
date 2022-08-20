@@ -60,11 +60,11 @@ export const Experience = () => {
   return (
     <>
       <Title title="Experiência" />
-      {experiences.map((experience) => (
-        <WorkCard {...experience} key={experience.dateEnd} />
-      ))}
-
-      <div className="p mb-4 text-sm font-medium leading-6"></div>
+      <ol>
+        {experiences.map((experience) => (
+          <WorkCard {...experience} key={experience.dateEnd} />
+        ))}
+      </ol>
     </>
   );
 };

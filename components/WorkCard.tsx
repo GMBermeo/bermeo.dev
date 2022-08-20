@@ -18,7 +18,7 @@ export const WorkCard = ({
   description,
 }: TWorkCardProps) => {
   return (
-    <div
+    <li
       className="mb-6 text-sm font-medium leading-6 md:text-base"
       key={dateStart}
     >
@@ -43,6 +43,6 @@ export const WorkCard = ({
       <div className="text-dracula-currentLine mx-2 text-sm font-bold leading-7 md:text-base">
         {dateEnd} - {dateStart}
       </div>
-    </div>
+    </li>
   );
 };

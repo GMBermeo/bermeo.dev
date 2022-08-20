@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const NavBar = () => {
   return (
-    <header className={s.navBar}>
+    <nav className={s.navBar}>
       <div>
         <a href="./">
           <Image
@@ -16,12 +16,12 @@ export const NavBar = () => {
           />
         </a>
       </div>
-      <div className="flex items-center">
-        <NavButton goTo="Sobre" label="Sobre" class="hidden sm:inline-block" />
-        <NavButton goTo="Experiência" label="Experiência" />
-        <NavButton goTo="Projects" label="Projetos" />
-        <NavButton goTo="Contact" label="Contato" />
-      </div>
-    </header>
+      <ul className="flex items-center">
+        <NavButton label="Sobre" class="hidden sm:inline-block" />
+        <NavButton label="Experiência" />
+        <NavButton label="Projetos" />
+        <NavButton label="Contato" />
+      </ul>
+    </nav>
   );
 };

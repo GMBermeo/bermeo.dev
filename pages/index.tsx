@@ -4,6 +4,7 @@ import { Hero } from "../components/sections/Hero";
 import { NavBar } from "../components/NavBar/NavBar";
 import { Experience } from "../components/sections/Experience";
 import { Education } from "../components/sections/Education";
+import { Portfolio } from "../components/sections/Portfolio";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
         <About />
         <Experience />
         <Education />
+        <Portfolio />
       </main>
 
       <footer></footer>

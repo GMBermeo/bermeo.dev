@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <>
       <Title title="Sobre" />
-      <div className="p mb-16 text-sm font-medium leading-6 md:text-base">
+      <article className="p mb-16 text-sm font-medium leading-6 md:text-base">
         Formado em Análise e Desenvolvimento de Sistemas em 2011, fui
         traumatizado pelas aulas de Java na época e me refugiando no HTML e CSS.
         Em 2015, comecei a trabalhar em produtos do Banco do Brasil, e tendo um
@@ -40,7 +40,7 @@ export const About = () => {
         <span className="text-balde-blue"> Tailwind CSS </span> e
         <span className="text-balde-blue"> Next.js</span>. Que foram as
         tecnologias utilizadas para fazer este site.
-      </div>
+      </article>
     </>
   );
 };

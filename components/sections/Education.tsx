@@ -9,6 +9,7 @@ export interface TEducation {
   company: string;
   dateStart?: string;
   dateEnd: string;
+  hours?: string;
 }
 
 const formacoes: TEducation[] = [
@@ -37,34 +38,40 @@ const formacoes: TEducation[] = [
 
 const cursos: TEducation[] = [
   {
-    title: "React Completo com Hooks (36h)",
+    title: "React Completo com Hooks",
     company: "Origamid.dev",
     dateEnd: "2022",
+    hours: "36",
   },
   {
-    title: "Motion Design (110h)",
+    title: "Motion Design",
     company: "Alura",
     dateEnd: "2021",
+    hours: "110",
   },
   {
-    title: "Game Design (60h)",
+    title: "Game Design",
     company: "Alura",
     dateEnd: "2021",
+    hours: "60",
   },
   {
-    title: "Metodologia Ágil SCRUM (20h)",
+    title: "Metodologia Ágil SCRUM",
     company: "SENAC/DF",
     dateEnd: "2019",
+    hours: "20",
   },
   {
-    title: "HTML & CSS (52h)",
+    title: "HTML & CSS",
     company: "Alura",
     dateEnd: "2016",
+    hours: "52",
   },
   {
-    title: "Auxiliar Administrativo (800h)",
+    title: "Auxiliar Administrativo",
     company: "SENAI/RR",
     dateEnd: "2012",
+    hours: "800",
   },
 ];
 
@@ -83,27 +90,25 @@ const certificados: TEducation[] = [
 
 export const Education = () => {
   return (
-    <div>
-      <div>
-        <Title title={"Formação"} />
-        <ul className="ml-2">
-          {formacoes.map((formacao) => (
-            <EducationCard {...formacao} key={formacao.title} />
-          ))}
-        </ul>
-      </div>
-      <div>
-        <Subtitle title={"Cursos"} />
+    <div className="mb-12">
+      <Title title={"Formação"} />
+      <ul className="mb-8">
+        {formacoes.map((formacao) => (
+          <EducationCard {...formacao} key={formacao.title} />
+        ))}
+      </ul>
+      <Subtitle title={"Cursos"} />
+      <ul className="mb-8">
         {cursos.map((curso) => (
           <EducationCard {...curso} key={curso.title} />
         ))}
-      </div>
-      <div>
-        <Subtitle title={"Certificados"} />
+      </ul>
+      <Subtitle title={"Certificados"} />
+      <ul>
         {certificados.map((certificado) => (
           <EducationCard {...certificado} key={certificado.title} />
         ))}
-      </div>
+      </ul>
     </div>
   );
 };
