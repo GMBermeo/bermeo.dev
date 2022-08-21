@@ -1,5 +1,5 @@
 import React from "react";
-import { TEducation } from "./sections/Education";
+import { TEducation } from "../types/TEducation";
 
 export const EducationCard = ({
   title,
@@ -22,8 +22,8 @@ export const EducationCard = ({
               <div className="text-base font-bold text-white md:text-lg">
                 {title}
               </div>
-              <div className="text-primary">{type}</div>
-              <div className="text-dracula-currentLine">{company}</div>
+              <div className="text-dracula-foreground">{type}</div>
+              <div className="text-primary">{company}</div>
             </div>
           </div>
         </li>

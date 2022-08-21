@@ -6,13 +6,13 @@ export const About = () => {
     <>
       <Title title="Sobre" />
       <article className="p mb-16 text-sm font-medium leading-6 md:text-base">
-        Formado em Análise e Desenvolvimento de Sistemas em 2011, fui
-        traumatizado pelas aulas de Java na época e me refugiando no HTML e CSS.
-        Em 2015, comecei a trabalhar em produtos do Banco do Brasil, e tendo um
-        background em Design Gráfico, acabei sendo alocado na equipe de UX
-        Design. Foi quando descobri a magia da simplicidade do Javascript, e
-        comecei a estudar a fundo sobre desenvolvimento front-end e prototipação
-        de alta fidelidade.
+        Formado em Análise e Desenvolvimento de Sistemas em 2011, descobri logo
+        na faculdade uma vocação por front-end e experiência do usuário nas
+        aulas de engenharia de software. Em 2015, comecei a trabalhar em
+        produtos do Banco do Brasil, e tendo um background em Design Gráfico,
+        acabei sendo alocado na equipe de UX Design. Foi quando descobri a magia
+        da simplicidade do Javascript, e comecei a estudar a fundo sobre
+        desenvolvimento front-end e prototipação de alta fidelidade.
         <br />
         <br /> Quando em 2018, fui cedido à Advocacia-Geral da União como UX
         Designer e com isso, comecei a trabalhar em sistemas legados e

@@ -1,0 +1,28 @@
+import { TSkill } from "../types/TSkill";
+
+export const skills: TSkill[] = [
+  { label: "HTML & CSS", level: 6, linkedin: true },
+  { label: "React", level: 5, linkedin: true },
+  { label: "Git", level: 4, linkedin: true },
+  { label: "Illustrator", level: 3, linkedin: true },
+  { label: "C#", level: 2, linkedin: true },
+  { label: "Node.js", level: 1, linkedin: true },
+  { label: "Tailwind CSS", level: 6 },
+  { label: "Javascript", level: 5, linkedin: true },
+  { label: "Unity", level: 4, linkedin: true },
+  { label: "Logic Pro", level: 3, linkedin: true },
+  { label: "Vercel", level: 2 },
+  { label: "Spline 3D", level: 1 },
+  { label: "Bootstrap", level: 6 },
+  { label: "Typescript", level: 5 },
+  { label: "PowerApps", level: 4 },
+  { label: "Lightroom", level: 3, linkedin: true },
+  { label: "Adobe XD", level: 2 },
+  { label: "InDesign", level: 1 },
+  { label: "Figma", level: 6 },
+  { label: "Vue", level: 5 },
+  { label: "FMOD", level: 4 },
+  { label: "Axure RP", level: 3 },
+  { label: "Blazor", level: 2 },
+  { label: "PHP", level: 1 },
+];

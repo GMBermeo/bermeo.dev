@@ -1,13 +1,5 @@
 import React from "react";
-
-interface TWorkCardProps {
-  title: string;
-  company: string;
-  companyShort: string;
-  dateStart: string;
-  dateEnd: string;
-  description: string[];
-}
+import { TExperience } from "../types/TExperience";
 
 export const WorkCard = ({
   title,
@@ -16,7 +8,7 @@ export const WorkCard = ({
   dateStart,
   dateEnd,
   description,
-}: TWorkCardProps) => {
+}: TExperience) => {
   return (
     <li
       className="mb-6 text-sm font-medium leading-6 md:text-base"

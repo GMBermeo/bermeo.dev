@@ -10,7 +10,7 @@ export const Hero = () => {
           <h3 className="font-code text-dracula-comment mb-2 text-sm font-bold md:text-xl">
             &#47;&#47; Hello World!
           </h3>
-          <h1 className="pb-4 text-3xl font-medium leading-tight md:text-7xl">
+          <h1 className="pb-4 text-3xl font-medium leading-tight sm:text-5xl md:text-7xl">
             Eu me chamo
             <br />
             Guilherme Bermêo.
