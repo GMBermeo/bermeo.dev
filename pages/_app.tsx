@@ -25,13 +25,25 @@ function MyApp({ Component, pageProps }: AppProps) {
             href: "/favicon.ico",
           },
           {
+            rel: "icon",
+            href: "/favicons/favicon-16x16.png",
+            type: "image/png",
+            sizes: "16x16",
+          },
+          {
+            rel: "icon",
+            href: "/favicons/favicon-32x32.png",
+            type: "image/png",
+            sizes: "32x32",
+          },
+          {
             rel: "apple-touch-icon",
-            href: "/img/logo/logo96.png",
-            sizes: "96x96",
+            href: "/favicons/apple-touch-icon.png",
+            sizes: "180x180",
           },
           {
             rel: "manifest",
-            href: "/manifest.json",
+            href: "/site.webmanifest",
           },
         ]}
       />

@@ -1,7 +1,7 @@
 export const SEO = {
   title: "Guilherme Bermêo | Front-end Developer",
   description:
-    "Eu me chamo Guilherme Bermêo. Sou um desenvolvedor front-end e ux designer de Roraima em Brasília focado em web com stack Next + Tailwindcss.",
+    "Sou um desenvolvedor front-end e ux designer de Roraima em Brasília focado em web com stack Next + Tailwindcss.",
   canonical: "https://www.bermeo.dev/",
   openGraph: {
     type: "website",
