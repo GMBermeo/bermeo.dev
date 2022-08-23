@@ -16,8 +16,8 @@ const Home: NextPage = () => {
       <main className="container mx-auto max-w-3xl px-6 sm:px-8">
         <About />
         <Experience />
+        <Portfolio />
         <Education />
-        {/* <Portfolio /> */}
         <Skills />
       </main>
 

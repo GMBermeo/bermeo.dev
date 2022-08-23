@@ -63,7 +63,7 @@ export const courses: TEducation[] = [
   },
 ];
 
-export const certfications: TEducation[] = [
+export const certifications: TEducation[] = [
   {
     title: "Diplome d'Etudes en Langue Française A2",
     company: "Aliança Francesa de Brasília",

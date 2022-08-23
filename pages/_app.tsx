@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-
+import React from "react";
 import type { AppProps } from "next/app";
 import { SEO } from "../next-seo.config";
 import { DefaultSeo } from "next-seo";
@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           },
           {
             name: "application-name",
-            content: "GuilhermeBermeo",
+            content: "Guilherme Bermeo | Front-end Developer",
           },
         ]}
         additionalLinkTags={[

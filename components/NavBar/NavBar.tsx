@@ -7,7 +7,7 @@ export const NavBar = () => {
   return (
     <nav className={s.navBar}>
       <div>
-        <a href="./">
+        <a href="https://bermeo.dev">
           <Image
             src="/logo.svg"
             alt="Guilherme Bermêo's Logo"
