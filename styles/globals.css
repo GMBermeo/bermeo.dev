@@ -48,6 +48,7 @@
   --purple: #bd93f9;
   --red: #ff5555;
   --yellow: #f1fa8c;
+  --doc-height: 100%;
 }
 
 * {
@@ -64,6 +65,8 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   color: white;
   background: var(--background);
+  min-height: 100vh;
+  height: var(--doc-height);
 }
 
 .font-code {

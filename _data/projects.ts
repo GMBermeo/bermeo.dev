@@ -2,6 +2,15 @@ import { TProject } from "../types/TProject";
 
 export const projects: TProject[] = [
   {
+    title: "Software de Gestão Empresarial",
+    description:
+      "Software conceitualizado na Diretoria de Novos Produtos Empresariais dentro do Banco do Brasil. Um software de gestão que viria a substituir o Gestão BB, facilitando pagamentos, recebimento, e outros serviços para o setor contábil de clientes jurídicos (empresas) do Banco do Brasil. O projeto fora concebido e testado internamente durante 6 meses, a ideia principal que rondava a utilização deste software se dava no fato de todas as ações poderem ser feitas sem necessitar a utilização do mouse. A inspiração para essa funcionalidade de navegação via teclado veio da observação de atendentes de clientes juridicos em que preferiam a utilização de um sistema mais antigo, monocromático, em ordem da utilização apenas do teclado e responsividade que não se obtia pelo software “novo” que estava no mercado. A protipação de alta fidelidade em Axure RP contou com 47 telas, com formulários dinâmicos e utilização 100% funcional apenas por teclado, para futuras provas de conceito.",
+    coverImage: "/img/portfolio/bbts/PLUGINS-Cover.png",
+    company: "BBTS",
+    skills: ["Axure RP", "Bootstrap", "HTML & CSS"],
+    value: 5,
+  },
+  {
     title: "Programa de Gestão",
     description: "",
     coverImage: "",
@@ -35,15 +44,7 @@ export const projects: TProject[] = [
     skills: ["Figma", "Adobe XD"],
     value: 4,
   },
-  {
-    title: "SAD.Atende",
-    description:
-      "Projeto de customização de Sistema de Gestão de Serviços para padronização de acordo com identidade visual do orgão. Em uma equipe de duas pessoas, cuidei do front-end (html, css e javascript) chegando a confeccionar 261 imagens únicas como forma de trabalhar em torno das limitações do sistema base.",
-    coverImage: "/img/portfolio/agu/OTRS-SADAtende-Cover.png",
-    company: "AGU",
-    skills: ["HTML & CSS", "Figma", "Gimp", "PHP"],
-    value: 4,
-  },
+
   {
     title: "Sistema de Gestão de Visitas",
     description:
@@ -62,15 +63,7 @@ export const projects: TProject[] = [
     skills: ["InDesign", "Figma", "Illustrator"],
     value: 1,
   },
-  {
-    title: "Software de Gestão Empresarial",
-    description:
-      "Software conceitualizado na Diretoria de Novos Produtos Empresariais dentro do Banco do Brasil. Um software de gestão que viria a substituir o Gestão BB, facilitando pagamentos, recebimento, e outros serviços para o setor contábil de clientes jurídicos (empresas) do Banco do Brasil. O projeto fora concebido e testado internamente durante 6 meses, a ideia principal que rondava a utilização deste software se dava no fato de todas as ações poderem ser feitas sem necessitar a utilização do mouse. A inspiração para essa funcionalidade de navegação via teclado veio da observação de atendentes de clientes juridicos em que preferiam a utilização de um sistema mais antigo, monocromático, em ordem da utilização apenas do teclado e responsividade que não se obtia pelo software “novo” que estava no mercado. A protipação de alta fidelidade em Axure RP contou com 47 telas, com formulários dinâmicos e utilização 100% funcional apenas por teclado, para futuras provas de conceito.",
-    coverImage: "/img/portfolio/bbts/PLUGINS-Cover.png",
-    company: "BBTS",
-    skills: ["Axure RP", "Bootstrap", "HTML & CSS", "Illustrator"],
-    value: 5,
-  },
+
   {
     title: "App Banco do Brasil (versão 3)",
     description:
@@ -123,6 +116,15 @@ export const projects: TProject[] = [
     company: "Other",
     skills: ["React", "Vercel", "Git", "HTML & CSS"],
     value: 5,
+  },
+  {
+    title: "SAD.Atende",
+    description:
+      "Projeto de customização de Sistema de Gestão de Serviços para padronização de acordo com identidade visual do orgão. Em uma equipe de duas pessoas, cuidei do front-end (html, css e javascript) chegando a confeccionar 261 imagens únicas como forma de trabalhar em torno das limitações do sistema base.",
+    coverImage: "/img/portfolio/agu/OTRS-SADAtende-Cover.png",
+    company: "AGU",
+    skills: ["HTML & CSS", "Figma", "Gimp", "PHP"],
+    value: 4,
   },
   //   {
   //     title: "",

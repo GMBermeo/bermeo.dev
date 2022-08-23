@@ -10,19 +10,19 @@ export const ProjectCard = ({
   skills,
 }: TProject) => {
   return (
-    <figure className="inline-block w-5/6 pb-2">
-      <img className="mb-2 h-min" src={coverImage} alt={title} />
-      <div className="flex items-center justify-center gap-x-2">
+    <figure className="inline-block h-full w-5/6 pb-2">
+      <img className="mb-2 w-full" src={coverImage} alt={title} />
+      <div className="flex items-center justify-center gap-x-2 text-sm">
         {skills.map((skill) => (
           <div
-            className="text-dracula-comment mb-1 rounded bg-slate-800 px-2 py-1 text-sm"
+            className="text-dracula-comment mb-1 rounded bg-slate-800 px-2 py-1"
             key={skill}
           >
             {skill}
           </div>
         ))}
       </div>
-      <figcaption className="whitespace-normal text-center text-sm font-medium md:text-lg">
+      <figcaption className="text-center text-sm font-medium md:text-lg">
         {title}{" "}
         {company !== "Other" && (
           <span className="text-primary text-sm">@{company}</span>

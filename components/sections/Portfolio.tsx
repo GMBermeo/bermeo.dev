@@ -10,7 +10,7 @@ export const Portfolio = () => {
       <Subtitle title={"Projetos"} />
       <div
         id="container"
-        className="bg-dracula-background mb-8 w-full overflow-x-scroll whitespace-nowrap rounded-lg py-2 px-3"
+        className="bg-dracula-background mb-8 max-h-[27rem] w-full overflow-y-hidden overflow-x-scroll whitespace-nowrap rounded-lg pb-2 pt-4 pl-4 sm:pl-2 md:pl-0 md:pt-2"
       >
         {projects.map(
           (projeto: TProject) =>
