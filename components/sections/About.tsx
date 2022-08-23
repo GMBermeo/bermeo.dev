@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <>
       <Title title="Sobre" />
-      <article className="p mb-16 text-sm font-medium leading-6 md:text-base">
+      <article className="p customContainer mb-16 text-sm font-medium leading-6 md:text-base">
         Formado em Análise e Desenvolvimento de Sistemas em 2011, descobri logo
         na faculdade uma vocação por front-end e experiência do usuário nas
         aulas de engenharia de software. Em 2015, comecei a trabalhar em

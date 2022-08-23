@@ -8,16 +8,18 @@ export const Portfolio = () => {
   return (
     <>
       <Subtitle title={"Projetos"} />
-      <div
-        id="container"
-        className="bg-dracula-background mb-8 max-h-[27rem] w-full overflow-y-hidden overflow-x-scroll whitespace-nowrap rounded-lg pb-2 pt-4 pl-4 sm:pl-2 md:pl-0 md:pt-2"
-      >
-        {projects.map(
-          (projeto: TProject) =>
-            projeto.value > 3 && (
-              <ProjectCard {...projeto} key={projeto.title} />
-            )
-        )}
+      <div className="mx-0 px-0 md:container md:mx-auto md:max-w-3xl md:px-8">
+        <div
+          id="container"
+          className="bg-dracula-background mb-8 max-h-fit w-full overflow-y-hidden overflow-x-scroll whitespace-nowrap rounded-none pb-2 pt-4 pl-0 md:rounded-lg md:pt-2"
+        >
+          {projects.map(
+            (projeto: TProject) =>
+              projeto.value > 3 && (
+                <ProjectCard {...projeto} key={projeto.title} />
+              )
+          )}
+        </div>
       </div>
     </>
   );

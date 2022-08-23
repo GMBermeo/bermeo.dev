@@ -8,7 +8,7 @@ export const Experience = () => {
   return (
     <>
       <Title title="Experiência" />
-      <ol>
+      <ol className="customContainer">
         {experiences.map((experience: TExperience) => (
           <WorkCard {...experience} key={experience.dateEnd} />
         ))}

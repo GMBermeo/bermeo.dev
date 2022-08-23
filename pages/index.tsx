@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <NavBar />
 
       <Hero />
-      <main className="container mx-auto max-w-3xl px-6 sm:px-8">
+      <main className="mx-auto">
         <About />
         <Experience />
         <Portfolio />
