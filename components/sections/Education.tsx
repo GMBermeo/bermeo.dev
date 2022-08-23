@@ -2,11 +2,11 @@ import React from "react";
 import { EducationCard } from "../EducationCard";
 import { Subtitle } from "../ui/Subtitle";
 import { Title } from "../ui/Title";
-import { degrees, courses, certfications } from "../../_data/education";
+import { degrees, courses, certifications } from "../../_data/education";
 
 export const Education = () => {
   return (
-    <div className="mb-12">
+    <div className="mb-8">
       <Title title={"Formação"} />
       <ul className="mb-8">
         {degrees.map((degree) => (
@@ -21,7 +21,7 @@ export const Education = () => {
       </ul>
       <Subtitle title={"Certificados"} />
       <ul>
-        {certfications.map((certification) => (
+        {certifications.map((certification) => (
           <EducationCard {...certification} key={certification.title} />
         ))}
       </ul>

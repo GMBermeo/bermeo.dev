@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import { TSkill } from "../types/TSkill";
 import { SkillBadge } from "./ui/SkillBadge";
@@ -10,7 +9,7 @@ export const SkillCard = ({ label, level, linkedin }: TSkill) => {
 
   return (
     <li
-      className="text-dracula-foreground flex items-center gap-x-1"
+      className="text-dracula-foreground flex items-center gap-x-1 duration-100 ease-in-out hover:scale-105"
       style={{ opacity: opacityCalc(level) }}
     >
       {label}

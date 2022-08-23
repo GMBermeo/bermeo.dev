@@ -5,7 +5,7 @@ import { Button } from "../ui/Button";
 export const Hero = () => {
   return (
     <>
-      <header className="mx-auto flex h-[75vh] flex-col items-center justify-center px-6 md:px-16 lg:px-32">
+      <header className="mx-auto flex h-[70vh] flex-col items-center justify-center px-6 md:px-16 lg:px-32">
         <div className="mx-auto w-fit">
           <h3 className="font-code text-dracula-comment mb-2 text-sm font-bold md:text-xl">
             &#47;&#47; Hello World!
@@ -24,8 +24,8 @@ export const Hero = () => {
           </h2>
         </div>
       </header>
-      <div className="justify mx-auto mt-auto flex h-[25vh] items-center justify-end gap-x-8 px-16">
-        <a href="https://github.bermeo.dev">
+      <div className="justify mx-auto mt-auto flex h-[30vh] items-center justify-end gap-x-8 px-16">
+        <a href="https://github.com/GMBermeo">
           <Image
             src="/social/github.svg"
             height={50}
@@ -33,7 +33,7 @@ export const Hero = () => {
             alt="Github Invertocat Logo"
           />
         </a>
-        <a href="https://linkedin.bermeo.dev">
+        <a href="https://www.linkedin.com/in/gmbermeo/">
           <Image
             src="/social/linkedin.svg"
             height={50}

@@ -10,10 +10,7 @@ export const WorkCard = ({
   description,
 }: TExperience) => {
   return (
-    <li
-      className="mb-6 text-sm font-medium leading-6 md:text-base"
-      key={dateStart}
-    >
+    <li className="mb-6 text-sm font-medium leading-6 md:text-base">
       <div className="flex items-center">
         <div className="mr-2 flex w-full justify-between text-base md:text-xl">
           <div className="decoration-primary font-bold leading-5 text-white underline decoration-2">
