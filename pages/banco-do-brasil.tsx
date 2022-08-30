@@ -8,7 +8,7 @@ const BB: NextPage = () => {
       <main className="container mx-auto max-w-3xl px-6 sm:px-8">
         <Title title={"Banco do Brasil"} />
         <Subtitle title={"Software de Gestão Empresarial"} />
-        <article>
+        <article className="customContainer">
           Software conceitualizado na Diretoria de Novos Produtos Empresariais
           dentro do Banco do Brasil. Um software de gestão que viria a
           substituir o Gestão BB, facilitando pagamentos, recebimento, e outros
@@ -26,7 +26,7 @@ const BB: NextPage = () => {
           apenas por teclado, para futuras provas de conceito.
         </article>
         <Subtitle title={"App BB Mobile (versão 3)"} />
-        <article>
+        <article className="customContainer">
           Atuação na concepção, desenho, prototipagem e teste de diversas
           funcionalidades na migração do App Mobile 2.0 parta o 3.0, tendo em
           mente a nova arquitetura React Native onde não se é mais necessário o
@@ -41,7 +41,7 @@ const BB: NextPage = () => {
           permitiu desenvolver diferentes partes ao mesmo tempo.
         </article>
         <Subtitle title={"SINDEC"} />
-        <article>
+        <article className="customContainer">
           Desenvolvimento front-end do Sistema Nacional de Informações de Defesa
           do Consumidor, software interno utilizado na gestão de atendimentos
           realizados pelo PROCON (Programa de Proteção e Defesa do Consumidor)
@@ -51,20 +51,20 @@ const BB: NextPage = () => {
           visual do orgão.
         </article>
         <Subtitle title={"Consumidor.gov.br"} />
-        <article>
+        <article className="customContainer">
           Novo portal de defesa do consumidor (consumidor.gov.br) com motion
           design em prototipação de alta fidelidade em Axure RP, teste A/B com
           grupos internos e posterior desenvolvimento front-end da página.
         </article>
         <Subtitle title={"Gestão de Projetos de Infraestrutura"} />
-        <article>
+        <article className="customContainer">
           Software de uso interno requisitado pela equipe de Proketos de
           Infraestrutura do Banco do Brasil, foi um gerenciador de ordens de
           serviços que contou com um periodo de concepção de 3 meses, onde atuei
           no desenvolvimento front-end utilizando bootstrap.
         </article>
         <Subtitle title={"App BB Mobile (versão 2)"} />
-        <article>
+        <article className="customContainer">
           Prototipação de alta fidelidade em Axure RP do “novo” aplicativo do
           Banco do Brasil, com o desenvolvimento e teste de novas
           funcionalidades com teste em grupo de usuários internos. O grande
@@ -78,7 +78,6 @@ const BB: NextPage = () => {
           nativos (swift, java e c#, conforme plataformas mobiles).
         </article>
       </main>
-      <footer></footer>
     </>
   );
 };

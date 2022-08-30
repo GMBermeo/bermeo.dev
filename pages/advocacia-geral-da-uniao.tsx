@@ -8,7 +8,7 @@ const AGU: NextPage = () => {
       <main className="container mx-auto max-w-3xl px-6 sm:px-8">
         <Title title={"Advocacia-Geral da União"} />
         <Subtitle title={"Escola AGU App"} />
-        <article>
+        <article className="customContainer">
           Este projeto começou como um protótipo de alta fidelidade feito em uma
           tecnologia experimental da Microsoft chamada de Power Apps, para o
           futuro desenvolvimento de um aplicativo móvel desenvolvido em React
@@ -23,7 +23,7 @@ const AGU: NextPage = () => {
           ativos, e cerca de 500 acessos simultâneos diários.
         </article>
         <Subtitle title={"Unio"} />
-        <article>
+        <article className="customContainer">
           A Advocacia-Geral da União possui cerca de 48 sistemas em uso, a
           maioria deles, com o mesmo código-fonte em asp desde os anos 90. O
           Unio é um projeto de longo prazo de re-escrever todos esses sistemas
@@ -31,7 +31,7 @@ const AGU: NextPage = () => {
           software do orgão, o SAPIENS.
         </article>
         <Subtitle title={"SAD.Atende"} />
-        <article>
+        <article className="customContainer">
           Projeto de customização de Sistema de Gestão de Serviços para
           padronização de acordo com identidade visual do orgão. Em uma equipe
           de duas pessoas, cuidei do front-end (html, css e javascript) chegando
@@ -39,7 +39,7 @@ const AGU: NextPage = () => {
           limitações do sistema base.
         </article>
         <Subtitle title={"Sistema de Gestão de Visitas"} />
-        <article>
+        <article className="customContainer">
           Criação de novo sistema baseado em sistema legado (ASP) com prototipo
           funcional de alta fidelidade desenvolvido em Microsoft PowerApps com
           banco MySQL com testes com usuário final em ambiente de produção.
@@ -48,15 +48,13 @@ const AGU: NextPage = () => {
           Banco de Dados.
         </article>
         <Subtitle title={"Brand Book DTI / AGU"} />
-        <article>
+        <article className="customContainer">
           Definição de style guideline baseado nas boas práticas do Google
           Material Design para padronização de projetos de desenvolvimento
           dentro do núcleo de Tecnologia da Advocacia-Geral da União e nova
           logomarca da Diretoria de Tecnologia da Informação.
         </article>
       </main>
-
-      <footer></footer>
     </>
   );
 };
