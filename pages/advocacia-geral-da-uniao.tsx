@@ -1,6 +1,7 @@
 import { Subtitle } from "../components/ui/Subtitle";
 import { Title } from "../components/ui/Title";
 import type { NextPage } from "next";
+import { ArticleJsonLd } from "next-seo";
 
 const AGU: NextPage = () => {
   return (
