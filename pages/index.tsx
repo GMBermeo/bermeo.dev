@@ -6,6 +6,7 @@ import { Experience } from "../components/sections/Experience";
 import { Education } from "../components/sections/Education";
 import { Portfolio } from "../components/sections/Portfolio";
 import { Skills } from "../components/sections/Skills";
+import { OtherProjects } from "@components/sections/OtherProjects";
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       <main className="mx-auto">
         <About />
         <Experience />
+        <OtherProjects />
         <Portfolio />
         <Education />
         <Skills />
