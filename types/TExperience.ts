@@ -5,4 +5,5 @@ export interface TExperience {
   dateStart: string;
   dateEnd: string;
   description: string[];
+  linkTo?: string;
 }

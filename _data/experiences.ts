@@ -3,13 +3,26 @@ import { TExperience } from "../types/TExperience";
 export const experiences: TExperience[] = [
   {
     title: "Desenvolvedor Front-end",
+    companyShort: "TTY",
+    company: "TTY2000",
+    dateStart: "09.2022",
+    dateEnd: "Presente",
+    description: [
+      "Desenvolvimento de novas soluções com uso de Next.js com Node.js e TailwindCSS.",
+      "Atualização de interfaces front-end de sistemas legado usando novas tecnologias além de refatoração de código HTML e CSS em projetos PHP seguindo os principios do Clean Code para facilitar manutenção.",
+      "Migração e manutenção de Azure DevOps com Git, e suporte sobre uso e organização de projetos dentro da ferramenta.",
+    ],
+  },
+  {
+    title: "Desenvolvedor Front-end",
     companyShort: "AGU",
     company: "Advocacia-Geral da União",
     dateStart: "01.2022",
-    dateEnd: "Presente",
+    dateEnd: "09.2022",
     description: [
       "Desenvolvimento de novas interfaces de sistemas legado web e novas ferramentas de uso interno com apoio da Imprensa Nacional, com uso de Blazor, Bootstrap e Tailwind CSS.",
     ],
+    linkTo: "/advocacia-geral-da-uniao",
   },
   {
     title: "UI/UX Designer Sênior",
@@ -22,6 +35,7 @@ export const experiences: TExperience[] = [
       "Criação de ícones e brandbook de uso interno da Diretoria de Tecnologia.",
       "Desenvolvimento front-end nos projetos do Portal do Governo Plone e sistema de gerenciamento de serviços para a SAD/DF, OTRS.",
     ],
+    linkTo: "/advocacia-geral-da-uniao",
   },
   {
     title: "UI/UX Designer",
@@ -34,6 +48,7 @@ export const experiences: TExperience[] = [
       "Criação de wireframes, mockups e protótipos de alta fidelidade com uso de Axure RP para validação de documentação e melhora de experiência em produtos do Banco do Brasil, incluindo experiências e ícones elaborados e testadas para o aplicativo mobile do BB nas versões 2 e 3, com mais de 50 milhões de downloads e nota 4,5 na Google Play. ",
       "Desenvolvimento front-end de projetos para o Portal de Defesa do Consumidor e ferramenta interna SINDEC com uso de Bootstrap.",
     ],
+    linkTo: "/banco-do-brasil",
   },
   {
     title: "Assistente Administrativo",

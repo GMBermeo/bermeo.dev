@@ -1,5 +1,6 @@
 import React from "react";
 import { TExperience } from "../types/TExperience";
+import { ReadMore } from "./ui/ReadMore";
 
 export const WorkCard = ({
   title,
@@ -8,6 +9,7 @@ export const WorkCard = ({
   dateStart,
   dateEnd,
   description,
+  linkTo,
 }: TExperience) => {
   return (
     <li className="mb-6 text-sm font-medium leading-6 md:text-base">
@@ -29,8 +31,15 @@ export const WorkCard = ({
           <div key={description}>{description}</div>
         ))}
       </div>
-      <div className="text-dracula-currentLine mx-2 text-sm font-bold leading-7 md:text-base">
-        {dateEnd} - {dateStart}
+      <div className="flex justify-between">
+        <div className="text-dracula-currentLine mx-2 text-sm font-bold leading-7 md:text-base">
+          {dateEnd} - {dateStart}
+        </div>
+        {linkTo && (
+          <div>
+            <ReadMore label={"Ver projetos ›"} url={linkTo} />
+          </div>
+        )}
       </div>
     </li>
   );
