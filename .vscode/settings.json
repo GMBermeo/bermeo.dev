@@ -16,7 +16,7 @@
     "dist": true,
     "tsconfig.json": true,
     ".eslintrc.json": true,
-    "next.config.js": true,
+    // "next.config.js": true,
     "postcss.config.js": true
   }
 }
