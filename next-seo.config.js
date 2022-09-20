@@ -11,19 +11,19 @@ export const SEO = {
     site_name: "GuilhermeBermeo",
     images: [
       {
-        url: "http://bermeo.dev/opengraph.png",
+        url: "https://www.bermeo.dev/opengraph.png",
         width: 2416,
         height: 1276,
         alt: "Guilherme Bermêo - Social Background",
       },
       {
-        url: "http://bermeo.dev/avatar1.jpg",
+        url: "https://www.bermeo.dev/avatar1.jpg",
         width: 1000,
         height: 1000,
         alt: "Guilherme Bermêo - Painting Avatar",
       },
       {
-        url: "http://bermeo.dev/opengraph.svg",
+        url: "https://www.bermeo.dev/opengraph.svg",
         alt: "Guilherme Bermêo - Social Background",
       },
     ],
