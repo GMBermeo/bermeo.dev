@@ -21,6 +21,15 @@ const Home: NextPage = () => {
         <Portfolio />
         <Education />
         <Skills />
+        {/*📰 Bio */}
+        {/*🔥 Projects */}
+        {/*📝 Button to download your Resume */}
+        {/*👷🏻‍♂️ Work Experience  */}
+        {/*🔗 Important Links */}
+        {/*🐱 Open source contributions */}
+        {/*💥 Social media profiles */}
+        {/*📲 Contact Information Section */}
+        {/*💎 Skills */}
       </main>
 
       <footer></footer>
