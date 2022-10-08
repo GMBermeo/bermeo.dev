@@ -3,11 +3,14 @@ import { EducationCard } from "../EducationCard";
 import { Subtitle } from "../ui/Subtitle";
 import { Title } from "../ui/Title";
 import { degrees, courses, certifications } from "../../_data/education";
+import { useRouter } from "next/router";
 
 export const Education = () => {
+  const { locale } = useRouter();
+
   return (
     <>
-      <Title title={"Formação"} />
+      <Title title={locale === "br" ? "Formação" : "Education"} />
       <div className="customContainer mb-8">
         <ul className="mb-8">
           {degrees.map((degree) => (

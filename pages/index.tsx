@@ -7,8 +7,11 @@ import { Education } from "../components/sections/Education";
 import { Portfolio } from "../components/sections/Portfolio";
 import { Skills } from "../components/sections/Skills";
 import { OtherProjects } from "@components/sections/OtherProjects";
+import { useRouter } from "next/router";
 
 const Home: NextPage = () => {
+  const { locale, locales, asPath } = useRouter();
+
   return (
     <>
       <NavBar />
@@ -30,6 +33,12 @@ const Home: NextPage = () => {
         {/*💥 Social media profiles */}
         {/*📲 Contact Information Section */}
         {/*💎 Skills */}
+        locale: {locale}
+        <br />
+        locales: {locales}
+        <br />
+        asPath: {asPath}
+        <br />
       </main>
 
       <footer></footer>

@@ -1,4 +1,5 @@
 export interface TExperience {
+  locale: string;
   title: string;
   company: string;
   companyShort: string;
