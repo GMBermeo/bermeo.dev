@@ -22,29 +22,28 @@ export const allImages: Image[] = [
     src: "/opengraph.svg",
     width: 630,
     height: 1200,
-    alt: "Guilherme Bermeo - OpenGraph Social Background",
-    altBr: "Guilherme Bermêo - Fundo para OpenGraph",
+    alt: "Guilherme Bermeo - OpenGraph Social Background.",
+    altBr: "Guilherme Bermêo - Fundo para OpenGraph.",
   },
   {
     src: "/logo.svg",
     width: 640,
     height: 640,
-    alt: "Guilherme Bermeo - Rounded Logo",
-    altBr: "Guilherme Bermêo - Logo redonda",
+    alt: "Guilherme Bermeo - Rounded Logo.",
+    altBr: "Guilherme Bermêo - Logo redonda.",
   },
   {
     src: "/logo-transparent.svg",
     width: 595,
     height: 595,
     alt: "",
-    altBr: "Guilherme Bermêo - Original Logo",
+    altBr: "Guilherme Bermêo - Original Logo.",
   },
   {
     src: "/img/logo/logo512.png",
     width: 512,
     height: 512,
-    alt: "",
-    altBr: "Guilherme Bermêo - 512x512 Logo",
+    alt: "512x512 Logo.",
   },
   // CØЯЯuptΞd cØding дЯt GIFs
   {
@@ -294,275 +293,338 @@ export const allImages: Image[] = [
     src: "/img/portfolio/agu/APP-Cartaz.jpg",
     width: 3508,
     height: 4961,
-    alt: "",
-    altBr: "Advocacia-Geral da União - Cartaz de divulgação do APP Escola AGU",
+    alt: "Publicity poster for the AGU School APP.",
+    altBr: "Cartaz de divulgação do APP Escola AGU.",
   },
   {
     src: "/img/portfolio/agu/APP-Cartaz-Pre.jpg",
     width: 3508,
     height: 4961,
-    alt: "",
-    altBr:
-      "Advocacia-Geral da União - Cartaz de divulgação do lançamento do APP Escola AGU",
+    alt: "Poster for the launch event of the AGU School APP.",
+    altBr: "Cartaz de divulgação do lançamento do APP Escola AGU.",
+  },
+  {
+    src: "/img/portfolio/agu/APP-Email.png",
+    width: 635,
+    height: 435,
+    alt: "Email marketing image for the launch event of the AGU School APP.",
+    altBr: "Imagem para e-mail de divulgação do lançamento do App Escola AGU.",
   },
   {
     src: "/img/portfolio/agu/APP-Escola-Cover.png",
     width: 1584,
     height: 891,
-    alt: "",
-    altBr:
-      "Advocacia-Geral da União - Mockup App Escola AGU e Módulo administrativo",
+    alt: "Cover image mockup for the AGU School APP.",
+    altBr: "Mockup App Escola AGU e Módulo administrativo.",
   },
   {
     src: "/img/portfolio/agu/OTRS-SADAtende-Home.jpg",
     width: 1526,
     height: 1080,
-    alt: "",
-    altBr: "Advocacia-Geral da União - Printscreen OTRS SAD.Atende em produção",
+    alt: "Home page for the OTRS SAD.Atende system.",
+    altBr: "Printscreen OTRS SAD.Atende em produção.",
   },
   {
     src: "/img/portfolio/agu/OTRS-SADAtende-Cover.png",
     width: 2802,
     height: 1342,
-    alt: "",
-    altBr: "Advocacia-Geral da União - Mockup do OTRS SAD.Atende",
+    alt: "Cover image mockup for the OTRS SAD.Atende system.",
+    altBr: "Mockup do OTRS SAD.Atende.",
   },
 
   {
     src: "/img/portfolio/agu/UNIO-Modulos-2160.jpg",
     width: 2098,
     height: 2160,
-    alt: "",
-    altBr:
-      "Advocacia-Geral da União - Mockup de alta fidelidade do Projeto Unio",
+    alt: "High fidelity mocukup of modular system of UNIO.",
+    altBr: "Mockup de alta fidelidade do Projeto Unio",
   },
 
   {
     src: "/img/portfolio/agu/UNIO-Pesquisa-2160.jpg",
     width: 3840,
     height: 2160,
-    alt: "",
-    altBr:
-      "Advocacia-Geral da União - Mockup de alta fidelidade da tela de pesquisa do Projeto Unio",
+    alt: "High fidelity mocukup of search page of UNIO.",
+    altBr: "Mockup de alta fidelidade da tela de pesquisa do Projeto Unio",
   },
   {
     src: "/img/portfolio/agu/UNIO-Logo-720.png",
     width: 720,
     height: 720,
-    alt: "",
-    altBr: "Advocacia-Geral da União - Logo colorida do Projeto Unio",
-  },
-  {
-    src: "/img/portfolio/agu/APP-Email.png",
-    width: 635,
-    height: 435,
-    alt: "",
-    altBr:
-      "Advocacia-Geral da União - Imagem para e-mail de divulgação do App Escola AGU",
-  },
-  {
-    src: "/img/portfolio/agu/APP-Escola-mockup-1080.png",
-    width: 1618,
-    height: 1080,
-    alt: "",
-    altBr:
-      "Advocacia-Geral da União - Mockup App Escola AGU e Módulo administrativo",
+    alt: "Logo for the UNIO project.",
+    altBr: "Logo colorida do Projeto Unio",
   },
   {
     src: "/img/portfolio/agu/APP-Escola-mockup-2160.png",
     width: 3237,
     height: 2160,
-    alt: "",
-    altBr:
-      "Advocacia-Geral da União - Mockup App Escola AGU e Módulo administrativo",
+    alt: "Cover image mockup of the AGU School APP.",
+    altBr: "Mockup App Escola AGU e Módulo administrativo",
   },
   {
     src: "/img/portfolio/agu/UNIO-LogoBW-720.png",
     width: 720,
     height: 720,
-    alt: "",
-    altBr: "Advocacia-Geral da União - Logo Monocromática do Projeto Unio",
+    alt: "Monochromatic logo for the UNIO project.",
+    altBr: "Logo Monocromática do Projeto Unio",
   },
   {
-    src: "/img/portfolio/agu/UNIO-LogoTransition-720.png",
+    src: "/img/portfolio/agu/UNIO-LogoTransition-1080.png",
     width: 4328,
     height: 1080,
-    alt: "",
-    altBr:
-      "Advocacia-Geral da União - Estudo de animação para criação da logo do Projeto Unio",
+    alt: "Animation study for the creation of the UNIO logo.",
+    altBr: "Estudo de animação para criação da logo do Projeto Unio",
   },
   {
     src: "/img/portfolio/bbts/APP-BB_Windows-1080.jpg",
     width: 3375,
     height: 1080,
-    alt: "",
+    alt: "High Fidelity Mockup for the native Bank of Brazil APP for Windows Windows.",
     altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockup de alta fidelidade para desenvolvimento do Aplicativo nativo para Windows Phone",
+      "Mockup de alta fidelidade para desenvolvimento do Aplicativo nativo para Windows Phone",
   },
   {
     src: "/img/portfolio/bbts/APP-BB-3_1.jpg",
     width: 842,
     height: 558,
-    alt: "",
-    altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockup do Aplicativo BB 3.0 (divulgação)",
+    alt: "Bank of Brazil APP 3.0 (poster).",
+    altBr: "Mockup do Aplicativo BB 3.0 (divulgação)",
   },
   {
     src: "/img/portfolio/bbts/APP-BB-3_2.jpg",
     width: 1200,
     height: 675,
-    alt: "",
-    altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockup do Aplicativo BB 3.0 (divulgação)",
+    alt: "Bank of Brazil APP 3.0 (poster).",
+    altBr: "Mockup do Aplicativo BB 3.0 (divulgação)",
   },
   {
     src: "/img/portfolio/bbts/APP-BB-3_3.jpg",
     width: 1200,
     height: 675,
-    alt: "",
-    altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockup do Aplicativo BB 3.0 (divulgação)",
+    alt: "Bank of Brazil APP 3.0 (poster).",
+    altBr: "Mockup do Aplicativo BB 3.0 (divulgação)",
   },
 
   {
     src: "/img/portfolio/bbts/APP-CONSUMIDOR-2160.jpg",
     width: 2187,
     height: 2160,
-    alt: "",
-    altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockups para desenvolvimento do Aplicativo Consumidor.gov.br",
+    alt: "Mockups for the Consumidor.gov.br mobile app.",
+    altBr: "Mockups para desenvolvimento do Aplicativo Consumidor.gov.br",
   },
   {
     src: "/img/portfolio/bbts/APP-LIMITES.jpg",
     width: 360,
     height: 749,
-    alt: "",
+    alt: "High fidelity prototipation of limit transfer function for the Bank of Brazil APP 2.0.",
     altBr:
-      "Banco do Brasil Tecnologia & Serviços - Prototipação de alta fidelidade de transação de transferência de limites no App BB 2.0",
+      "Prototipação de alta fidelidade de transação de transferência de limites no App BB 2.0",
   },
   {
     src: "/img/portfolio/bbts/APP-TRANSFERENCIA.jpg",
     width: 1418,
     height: 843,
-    alt: "",
+    alt: "High fidelity prototipation of transfer function for the Bank of Brazil APP 2.0 in various native versions.",
     altBr:
-      "Banco do Brasil Tecnologia & Serviços -  Prototipação de alta fidelidade de transação de transferência de limites no App BB 2.0 em diferentes plataformas nativas",
+      " Prototipação de alta fidelidade de transação de transferência de limites no App BB 2.0 em diferentes plataformas nativas",
   },
   {
     src: "/img/portfolio/bbts/GPI-1080.jpg",
     width: 2030,
     height: 1080,
-    alt: "",
+    alt: "Front-end development with Bootstrap of Infrastructure Projects Management System.",
     altBr:
-      "Banco do Brasil Tecnologia & Serviços - Front-end com Bootstrap do Sistema de Gestão de Projetos de Infraestrutura",
+      "Front-end com Bootstrap do Sistema de Gestão de Projetos de Infraestrutura",
   },
   {
     src: "/img/portfolio/bbts/HOTSITE-2160.jpg",
     width: 1194,
     height: 2160,
-    alt: "",
-    altBr:
-      "Banco do Brasil Tecnologia & Serviços - Front-end de hotsite de Crédito Imobiliário",
+    alt: "Front-end development of a landing page for the Bank of Brazil's Real Estate Credit.",
+    altBr: "Front-end de hotsite de Crédito Imobiliário",
   },
 
   {
     src: "/img/portfolio/bbts/INTRANET-MODULAR-2160.jpg",
     width: 2480,
     height: 2160,
-    alt: "",
-    altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockup de front-end para Intranet com uso de Bootstrap",
+    alt: "Front-end development with Bootstrap of the Bank of Brazil's Intranet.",
+    altBr: "Mockup de front-end para Intranet com uso de Bootstrap",
   },
   {
     src: "/img/portfolio/bbts/INTRANET-MODULAR-MOBILE.jpg",
     width: 2284,
     height: 1080,
-    alt: "",
+    alt: "Front-end development with Bootstrap of the Bank of Brazil's Intranet in mobile environment.",
     altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockup de front-end para Intranet com uso de Bootstrap em ambiente Mobile",
+      "Mockup de front-end para Intranet com uso de Bootstrap em ambiente Mobile",
   },
   {
     src: "/img/portfolio/bbts/PLUGINS-Cover.png",
     width: 1446,
     height: 763,
-    alt: "",
-    altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockup do BB Plugins (Gestão Empresarial)",
+    alt: "Mockup cover of the BB Plugins (Business Management)",
+    altBr: "Mockup do BB Plugins (Gestão Empresarial)",
   },
-
   {
     src: "/img/portfolio/bbts/PLUGINS-iMac.png",
     width: 737,
     height: 570,
-    alt: "",
-    altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockup do BB Plugins (Gestão Empresarial)",
+    alt: "Mockup iMac of the BB Plugins (Business Management)",
+    altBr: "Mockup do BB Plugins (Gestão Empresarial)",
   },
   {
     src: "/img/portfolio/bbts/PLUGINS-iPad.png",
     width: 691,
     height: 505,
-    alt: "",
-    altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockup do BB Plugins (Gestão Empresarial)",
+    alt: "Mockup iPad of the BB Plugins (Business Management)",
+    altBr: "Mockup do BB Plugins (Gestão Empresarial)",
   },
   {
     src: "/img/portfolio/bbts/PLUGINS-Macbook.png",
     width: 764,
     height: 610,
-    alt: "",
-    altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockup do BB Plugins (Gestão Empresarial)",
+    alt: "Mockup MacBook of the BB Plugins (Business Management)",
+    altBr: "Mockup do BB Plugins (Gestão Empresarial)",
   },
 ];
 
-export const alternativeImages: Image[] = [
-  {
-    src: "/img/portfolio/agu/UNIO-Pesquisa-1080.jpg",
-    width: 1920,
-    height: 1080,
-    alt: "",
-    altBr:
-      "Advocacia-Geral da União - Mockup de alta fidelidade da tela de pesquisa do Projeto Unio",
-  },
+export const altSizesImages: Image[] = [
   {
     src: "/img/portfolio/agu/UNIO-Modulos-1080.jpg",
     width: 1049,
     height: 1080,
-    alt: "",
-    altBr:
-      "Advocacia-Geral da União - Mockup de alta fidelidade do Projeto Unio",
+    alt: "High fidelity mocukup of modular system of UNIO.",
+    altBr: "Mockup de alta fidelidade do Projeto Unio",
   },
   {
-    src: "/img/portfolio/bbts/PLUGINS-Group-1080.png",
-    width: 1748,
+    src: "/img/portfolio/agu/UNIO-Pesquisa-1080.jpg",
+    width: 1920,
     height: 1080,
-    alt: "",
-    altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockup do BB Plugins (Gestão Empresarial)",
+    alt: "High fidelity mocukup of search page of UNIO.",
+    altBr: "Mockup de alta fidelidade da tela de pesquisa do Projeto Unio",
+  },
+  {
+    src: "/img/portfolio/agu/APP-Escola-mockup-1080.png",
+    width: 1618,
+    height: 1080,
+    alt: "Cover image mockup of the AGU School APP.",
+    altBr: "Mockup App Escola AGU e Módulo administrativo",
   },
   {
     src: "/img/portfolio/bbts/APP-CONSUMIDOR-1080.jpg",
     width: 1094,
     height: 1080,
-    alt: "",
-    altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockups para desenvolvimento do Aplicativo Consumidor.gov.br",
+    alt: "Mockups for the Consumidor.gov.br mobile app.",
+    altBr: "Mockups para desenvolvimento do Aplicativo Consumidor.gov.br",
   },
   {
     src: "/img/portfolio/bbts/INTRANET-MODULAR-1080.jpg",
     width: 1240,
     height: 1080,
-    alt: "",
-    altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockup de front-end para Intranet com uso de Bootstrap",
+    alt: "Front-end development with Bootstrap of the Bank of Brazil's Intranet.",
+    altBr: "Mockup de front-end para Intranet com uso de Bootstrap",
+  },
+  {
+    src: "/img/portfolio/bbts/PLUGINS-Group-1080.png",
+    width: 1748,
+    height: 1080,
+    alt: "Mockup cover of the BB Plugins (Business Management)",
+    altBr: "Mockup do BB Plugins (Gestão Empresarial)",
   },
   {
     src: "/img/portfolio/bbts/PLUGINS-Group-2160.png",
     width: 3496,
     height: 2160,
-    alt: "",
+    alt: "Mockup cover of the BB Plugins (Business Management)",
+    altBr: "Mockup do BB Plugins (Gestão Empresarial)",
+  },
+  {
+    src: "/img/portfolio/other/CHAT-Persona5_1-1080.jpg",
+    width: 1726,
+    height: 1080,
+    alt: "Persona's Metaverse Web Chat made for Alura's Coding Bootcamp of React (Next.js) in January of 2022.",
     altBr:
-      "Banco do Brasil Tecnologia & Serviços - Mockup do BB Plugins (Gestão Empresarial)",
+      "Chat feito em React (Next.js) na semana de imersão da Alura em janeiro de 2022.",
+  },
+  {
+    src: "/img/portfolio/other/CHAT-Persona5_2-1080.jpg",
+    width: 1490,
+    height: 1080,
+    alt: "Persona's Metaverse Web Chat made for Alura's Coding Bootcamp of React (Next.js) in January of 2022.",
+    altBr:
+      "Chat feito em React (Next.js) na semana de imersão da Alura em janeiro de 2022.",
+  },
+  {
+    src: "/img/portfolio/other/CHAT-Persona5_3-1080.jpg",
+    width: 2255,
+    height: 1080,
+    alt: "Persona's Metaverse Web Chat made for Alura's Coding Bootcamp of React (Next.js) in January of 2022.",
+    altBr:
+      "Chat feito em React (Next.js) na semana de imersão da Alura em janeiro de 2022.",
+  },
+  {
+    src: "/img/portfolio/other/CHAT-Persona5_4-1080.jpg",
+    width: 1490,
+    height: 1080,
+    alt: "Persona's Metaverse Web Chat made for Alura's Coding Bootcamp of React (Next.js) in January of 2022.",
+    altBr:
+      "Chat feito em React (Next.js) na semana de imersão da Alura em janeiro de 2022.",
+  },
+  {
+    src: "/img/portfolio/other/CHAT-Persona5_Mobile-1080.png",
+    width: 1440,
+    height: 1080,
+    alt: "Persona's Metaverse Web Chat made for Alura's Coding Bootcamp of React (Next.js) in January of 2022.",
+    altBr:
+      "Chat feito em React (Next.js) na semana de imersão da Alura em janeiro de 2022.",
+  },
+  {
+    src: "/img/portfolio/other/CHAT-Persona5_Mobile-2160.png",
+    width: 2880,
+    height: 2160,
+    alt: "Persona's Metaverse Web Chat made for Alura's Coding Bootcamp of React (Next.js) in January of 2022.",
+    altBr:
+      "Chat feito em React (Next.js) na semana de imersão da Alura em janeiro de 2022.",
+  },
+  {
+    src: "/img/portfolio/other/NLW-ESPORT_Cover-1080.png",
+    width: 1921,
+    height: 1080,
+    alt: "My project for the Rockeseat's Next Level Week 9 Coding Bootcamp, with webapp in React.js (Vite), back-end in Node.js (Express) and mobile app in React Native (Expo).",
+    altBr:
+      "Meu projeto para o Next Level Week 9 da Rocketseat, com web em React com Vite, back-end em Node.js e React Native com expo para mobile.",
+  },
+  {
+    src: "/img/portfolio/gif/CORRUPTED-avatar1-600.gif",
+    width: 600,
+    height: 600,
+    alt: "Guilherme Bermeo avatar processed through by the CØЯЯuptΞd cØding дЯt algorithm multiple times.",
+    altBr:
+      "Guilherme Bermêo avatar processado pelo algoritmo CØЯЯuptΞd cØding дЯt multiplas vezes.",
+  },
+  {
+    src: "/img/portfolio/gif/CORRUPTED-Starry_Night_by_Van_Gogh-600.gif",
+    width: 600,
+    height: 475,
+    alt: "Starry Night by Vincent Van Gogh processed through the CØЯЯuptΞd cØding дЯt algorithm multiple times.",
+    altBr:
+      "Noite Estrelada de Vincent Van Gogh processado pelo algoritmo CØЯЯuptΞd cØding дЯt multiplas vezes.",
+  },
+  {
+    src: "/img/portfolio/gif/CORRUPTED-The_Kiss_by_Gustav_Klimt-600.gif",
+    width: 598,
+    height: 600,
+    alt: "The Kiss by Gustav Klimt processed through the CØЯЯuptΞd cØding дЯt algorithm multiple times.",
+    altBr:
+      "O Beijo de Gustav Klimt processado pelo algoritmo CØЯЯuptΞd cØding дЯt multiplas vezes.",
+  },
+  {
+    src: "/img/portfolio/gif/CORRUPTED-Twelve_Sunflowers_by_Van_Gogh-600.gif",
+    width: 447,
+    height: 600,
+    alt: "Twelve Sunflowers by Vincent Van Gogh processed through the CØЯЯuptΞd cØding дЯt algorithm multiple times.",
+    altBr:
+      "Doze Girassóis numa Jarra de Vincent Van Gogh processado pelo algoritmo CØЯЯuptΞd cØding дЯt multiplas vezes.",
   },
 ];
