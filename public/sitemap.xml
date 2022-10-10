@@ -12,6 +12,17 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.bermeo.dev/br</loc>
+    <image:image>
+      <image:loc>https://www.bermeo.dev/avatar1.jpg</image:loc>
+      <image:loc>https://www.bermeo.dev/avatar2.png</image:loc>
+      <image:loc>https://www.bermeo.dev/logo.svg</image:loc>
+      <image:loc>https://www.bermeo.dev/logo-transparent.svg</image:loc>
+      <image:loc>https://www.bermeo.dev/opengraph.png</image:loc>
+      <image:loc>https://www.bermeo.dev/opengraph.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.bermeo.dev/advocacia-geral-da-uniao</loc>
     <image:image>
       <image:loc>https://www.bermeo.dev/img/portfolio/agu/APP-Cartaz.jpg</image:loc>

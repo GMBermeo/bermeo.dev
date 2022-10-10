@@ -1,266 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
-import { NextPage } from "next";
+import { GetStaticProps, NextPage } from "next";
+import { useRouter } from "next/router";
 import React from "react";
+import { allImages, Image } from "./api/images";
 
-const AllWorks: NextPage = () => {
-  const allImages = [
-    {
-      src: "/img/portfolio/gif/CORRUPTED-avatar1.gif",
-      width: 2416,
-      height: 1276,
-      alt: "Guilherme Bermêo - Social Background",
-    },
-    {
-      src: "/img/portfolio/gif/CORRUPTED-Starry_Night_by_Van_Gogh.gif",
-      width: 2416,
-      height: 1276,
-      alt: "Guilherme Bermêo - Social Background",
-    },
-    {
-      src: "/img/portfolio/gif/CORRUPTED-The_Kiss_by_Gustav_Klimt.gif",
-      width: 1000,
-      height: 1000,
-      alt: "Guilherme Bermêo - Painting Avatar",
-    },
-    {
-      src: "/img/portfolio/gif/CORRUPTED-Twelve_Sunflowers_by_Van_Gogh.gif",
-      width: 2304,
-      height: 2304,
-      alt: "Guilherme Bermêo - Avatar",
-    },
-    {
-      src: "http://bermeo.dev/opengraph.svg",
-      width: 630,
-      height: 1200,
-      alt: "Guilherme Bermêo - OpenGraph Social Background",
-    },
-    {
-      src: "/logo.svg",
-      width: 640,
-      height: 640,
-      alt: "Guilherme Bermêo - Rounded Logo",
-    },
-    {
-      src: "/logo-transparent.svg",
-      width: 595,
-      height: 595,
-      alt: "Guilherme Bermêo - Original Logo",
-    },
-    {
-      src: "/img/logo/logo512.png",
-      width: 512,
-      height: 512,
-      alt: "Guilherme Bermêo - 512x512 Logo",
-    },
-    {
-      src: "/img/portfolio/agu/APP-Cartaz.jpg",
-      width: 3508,
-      height: 4961,
-      alt: "Advocacia-Geral da União - Cartaz de divulgação do APP Escola AGU",
-    },
-    {
-      src: "/img/portfolio/agu/APP-Cartaz-Pre.jpg",
-      width: 3508,
-      height: 4961,
-      alt: "Advocacia-Geral da União - Cartaz de divulgação do lançamento do APP Escola AGU",
-    },
-    {
-      src: "/img/portfolio/agu/APP-Escola-Cover.png",
-      width: 1584,
-      height: 891,
-      alt: "Advocacia-Geral da União - Mockup App Escola AGU e Módulo administrativo",
-    },
-    {
-      src: "/img/portfolio/agu/OTRS-SADAtende-Home.jpg",
-      width: 1526,
-      height: 1080,
-      alt: "Advocacia-Geral da União - Printscreen OTRS SAD.Atende em produção",
-    },
-    {
-      src: "/img/portfolio/agu/OTRS-SADAtende-Cover.png",
-      width: 2802,
-      height: 1342,
-      alt: "Advocacia-Geral da União - Mockup do OTRS SAD.Atende",
-    },
-    {
-      src: "/img/portfolio/agu/UNIO-Modulos-1080.jpg",
-      width: 1049,
-      height: 1080,
-      alt: "Advocacia-Geral da União - Mockup de alta fidelidade do Projeto Unio",
-    },
-    {
-      src: "/img/portfolio/agu/UNIO-Modulos-2160.jpg",
-      width: 2098,
-      height: 2160,
-      alt: "Advocacia-Geral da União - Mockup de alta fidelidade do Projeto Unio",
-    },
-    {
-      src: "/img/portfolio/agu/UNIO-Pesquisa-1080.jpg",
-      width: 1920,
-      height: 1080,
-      alt: "Advocacia-Geral da União - Mockup de alta fidelidade da tela de pesquisa do Projeto Unio",
-    },
-    {
-      src: "/img/portfolio/agu/UNIO-Pesquisa-2160.jpg",
-      width: 3840,
-      height: 2160,
-      alt: "Advocacia-Geral da União - Mockup de alta fidelidade da tela de pesquisa do Projeto Unio",
-    },
-    {
-      src: "/img/portfolio/agu/UNIO-Logo-720.png",
-      width: 720,
-      height: 720,
-      alt: "Advocacia-Geral da União - Logo colorida do Projeto Unio",
-    },
-    {
-      src: "/img/portfolio/agu/APP-Email.png",
-      width: 635,
-      height: 435,
-      alt: "Advocacia-Geral da União - Imagem para e-mail de divulgação do App Escola AGU",
-    },
-    {
-      src: "/img/portfolio/agu/APP-Escola-mockup-1080.png",
-      width: 1618,
-      height: 1080,
-      alt: "Advocacia-Geral da União - Mockup App Escola AGU e Módulo administrativo",
-    },
-    {
-      src: "/img/portfolio/agu/APP-Escola-mockup-2160.png",
-      width: 3237,
-      height: 2160,
-      alt: "Advocacia-Geral da União - Mockup App Escola AGU e Módulo administrativo",
-    },
-    {
-      src: "/img/portfolio/agu/UNIO-LogoBW-720.png",
-      width: 720,
-      height: 720,
-      alt: "Advocacia-Geral da União - Logo Monocromática do Projeto Unio",
-    },
-    {
-      src: "/img/portfolio/agu/UNIO-LogoTransition-720.png",
-      width: 4328,
-      height: 1080,
-      alt: "Advocacia-Geral da União - Estudo de animação para criação da logo do Projeto Unio",
-    },
-    {
-      src: "/img/portfolio/bbts/APP-BB_Windows-1080.jpg",
-      width: 3375,
-      height: 1080,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockup de alta fidelidade para desenvolvimento do Aplicativo nativo para Windows Phone",
-    },
-    {
-      src: "/img/portfolio/bbts/APP-BB-3_1.jpg",
-      width: 842,
-      height: 558,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockup do Aplicativo BB 3.0 (divulgação)",
-    },
-    {
-      src: "/img/portfolio/bbts/APP-BB-3_2.jpg",
-      width: 1200,
-      height: 675,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockup do Aplicativo BB 3.0 (divulgação)",
-    },
-    {
-      src: "/img/portfolio/bbts/APP-BB-3_3.jpg",
-      width: 1200,
-      height: 675,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockup do Aplicativo BB 3.0 (divulgação)",
-    },
-    {
-      src: "/img/portfolio/bbts/APP-CONSUMIDOR-1080.jpg",
-      width: 1094,
-      height: 1080,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockups para desenvolvimento do Aplicativo Consumidor.gov.br",
-    },
-    {
-      src: "/img/portfolio/bbts/APP-CONSUMIDOR-2160.jpg",
-      width: 2187,
-      height: 2160,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockups para desenvolvimento do Aplicativo Consumidor.gov.br",
-    },
-    {
-      src: "/img/portfolio/bbts/APP-LIMITES.jpg",
-      width: 360,
-      height: 749,
-      alt: "Banco do Brasil Tecnologia & Serviços - Prototipação de alta fidelidade de transação de transferência de limites no App BB 2.0",
-    },
-    {
-      src: "/img/portfolio/bbts/APP-TRANSFERENCIA.jpg",
-      width: 1418,
-      height: 843,
-      alt: "Banco do Brasil Tecnologia & Serviços -  Prototipação de alta fidelidade de transação de transferência de limites no App BB 2.0 em diferentes plataformas nativas",
-    },
-    {
-      src: "/img/portfolio/bbts/GPI-1080.jpg",
-      width: 2030,
-      height: 1080,
-      alt: "Banco do Brasil Tecnologia & Serviços - Front-end com Bootstrap do Sistema de Gestão de Projetos de Infraestrutura",
-    },
-    {
-      src: "/img/portfolio/bbts/HOTSITE-2160.jpg",
-      width: 1194,
-      height: 2160,
-      alt: "Banco do Brasil Tecnologia & Serviços - Front-end de hotsite de Crédito Imobiliário",
-    },
-    {
-      src: "/img/portfolio/bbts/INTRANET-MODULAR-1080.jpg",
-      width: 1240,
-      height: 1080,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockup de front-end para Intranet com uso de Bootstrap",
-    },
-    {
-      src: "/img/portfolio/bbts/INTRANET-MODULAR-2160.jpg",
-      width: 2480,
-      height: 2160,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockup de front-end para Intranet com uso de Bootstrap",
-    },
-    {
-      src: "/img/portfolio/bbts/INTRANET-MODULAR-MOBILE.jpg",
-      width: 2284,
-      height: 1080,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockup de front-end para Intranet com uso de Bootstrap em ambiente Mobile",
-    },
-    {
-      src: "/img/portfolio/bbts/PLUGINS-Cover.png",
-      width: 1446,
-      height: 763,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockup do BB Plugins (Gestão Empresarial)",
-    },
-    {
-      src: "/img/portfolio/bbts/PLUGINS-Group-1080.png",
-      width: 1748,
-      height: 1080,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockup do BB Plugins (Gestão Empresarial)",
-    },
-    {
-      src: "/img/portfolio/bbts/PLUGINS-Group-2160.png",
-      width: 3496,
-      height: 2160,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockup do BB Plugins (Gestão Empresarial)",
-    },
-    {
-      src: "/img/portfolio/bbts/PLUGINS-iMac.png",
-      width: 737,
-      height: 570,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockup do BB Plugins (Gestão Empresarial)",
-    },
-    {
-      src: "/img/portfolio/bbts/PLUGINS-iPad.png",
-      width: 691,
-      height: 505,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockup do BB Plugins (Gestão Empresarial)",
-    },
-    {
-      src: "/img/portfolio/bbts/PLUGINS-Macbook.png",
-      width: 764,
-      height: 610,
-      alt: "Banco do Brasil Tecnologia & Serviços - Mockup do BB Plugins (Gestão Empresarial)",
-    },
-  ];
+const AllWorks: NextPage = ({ images }: any) => {
+  const { locale } = useRouter();
 
   return (
     <div className="grid grid-cols-2 gap-4 p-4 sm:grid-cols-3 md:grid-cols-4 md:gap-8 md:p-8 lg:grid-cols-5 xl:grid-cols-6">
-      {allImages.map((image) => (
+      {images.map((image: Image) => (
         <a
           href={"https://bermeo.dev" + image.src}
           key={image.src}
@@ -268,7 +17,7 @@ const AllWorks: NextPage = () => {
         >
           <img
             src={image.src}
-            alt={image.alt}
+            alt={locale === "br" && image.altBr ? image.altBr : image.alt}
             height={image.height}
             width={image.width}
           />
@@ -719,5 +468,13 @@ const AllWorks: NextPage = () => {
 //   </image:image>
 // </url>
 // </urlset>
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  return {
+    props: {
+      images: allImages,
+    },
+  };
+};
 
 export default AllWorks;
