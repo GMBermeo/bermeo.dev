@@ -5,7 +5,7 @@ export const projects: TProject[] = [
     title: "Software de Gestão Empresarial",
     description:
       "Software conceitualizado na Diretoria de Novos Produtos Empresariais dentro do Banco do Brasil. Um software de gestão que viria a substituir o Gestão BB, facilitando pagamentos, recebimento, e outros serviços para o setor contábil de clientes jurídicos (empresas) do Banco do Brasil. O projeto fora concebido e testado internamente durante 6 meses, a ideia principal que rondava a utilização deste software se dava no fato de todas as ações poderem ser feitas sem necessitar a utilização do mouse. A inspiração para essa funcionalidade de navegação via teclado veio da observação de atendentes de clientes juridicos em que preferiam a utilização de um sistema mais antigo, monocromático, em ordem da utilização apenas do teclado e responsividade que não se obtia pelo software “novo” que estava no mercado. A protipação de alta fidelidade em Axure RP contou com 47 telas, com formulários dinâmicos e utilização 100% funcional apenas por teclado, para futuras provas de conceito.",
-    coverImage: "/img/portfolio/bbts/PLUGINS-Cover.png",
+    coverImage: "/images/bbts/PLUGINS-Cover.png",
     company: "BBTS",
     skills: ["Axure RP", "Bootstrap", "HTML & CSS"],
     value: 5,
@@ -30,7 +30,7 @@ export const projects: TProject[] = [
     title: "App Escola da AGU",
     description:
       "Este projeto começou como um protótipo de alta fidelidade feito em uma tecnologia experimental da Microsoft chamada de Power Apps, para o futuro desenvolvimento de um aplicativo móvel desenvolvido em React Native. Com 6 meses de projeto, o protótipo estava com tamanha fidelidade, conectado ao banco de dados MySQL, que fora decidido utilizar-se o protótipo como aplicativo final. A plataforma não era feita para suportar os 11.000 membros presentes na Advocacia-Geral da União que poderiam utilizar o app para se inscrever em eventos, cursos e palestras, mas com a utilização de views e filtragem prévia conseguimos lançar com sucesso. O lançamento foi noticiado em veículos especializados e em 2021 o aplicativo contava com 4 mil usuários ativos, e cerca de 500 acessos simultâneos diários.",
-    coverImage: "/img/portfolio/agu/APP-Escola-Cover.png",
+    coverImage: "/images/agu/APP-Escola-Cover.png",
     company: "AGU",
     skills: ["PowerApps", "Figma", "Illustrator"],
     value: 1,
@@ -39,7 +39,7 @@ export const projects: TProject[] = [
     title: "Unio",
     description:
       "A Advocacia-Geral da União possui cerca de 48 sistemas em uso, a maioria deles, com o mesmo código-fonte em asp desde os anos 90. O Unio é um projeto de longo prazo de re-escrever todos esses sistemas em uma plataforma única, utilizando-se da infraestrutura do principal software do orgão, o SAPIENS.",
-    coverImage: "/img/portfolio/agu/UNIO-Cover.png",
+    coverImage: "/images/agu/UNIO-Cover.png",
     company: "AGU",
     skills: ["Figma", "Adobe XD"],
     value: 4,
@@ -112,7 +112,7 @@ export const projects: TProject[] = [
   {
     title: "Imersão React",
     description: "",
-    coverImage: "/img/portfolio/other/CHAT-Persona5_Cover.png",
+    coverImage: "/images/other/CHAT-Persona5_Cover.png",
     company: "Other",
     skills: ["React", "Vercel", "Git", "HTML & CSS"],
     value: 5,
@@ -121,7 +121,7 @@ export const projects: TProject[] = [
     title: "SAD.Atende",
     description:
       "Projeto de customização de Sistema de Gestão de Serviços para padronização de acordo com identidade visual do orgão. Em uma equipe de duas pessoas, cuidei do front-end (html, css e javascript) chegando a confeccionar 261 imagens únicas como forma de trabalhar em torno das limitações do sistema base.",
-    coverImage: "/img/portfolio/agu/OTRS-SADAtende-Cover.png",
+    coverImage: "/images/agu/OTRS-SADAtende-Cover.png",
     company: "AGU",
     skills: ["HTML & CSS", "Figma", "Gimp", "PHP"],
     value: 4,

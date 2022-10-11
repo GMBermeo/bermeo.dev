@@ -3,25 +3,22 @@ import { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
-import { allImages, altSizesImages, Image } from "../../api/images";
+import { allImages, altSizesImages, Image } from "../api/images";
 
-const PortfolioOther: NextPage = ({ images, altImages }: any) => {
+const AllImagesAGU: NextPage = ({ images, altImages }: any) => {
   const { locale } = useRouter();
 
   return (
     <>
       <Head>
-        <title>
-          {locale == "br" ? "Outros projetos" : "Side projects"} - Guilherme
-          Bermeo
-        </title>
+        <title>Advocacia-Geral da União - Guilherme Bermeo</title>
       </Head>
       <div className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8 md:p-8">
         {images.map((image: Image) => (
           <a
             href={"https://bermeo.dev" + image.src}
             key={image.src}
-            className="my-auto"
+            className="my-auto rounded"
           >
             <img
               src={image.src}
@@ -37,7 +34,7 @@ const PortfolioOther: NextPage = ({ images, altImages }: any) => {
           <a
             href={"https://bermeo.dev" + image.src}
             key={image.src}
-            className="my-auto"
+            className="my-auto rounded"
           >
             <img
               src={image.src}
@@ -52,17 +49,15 @@ const PortfolioOther: NextPage = ({ images, altImages }: any) => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps: GetStaticProps = async (context) => {
   return {
     props: {
-      images: allImages.filter((item: Image) =>
-        item.src.includes("/other/" || "/gif/")
-      ),
+      images: allImages.filter((item) => item.src.includes("/agu/")),
       altImages: altSizesImages.filter((item: Image) =>
-        item.src.includes("/other/" || "/gif/")
+        item.src.includes("/agu/")
       ),
     },
   };
 };
 
-export default PortfolioOther;
+export default AllImagesAGU;

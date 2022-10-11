@@ -19,7 +19,7 @@ const AGU: NextPage = () => {
         <article className="customContainer">
           <img
             className="float-right mb-4 ml-4 w-1/2 rounded-sm sm:-mr-16 sm:w-[160px]"
-            src="/img/portfolio/agu/APP-Cartaz.jpg"
+            src="/images/agu/APP-Cartaz.jpg"
             alt="App Escola da AGU"
           />
           Este projeto começou como um protótipo de alta fidelidade feito em uma
@@ -41,7 +41,7 @@ const AGU: NextPage = () => {
         <Subtitle title={"Unio"} />
         <article className="customContainer">
           <img
-            src="/img/portfolio/agu/UNIO-Cover.png"
+            src="/images/agu/UNIO-Cover.png"
             alt="Mockup do Software UNIO"
             className="float-none mx-auto my-2 w-4/5 sm:float-left sm:mr-2 sm:-mt-4 sm:-ml-24 sm:w-1/2"
           />

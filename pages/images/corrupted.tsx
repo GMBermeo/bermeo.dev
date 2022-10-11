@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import { allImages, Image } from "../api/images";
 
-const PortfolioOther: NextPage = ({ images, altImages }: any) => {
+const AllImagesCorrupted: NextPage = ({ images }: any) => {
   const { locale } = useRouter();
 
   return (
@@ -31,9 +31,9 @@ const PortfolioOther: NextPage = ({ images, altImages }: any) => {
                 width={image.width}
                 className="rounded-xl"
               />
-              <caption className="mb-4 mt-2 text-sm font-medium text-slate-700">
+              <figcaption className="mb-4 mt-2 text-sm font-medium text-slate-700">
                 {locale === "br" && image.altBr ? image.altBr : image.alt}
-              </caption>
+              </figcaption>
             </figure>
           </a>
         ))}
@@ -52,4 +52,4 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-export default PortfolioOther;
+export default AllImagesCorrupted;

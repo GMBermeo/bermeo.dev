@@ -3,22 +3,25 @@ import { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
-import { allImages, altSizesImages, Image } from "../../api/images";
+import { allImages, altSizesImages, Image } from "../api/images";
 
-const PortfolioBBTS: NextPage = ({ images, altImages }: any) => {
+const AllImagesOther: NextPage = ({ images, altImages }: any) => {
   const { locale } = useRouter();
 
   return (
     <>
       <Head>
-        <title>Banco do Brasil Tecnologia & Serviços - Guilherme Bermeo</title>
+        <title>
+          {locale == "br" ? "Outros projetos" : "Side projects"} - Guilherme
+          Bermeo
+        </title>
       </Head>
       <div className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8 md:p-8">
         {images.map((image: Image) => (
           <a
             href={"https://bermeo.dev" + image.src}
             key={image.src}
-            className="my-auto rounded"
+            className="my-auto"
           >
             <img
               src={image.src}
@@ -34,7 +37,7 @@ const PortfolioBBTS: NextPage = ({ images, altImages }: any) => {
           <a
             href={"https://bermeo.dev" + image.src}
             key={image.src}
-            className="my-auto rounded"
+            className="my-auto"
           >
             <img
               src={image.src}
@@ -49,15 +52,17 @@ const PortfolioBBTS: NextPage = ({ images, altImages }: any) => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      images: allImages.filter((item) => item.src.includes("/bbts/")),
+      images: allImages.filter((item: Image) =>
+        item.src.includes("/other/" || "/gif/")
+      ),
       altImages: altSizesImages.filter((item: Image) =>
-        item.src.includes("/bbts/")
+        item.src.includes("/other/" || "/gif/")
       ),
     },
   };
 };
 
-export default PortfolioBBTS;
+export default AllImagesOther;
