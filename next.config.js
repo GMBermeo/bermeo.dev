@@ -13,6 +13,19 @@ const nextConfig = {
     locales: ["en", "br"],
     //  default locale used when the non-locale paths are visited
     defaultLocale: "en",
+
+    domains: [
+      {
+        // Note: subdomains must be included in the domain value to be matched
+        // e.g. www.example.com should be used if that is the expected hostname
+        domain: "bermeo.dev",
+        defaultLocale: "en",
+      },
+      {
+        domain: "br.bermeo.dev",
+        defaultLocale: "br",
+      },
+    ],
   },
 };
 

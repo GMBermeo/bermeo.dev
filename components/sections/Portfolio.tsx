@@ -25,7 +25,7 @@ export const Portfolio = () => {
           ref={ref}
           className="keen-slider bg-dracula-background container rounded-lg px-0 pt-4 md:mx-auto"
         >
-          {projects.map(
+          {projects.en.map(
             (projeto: TProject, index: number) =>
               projeto.value > 3 && (
                 <div

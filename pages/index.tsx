@@ -8,8 +8,9 @@ import { Portfolio } from "../components/sections/Portfolio";
 import { Skills } from "../components/sections/Skills";
 import { OtherProjects } from "@components/sections/OtherProjects";
 import { useRouter } from "next/router";
+import { loadExperiences } from "lib/loadExperiences";
 
-const Home: NextPage = () => {
+const Home: NextPage = ({ experiences }: any) => {
   const { locale, locales, asPath } = useRouter();
 
   return (
@@ -33,12 +34,14 @@ const Home: NextPage = () => {
         {/*💥 Social media profiles */}
         {/*📲 Contact Information Section */}
         {/*💎 Skills */}
-        locale: {locale}
-        <br />
-        locales: {locales}
-        <br />
-        asPath: {asPath}
-        <br />
+        <div className="opacity-0">
+          locale: {locale}
+          <br />
+          locales: {locales}
+          <br />
+          asPath: {asPath}
+          <br />
+        </div>
       </main>
 
       <footer></footer>
@@ -47,3 +50,14 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+// This function runs only on the server side
+export async function getStaticProps(context: any) {
+  const { locale } = context;
+  // Instead of fetching your `/api` route you can call the same
+  // function directly in `getStaticProps`
+  const experiences = await loadExperiences(locale);
+
+  // Props returned will be passed to the page component
+  return { props: { experiences } };
+}

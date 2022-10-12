@@ -1,88 +1,117 @@
 import { TEducation } from "../types/TEducation";
 
-export const degrees: TEducation[] = [
-  {
-    locale: "br",
-    type: "Pós-graduação Lato Sensu",
-    title: "Desenvolvimento de Jogos Digitais",
-    company: "Instituto Brasileiro de Formação",
-    dateStart: "2020",
-    dateEnd: "2022",
-  },
-  {
-    locale: "br",
-    type: "Pós-graduação Lato Sensu",
-    title: "Docência em Comunicação com Ênfase em Publicidade e Propaganda",
-    company: "Instituto Brasileiro de Formação",
-    dateStart: "2020",
-    dateEnd: "2021",
-  },
-  {
-    locale: "br",
-    type: "Ensino Superior",
-    title: "Análise e Desenvolvimento de Sistemas",
-    company: "Faculdade de Ensino Superior Cathedral",
-    dateStart: "2011",
-    dateEnd: "2014",
-  },
-];
+export interface DataEducation {
+  degrees: TEducation[];
+  courses: TEducation[];
+  certifications: TEducation[];
+}
 
-export const courses: TEducation[] = [
-  {
-    locale: "br",
-    title: "React Completo com Hooks",
-    company: "Origamid.dev",
-    dateEnd: "2022",
-    hours: "36",
-  },
-  {
-    locale: "br",
-    title: "Motion Design",
-    company: "Alura",
-    dateEnd: "2021",
-    hours: "110",
-  },
-  {
-    locale: "br",
-    title: "Game Design",
-    company: "Alura",
-    dateEnd: "2021",
-    hours: "60",
-  },
-  {
-    locale: "br",
-    title: "Metodologia Ágil SCRUM",
-    company: "SENAC/DF",
-    dateEnd: "2019",
-    hours: "20",
-  },
-  {
-    locale: "br",
-    title: "HTML & CSS",
-    company: "Alura",
-    dateEnd: "2016",
-    hours: "52",
-  },
-  {
-    locale: "br",
-    title: "Auxiliar Administrativo",
-    company: "SENAI/RR",
-    dateEnd: "2012",
-    hours: "800",
-  },
-];
+export const education: DataEducation = {
+  degrees: [
+    {
+      type: {
+        en: "Postgraduate Degree",
+        br: "Pós-graduação Lato Sensu",
+      },
+      title: {
+        en: "Desenvolvimento de Jogos Digitais",
+        br: "Desenvolvimento de Jogos Digitais",
+      },
+      company: {
+        en: "Instituto Brasileiro de Formação",
+        br: "Instituto Brasileiro de Formação",
+      },
+      dateStart: "2020",
+      dateEnd: "2022",
+    },
+    {
+      type: {
+        en: "Postgraduate Degree",
+        br: "Pós-graduação Lato Sensu",
+      },
+      title: {
+        en: "Docência em Comunicação com Ênfase em Publicidade e Propaganda",
+        br: "Docência em Comunicação com Ênfase em Publicidade e Propaganda",
+      },
+      company: {
+        en: "Instituto Brasileiro de Formação",
+        br: "Instituto Brasileiro de Formação",
+      },
+      dateStart: "2020",
+      dateEnd: "2021",
+    },
+    {
+      type: { en: "Ensino Superior", br: "Ensino Superior" },
+      title: {
+        en: "Análise e Desenvolvimento de Sistemas",
+        br: "Análise e Desenvolvimento de Sistemas",
+      },
+      company: {
+        en: "Faculdade de Ensino Superior Cathedral",
+        br: "Faculdade de Ensino Superior Cathedral",
+      },
+      dateStart: "2011",
+      dateEnd: "2014",
+    },
+  ],
+  courses: [
+    {
+      title: { en: "React Completo com Hooks", br: "React Completo com Hooks" },
+      company: { en: "Origamid.dev", br: "Origamid.dev" },
+      dateEnd: "2022",
+      hours: "36",
+    },
+    {
+      title: { en: "Motion Design", br: "Motion Design" },
+      company: { en: "Alura", br: "Alura" },
+      dateEnd: "2021",
+      hours: "110",
+    },
+    {
+      title: { en: "Game Design", br: "Game Design" },
+      company: { en: "Alura", br: "Alura" },
+      dateEnd: "2021",
+      hours: "60",
+    },
+    {
+      title: { en: "Metodologia Ágil SCRUM", br: "Metodologia Ágil SCRUM" },
+      company: { en: "SENAC/DF", br: "SENAC/DF" },
+      dateEnd: "2019",
+      hours: "20",
+    },
+    {
+      title: { en: "HTML & CSS", br: "HTML & CSS" },
+      company: { en: "Alura", br: "Alura" },
+      dateEnd: "2016",
+      hours: "52",
+    },
+    {
+      title: { en: "Auxiliar Administrativo", br: "Auxiliar Administrativo" },
+      company: { en: "SENAI/RR", br: "SENAI/RR" },
+      dateEnd: "2012",
+      hours: "800",
+    },
+  ],
 
-export const certifications: TEducation[] = [
-  {
-    locale: "br",
-    title: "Diplome d'Etudes en Langue Française A2",
-    company: "Aliança Francesa de Brasília",
-    dateEnd: "2021",
-  },
-  {
-    locale: "br",
-    title: "Scrum Foundation Professional Certificate",
-    company: "CertiProf",
-    dateEnd: "2019",
-  },
-];
+  certifications: [
+    {
+      title: {
+        en: "Diplome d'Etudes en Langue Française A2",
+        br: "Diplome d'Etudes en Langue Française A2",
+      },
+      company: {
+        en: "Aliança Francesa de Brasília",
+        br: "Aliança Francesa de Brasília",
+      },
+      dateEnd: "2021",
+    },
+    {
+      title: {
+        en: "Scrum Foundation Professional Certificate",
+        br: "Scrum Foundation Professional Certificate",
+      },
+      company: { en: "CertiProf", br: "CertiProf" },
+      dateEnd: "2019",
+    },
+  ],
+};

@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import React from "react";
 import { TEducation } from "../types/TEducation";
 
@@ -9,6 +10,8 @@ export const EducationCard = ({
   dateEnd,
   hours,
 }: TEducation) => {
+  const { locale } = useRouter();
+
   if (type && !hours)
     return (
       <>
@@ -20,10 +23,14 @@ export const EducationCard = ({
           <div className="flex-col">
             <div className="flex flex-col font-medium">
               <div className="text-base font-bold text-white md:text-lg">
-                {title}
+                {title[locale as keyof typeof title]}
               </div>
-              <div className="text-dracula-foreground">{type}</div>
-              <div className="text-primary">{company}</div>
+              <div className="text-dracula-foreground">
+                {type[locale as keyof typeof title]}
+              </div>
+              <div className="text-primary">
+                {company[locale as keyof typeof title]}
+              </div>
             </div>
           </div>
         </li>
@@ -36,9 +43,11 @@ export const EducationCard = ({
           <div className="flex w-full gap-x-2">
             <div className="leading-6">{dateEnd}</div>
             <div className="mr-2 flex w-full flex-col justify-between sm:flex-row">
-              <div className="font-bold text-white">{title}</div>
+              <div className="font-bold text-white">
+                {title[locale as keyof typeof title]}
+              </div>
               <div className="text-primary font-medium sm:leading-7">
-                {company}
+                {company[locale as keyof typeof title]}
               </div>
             </div>
           </div>
@@ -56,9 +65,11 @@ export const EducationCard = ({
           <div className="flex w-full gap-x-2">
             <div className="leading-6">{dateEnd}</div>
             <div className="flex w-full flex-col justify-between gap-x-4 sm:flex-row">
-              <div className="text-base font-bold text-white">{title}</div>
+              <div className="text-base font-bold text-white">
+                {title[locale as keyof typeof title]}
+              </div>
               <div className="text-primary font-medium sm:leading-6">
-                {company}
+                {company[locale as keyof typeof title]}
               </div>
             </div>
           </div>
