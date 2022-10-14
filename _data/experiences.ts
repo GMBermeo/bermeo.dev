@@ -7,7 +7,7 @@ export interface DataEducation {
 export const experiences: TExperience[] = [
   {
     title: {
-      en: "Front-end Developer (React.js)",
+      en: "Front-end Developer",
       br: "Desenvolvedor Front-end",
     },
     companyShort: "TTY",
@@ -16,9 +16,9 @@ export const experiences: TExperience[] = [
     dateEnd: "Presente",
     description: {
       en: [
-        "Development of new solutions using Next.js with Node.js and TailwindCSS.",
-        "Updating front-end interfaces of legacy systems using new technologies as well as refactoring HTML and CSS code in PHP projects following the principles of Clean Code to facilitate maintenance.",
-        "Migration and maintenance of Azure DevOps with Git, and support on using and organizing projects within the tool.",
+        "Several new solutions were developed using Next.js with Node.js and TailwindCSS.",
+        "One of the attributions was updating front-end interfaces of legacy systems using new technologies and refactoring HTML and CSS code in PHP projects following the principles of Clean Code to facilitate maintenance.",
+        "Migration and maintenance of Azure DevOps with Git and support on using and organizing projects within the tool.",
       ],
       br: [
         "Desenvolvimento de novas soluções com uso de Next.js com Node.js e TailwindCSS.",
@@ -35,7 +35,7 @@ export const experiences: TExperience[] = [
     dateEnd: "09.2022",
     description: {
       en: [
-        "Developing new interfaces of legacy systems and new tools of internal use with the support of the Imprensa Nacional, using Blazor, Bootstrap and Tailwind CSS.",
+        "Development of new interfaces for legacy systems and new internal web tools with the support of the National Press, using Blazor, Bootstrap, and Tailwind CSS.",
       ],
       br: [
         "Desenvolvimento de novas interfaces de sistemas legado web e novas ferramentas de uso interno com apoio da Imprensa Nacional, com uso de Blazor, Bootstrap e Tailwind CSS.",
@@ -44,7 +44,7 @@ export const experiences: TExperience[] = [
     linkTo: "/advocacia-geral-da-uniao",
   },
   {
-    title: { en: "", br: "UI/UX Designer Sênior" },
+    title: { en: "Senior UI/UX Designer", br: "UI/UX Designer Sênior" },
     companyShort: "AGU",
     company: "Advocacia-Geral da União",
     dateStart: "09.2018",
@@ -52,7 +52,7 @@ export const experiences: TExperience[] = [
     description: {
       en: [
         "Requirements analysis and mobile application development using Microsoft Powerapps.",
-        "Creation of icons and brandbook for internal use by the Technology Board.",
+        "Creation of icons and brand book for internal use by the Technology Board.",
         "Front-end development in projects from the Portal do Governo Plone and service management system to SAD/DF, OTRS.",
       ],
       br: [
@@ -71,9 +71,9 @@ export const experiences: TExperience[] = [
     dateEnd: "09.2018",
     description: {
       en: [
-        "Development of a new Project within the collaboration of the Director's Board focused on accounting management for companies, through high-fidelity prototyping and extensive internal testing with high-fidelity prototyping.",
-        "Creation of wireframes, mockups and high-fidelity prototyping using Axure RP for documentation validation and experience improvement in Banco do Brasil products, including experiences and icons developed and tested for BB's mobile app in versions 2 and 3, with more than 50 million downloads and a 4.5 rating on Google Play. ",
-        "Front-end development of projects for the Portal de Defesa do Consumidor and internal tool SINDEC using Bootstrap.",
+        "Development of a new Project within the collaboration of the Director's Board focused on accounting management for companies through high-fidelity prototyping and extensive internal testing with high-fidelity prototyping.",
+        "Creation of wireframes, mockups, and high-fidelity prototyping using Axure RP for documentation validation and experience improvement in Banco do Brasil products, including experiences and icons developed and tested for BB's mobile app in versions 2 and 3, with more than 50 million downloads and a 4.5 rating on Google Play.",
+        "Front-end development of projects for the 'Portal de Defesa do Consumidor' and internal tool SINDEC using Bootstrap.",
       ],
       br: [
         "Elaboração de Projeto na Diretoria de Novos Produtos Empresariais de gerenciador de contas de empresas, através de prototipação em alta fidelidade e teste interno.",
@@ -84,7 +84,7 @@ export const experiences: TExperience[] = [
     linkTo: "/banco-do-brasil",
   },
   {
-    title: { en: "", br: "Assistente Administrativo" },
+    title: { en: "Administrative Assistant", br: "Assistente Administrativo" },
     companyShort: "CAER",
     company: "Companhia de Águas e Esgotos de Roraima",
     dateStart: "12.2012",

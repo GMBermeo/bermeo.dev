@@ -27,8 +27,8 @@ export const education: DataEducation = {
         br: "Pós-graduação Lato Sensu",
       },
       title: {
-        en: "Docência em Comunicação com Ênfase em Publicidade e Propaganda",
-        br: "Teaching in Communications with Emphasis in Publicity and Advertising",
+        en: "Teaching in Communications with Emphasis in Publicity and Advertising",
+        br: "Docência em Comunicação com Ênfase em Publicidade e Propaganda",
       },
       institution: "Instituto Brasileiro de Formação",
       dateStart: "2020",
@@ -90,7 +90,7 @@ export const education: DataEducation = {
   certifications: [
     {
       title: "Diplome d'Etudes en Langue Française (DELF) A2",
-      institution: "Aliança Francesa de Brasília",
+      institution: "Alliance Française de Brasília",
       dateEnd: "2021",
     },
     {

@@ -2,13 +2,9 @@ import React from "react";
 import { EducationCard } from "../EducationCard";
 import { Subtitle } from "../ui/Subtitle";
 import { Title } from "../ui/Title";
-import { useRouter } from "next/router";
 import {
-  TCertification,
   TCertificationResponse,
-  TCourse,
   TCourseResponse,
-  TDegree,
   TDegreeResponse,
 } from "../../types/TEducation";
 
@@ -24,13 +20,13 @@ export const Education = ({ education, locale }: any) => {
             <EducationCard {...degree} key={degree.title} />
           ))}
         </ul>
-        <Subtitle title={"Cursos"} />
+        <Subtitle title={locale == "en" ? "Courses" : "Cursos"} />
         <ul className="mb-8">
           {courses.map((course: TCourseResponse) => (
             <EducationCard {...course} key={course.title} />
           ))}
         </ul>
-        <Subtitle title={"Certificados"} />
+        <Subtitle title={locale == "en" ? "Certificates" : "Certificações"} />
         <ul>
           {certifications.map((certification: TCertificationResponse) => (
             <EducationCard {...certification} key={certification.title} />

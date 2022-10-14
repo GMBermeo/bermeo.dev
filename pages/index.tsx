@@ -27,8 +27,8 @@ const Home: NextPage = ({ experiences, education }: any) => {
           />
         </title>
       </Head>
-      <NavBar />
-      <Hero />
+      <NavBar locale={locale} />
+      <Hero locale={locale} />
       <main className="mx-auto">
         <About locale={locale} />
         <Experience experiences={experiences} locale={locale} />

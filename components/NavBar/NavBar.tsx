@@ -3,7 +3,7 @@ import { NavButton } from "./NavButton";
 import s from "../../styles/NavBar.module.css";
 import Image from "next/image";
 
-export const NavBar = () => {
+export const NavBar = ({ locale }: any) => {
   return (
     <nav className={s.navBar}>
       <div>
@@ -17,10 +17,14 @@ export const NavBar = () => {
         </a>
       </div>
       <ul className="flex items-center">
-        <NavButton label="Sobre" class="hidden sm:inline-block" />
-        <NavButton label="Experiência" />
-        <NavButton label="Projetos" />
-        <NavButton label="Contato" />
+        <NavButton
+          label={locale == "en" ? "About" : "Sobre"}
+          class="hidden sm:inline-block"
+        />
+        <NavButton label={locale == "en" ? "Experience" : "Experiência"} />
+        <NavButton label={locale == "en" ? "Projects" : "Projetos"} />
+        <NavButton label={locale == "en" ? "Education" : "Formação"} />
+        {/* <NavButton label={locale == "en" ? "Contact": "Contato"} /> */}
       </ul>
     </nav>
   );
