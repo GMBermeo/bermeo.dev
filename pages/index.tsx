@@ -1,30 +1,41 @@
 import type { NextPage } from "next";
-import { About } from "../components/sections/About";
-import { Hero } from "../components/sections/Hero";
 import { NavBar } from "../components/NavBar/NavBar";
-import { Experience } from "../components/sections/Experience";
-import { Education } from "../components/sections/Education";
-import { Portfolio } from "../components/sections/Portfolio";
-import { Skills } from "../components/sections/Skills";
-import { OtherProjects } from "@components/sections/OtherProjects";
 import { useRouter } from "next/router";
-import { loadExperiences } from "lib/loadExperiences";
+import { loadEducation, loadExperience } from "lib";
+import Head from "next/head";
+import {
+  Hero,
+  About,
+  Experience,
+  OtherProjects,
+  Portfolio,
+  Education,
+  Skills,
+} from "../components/sections/";
 
-const Home: NextPage = ({ experiences }: any) => {
+const Home: NextPage = ({ experiences, education }: any) => {
   const { locale, locales, asPath } = useRouter();
 
   return (
     <>
+      <Head>
+        <title>
+          Guilherme Bermeo
+          <meta
+            name="description"
+            content="Experienced Digital Product Designer with several years of experience working with governmental clients to create and enhance the aesthetics and experience for digital products. Adept in designing, managing, and planning the production of projects, ranging from small to very large-scale. An easy learner with a natural ability to collaborate and lead as a dynamic and dedicated professional."
+          />
+        </title>
+      </Head>
       <NavBar />
-
       <Hero />
       <main className="mx-auto">
-        <About />
-        <Experience />
-        <OtherProjects />
-        <Portfolio />
-        <Education />
-        <Skills />
+        <About locale={locale} />
+        <Experience experiences={experiences} locale={locale} />
+        <OtherProjects locale={locale} />
+        <Portfolio locale={locale} />
+        <Education education={education} locale={locale} />
+        <Skills locale={locale} />
         {/*📰 Bio */}
         {/*🔥 Projects */}
         {/*📝 Button to download your Resume */}
@@ -56,8 +67,9 @@ export async function getStaticProps(context: any) {
   const { locale } = context;
   // Instead of fetching your `/api` route you can call the same
   // function directly in `getStaticProps`
-  const experiences = await loadExperiences(locale);
+  const experiences = loadExperience(locale);
+  const education = loadEducation(locale);
 
   // Props returned will be passed to the page component
-  return { props: { experiences } };
+  return { props: { experiences, education } };
 }

@@ -44,7 +44,7 @@ class MyDocument extends Document {
             }}
           />
           <meta name="author" content="Guilherme Bermêo" />
-          <meta name="language" content="Portuguese" />
+          <meta name="language" content="English" />
           <meta
             name="keywords"
             content="HTML, CSS, JavaScript, React, Next.js, Typescript, Front-end, Brasília, Roraima, Guilherme Bermêo, Bermeo, Vue.js, Tailwind CSS, Bootstrap"

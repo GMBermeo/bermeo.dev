@@ -1,22 +1,16 @@
 import React from "react";
 import { Title } from "../ui/Title";
-import { WorkCard } from "../WorkCard";
-import { TExperience } from "../../types/TExperience";
-import { DataExperience, experiences } from "../../_data/experiences";
-import { useRouter } from "next/router";
+import { WorkCard } from "../ExperienceCard";
+import { TExperienceResponse } from "../../types/TExperience";
 
-export const Experience = () => {
-  const { locale } = useRouter();
-
+export const Experience = ({ experiences, locale }: any) => {
   return (
     <>
-      <Title title={locale === "br" ? "Experiência" : "Experience"} />
+      <Title title={locale == "en" ? "Experience" : "Experiência"} />
       <ol className="customContainer">
-        {experiences[locale as keyof DataExperience].map(
-          (experience: TExperience) => (
-            <WorkCard {...experience} key={experience.dateEnd} />
-          )
-        )}
+        {experiences.map((experience: TExperienceResponse) => (
+          <WorkCard {...experience} key={experience.dateEnd} />
+        ))}
       </ol>
     </>
   );

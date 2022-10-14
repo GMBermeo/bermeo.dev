@@ -6,7 +6,7 @@ import { TProject } from "../../types/TProject";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
-export const Portfolio = () => {
+export const Portfolio = ({ locale }: any) => {
   const [ref] = useKeenSlider<HTMLDivElement>({
     loop: true,
     mode: "free-snap",
@@ -19,11 +19,11 @@ export const Portfolio = () => {
 
   return (
     <>
-      <Subtitle title={"Projetos"} />
+      <Subtitle title={locale == "en" ? "Projects" : "Projetos"} />
       <div className="customContainer">
         <div
           ref={ref}
-          className="keen-slider bg-dracula-background container rounded-lg px-0 pt-4 md:mx-auto"
+          className="keen-slider container rounded-lg bg-dracula-background px-0 pt-4 md:mx-auto"
         >
           {projects.en.map(
             (projeto: TProject, index: number) =>

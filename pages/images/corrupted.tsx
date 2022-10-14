@@ -11,7 +11,20 @@ const AllImagesCorrupted: NextPage = ({ images }: any) => {
   return (
     <>
       <Head>
-        <title>CØЯЯuptΞd cØding дЯt</title>
+        <title>
+          {locale == "en"
+            ? "CØЯЯuptΞd cØding дЯt images "
+            : "Imagens de CØЯЯuptΞd cØding дЯt "}
+          - Guilherme Bermeo
+        </title>
+        <meta
+          name="description"
+          content={
+            locale == "en"
+              ? "All CØЯЯuptΞd cØding дЯt images in one page for indexing."
+              : "Imagens feitas para o projeto CØЯЯuptΞd cØding дЯt."
+          }
+        />
       </Head>
       <h1 className="mt-4 text-center text-2xl font-thin xl:text-4xl">
         CØЯЯuptΞd cØding дЯt
@@ -26,13 +39,13 @@ const AllImagesCorrupted: NextPage = ({ images }: any) => {
             <figure className="flex flex-col">
               <img
                 src={image.src}
-                alt={locale === "br" && image.altBr ? image.altBr : image.alt}
+                alt={locale == "br" && image.altBr ? image.altBr : image.alt}
                 height={image.height}
                 width={image.width}
                 className="rounded-xl"
               />
               <figcaption className="mb-4 mt-2 text-sm font-medium text-slate-700">
-                {locale === "br" && image.altBr ? image.altBr : image.alt}
+                {locale == "br" && image.altBr ? image.altBr : image.alt}
               </figcaption>
             </figure>
           </a>

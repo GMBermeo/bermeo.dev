@@ -1,9 +1,9 @@
-import { TEducation } from "../types/TEducation";
+import { TDegree, TCourse, TCertification } from "../types/TEducation";
 
 export interface DataEducation {
-  degrees: TEducation[];
-  courses: TEducation[];
-  certifications: TEducation[];
+  degrees: TDegree[];
+  courses: TCourse[];
+  certifications: TCertification[];
 }
 
 export const education: DataEducation = {
@@ -14,13 +14,10 @@ export const education: DataEducation = {
         br: "Pós-graduação Lato Sensu",
       },
       title: {
-        en: "Desenvolvimento de Jogos Digitais",
+        en: "Digital Games Development",
         br: "Desenvolvimento de Jogos Digitais",
       },
-      company: {
-        en: "Instituto Brasileiro de Formação",
-        br: "Instituto Brasileiro de Formação",
-      },
+      institution: "Instituto Brasileiro de Formação",
       dateStart: "2020",
       dateEnd: "2022",
     },
@@ -31,86 +28,74 @@ export const education: DataEducation = {
       },
       title: {
         en: "Docência em Comunicação com Ênfase em Publicidade e Propaganda",
-        br: "Docência em Comunicação com Ênfase em Publicidade e Propaganda",
+        br: "Teaching in Communications with Emphasis in Publicity and Advertising",
       },
-      company: {
-        en: "Instituto Brasileiro de Formação",
-        br: "Instituto Brasileiro de Formação",
-      },
+      institution: "Instituto Brasileiro de Formação",
       dateStart: "2020",
       dateEnd: "2021",
     },
     {
-      type: { en: "Ensino Superior", br: "Ensino Superior" },
+      type: { en: "Undergraduate Degree", br: "Ensino Superior" },
       title: {
-        en: "Análise e Desenvolvimento de Sistemas",
+        en: "Analysis and Development of Computer Systems",
         br: "Análise e Desenvolvimento de Sistemas",
       },
-      company: {
-        en: "Faculdade de Ensino Superior Cathedral",
-        br: "Faculdade de Ensino Superior Cathedral",
-      },
+      institution: "Faculdade de Ensino Superior Cathedral",
       dateStart: "2011",
       dateEnd: "2014",
     },
   ],
   courses: [
     {
-      title: { en: "React Completo com Hooks", br: "React Completo com Hooks" },
-      company: { en: "Origamid.dev", br: "Origamid.dev" },
+      title: {
+        en: "React Complete with Hooks",
+        br: "React Completo com Hooks",
+      },
+      institution: "Origamid.dev",
       dateEnd: "2022",
-      hours: "36",
+      hours: 36,
     },
     {
       title: { en: "Motion Design", br: "Motion Design" },
-      company: { en: "Alura", br: "Alura" },
+      institution: "Alura",
       dateEnd: "2021",
-      hours: "110",
+      hours: 110,
     },
     {
       title: { en: "Game Design", br: "Game Design" },
-      company: { en: "Alura", br: "Alura" },
+      institution: "Alura",
       dateEnd: "2021",
-      hours: "60",
+      hours: 60,
     },
     {
-      title: { en: "Metodologia Ágil SCRUM", br: "Metodologia Ágil SCRUM" },
-      company: { en: "SENAC/DF", br: "SENAC/DF" },
+      title: { en: "Agile SCRUM Methodology", br: "Metodologia Ágil SCRUM" },
+      institution: "SENAC/DF",
       dateEnd: "2019",
-      hours: "20",
+      hours: 20,
     },
     {
       title: { en: "HTML & CSS", br: "HTML & CSS" },
-      company: { en: "Alura", br: "Alura" },
+      institution: "Alura",
       dateEnd: "2016",
-      hours: "52",
+      hours: 52,
     },
     {
-      title: { en: "Auxiliar Administrativo", br: "Auxiliar Administrativo" },
-      company: { en: "SENAI/RR", br: "SENAI/RR" },
+      title: { en: "Administrative Assistant", br: "Auxiliar Administrativo" },
+      institution: "SENAI/RR",
       dateEnd: "2012",
-      hours: "800",
+      hours: 800,
     },
   ],
 
   certifications: [
     {
-      title: {
-        en: "Diplome d'Etudes en Langue Française A2",
-        br: "Diplome d'Etudes en Langue Française A2",
-      },
-      company: {
-        en: "Aliança Francesa de Brasília",
-        br: "Aliança Francesa de Brasília",
-      },
+      title: "Diplome d'Etudes en Langue Française (DELF) A2",
+      institution: "Aliança Francesa de Brasília",
       dateEnd: "2021",
     },
     {
-      title: {
-        en: "Scrum Foundation Professional Certificate",
-        br: "Scrum Foundation Professional Certificate",
-      },
-      company: { en: "CertiProf", br: "CertiProf" },
+      title: "Scrum Foundation Professional Certificate",
+      institution: "CertiProf",
       dateEnd: "2019",
     },
   ],

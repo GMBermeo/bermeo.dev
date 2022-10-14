@@ -6,13 +6,29 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { UrlObject } from "url";
+import Head from "next/head";
 
 const AGU: NextPage = () => {
-  const { pathname } = useRouter();
-  console.log(pathname);
+  const { pathname, locale } = useRouter();
 
   return (
     <>
+      <Head>
+        <title>
+          {locale == "en"
+            ? "Attorney General's Office "
+            : "Advocacia Geral da União "}
+          - Guilherme Bermeo
+        </title>
+        <meta
+          name="description"
+          content={
+            locale == "en"
+              ? "Attorney General's Office"
+              : "Advocacia Geral da União"
+          }
+        />
+      </Head>
       <main className="container mx-auto max-w-3xl px-6 sm:px-8">
         <Title title={"Advocacia-Geral da União"} />
         <Subtitle title={"Escola AGU App"} />

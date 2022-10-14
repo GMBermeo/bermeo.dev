@@ -12,9 +12,19 @@ const AllImagesOther: NextPage = ({ images, altImages }: any) => {
     <>
       <Head>
         <title>
-          {locale == "br" ? "Outros projetos" : "Side projects"} - Guilherme
-          Bermeo
+          {locale == "en"
+            ? "Side Projects Images "
+            : "Imagens de outros projetos "}
+          - Guilherme Bermeo
         </title>
+        <meta
+          name="description"
+          content={
+            locale == "en"
+              ? "All images from side projects in one page for indexing."
+              : "Todas as imagens para indexação."
+          }
+        />
       </Head>
       <div className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8 md:p-8">
         {images.map((image: Image) => (
@@ -25,7 +35,7 @@ const AllImagesOther: NextPage = ({ images, altImages }: any) => {
           >
             <img
               src={image.src}
-              alt={locale === "br" && image.altBr ? image.altBr : image.alt}
+              alt={locale == "br" && image.altBr ? image.altBr : image.alt}
               height={image.height}
               width={image.width}
             />
@@ -41,7 +51,7 @@ const AllImagesOther: NextPage = ({ images, altImages }: any) => {
           >
             <img
               src={image.src}
-              alt={locale === "br" && image.altBr ? image.altBr : image.alt}
+              alt={locale == "br" && image.altBr ? image.altBr : image.alt}
               height={image.height}
               width={image.width}
             />

@@ -1,10 +1,30 @@
 import { Title } from "../components/ui/Title";
 import type { NextPage } from "next";
 import { Subtitle } from "../components/ui/Subtitle";
+import Head from "next/head";
+import { useRouter } from "next/router";
 
 const BB: NextPage = () => {
+  const { locale } = useRouter();
   return (
     <>
+      <Head>
+        <title>
+          {locale == "en"
+            ? "Bank of Brazil Technology and Services images "
+            : "Imagens do Banco do Brasil Tecnologia & Serviços "}
+          - Guilherme Bermeo
+        </title>
+
+        <meta
+          name="description"
+          content={
+            locale == "en"
+              ? "Bank of Brazil Technology and Services images "
+              : "Imagens do Banco do Brasil Tecnologia & Serviços "
+          }
+        />
+      </Head>
       <main className="container mx-auto max-w-3xl px-6 sm:px-8">
         <Title title={"Banco do Brasil"} />
         <Subtitle title={"Software de Gestão Empresarial"} />

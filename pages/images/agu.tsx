@@ -11,7 +11,20 @@ const AllImagesAGU: NextPage = ({ images, altImages }: any) => {
   return (
     <>
       <Head>
-        <title>Advocacia-Geral da União - Guilherme Bermeo</title>
+        <title>
+          {locale == "en"
+            ? "Attorney General's Office images "
+            : "Imagens da Advocacia-Geral da União "}
+          - Guilherme Bermeo
+        </title>
+        <meta
+          name="description"
+          content={
+            locale == "en"
+              ? "Attorney General's Office images in one page for indexing."
+              : "Imagens da projetos feitos para a Advocacia-Geral da União."
+          }
+        />
       </Head>
       <div className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8 md:p-8">
         {images.map((image: Image) => (
@@ -22,7 +35,7 @@ const AllImagesAGU: NextPage = ({ images, altImages }: any) => {
           >
             <img
               src={image.src}
-              alt={locale === "br" && image.altBr ? image.altBr : image.alt}
+              alt={locale == "br" && image.altBr ? image.altBr : image.alt}
               height={image.height}
               width={image.width}
             />
@@ -38,7 +51,7 @@ const AllImagesAGU: NextPage = ({ images, altImages }: any) => {
           >
             <img
               src={image.src}
-              alt={locale === "br" && image.altBr ? image.altBr : image.alt}
+              alt={locale == "br" && image.altBr ? image.altBr : image.alt}
               height={image.height}
               width={image.width}
             />

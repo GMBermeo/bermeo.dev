@@ -1,10 +1,10 @@
 import React from "react";
 import { Title } from "../ui/Title";
 
-export const About = () => {
+export const About = ({ locale }: any) => {
   return (
     <>
-      <Title title="Sobre" />
+      <Title title={locale == "en" ? "About" : "Sobre"} />
       <article className="p customContainer mb-16 text-sm font-medium leading-6 md:text-base">
         Formado em Análise e Desenvolvimento de Sistemas em 2011, descobri logo
         na faculdade uma vocação por front-end e experiência do usuário nas
@@ -29,7 +29,7 @@ export const About = () => {
         estou{" "}
         <a
           href="https://boardgamegeek.com/plays/bydate/user/gm_bermeo/subtype/boardgame"
-          className="hover:decoration-3 decoration-primary underline  decoration-2"
+          className="hover:decoration-3 underline decoration-primary  decoration-2"
         >
           jogando
         </a>{" "}

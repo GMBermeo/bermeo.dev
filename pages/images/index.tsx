@@ -12,9 +12,12 @@ const AllWorks: NextPage = ({ images }: any) => {
     <>
       <Head>
         <title>
-          {locale == "br" ? "Todas as imagens" : "All images"} - Guilherme
-          Bermeo
+          {locale == "en" ? "Images" : "Imagens"} - Guilherme Bermeo
         </title>
+        <meta
+          name="description"
+          content={locale == "en" ? "All images." : "Todas as imagens."}
+        />
       </Head>
       <div className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8 md:p-8">
         {images.map((image: Image) => (
@@ -25,7 +28,7 @@ const AllWorks: NextPage = ({ images }: any) => {
           >
             <img
               src={image.src}
-              alt={locale === "br" && image.altBr ? image.altBr : image.alt}
+              alt={locale == "br" && image.altBr ? image.altBr : image.alt}
               height={image.height}
               width={image.width}
             />
@@ -41,7 +44,7 @@ const AllWorks: NextPage = ({ images }: any) => {
           >
             <img
               src={image.src}
-              alt={locale === "br" && image.altBr ? image.altBr : image.alt}
+              alt={locale == "br" && image.altBr ? image.altBr : image.alt}
               height={image.height}
               width={image.width}
             />
