@@ -23,19 +23,11 @@ const nextConfig = {
         defaultLocale: "en",
       },
       {
-        domain: "en.bermeo.dev",
-        defaultLocale: "en",
-      },
-      {
         domain: "br.bermeo.dev",
-        defaultLocale: "br",
-      },
-      {
-        domain: "pt.bermeo.dev",
         defaultLocale: "br",
       },
     ],
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
