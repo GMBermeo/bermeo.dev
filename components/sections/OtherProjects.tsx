@@ -1,5 +1,5 @@
 import React from "react";
 
-export const OtherProjects = ({ locale }: any) => {
+export const OtherProjects = () => {
   return null;
 };

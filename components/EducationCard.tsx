@@ -1,4 +1,3 @@
-import { useRouter } from "next/router";
 import React from "react";
 import { TEducationProps } from "../types/TEducation";
 
@@ -38,7 +37,7 @@ export const EducationCard = ({
             <div className="leading-6">{dateEnd}</div>
             <div className="mr-2 flex w-full flex-col justify-between sm:flex-row">
               <div className="font-bold text-white">{title}</div>
-              <div className="font-medium text-primary sm:leading-7">
+              <div className="text-primary font-medium sm:leading-7">
                 {institution}
               </div>
             </div>
@@ -58,7 +57,7 @@ export const EducationCard = ({
             <div className="leading-6">{dateEnd}</div>
             <div className="flex w-full flex-col justify-between gap-x-4 sm:flex-row">
               <div className="text-base font-bold text-white">{title}</div>
-              <div className="font-medium text-primary sm:leading-6">
+              <div className="text-primary font-medium sm:leading-6">
                 {institution}
               </div>
             </div>

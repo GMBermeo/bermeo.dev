@@ -1,18 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
+import { LocaleContext } from "@contexts/LocaleContext";
 import { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import { useRouter } from "next/router";
-import React from "react";
+import React, { useContext } from "react";
 import { allImages, altSizesImages, Image } from "../api/images";
 
 const AllImagesBBTS: NextPage = ({ images, altImages }: any) => {
-  const { locale } = useRouter();
+  const { isEng } = useContext(LocaleContext);
 
   return (
     <>
       <Head>
         <title>
-          {locale == "en"
+          {isEng()
             ? "Bank of Brazil Technology and Services images "
             : "Imagens do Banco do Brasil Tecnologia & Serviços "}
           - Guilherme Bermeo
@@ -20,7 +20,7 @@ const AllImagesBBTS: NextPage = ({ images, altImages }: any) => {
         <meta
           name="description"
           content={
-            locale == "en"
+            isEng()
               ? "Bank of Brazil Technology and Services images in one page for indexing."
               : "Imagens de projetos para o Banco do Brasil Tecnologia & Serviços."
           }
@@ -35,7 +35,7 @@ const AllImagesBBTS: NextPage = ({ images, altImages }: any) => {
           >
             <img
               src={image.src}
-              alt={locale == "br" && image.altBr ? image.altBr : image.alt}
+              alt={!isEng() && image.altBr ? image.altBr : image.alt}
               height={image.height}
               width={image.width}
             />
@@ -51,7 +51,7 @@ const AllImagesBBTS: NextPage = ({ images, altImages }: any) => {
           >
             <img
               src={image.src}
-              alt={locale == "br" && image.altBr ? image.altBr : image.alt}
+              alt={!isEng() && image.altBr ? image.altBr : image.alt}
               height={image.height}
               width={image.width}
             />

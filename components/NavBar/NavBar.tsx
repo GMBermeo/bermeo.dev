@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NavButton } from "./NavButton";
 import s from "../../styles/NavBar.module.css";
 import Image from "next/image";
+import { LocaleContext } from "@contexts/LocaleContext";
+import Link from "next/link";
+import { LangButton } from "@components/ui/LangButton";
 
-export const NavBar = ({ locale }: any) => {
+export const NavBar = () => {
+  const { isEng, asPath } = useContext(LocaleContext);
+
   return (
     <nav className={s.navBar}>
-      <div>
+      <div className="hidden sm:inline-block">
         <a href="https://www.bermeo.dev">
           <Image
             src="/logo.svg"
@@ -18,13 +23,15 @@ export const NavBar = ({ locale }: any) => {
       </div>
       <ul className="flex items-center">
         <NavButton
-          label={locale == "en" ? "About" : "Sobre"}
+          label={isEng() ? "About" : "Sobre"}
           class="hidden sm:inline-block"
         />
-        <NavButton label={locale == "en" ? "Experience" : "Experiência"} />
-        <NavButton label={locale == "en" ? "Projects" : "Projetos"} />
-        <NavButton label={locale == "en" ? "Education" : "Formação"} />
-        {/* <NavButton label={locale == "en" ? "Contact": "Contato"} /> */}
+        <NavButton label={isEng() ? "Experience" : "Experiência"} />
+        <NavButton label={isEng() ? "Projects" : "Projetos"} />
+        <NavButton label={isEng() ? "Education" : "Formação"} />
+        <LangButton localeSet={"en"} />
+        <LangButton localeSet={"br"} />
+        {/* <NavButton label={isEng() ? "Contact": "Contato"} /> */}
       </ul>
     </nav>
   );

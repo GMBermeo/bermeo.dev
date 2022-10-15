@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
+import { LocaleContext } from "@contexts/LocaleContext";
 import { Title } from "../ui/Title";
 
-export const About = ({ locale }: any) => {
-  if (locale == "en") {
+export const About = () => {
+  const { isEng } = useContext(LocaleContext);
+
+  if (isEng()) {
     return (
       <>
-        <Title title={locale == "en" ? "About" : "Sobre"} />
+        <Title title={isEng() ? "About" : "Sobre"} />
         <article className="p customContainer mb-16 space-y-6 text-sm font-medium leading-6 md:text-base">
           <p>
             {" "}
@@ -31,7 +34,7 @@ export const About = ({ locale }: any) => {
             working, I{" "}
             <a
               href="https://boardgamegeek.com/plays/bydate/user/gm_bermeo/subtype/boardgame"
-              className="hover:decoration-3 underline decoration-primary  decoration-2"
+              className="hover:decoration-3 decoration-primary underline  decoration-2"
             >
               play
             </a>{" "}
@@ -51,7 +54,7 @@ export const About = ({ locale }: any) => {
   } else {
     return (
       <>
-        <Title title={locale == "en" ? "About" : "Sobre"} />
+        <Title title={isEng() ? "About" : "Sobre"} />
         <article className="p customContainer mb-16 space-y-6 text-sm font-medium leading-6 md:text-base">
           Formado em Análise e Desenvolvimento de Sistemas em 2011, descobri
           logo na faculdade uma vocação por front-end e experiência do usuário
@@ -74,7 +77,7 @@ export const About = ({ locale }: any) => {
           trabalhando estou{" "}
           <a
             href="https://boardgamegeek.com/plays/bydate/user/gm_bermeo/subtype/boardgame"
-            className="hover:decoration-3 underline decoration-primary  decoration-2"
+            className="hover:decoration-3 decoration-primary underline  decoration-2"
           >
             jogando
           </a>{" "}

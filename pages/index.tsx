@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import { NavBar } from "../components/NavBar/NavBar";
-import { useRouter } from "next/router";
 import { loadEducation, loadExperience } from "lib";
 import Head from "next/head";
 import {
@@ -12,30 +11,31 @@ import {
   Education,
   Skills,
 } from "../components/sections/";
+import { useContext } from "react";
+import { LocaleContext } from "@contexts/LocaleContext";
 
 const Home: NextPage = ({ experiences, education }: any) => {
-  const { locale, locales, asPath } = useRouter();
+  const { locale, locales, defaultLocale, basePath, asPath } =
+    useContext(LocaleContext);
 
   return (
     <>
       <Head>
-        <title>
-          Guilherme Bermeo
-          <meta
-            name="description"
-            content="Experienced Digital Product Designer with several years of experience working with governmental clients to create and enhance the aesthetics and experience for digital products. Adept in designing, managing, and planning the production of projects, ranging from small to very large-scale. An easy learner with a natural ability to collaborate and lead as a dynamic and dedicated professional."
-          />
-        </title>
+        <title>Guilherme Bermeo - Front-end Developer</title>
+        <meta
+          name="description"
+          content="Experienced Digital Product Designer with several years of experience working with governmental clients to create and enhance the aesthetics and experience for digital products. Adept in designing, managing, and planning the production of projects, ranging from small to very large-scale. An easy learner with a natural ability to collaborate and lead as a dynamic and dedicated professional."
+        />
       </Head>
-      <NavBar locale={locale} />
-      <Hero locale={locale} />
+      <NavBar />
+      <Hero />
       <main className="mx-auto">
-        <About locale={locale} />
-        <Experience experiences={experiences} locale={locale} />
-        <OtherProjects locale={locale} />
-        <Portfolio locale={locale} />
-        <Education education={education} locale={locale} />
-        <Skills locale={locale} />
+        <About />
+        <Experience experiences={experiences} />
+        <OtherProjects />
+        <Portfolio />
+        <Education education={education} />
+        <Skills />
         {/*📰 Bio */}
         {/*🔥 Projects */}
         {/*📝 Button to download your Resume */}
@@ -52,6 +52,11 @@ const Home: NextPage = ({ experiences, education }: any) => {
           <br />
           asPath: {asPath}
           <br />
+          defaultLocale:{defaultLocale}
+          <br />
+          basePath:{basePath}
+          <br />
+          asPath:{asPath}
         </div>
       </main>
 
@@ -63,8 +68,7 @@ const Home: NextPage = ({ experiences, education }: any) => {
 export default Home;
 
 // This function runs only on the server side
-export async function getStaticProps(context: any) {
-  const { locale } = context;
+export async function getStaticProps({ locale }: { locale: "en" | "br" }) {
   // Instead of fetching your `/api` route you can call the same
   // function directly in `getStaticProps`
   const experiences = loadExperience(locale);

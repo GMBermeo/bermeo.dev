@@ -8,7 +8,7 @@ export const Subtitle = ({ title }: TSubtitleProps) => {
   return (
     <h2
       id={title}
-      className="customContainer relative z-40 my-4 text-2xl font-bold lowercase leading-none md:text-4xl"
+      className="relative z-40 my-4 text-2xl font-bold lowercase leading-none md:text-4xl"
     >
       {title}
       <span className="text-primary">.</span>

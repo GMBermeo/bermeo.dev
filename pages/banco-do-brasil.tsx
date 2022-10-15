@@ -2,15 +2,17 @@ import { Title } from "../components/ui/Title";
 import type { NextPage } from "next";
 import { Subtitle } from "../components/ui/Subtitle";
 import Head from "next/head";
-import { useRouter } from "next/router";
+import { useContext } from "react";
+import { LocaleContext } from "@contexts/LocaleContext";
 
 const BB: NextPage = () => {
-  const { locale } = useRouter();
+  const { isEng } = useContext(LocaleContext);
+
   return (
     <>
       <Head>
         <title>
-          {locale == "en"
+          {isEng()
             ? "Bank of Brazil Technology and Services images "
             : "Imagens do Banco do Brasil Tecnologia & Serviços "}
           - Guilherme Bermeo
@@ -19,7 +21,7 @@ const BB: NextPage = () => {
         <meta
           name="description"
           content={
-            locale == "en"
+            isEng()
               ? "Bank of Brazil Technology and Services images "
               : "Imagens do Banco do Brasil Tecnologia & Serviços "
           }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { EducationCard } from "../EducationCard";
 import { Subtitle } from "../ui/Subtitle";
 import { Title } from "../ui/Title";
@@ -7,26 +7,28 @@ import {
   TCourseResponse,
   TDegreeResponse,
 } from "../../types/TEducation";
+import { LocaleContext } from "@contexts/LocaleContext";
 
-export const Education = ({ education, locale }: any) => {
+export const Education = ({ education }: any) => {
   const { degrees, courses, certifications } = education;
+  const { isEng } = useContext(LocaleContext);
 
   return (
     <>
-      <Title title={locale == "en" ? "Education" : "Formação"} />
+      <Title title={isEng() ? "Education" : "Formação"} />
       <div className="customContainer mb-8">
         <ul className="mb-8">
           {degrees.map((degree: TDegreeResponse) => (
             <EducationCard {...degree} key={degree.title} />
           ))}
         </ul>
-        <Subtitle title={locale == "en" ? "Courses" : "Cursos"} />
+        <Subtitle title={isEng() ? "Courses" : "Cursos"} />
         <ul className="mb-8">
           {courses.map((course: TCourseResponse) => (
             <EducationCard {...course} key={course.title} />
           ))}
         </ul>
-        <Subtitle title={locale == "en" ? "Certificates" : "Certificações"} />
+        <Subtitle title={isEng() ? "Certificates" : "Certificações"} />
         <ul>
           {certifications.map((certification: TCertificationResponse) => (
             <EducationCard {...certification} key={certification.title} />

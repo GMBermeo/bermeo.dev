@@ -1,18 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
+import { LocaleContext } from "@contexts/LocaleContext";
 import { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import { useRouter } from "next/router";
-import React from "react";
+import React, { useContext } from "react";
 import { allImages, Image } from "../api/images";
 
 const AllImagesCorrupted: NextPage = ({ images }: any) => {
-  const { locale } = useRouter();
+  const { isEng } = useContext(LocaleContext);
 
   return (
     <>
       <Head>
         <title>
-          {locale == "en"
+          {isEng()
             ? "CØЯЯuptΞd cØding дЯt images "
             : "Imagens de CØЯЯuptΞd cØding дЯt "}
           - Guilherme Bermeo
@@ -20,7 +20,7 @@ const AllImagesCorrupted: NextPage = ({ images }: any) => {
         <meta
           name="description"
           content={
-            locale == "en"
+            isEng()
               ? "All CØЯЯuptΞd cØding дЯt images in one page for indexing."
               : "Imagens feitas para o projeto CØЯЯuptΞd cØding дЯt."
           }
@@ -39,13 +39,13 @@ const AllImagesCorrupted: NextPage = ({ images }: any) => {
             <figure className="flex flex-col">
               <img
                 src={image.src}
-                alt={locale == "br" && image.altBr ? image.altBr : image.alt}
+                alt={!isEng() && image.altBr ? image.altBr : image.alt}
                 height={image.height}
                 width={image.width}
                 className="rounded-xl"
               />
               <figcaption className="mb-4 mt-2 text-sm font-medium text-slate-700">
-                {locale == "br" && image.altBr ? image.altBr : image.alt}
+                {!isEng() && image.altBr ? image.altBr : image.alt}
               </figcaption>
             </figure>
           </a>

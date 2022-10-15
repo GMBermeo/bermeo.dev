@@ -1,22 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
+import { LocaleContext } from "@contexts/LocaleContext";
 import { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import { useRouter } from "next/router";
-import React from "react";
+import React, { useContext } from "react";
 import { allImages, altSizesImages, Image } from "../api/images";
 
 const AllWorks: NextPage = ({ images }: any) => {
-  const { locale } = useRouter();
+  const { isEng } = useContext(LocaleContext);
 
   return (
     <>
       <Head>
-        <title>
-          {locale == "en" ? "Images" : "Imagens"} - Guilherme Bermeo
-        </title>
+        <title>{isEng() ? "Images" : "Imagens"} - Guilherme Bermeo</title>
         <meta
           name="description"
-          content={locale == "en" ? "All images." : "Todas as imagens."}
+          content={isEng() ? "All images." : "Todas as imagens."}
         />
       </Head>
       <div className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8 md:p-8">
@@ -28,7 +26,7 @@ const AllWorks: NextPage = ({ images }: any) => {
           >
             <img
               src={image.src}
-              alt={locale == "br" && image.altBr ? image.altBr : image.alt}
+              alt={isEng() && image.altBr ? image.altBr : image.alt}
               height={image.height}
               width={image.width}
             />
@@ -44,7 +42,7 @@ const AllWorks: NextPage = ({ images }: any) => {
           >
             <img
               src={image.src}
-              alt={locale == "br" && image.altBr ? image.altBr : image.alt}
+              alt={isEng() && image.altBr ? image.altBr : image.alt}
               height={image.height}
               width={image.width}
             />

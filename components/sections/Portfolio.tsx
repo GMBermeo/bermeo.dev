@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import { ProjectCard } from "../ProjectCard";
 import { Subtitle } from "../ui/Subtitle";
 import { projects } from "../../_data/projects";
 import { TProject } from "../../types/TProject";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
+import { LocaleContext } from "@contexts/LocaleContext";
 
-export const Portfolio = ({ locale }: any) => {
+export const Portfolio = () => {
+  const { isEng } = useContext(LocaleContext);
+
   const [ref] = useKeenSlider<HTMLDivElement>({
     loop: true,
     mode: "free-snap",
@@ -19,11 +22,11 @@ export const Portfolio = ({ locale }: any) => {
 
   return (
     <>
-      <Subtitle title={locale == "en" ? "Projects" : "Projetos"} />
       <div className="customContainer">
+        <Subtitle title={isEng() ? "Projects" : "Projetos"} />
         <div
           ref={ref}
-          className="keen-slider container rounded-lg bg-dracula-background px-0 pt-4 md:mx-auto"
+          className="keen-slider bg-dracula-background container rounded-lg px-0 pt-4 md:mx-auto"
         >
           {projects.en.map(
             (projeto: TProject, index: number) =>

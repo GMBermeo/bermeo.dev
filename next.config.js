@@ -13,6 +13,7 @@ const nextConfig = {
     locales: ["en", "br"],
     //  default locale used when the non-locale paths are visited
     defaultLocale: "en",
+    localeDetection: false,
 
     domains: [
       {
@@ -22,11 +23,19 @@ const nextConfig = {
         defaultLocale: "en",
       },
       {
+        domain: "en.bermeo.dev",
+        defaultLocale: "en",
+      },
+      {
         domain: "br.bermeo.dev",
+        defaultLocale: "br",
+      },
+      {
+        domain: "pt.bermeo.dev",
         defaultLocale: "br",
       },
     ],
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;

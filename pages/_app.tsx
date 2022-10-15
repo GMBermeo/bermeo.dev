@@ -3,6 +3,7 @@ import React from "react";
 import type { AppProps } from "next/app";
 import { SEO } from "../next-seo.config";
 import { DefaultSeo } from "next-seo";
+import { LocaleStorage } from "@contexts/LocaleContext";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -47,8 +48,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           },
         ]}
       />
-
-      <Component {...pageProps} />
+      <LocaleStorage>
+        <Component {...pageProps} />
+      </LocaleStorage>
     </>
   );
 }
