@@ -7,7 +7,7 @@ import { useContext } from "react";
 import { LocaleContext } from "@contexts/LocaleContext";
 
 const AGU: NextPage = () => {
-  const { pathname } = useContext(LocaleContext);
+  const { asPath } = useContext(LocaleContext);
 
   return (
     <>
@@ -34,7 +34,7 @@ const AGU: NextPage = () => {
           <br />O lançamento foi noticiado em veículos especializados e em 2021
           o aplicativo contava com 4 mil usuários ativos, e cerca de 500 acessos
           simultâneos diários.
-          <ReadMore label={"Ver mais..."} url={pathname + "/app-escola"} />
+          <ReadMore label={"Ver mais..."} url={asPath + "/app-escola"} />
         </article>
         <Subtitle title={"Unio"} />
         <article className="customContainer">

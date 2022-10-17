@@ -1,9 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import { LocaleContext } from "@contexts/LocaleContext";
+import { TImage } from "../../types/TImage";
 import { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import React, { useContext } from "react";
-import { allImages, altSizesImages, Image } from "../api/images";
+import { allImages, altSizesImages } from "../api/images";
 
 const AllWorks: NextPage = ({ images }: any) => {
   const { isEng } = useContext(LocaleContext);
@@ -18,7 +19,7 @@ const AllWorks: NextPage = ({ images }: any) => {
         />
       </Head>
       <div className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8 md:p-8">
-        {images.map((image: Image) => (
+        {images.map((image: TImage) => (
           <a
             href={"https://bermeo.dev" + image.src}
             key={image.src}
@@ -34,7 +35,7 @@ const AllWorks: NextPage = ({ images }: any) => {
         ))}
       </div>
       <div className="grid grid-cols-6 gap-2 p-4 md:grid-cols-8 md:gap-4 md:p-8 xl:grid-cols-12">
-        {images.map((image: Image) => (
+        {images.map((image: TImage) => (
           <a
             href={"https://bermeo.dev" + image.src}
             key={image.src}
@@ -53,7 +54,7 @@ const AllWorks: NextPage = ({ images }: any) => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
       images: allImages,

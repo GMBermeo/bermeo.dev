@@ -1,22 +1,15 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import { TImage } from "../../types/TImage";
 import type { NextApiRequest, NextApiResponse } from "next";
-
-export type Image = {
-  src: string;
-  width: number;
-  height: number;
-  alt: string;
-  altBr?: string;
-};
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Image[]>
+  res: NextApiResponse<TImage[]>
 ) {
   res.status(200).json(allImages);
 }
 
-export const allImages: Image[] = [
+export const allImages: TImage[] = [
   //  Logos
   {
     src: "/opengraph.svg",
@@ -489,7 +482,7 @@ export const allImages: Image[] = [
   },
 ];
 
-export const altSizesImages: Image[] = [
+export const altSizesImages: TImage[] = [
   {
     src: "/images/agu/UNIO-Modulos-1080.jpg",
     width: 1049,

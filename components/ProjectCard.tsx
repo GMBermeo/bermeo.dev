@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
-import React from "react";
+import { LocaleContext } from "@contexts/LocaleContext";
+import React, { useContext } from "react";
 import { TProject } from "../types/TProject";
 
 export const ProjectCard = ({
@@ -10,12 +10,18 @@ export const ProjectCard = ({
   company,
   skills,
 }: TProject) => {
+  const { isEng } = useContext(LocaleContext);
+
   return (
     <figure className="flex h-full max-h-full w-5/6 flex-col justify-end pb-2">
-      <img className="mb-2 w-full" src={coverImage} alt={title} />
+      <img
+        className="mb-2 w-full"
+        src={coverImage}
+        alt={isEng() ? title.en : title.br}
+      />
 
       <figcaption className="text-center text-sm font-medium sm:text-lg">
-        {title}{" "}
+        {isEng() ? title.en : title.br}{" "}
         {company !== "Other" && (
           <span className="text-primary text-sm">@{company}</span>
         )}

@@ -33,7 +33,7 @@ export const Portfolio = () => {
               projeto.value > 3 && (
                 <div
                   className={`keen-slider__slide number-slide${index + 1}`}
-                  key={projeto.title}
+                  key={projeto.title.br}
                 >
                   <ProjectCard {...projeto} />
                 </div>
