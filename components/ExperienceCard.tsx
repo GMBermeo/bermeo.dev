@@ -26,7 +26,7 @@ export const WorkCard = ({
         </div>
       </div>
 
-      <div className="mt-2 ml-2 text-sm leading-5 text-dracula-foreground md:text-base">
+      <div className="mt-2 ml-2 text-justify text-sm leading-5 text-dracula-foreground md:text-base">
         {description.map((description) => (
           <div key={description}>{description}</div>
         ))}

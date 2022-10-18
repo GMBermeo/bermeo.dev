@@ -70,7 +70,7 @@ body {
 }
 
 .customContainer {
-  @apply container mx-auto max-w-3xl px-6 sm:px-8;
+  @apply container mx-auto max-w-5xl px-6 sm:px-8;
 }
 
 .font-code {

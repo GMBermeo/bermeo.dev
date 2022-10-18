@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
-import { loadProjects } from "lib";
+import { loadProjects } from "lib/loadProjects";
 
 export default function handler(
   req: NextApiRequest,

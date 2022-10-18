@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { NavBar } from "../components/NavBar/NavBar";
-import { loadEducation, loadExperience } from "lib";
+import { loadEducation, loadExperience, loadProjects } from "lib";
 import Head from "next/head";
 import {
   Hero,
@@ -13,8 +13,10 @@ import {
 } from "../components/sections/";
 import { useContext } from "react";
 import { LocaleContext } from "@contexts/LocaleContext";
+import { TExperience } from "../types/TExperience";
+import { TProject } from "../types/TProject";
 
-const Home: NextPage = ({ experiences, education }: any) => {
+const Home: NextPage = ({ experiences, education, projects }: any) => {
   const { locale, locales, defaultLocale, basePath, asPath } =
     useContext(LocaleContext);
 
@@ -29,37 +31,48 @@ const Home: NextPage = ({ experiences, education }: any) => {
       </Head>
       <NavBar />
       <Hero />
-      <main className="mx-auto">
-        <About />
-        <Experience experiences={experiences} />
-        <OtherProjects />
-        <Portfolio />
-        <Education education={education} />
-        <Skills />
-        {/*📰 Bio */}
-        {/*🔥 Projects */}
-        {/*📝 Button to download your Resume */}
-        {/*👷🏻‍♂️ Work Experience  */}
-        {/*🔗 Important Links */}
-        {/*🐱 Open source contributions */}
-        {/*💥 Social media profiles */}
-        {/*📲 Contact Information Section */}
-        {/*💎 Skills */}
-        <div className="opacity-0">
-          locale: {locale}
-          <br />
-          locales: {locales}
-          <br />
-          asPath: {asPath}
-          <br />
-          defaultLocale:{defaultLocale}
-          <br />
-          basePath:{basePath}
-          <br />
-          asPath:{asPath}
+      <main className="mx-auto grid max-w-fit grid-cols-1 lg:grid-cols-[1fr_40vw]">
+        <div className="container ml-auto max-w-5xl px-6 sm:px-8">
+          {/*📰 Bio */}
+          <About />
+          {/*👷🏻‍♂️ Work Experience  */}
+          <Experience experiences={experiences} />
+        </div>
+        <div className="container mr-auto max-w-3xl px-6 sm:px-8">
+          {/*📚 Education */}
+          <Education education={education} />
+          <Skills />
         </div>
       </main>
+      <div
+      //  className="customContainer"
+      >
+        <Portfolio projects={projects} />
+      </div>
 
+      {/*🔥 Projects */}
+      <OtherProjects />
+
+      {/*📝 Button to download your Resume */}
+
+      {/*🔗 Important Links */}
+      {/*🐱 Open source contributions */}
+      {/*💥 Social media profiles */}
+      {/*📲 Contact Information Section */}
+      {/*💎 Skills */}
+      <div className="opacity-0">
+        locale: {locale}
+        <br />
+        locales: {locales}
+        <br />
+        asPath: {asPath}
+        <br />
+        defaultLocale:{defaultLocale}
+        <br />
+        basePath:{basePath}
+        <br />
+        asPath:{asPath}
+      </div>
       <footer></footer>
     </>
   );
@@ -69,11 +82,9 @@ export default Home;
 
 // This function runs only on the server side
 export async function getStaticProps({ locale }: { locale: "en" | "br" }) {
-  // Instead of fetching your `/api` route you can call the same
-  // function directly in `getStaticProps`
   const experiences = loadExperience(locale);
   const education = loadEducation(locale);
+  const projects = loadProjects(locale);
 
-  // Props returned will be passed to the page component
-  return { props: { experiences, education } };
+  return { props: { experiences, education, projects } };
 }

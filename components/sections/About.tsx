@@ -7,11 +7,10 @@ export const About = () => {
 
   if (isEng()) {
     return (
-      <>
+      <div>
         <Title title={isEng() ? "About" : "Sobre"} />
-        <article className="p customContainer mb-16 space-y-6 text-sm font-medium leading-6 md:text-base">
+        <article className="mb-16 space-y-6 text-justify text-sm font-medium leading-6 md:text-base">
           <p>
-            {" "}
             Graduated in Systems Analysis and Development in 2011, I discovered
             right away in college a vocation for front-end and user experience
             in software engineering classes. In 2015, I started working on Banco
@@ -34,7 +33,7 @@ export const About = () => {
             working, I{" "}
             <a
               href="https://boardgamegeek.com/plays/bydate/user/gm_bermeo/subtype/boardgame"
-              className="hover:decoration-3 decoration-primary underline  decoration-2"
+              className="hover:decoration-3 underline decoration-primary  decoration-2"
             >
               play
             </a>{" "}
@@ -49,7 +48,7 @@ export const About = () => {
             I&apos;ve used to build this site.
           </p>
         </article>
-      </>
+      </div>
     );
   } else {
     return (
@@ -77,7 +76,7 @@ export const About = () => {
           trabalhando estou{" "}
           <a
             href="https://boardgamegeek.com/plays/bydate/user/gm_bermeo/subtype/boardgame"
-            className="hover:decoration-3 decoration-primary underline  decoration-2"
+            className="hover:decoration-3 underline decoration-primary  decoration-2"
           >
             jogando
           </a>{" "}

@@ -8,13 +8,13 @@ export const Experience = ({ experiences }: any) => {
   const { isEng } = useContext(LocaleContext);
 
   return (
-    <>
+    <div>
       <Title title={isEng() ? "Experience" : "Experiência"} />
-      <ol className="customContainer">
+      <ol>
         {experiences.map((experience: TExperienceResponse) => (
           <WorkCard {...experience} key={experience.dateEnd} />
         ))}
       </ol>
-    </>
+    </div>
   );
 };

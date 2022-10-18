@@ -14,9 +14,9 @@ export const Education = ({ education }: any) => {
   const { isEng } = useContext(LocaleContext);
 
   return (
-    <>
+    <div>
       <Title title={isEng() ? "Education" : "Formação"} />
-      <div className="customContainer mb-8">
+      <div className="mb-8">
         <ul className="mb-8">
           {degrees.map((degree: TDegreeResponse) => (
             <EducationCard {...degree} key={degree.title} />
@@ -35,6 +35,6 @@ export const Education = ({ education }: any) => {
           ))}
         </ul>
       </div>
-    </>
+    </div>
   );
 };
