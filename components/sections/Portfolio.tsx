@@ -20,7 +20,7 @@ export const Portfolio = ({ projects }: any) => {
   });
 
   return (
-    <div className="mx-auto max-w-7xl">
+    <div className="mx-auto">
       <Title title={isEng() ? "Projects" : "Projetos"} />
       <div
         ref={ref}

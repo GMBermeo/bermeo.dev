@@ -37,6 +37,7 @@ const Home: NextPage = ({ experiences, education, projects }: any) => {
           <About />
           {/*👷🏻‍♂️ Work Experience  */}
           <Experience experiences={experiences} />
+          <Portfolio projects={projects} />
         </div>
         <div className="container mr-auto max-w-3xl px-6 sm:px-8">
           {/*📚 Education */}
@@ -46,9 +47,7 @@ const Home: NextPage = ({ experiences, education, projects }: any) => {
       </main>
       <div
       //  className="customContainer"
-      >
-        <Portfolio projects={projects} />
-      </div>
+      ></div>
 
       {/*🔥 Projects */}
       <OtherProjects />

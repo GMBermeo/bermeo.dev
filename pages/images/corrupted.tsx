@@ -3,7 +3,8 @@ import { LocaleContext } from "@contexts/LocaleContext";
 import { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import React, { useContext } from "react";
-import { allImages, Image } from "../api/images";
+import { allImages } from "../api/images";
+import { TImage } from "../../types/TImage";
 
 const AllImagesCorrupted: NextPage = ({ images }: any) => {
   const { isEng } = useContext(LocaleContext);
@@ -30,7 +31,7 @@ const AllImagesCorrupted: NextPage = ({ images }: any) => {
         CØЯЯuptΞd cØding дЯt
       </h1>
       <div className="grid grid-cols-1 gap-4 p-4 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-        {images.map((image: Image) => (
+        {images.map((image: TImage) => (
           <a
             href={"https://bermeo.dev" + image.src}
             key={image.src}
@@ -58,7 +59,7 @@ const AllImagesCorrupted: NextPage = ({ images }: any) => {
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      images: allImages.filter((item: Image) =>
+      images: allImages.filter((item: TImage) =>
         item.src.includes("/CORRUPTED-")
       ),
     },
