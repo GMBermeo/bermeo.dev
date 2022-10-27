@@ -13,8 +13,6 @@ import {
 } from "../components/sections/";
 import { useContext } from "react";
 import { LocaleContext } from "@contexts/LocaleContext";
-import { TExperience } from "../types/TExperience";
-import { TProject } from "../types/TProject";
 
 const Home: NextPage = ({ experiences, education, projects }: any) => {
   const { locale, locales, defaultLocale, basePath, asPath } =
@@ -31,7 +29,7 @@ const Home: NextPage = ({ experiences, education, projects }: any) => {
       </Head>
       <NavBar />
       <Hero />
-      <main className="mx-auto grid max-w-fit grid-cols-1 lg:grid-cols-[1fr_40vw]">
+      <main className="mx-auto grid max-w-fit grid-cols-1 xl:grid-cols-[1fr_40vw]">
         <div className="container ml-auto max-w-5xl px-6 sm:px-8">
           {/*📰 Bio */}
           <About />
