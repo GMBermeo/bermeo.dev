@@ -15,21 +15,28 @@ import { useContext } from "react";
 import { LocaleContext } from "@contexts/LocaleContext";
 
 const Home: NextPage = ({ experiences, education, projects }: any) => {
-  const { locale, locales, defaultLocale, basePath, asPath } =
+  const { locale, locales, defaultLocale, basePath, asPath, isEng } =
     useContext(LocaleContext);
 
   return (
     <>
       <Head>
         <title>Guilherme Bermeo - Front-end Developer</title>
-        <meta
-          name="description"
-          content="Experienced Digital Product Designer with several years of experience working with governmental clients to create and enhance the aesthetics and experience for digital products. Adept in designing, managing, and planning the production of projects, ranging from small to very large-scale. An easy learner with a natural ability to collaborate and lead as a dynamic and dedicated professional."
-        />
+        {isEng() ? (
+          <meta
+            name="description"
+            content="Experienced Digital Product Designer with several years of experience working with governmental clients to create and enhance the aesthetics and experience for digital products. Adept in designing, managing, and planning the production of projects, ranging from small to very large-scale. An easy learner with a natural ability to collaborate and lead as a dynamic and dedicated professional."
+          />
+        ) : (
+          <meta
+            name="description"
+            content="UX Designer Senior com vários anos de experiência trabalhando com clientes governamentais. Um aprendiz nato com uma capacidade natural de colaborar e liderar como um profissional dinâmico e dedicado."
+          />
+        )}
       </Head>
       <NavBar />
       <Hero />
-      <main className="mx-auto grid max-w-fit grid-cols-1 xl:grid-cols-[1fr_40vw]">
+      <main className="mx-auto grid max-w-fit grid-cols-1 2xl:grid-cols-[1fr_39vw]">
         <div className="container ml-auto max-w-5xl px-6 sm:px-8">
           {/*📰 Bio */}
           <About />
@@ -57,20 +64,6 @@ const Home: NextPage = ({ experiences, education, projects }: any) => {
       {/*💥 Social media profiles */}
       {/*📲 Contact Information Section */}
       {/*💎 Skills */}
-      <div className="opacity-0">
-        locale: {locale}
-        <br />
-        locales: {locales}
-        <br />
-        asPath: {asPath}
-        <br />
-        defaultLocale:{defaultLocale}
-        <br />
-        basePath:{basePath}
-        <br />
-        asPath:{asPath}
-      </div>
-      <footer></footer>
     </>
   );
 };

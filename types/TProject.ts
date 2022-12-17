@@ -1,8 +1,8 @@
 import { TImage } from "./TImage";
 
 export interface TProject {
-  title: { en: string; br: string };
-  description: { en: string | string[]; br: string | string[] };
+  title: string;
+  description: string | string[];
   coverImage: string;
   imagesPath: string | null;
   company: "AGU" | "BBTS" | "Other";

@@ -6,7 +6,7 @@ import "keen-slider/keen-slider.min.css";
 import { LocaleContext } from "@contexts/LocaleContext";
 import { Title } from "@components/ui/Title";
 
-export const Portfolio = ({ projects }: any) => {
+export const Portfolio = ({ projects }: { projects: TProject[] }) => {
   const { isEng } = useContext(LocaleContext);
 
   const [ref] = useKeenSlider<HTMLDivElement>({
@@ -24,14 +24,14 @@ export const Portfolio = ({ projects }: any) => {
       <Title title={isEng() ? "Projects" : "Projetos"} />
       <div
         ref={ref}
-        className="keen-slider rounded-lg bg-dracula-background px-0 pt-4 md:mx-auto"
+        className="keen-slider bg-dracula-background rounded-lg px-0 pt-4 md:mx-auto"
       >
         {projects.map(
           (projeto: TProject, index: number) =>
             projeto.value > 3 && (
               <div
                 className={`keen-slider__slide number-slide${index + 1}`}
-                key={projeto.title.br}
+                key={index}
               >
                 <ProjectCard {...projeto} />
               </div>

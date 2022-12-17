@@ -17,20 +17,23 @@ export const ProjectCard = ({
       <img
         className="mb-2 w-full"
         src={coverImage}
-        alt={isEng() ? title.en : title.br}
+        alt={title + description + company + skills.join(", ")}
+        // alt={isEng() ? title.en : title.br}
       />
 
       <figcaption className="text-center text-sm font-medium sm:text-lg">
-        {isEng() ? title.en : title.br}{" "}
-        {company !== "Other" && (
-          <span className="text-primary text-sm">@{company}</span>
-        )}
+        <>
+          {title}{" "}
+          {company !== "Other" && (
+            <span className="text-primary text-sm">@{company}</span>
+          )}
+        </>
       </figcaption>
       <div className="flex items-center justify-center gap-x-1 text-sm">
-        {skills.map((skill) => (
+        {skills.map((skill, index) => (
           <div
             className="text-dracula-comment my-2 rounded bg-slate-800 px-2 py-1"
-            key={skill}
+            key={index}
           >
             {skill}
           </div>
