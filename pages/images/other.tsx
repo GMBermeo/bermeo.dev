@@ -3,7 +3,7 @@ import { LocaleContext } from "@contexts/LocaleContext";
 import { TImage } from "../../types/TImage";
 import { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { allImages, altSizesImages } from "../api/images";
 
 const AllImagesOther: NextPage = ({ images, altImages }: any) => {

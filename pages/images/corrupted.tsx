@@ -2,7 +2,7 @@
 import { LocaleContext } from "@contexts/LocaleContext";
 import { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { allImages } from "../api/images";
 import { TImage } from "../../types/TImage";
 

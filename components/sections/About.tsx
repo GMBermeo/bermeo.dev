@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { LocaleContext } from "@contexts/LocaleContext";
 import { Title } from "../ui/Title";
 
@@ -33,7 +33,7 @@ export const About = () => {
             working, I{" "}
             <a
               href="https://boardgamegeek.com/plays/bydate/user/gm_bermeo/subtype/boardgame"
-              className="hover:decoration-3 underline decoration-primary  decoration-2"
+              className="hover:decoration-3 decoration-primary underline  decoration-2"
             >
               play
             </a>{" "}
@@ -76,7 +76,7 @@ export const About = () => {
           trabalhando estou{" "}
           <a
             href="https://boardgamegeek.com/plays/bydate/user/gm_bermeo/subtype/boardgame"
-            className="hover:decoration-3 underline decoration-primary  decoration-2"
+            className="hover:decoration-3 decoration-primary underline  decoration-2"
           >
             jogando
           </a>{" "}

@@ -1,8 +1,8 @@
 import { TImage } from "./TImage";
 
 export interface TProject {
-  title: string;
-  description: string | string[];
+  title: { en: string; br: string };
+  description: { en: string | string[]; br: string | string[] };
   coverImage: string;
   imagesPath: string | null;
   company: "AGU" | "BBTS" | "Other";
@@ -10,10 +10,11 @@ export interface TProject {
   value: 1 | 2 | 3 | 4 | 5;
 }
 
-export interface TProjectResponse {
+export interface TProjectRaw {
   title: { en: string; br: string };
   description: { en: string | string[]; br: string | string[] };
   coverImage: string;
+  imagesPath?: string | null;
   images?: TImage[];
   company: "AGU" | "BBTS" | "Other";
   skills: string[];

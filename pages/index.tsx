@@ -15,8 +15,7 @@ import { useContext } from "react";
 import { LocaleContext } from "@contexts/LocaleContext";
 
 const Home: NextPage = ({ experiences, education, projects }: any) => {
-  const { locale, locales, defaultLocale, basePath, asPath, isEng } =
-    useContext(LocaleContext);
+  const { isEng } = useContext(LocaleContext);
 
   return (
     <>
@@ -36,7 +35,7 @@ const Home: NextPage = ({ experiences, education, projects }: any) => {
       </Head>
       <NavBar />
       <Hero />
-      <main className="mx-auto grid max-w-fit grid-cols-1 2xl:grid-cols-[1fr_39vw]">
+      <main className="3xl:grid-cols-[1fr_39vw] mx-auto grid max-w-fit grid-cols-1">
         <div className="container ml-auto max-w-5xl px-6 sm:px-8">
           {/*📰 Bio */}
           <About />

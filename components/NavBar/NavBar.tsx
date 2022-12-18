@@ -1,9 +1,8 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { NavButton } from "./NavButton";
 import s from "../../styles/NavBar.module.css";
 import Image from "next/image";
 import { LocaleContext } from "@contexts/LocaleContext";
-import Link from "next/link";
 import { LangButton } from "@components/ui/LangButton";
 
 export const NavBar = () => {

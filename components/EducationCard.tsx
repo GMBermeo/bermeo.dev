@@ -57,7 +57,7 @@ export const EducationCard = ({
             <div className="leading-6">{dateEnd}</div>
             <div className="flex w-full flex-col justify-between gap-x-4 sm:flex-row">
               <div className="text-base font-bold text-white">{title}</div>
-              <div className="text-primary font-medium sm:leading-6">
+              <div className="text-primary text-right font-medium sm:leading-6">
                 {institution}
               </div>
             </div>

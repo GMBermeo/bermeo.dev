@@ -1,6 +1,6 @@
 import { LocaleContext } from "@contexts/LocaleContext";
 import Link from "next/link";
-import React, { useContext } from "react";
+import { useContext } from "react";
 
 export const LangButton = ({ localeSet }: { localeSet: "en" | "br" }) => {
   const { isEng, asPath, locale, defaultLocale } = useContext(LocaleContext);

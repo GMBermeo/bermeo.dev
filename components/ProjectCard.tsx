@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { LocaleContext } from "@contexts/LocaleContext";
-import React, { useContext } from "react";
-import { TProject } from "../types/TProject";
+import { useContext } from "react";
 
 export const ProjectCard = ({
   title,
@@ -9,7 +8,7 @@ export const ProjectCard = ({
   coverImage,
   company,
   skills,
-}: TProject) => {
+}: any) => {
   const { isEng } = useContext(LocaleContext);
 
   return (
@@ -17,7 +16,7 @@ export const ProjectCard = ({
       <img
         className="mb-2 w-full"
         src={coverImage}
-        alt={title + description + company + skills.join(", ")}
+        alt={`${title} made with ${skills.join(", ")}`}
         // alt={isEng() ? title.en : title.br}
       />
 
@@ -30,7 +29,7 @@ export const ProjectCard = ({
         </>
       </figcaption>
       <div className="flex items-center justify-center gap-x-1 text-sm">
-        {skills.map((skill, index) => (
+        {skills.map((skill: any, index: React.Key | null | undefined) => (
           <div
             className="text-dracula-comment my-2 rounded bg-slate-800 px-2 py-1"
             key={index}

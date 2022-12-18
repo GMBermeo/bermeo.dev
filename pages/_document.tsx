@@ -47,7 +47,7 @@ class MyDocument extends Document {
           <meta name="language" content="English" />
           <meta
             name="keywords"
-            content="HTML, CSS, JavaScript, React, Next.js, Typescript, Front-end, Brasília, Roraima, Guilherme Bermêo, Bermeo, Vue.js, Tailwind CSS, Bootstrap"
+            content="HTML, CSS, JavaScript, Next.js, Typescript, Front-end, Brasília, Roraima, Guilherme Bermêo, Bermeo, Vue.js, Tailwind CSS, Bootstrap"
           />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script

@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { EducationCard } from "../EducationCard";
 import { Subtitle } from "../ui/Subtitle";
 import { Title } from "../ui/Title";

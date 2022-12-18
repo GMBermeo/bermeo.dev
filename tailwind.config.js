@@ -28,6 +28,9 @@ module.exports = {
           yellow: "	#f1fa8c",
         },
       },
+      screens: {
+        "3xl": "1800px",
+      },
     },
     plugins: [],
   },

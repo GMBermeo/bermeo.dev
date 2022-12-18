@@ -1,12 +1,11 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { ProjectCard } from "../ProjectCard";
-import { TProject } from "../../types/TProject";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import { LocaleContext } from "@contexts/LocaleContext";
 import { Title } from "@components/ui/Title";
 
-export const Portfolio = ({ projects }: { projects: TProject[] }) => {
+export const Portfolio = ({ projects }: any) => {
   const { isEng } = useContext(LocaleContext);
 
   const [ref] = useKeenSlider<HTMLDivElement>({
@@ -27,7 +26,7 @@ export const Portfolio = ({ projects }: { projects: TProject[] }) => {
         className="keen-slider bg-dracula-background rounded-lg px-0 pt-4 md:mx-auto"
       >
         {projects.map(
-          (projeto: TProject, index: number) =>
+          (projeto: any, index: number) =>
             projeto.value > 3 && (
               <div
                 className={`keen-slider__slide number-slide${index + 1}`}

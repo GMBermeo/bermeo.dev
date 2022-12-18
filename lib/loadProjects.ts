@@ -1,10 +1,10 @@
 import { projects } from "@data/projects";
 import { allImages } from "@pages/api/images";
 import { TImage } from "../types/TImage";
-import { TProject } from "../types/TProject";
+import { TProject, TProjectRaw } from "../types/TProject";
 
 export function loadProjects(locale: "en" | "br") {
-  const response = projects.map((project: TProject) => ({
+  const response = projects.map((project) => ({
     title: project.title[locale as keyof typeof project.title],
     description:
       project.description[locale as keyof typeof project.description],
