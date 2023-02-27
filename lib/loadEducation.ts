@@ -8,6 +8,9 @@ export function loadEducation(locale: "en" | "br") {
     degrees: degrees.map((item: TDegree) => ({
       title: item.title[locale as keyof typeof item.title],
       type: item.type[locale as keyof typeof item.type],
+      thesis: item.thesis
+        ? item.thesis[locale as keyof typeof item.thesis]
+        : null,
       institution: item.institution,
       dateStart: item.dateStart,
       dateEnd: item.dateEnd,

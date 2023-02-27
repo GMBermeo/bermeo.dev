@@ -7,6 +7,10 @@ export interface TDegree {
     en: string;
     br: string;
   };
+  thesis?: {
+    en: string;
+    br: string;
+  };
   institution: string;
   dateStart: string;
   dateEnd: string;
@@ -45,6 +49,7 @@ export interface TCertificationResponse {
 export interface TEducationProps {
   type?: string;
   title: string;
+  thesis?: string;
   institution: string;
   dateStart?: string;
   dateEnd: string;

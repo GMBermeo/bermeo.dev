@@ -4,6 +4,7 @@ import { TEducationProps } from "../types/TEducation";
 export const EducationCard = ({
   title,
   institution,
+  thesis,
   type,
   dateStart,
   dateEnd,
@@ -22,7 +23,9 @@ export const EducationCard = ({
               <div className="text-base font-bold text-white md:text-lg">
                 {title}
               </div>
-              <div className="text-dracula-foreground">{type}</div>
+              <div className="text-dracula-foreground">
+                {`${type} ${thesis ?? ""}`}
+              </div>
               <div className="text-primary">{institution}</div>
             </div>
           </div>

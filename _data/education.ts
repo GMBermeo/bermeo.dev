@@ -17,9 +17,13 @@ export const education: DataEducation = {
         en: "Digital Games Development",
         br: "Desenvolvimento de Jogos Digitais",
       },
+      thesis: {
+        en: "Thesis on 'Leitmotif, Sound Design, Horizontal Re-sequencing, Vertical re-orchestration: An Introduction to Narrative in Music'",
+        br: "TCC sobre 'Motivo Condutor, Design Sonoro, Re-sequenciamento Horizontal e Re-orquestração vertical: Uma Introdução à Narrativa em Música'",
+      },
       institution: "Instituto Brasileiro de Formação",
-      dateStart: "2020",
-      dateEnd: "2022",
+      dateStart: "2021",
+      dateEnd: "2023",
     },
     {
       type: {
