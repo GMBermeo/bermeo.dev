@@ -16,9 +16,13 @@ export const experiences: TExperience[] = [
     dateEnd: "Presente",
     description: {
       en: [
-        "Development of new solutions on two fronts, using Next.js 13 with MUI, and Nest.js, and on another front in C# with Blazor, SASS and MudBlazor development.",
-        "One of the attributions was updating front-end interfaces of legacy systems using new technologies and refactoring HTML and CSS code in PHP projects following the principles of Clean Code to facilitate maintenance.",
-        "Migration and maintenance of Azure DevOps with Git and support on using and organizing projects within the tool.",
+        "Developed and implemented robust front-end solutions using **React**, **Next 13**, **MUI 5**, **TypeScript**, and **Tailwind CSS**, ensuring optimal user experience and seamless web development.",
+        "Worked on two fronts: one with **Next 13** and **MUI 5**, and another with **C#** using **Blazor**, **SASS**, and **MudBlazor** development.",
+        "Updated front-end interfaces of legacy systems using new technologies and refactored HTML and CSS code in PHP projects following the principles of Clean Code to facilitate maintenance.",
+        "Utilized **Docker** and **Nest** for efficient project management and deployment.",
+        "Leveraged advanced **UX Design** techniques to create visually appealing and user-friendly interfaces.",
+        "Collaborated with cross-functional teams, utilizing **Git** for efficient version control and seamless project coordination.",
+        "Migrated and maintained **Azure DevOps** projects, providing support on using and organizing projects within the tool."
       ],
       br: [
         "Desenvolvimento de novas soluções em duas frentes, com uso de Next.js 13 com MUI, e Nest.js, e em outra frente em C# com desenvolvimento de Blazor, SASS e MudBlazor.",
@@ -35,7 +39,11 @@ export const experiences: TExperience[] = [
     dateEnd: "09.2022",
     description: {
       en: [
-        "Development of new interfaces for legacy systems and new internal web tools with the support of the National Press, using Blazor, Bootstrap, and Tailwind CSS.",
+        "Developed responsive and accessible front-end solutions for internal **legacy** systems dating back from the 2000s, using **HTML**, **JavaScript**, **TypeScript**, and **Tailwind CSS**, enhancing user experience and ensuring seamless web development.",
+        "Utilized CSS frameworks like **Bootstrap**, **Tailwind CSS**, and **Bulma**, as well as Vanilla CSS 3.0, to create visually appealing and functional interfaces.",
+        "Employed **JavaScript frameworks** like **React**, **Vue**, and **Angular** for efficient front-end development.",
+        "Collaborated with the design team to implement **UX concepts** and visual designs, employing **Blazor** and **SASS** for efficient development.",
+        "Utilized **Git** for version control and project collaboration, working closely with cross-functional teams to ensure timely delivery and high-quality results.",
       ],
       br: [
         "Desenvolvimento de novas interfaces de sistemas legado web e novas ferramentas de uso interno com apoio da Imprensa Nacional, com uso de Blazor, Bootstrap e Tailwind CSS.",

@@ -24,7 +24,7 @@ const Home: NextPage = ({ experiences, education, projects }: any) => {
         {isEng() ? (
           <meta
             name="description"
-            content="Experienced Digital Product Designer with several years of experience working with governmental clients to create and enhance the aesthetics and experience for digital products. Adept in designing, managing, and planning the production of projects, ranging from small to very large-scale. An easy learner with a natural ability to collaborate and lead as a dynamic and dedicated professional."
+            content="A versatile and detail-oriented professional, I bring passion and expertise in front-end development and user experience to fast-paced environments. With a background in Systems Analysis and Development, Graphic Design, Music, and experience in various industries, I excel in cross-functional collaboration and adaptability. Skilled in JavaScript frameworks, high-fidelity prototyping, and cutting-edge technologies like React, TypeScript, Tailwind CSS, and Next. Committed to continuous improvement and exploring new tech, I blend creativity with problem-solving skills to deliver exceptional results. Outside work, I enjoy board games and movies."
           />
         ) : (
           <meta

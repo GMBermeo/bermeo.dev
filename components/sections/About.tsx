@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { LocaleContext } from "@contexts/LocaleContext";
 import { Title } from "../ui/Title";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 export const About = () => {
   const { isEng } = useContext(LocaleContext);
@@ -10,35 +11,19 @@ export const About = () => {
       <div>
         <Title title={isEng() ? "About" : "Sobre"} />
         <article className="mb-16 space-y-6 text-justify text-sm font-medium leading-6 md:text-base">
-          <p>
-            Graduated in Systems Analysis and Development in 2011, I discovered
-            right away in college a vocation for front-end and user experience
-            in software engineering classes. In 2015, I started working on Banco
-            do Brasil products, and having a background in Graphic Design, I
-            ended up being allocated to the UX Design team. That&apos;s when I
-            discovered the magic of Javascript&apos;s simplicity and started to
-            study in-depth front-end development and high-fidelity prototyping.
-          </p>
-          <p>
-            In 2018, I was assigned to the Attorney General&apos;s Office as a
-            UX Designer. With that, I started working on legacy systems and Low
-            Code tools, having developed a Mobile application in Microsoft
-            PowerApps. In 2022, I transitioned to the front-end, creating new
-            interfaces in legacy systems, participating in developing new
-            projects, and exposing the infinite possibilities of javascript
-            frameworks.
-          </p>
-          <p>
-            I like to learn and explore new technologies, and when I&apos;m not
-            working, I{" "}
-            <a
-              href="https://boardgamegeek.com/plays/bydate/user/gm_bermeo/subtype/boardgame"
-              className="hover:decoration-3 decoration-primary underline  decoration-2"
-            >
-              play
-            </a>{" "}
-            board games and watch movies.
-          </p>
+          <ReactMarkdown>
+            A versatile and detail-oriented professional, I bring passion and
+            expertise in front-end development and user experience to fast-paced
+            environments. With a background in Systems Analysis and Development,
+            Graphic Design, Music, and experience in various industries, I excel
+            in **cross-functional collaboration and adaptability**. Skilled in
+            **JavaScript frameworks**, high-fidelity prototyping, and
+            cutting-edge technologies like **React**, **TypeScript**, **Tailwind
+            CSS**, and **Next**. Committed to continuous improvement and
+            exploring new tech, I blend **creativity with problem-solving**
+            skills to deliver exceptional results. Outside work, I enjoy board
+            games and movies.
+          </ReactMarkdown>
           <p>
             At the moment, my favorite technologies are
             <span className="text-balde-blue"> React.js </span>,
@@ -55,32 +40,19 @@ export const About = () => {
       <>
         <Title title={isEng() ? "About" : "Sobre"} />
         <article className="p customContainer mb-16 space-y-6 text-sm font-medium leading-6 md:text-base">
-          Formado em Análise e Desenvolvimento de Sistemas em 2011, descobri
-          logo na faculdade uma vocação por front-end e experiência do usuário
-          nas aulas de engenharia de software. Em 2015, comecei a trabalhar em
-          produtos do Banco do Brasil, e tendo um background em Design Gráfico,
-          acabei sendo alocado na equipe de UX Design. Foi quando descobri a
-          magia da simplicidade do Javascript, e comecei a estudar a fundo sobre
-          desenvolvimento front-end e prototipação de alta fidelidade.
-          <br />
-          Quando em 2018, fui cedido à Advocacia-Geral da União como UX Designer
-          e com isso, comecei a trabalhar em sistemas legados e ferramentas Low
-          Code, tendo desenvolvido um aplicativo Mobile em Microsoft PowerApps.
-          <br />
-          Quando em 2022 fiz a transição total para front-end, criando novas
-          interfaces em sistemas legados, participação no desenvolvimento de
-          novos projetos e exporando as infinitas possibilidades de frameworks
-          javascript.
-          <br />
-          Gosto de aprender e explorar novas coisas e quando não estou
-          trabalhando estou{" "}
-          <a
-            href="https://boardgamegeek.com/plays/bydate/user/gm_bermeo/subtype/boardgame"
-            className="hover:decoration-3 decoration-primary underline  decoration-2"
-          >
-            jogando
-          </a>{" "}
-          jogos de tabuleiro ou assistindo filmes.
+          <ReactMarkdown>
+            Um profissional versátil e detalhista, eu trago paixão e expertise
+            em desenvolvimento front-end e experiência do usuário para ambientes
+            dinâmicos. Com formação em Análise e Desenvolvimento de Sistemas,
+            Design Gráfico, Música e experiência em diversos setores, destaco-me
+            em **colaboração multifuncional e adaptabilidade**. Habilidades em
+            **frameworks JavaScript**, prototipagem de alta fidelidade e
+            tecnologias de ponta como **React**, **TypeScript**, **Tailwind
+            CSS** e **Next**. Comprometido com a melhoria contínua e exploração
+            de novas tecnologias, combino **criatividade e habilidades de
+            resolução de problemas** para entregar resultados excepcionais. Fora
+            do trabalho, gosto de jogos de tabuleiro e filmes.
+          </ReactMarkdown>
           <br /> <br /> No momento minhas tecnologias favoritas são
           <span className="text-balde-blue"> React.js </span> com
           <span className="text-balde-blue"> Typescript </span>,

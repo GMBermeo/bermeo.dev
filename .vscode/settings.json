@@ -18,5 +18,6 @@
     ".eslintrc.json": true,
     // "next.config.js": true,
     "postcss.config.js": true
-  }
+  },
+  "markdown-pdf.margin.top": "1cm"
 }
