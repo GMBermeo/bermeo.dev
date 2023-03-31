@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { LocaleContext } from "@contexts/LocaleContext";
 import { Title } from "../ui/Title";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import s from "@styles/markdown.module.css";
 
 export const About = () => {
   const { isEng } = useContext(LocaleContext);
@@ -11,7 +12,7 @@ export const About = () => {
       <div>
         <Title title={isEng() ? "About" : "Sobre"} />
         <article className="mb-16 space-y-6 text-justify text-sm font-medium leading-6 md:text-base">
-          <ReactMarkdown>
+          <ReactMarkdown className={s.markdown}>
             A versatile and detail-oriented professional, I bring passion and
             expertise in front-end development and user experience to fast-paced
             environments. With a background in Systems Analysis and Development,
@@ -40,7 +41,7 @@ export const About = () => {
       <>
         <Title title={isEng() ? "About" : "Sobre"} />
         <article className="p customContainer mb-16 space-y-6 text-sm font-medium leading-6 md:text-base">
-          <ReactMarkdown>
+          <ReactMarkdown className={s.markdown}>
             Um profissional versátil e detalhista, eu trago paixão e expertise
             em desenvolvimento front-end e experiência do usuário para ambientes
             dinâmicos. Com formação em Análise e Desenvolvimento de Sistemas,
