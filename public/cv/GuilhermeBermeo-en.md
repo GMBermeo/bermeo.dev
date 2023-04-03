@@ -32,28 +32,36 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
  
 ## PROFESSIONAL EXPERIENCE
 
+### **SENIOR FRONT-END DEVELOPER** at TTY2000
+#### April 2023 – Present
+- Actively developing and integrating innovative front-end solutions using **React**, **Next 13**, **MUI**, **TypeScript**, and **Tailwind CSS**, optimizing user experience and streamlining web development processes.
+- Revitalizing front-end interfaces of legacy systems by **incorporating modern technologies** and **refactoring HTML and CSS code in PHP projects**, adhering to Clean Code principles for ease of maintenance.
+- Employing **Docker** and **Nest.js** for effective project management and streamlined deployment.
+- Cooperating with **cross-functional teams**, leveraging Git for efficient version control and seamless project coordination.
+- Overseeing maintenance of **Azure DevOps** projects, offering support and guidance on project organization and utilization within the tool.
+
+**Technical environment**: TypeScript, Blazor, Docker, SASS, React, JavaScript, HTML, Next, Nest, Git, CSS, Tailwind CSS, MUI, MudBlazor, Azure DevOps, PHP 7.4, Sonar.
+
 ### **FRONT-END DEVELOPER, UX CONSULTANT** at TTY2000
-#### September 2022 – Present
+#### September 2022 – April 2023
 - Developed and implemented robust front-end solutions using **React**, **Next 13**, **MUI 5**, **TypeScript**, and **Tailwind CSS**, ensuring optimal user experience and seamless web development.
 - Worked on two fronts: one with **Next 13** and **MUI 5**, and another with **C#** using **Blazor**, **SASS**, and **MudBlazor** development.
 - Updated front-end interfaces of legacy systems using new technologies and refactored HTML and CSS code in PHP projects following the principles of Clean Code to facilitate maintenance.
 - Utilized **Docker** and **Nest** for efficient project management and deployment.
 - Leveraged advanced **UX Design** techniques to create visually appealing and user-friendly interfaces.
 - Collaborated with cross-functional teams, utilizing **Git** for efficient version control and seamless project coordination.
-- Migrated and maintained **Azure DevOps** projects, providing support on using and organizing projects within the tool.
 
-**Technical environment**: TypeScript, Blazor, Docker, SASS, React, JavaScript, HTML, Next, User Experience, Git, CSS, Tailwind CSS, Front-End Development, Web Development, MUI, MudBlazor, Azure DevOps, PHP 7.4.
+**Technical environment**: TypeScript, Figma, Blazor, Docker, SASS, React, JavaScript, HTML, Next, Git, CSS, Tailwind CSS, MUI, MudBlazor, Azure DevOps, PHP 7.4.
 
-
-### FRONT-END DEVELOPER at AGU (Brazil’s Attorney-General’s Office)
+### **FRONT-END DEVELOPER** at AGU (Brazil’s Attorney-General’s Office)
 #### January 2022 – September 2022
-- Developed responsive and accessible front-end solutions for internal **legacy** systems dating back from the 2000s, using **HTML**, **JavaScript**, **TypeScript**, and **Tailwind CSS**, enhancing user experience and ensuring seamless web development.
+- Developed **responsive and accessible** front-end solutions for internal **legacy** systems dating back from the 2000s, using **HTML**, **JavaScript**, **TypeScript**, and **Tailwind CSS**, enhancing user experience and ensuring seamless web development.
 - Utilized CSS frameworks like **Bootstrap**, **Tailwind CSS**, and **Bulma**, as well as Vanilla CSS 3.0, to create visually appealing and functional interfaces.
 - Employed **JavaScript frameworks** like **React**, **Vue**, and **Angular** for efficient front-end development.
 - Collaborated with the design team to implement **UX concepts** and visual designs, employing **Blazor** and **SASS** for efficient development.
 - Utilized **Git** for version control and project collaboration, working closely with cross-functional teams to ensure timely delivery and high-quality results.
 
-**Technical environment**: Blazor, SASS, JavaScript, HTML, User Experience, Git, CSS, TypeScript, Tailwind CSS, Front-End Development, Web Development, C#, Bootstrap, Bulma, React, Vue, Angular.
+**Technical environment**: Blazor, SASS, JavaScript, HTML, User Experience, Git, CSS, TypeScript, Tailwind CSS, C#, Bootstrap, Bulma, React, Vue, Angular.
 
 
 ### **SENIOR UX DESIGNER** at AGU (Brazil’s Attorney-General’s Office)
@@ -65,7 +73,7 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 - Collaborated with developers to implement designs, ensuring seamless integration with front-end development technologies.
 - Contributed to the creation of logos, branding materials, and web content, utilizing **Adobe InDesign** and other design tools to deliver high-quality visual assets.
 
-**Technical environment**: HTML, User Experience, Git, CSS, Front-End Development, Design, Web Design, Web Development, Logo Design, Bootstrap, Adobe Photoshop, Adobe Illustrator, Adobe Creative Suite, Prototyping, Microsoft PowerApps, Microsoft Flow, Adobe XD, SharePoint, Creative Content Creation, Web Content Creation, Figma (Software), Adobe InDesign.
+**Technical environment**: HTML, User Experience, Git, CSS, Front-End Development, Design, Logo Design, Bootstrap, Adobe Photoshop, Adobe Illustrator, Adobe Creative Suite, Prototyping, Microsoft PowerApps, Microsoft Flow, Adobe XD, SharePoint, Creative Content Creation, Web Content Creation, Figma (Software), Adobe InDesign.
 
 ### **OPERATIONS ANALYST, UX DESIGNER** at BBTS (Bank of Brazil Technology Branch)
 #### April 2015 – September 2018
@@ -76,7 +84,7 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 - Collaborated with **cross-functional teams** to implement designs, ensuring seamless integration with **front-end development technologies**.
 - Contributed to digital photography and content creation initiatives, enhancing the visual appeal and effectiveness of web platforms and marketing materials.
 
-**Technical environment**: SASS, HTML, User Experience, Git, CSS, Front-End Development, Digital Photography, Design, Web Design, Web Development, Logo Design, Bootstrap, Adobe Creative Suite, Prototyping, Adobe XD, Creative Content Creation, Web Content Creation, Axure RP, Figma (Software).
+**Technical environment**: SASS, HTML, User Experience, Git, CSS, Front-End Development, Digital Photography, Logo Design, Bootstrap, Adobe Creative Suite, Prototyping, Adobe XD, Creative Content Creation, Web Content Creation, Axure RP, Figma (Software).
 
 ### **GRAPHIC DESIGNER**, Self-employed at Redbubble
 #### October 2011 – November 2014
@@ -87,16 +95,13 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 - Collaborated with clients and other designers to refine and improve design concepts, ensuring customer satisfaction and effective visual communication.
 - Employed **Adobe Creative Suite**, including Adobe Photoshop Lightroom, Adobe Photoshop, and Adobe Illustrator, to create and edit design assets.
 
-**Technical environment**: Digital Photography, Design, Graphic Design, Logo Design, Adobe Photoshop Lightroom, Adobe Photoshop, Adobe Illustrator, Adobe Creative Suite, Creative Content Creation, GIMP, Figma (Software), Inkscape.
+**Technical environment**: Digital Photography, Design, Graphic Design, Logo Design, Adobe Photoshop Lightroom, Adobe Photoshop, Adobe Illustrator, Adobe Creative Suite, GIMP, Figma (Software), Inkscape.
 
 
 ### **ADMINISTRATIVE ASSISTANT (ACCOUNTING CLERK)** at CAER (Roraima’s Water and Sewage Company)
 #### June 2011 – December 2012
 - Assisted in the preparation and analysis of **financial documents**, including trial balances, ledgers, statements of movement by accounts, and balance sheets, contributing to the overall financial management of the organization.
-- Analyzed **depreciation reports** for assets, ensuring accurate tracking and valuation.
 - Managed data entries using **TOTVS systems** manually or employing **MySQL** language when necessary, maintaining accurate financial records.
-- Collaborated with cross-functional teams to support administrative tasks and ensure smooth operations.
-- Utilized **Microsoft Office Suite** for efficient document creation, organization, and communication.
 
 **Technical environment**: Microsoft Office, TOTVS Systems, MySQL.
 
