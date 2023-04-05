@@ -67,6 +67,9 @@ body {
   background: var(--background);
   min-height: 100vh;
   height: var(--doc-height);
+  margin-top: 1.5rem;
+  padding-bottom: 2rem;
+  font-weight: lighter;
 }
 
 .customContainer {
@@ -89,6 +92,16 @@ a {
 abbr {
   text-decoration: none;
 }
+/* 
+ul {
+  @apply marker:text-primary;
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 1rem;
+  padding-right: 1rem;
+} */
+
+
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

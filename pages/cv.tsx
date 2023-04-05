@@ -12,7 +12,7 @@ export const MarkDownCurriculumPage: NextPage<MarkDownCurriculumPageProps> = ({
 }) => {
   return (
     <div className="mx-auto max-w-3xl">
-      <ReactMarkdown className={s.markdown}>{markdownContent}</ReactMarkdown>
+      <ReactMarkdown className={`${s.markdown} text-sm`}>{markdownContent}</ReactMarkdown>
     </div>
   );
 };

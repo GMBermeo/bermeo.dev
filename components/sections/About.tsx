@@ -11,8 +11,8 @@ export const About = () => {
     return (
       <div>
         <Title title={isEng() ? "About" : "Sobre"} />
-        <article className="mb-16 space-y-6 text-justify text-sm font-medium leading-6 md:text-base">
-          <ReactMarkdown className={s.markdown}>
+        <article className="mb-16 space-y-6 text-justify leading-6 md:text-base">
+          <ReactMarkdown>
             A versatile and detail-oriented professional, I bring passion and
             expertise in front-end development and user experience to fast-paced
             environments. With a background in Systems Analysis and Development,

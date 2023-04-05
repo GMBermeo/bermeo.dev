@@ -1,7 +1,4 @@
 .markdown {
-  @apply text-sm;
-  margin-top: 1.5rem;
-  padding-bottom: 2rem;
   font-weight: lighter;
 }
 
@@ -25,10 +22,6 @@
   @apply my-2 mb-6;
 }
 
-.markdown ul {
-  @apply marker:text-primary list-inside list-disc px-4;
-}
-
 .markdown strong {
   @apply font-medium;
 }
@@ -47,4 +40,12 @@
 
 .markdown img {
   @apply my-4 mx-auto;
+}
+
+.markdown ul {
+  @apply marker:text-primary;
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
