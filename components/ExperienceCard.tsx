@@ -2,7 +2,6 @@ import React from "react";
 import { TExperienceProps } from "../types/TExperience";
 import { ReadMore } from "./ui/ReadMore";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import s from "../styles/markdown.module.css";
 
 export const WorkCard = ({
   title,
@@ -30,9 +29,7 @@ export const WorkCard = ({
 
       <div className="text-dracula-foreground mt-2 ml-2 text-justify text-sm leading-5 md:text-base">
         {description.map((description) => (
-          <ReactMarkdown className={s.markdown} key={description}>
-            {description}
-          </ReactMarkdown>
+          <ReactMarkdown key={description}>{description}</ReactMarkdown>
         ))}
       </div>
       <div className="flex justify-between">
