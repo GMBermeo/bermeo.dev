@@ -19,10 +19,18 @@
   </url>
   <url>
     <loc>https://www.bermeo.dev/br/cv</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://br.bermeo.dev/cv</loc>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.bermeo.dev/en/cv</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://en.bermeo.dev/cv</loc>
     <priority>0.5</priority>
   </url>
   <url>
@@ -68,12 +76,24 @@
   <url>
     <loc>https://www.bermeo.dev/br</loc>
     <image:image>
-      <image:loc>https://www.bermeo.dev/avatar1.jpg</image:loc>
-      <image:loc>https://www.bermeo.dev/avatar2.png</image:loc>
-      <image:loc>https://www.bermeo.dev/logo.svg</image:loc>
-      <image:loc>https://www.bermeo.dev/logo-transparent.svg</image:loc>
-      <image:loc>https://www.bermeo.dev/opengraph.png</image:loc>
-      <image:loc>https://www.bermeo.dev/opengraph.svg</image:loc>
+      <image:loc>https://www.bermeo.dev/br/avatar1.jpg</image:loc>
+      <image:loc>https://www.bermeo.dev/br/avatar2.png</image:loc>
+      <image:loc>https://www.bermeo.dev/br/logo.svg</image:loc>
+      <image:loc>https://www.bermeo.dev/br/logo-transparent.svg</image:loc>
+      <image:loc>https://www.bermeo.dev/br/opengraph.png</image:loc>
+      <image:loc>https://www.bermeo.dev/br/opengraph.svg</image:loc>
+    </image:image>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://br.bermeo.dev</loc>
+    <image:image>
+      <image:loc>https://br.bermeo.dev/br/avatar1.jpg</image:loc>
+      <image:loc>https://br.bermeo.dev/br/avatar2.png</image:loc>
+      <image:loc>https://br.bermeo.dev/br/logo.svg</image:loc>
+      <image:loc>https://br.bermeo.dev/br/logo-transparent.svg</image:loc>
+      <image:loc>https://br.bermeo.dev/br/opengraph.png</image:loc>
+      <image:loc>https://br.bermeo.dev/br/opengraph.svg</image:loc>
     </image:image>
     <priority>0.5</priority>
   </url>

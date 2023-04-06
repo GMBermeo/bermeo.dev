@@ -4,6 +4,7 @@ import s from "../../styles/NavBar.module.css";
 import Image from "next/image";
 import { LocaleContext } from "@contexts/LocaleContext";
 import { LangButton } from "@components/ui/LangButton";
+import Link from "next/link";
 
 export const NavBar = () => {
   const { isEng, asPath } = useContext(LocaleContext);
@@ -21,6 +22,7 @@ export const NavBar = () => {
         </a>
       </div>
       <ul className="flex items-center">
+        <Link href={"/cv"}>CV</Link>
         <NavButton
           label={isEng() ? "About" : "Sobre"}
           class="hidden sm:inline-block"
