@@ -2,7 +2,7 @@
 
 [LinkedIn](https://www.linkedin.com/in/gmbermeo) | [Github](https://github.com/gmbermeo) | [Website](https://bermeo.dev) | Telefone: +55 (61) 99634-2237 | E-mail: [guilherme.bermeo@gmail.com](mailto:guilherme.bermeo@gmail.com)
 
-## DESENVOLVEDOR FRONT-END / ANALISTA DE UX
+## DESENVOLVEDOR FRONT-END SENIOR / ANALISTA DE UX
 
 Um profissional versátil e detalhista, eu trago paixão e expertise em desenvolvimento front-end e experiência do usuário para ambientes dinâmicos. Com formação em Análise e Desenvolvimento de Sistemas, Design Gráfico, Música e experiência em diversos setores, destaco-me em **colaboração multifuncional e adaptabilidade**. Habilidades em **frameworks JavaScript**, prototipagem de alta fidelidade e tecnologias de ponta como **React**, **TypeScript**, **Tailwind CSS** e **Next**. Comprometido com a melhoria contínua e exploração de novas tecnologias, combino **criatividade e habilidades de resolução de problemas** para entregar resultados excepcionais. Fora do trabalho, gosto de jogos de tabuleiro e filmes.
 

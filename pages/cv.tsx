@@ -1,4 +1,5 @@
 import { NextPage, GetServerSideProps } from "next";
+import Head from "next/head";
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import s from "../styles/markdown.module.css";
@@ -11,13 +12,26 @@ export const MarkDownCurriculumPage: NextPage<MarkDownCurriculumPageProps> = ({
   markdownContent,
 }) => {
   return (
-    <div className="mx-auto max-w-3xl">
-      <ReactMarkdown
-        className={`${s.markdown} px-6 pt-0 text-sm md:px-3 xl:px-0`}
-      >
-        {markdownContent}
-      </ReactMarkdown>
-    </div>
+    <>
+      <Head>
+        <title>
+          Guilherme Yuri Bermêo Costa - Senior Front-end Developer | Curriculum
+          Vitae
+        </title>
+        {/* <meta
+          name="description"
+          content=""
+          key="desc"
+        /> */}
+      </Head>
+      <div className="mx-auto max-w-3xl">
+        <ReactMarkdown
+          className={`${s.markdown} px-6 pt-0 text-sm md:px-3 xl:px-0`}
+        >
+          {markdownContent}
+        </ReactMarkdown>
+      </div>
+    </>
   );
 };
 
@@ -49,3 +63,10 @@ export const getServerSideProps: GetServerSideProps = async ({ locale }) => {
     };
   }
 };
+
+export async function generateMetadata({}) {
+  return {
+    title: "Guilherme Bermêo",
+    description: "Guilherme Bermêo's Curriculum Vitae",
+  };
+}

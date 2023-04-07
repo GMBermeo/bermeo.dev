@@ -20,12 +20,8 @@ export const Hero = () => {
             </h1>
             <h2 className="font-base text-base md:text-3xl">
               {isEng()
-                ? "I'm a front-end developer and "
-                : "Sou um desenvolvedor front-end e "}
-              <span className="line-through">ux designer</span>
-              {isEng()
-                ? " from Roraima focused on web systems using "
-                : " de Roraima focado em web com stack "}
+                ? "I'm a senior front-end developer and ux designer from Brazil focused on web systems using"
+                : "Sou um desenvolvedor front-end senior e ux designer de Brasília focado em web com stack"}
               <span className="font-code text-balde-blue">Next.js</span>+
               <span className="font-code text-dracula-pink">Tailwindcss</span>.
             </h2>

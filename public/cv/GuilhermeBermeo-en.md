@@ -3,7 +3,7 @@
 
 Location: Brasilia, Federal District, Brazil
 
-## FRONT-END DEVELOPER / UX ANALYST
+## SENIOR FRONT-END DEVELOPER / UX ANALYST
 
 A versatile and detail-oriented professional, I bring passion and expertise in front-end development and user experience to fast-paced environments. With a background in Systems Analysis and Development, Graphic Design, Music, and experience in various industries, I excel in **cross-functional collaboration and adaptability**. Skilled in **JavaScript frameworks**, high-fidelity prototyping, and cutting-edge technologies like **React**, **TypeScript**, **Tailwind CSS**, and **Next**. Committed to continuous improvement and exploring new tech, I blend **creativity with problem-solving** skills to deliver exceptional results. Outside work, I enjoy board games and movies.
 

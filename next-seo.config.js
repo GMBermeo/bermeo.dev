@@ -1,12 +1,12 @@
 export const SEO = {
   title: "Guilherme Bermêo | Front-end Developer",
   description:
-    "👋 Sou um desenvolvedor front-end e ux designer de Roraima em Brasília focado em web com stack Next + Tailwindcss.",
+    "👋 I'm a senior front-end developer and ux designer from Brazil focused on web systems using Next. A versatile and detail-oriented professional, I bring passion and expertise in front-end development and user experience to fast-paced environments. With a background in Systems Analysis and Development, Graphic Design, Music, and experience in various industries, I excel in cross-functional collaboration and adaptability. Skilled in JavaScript frameworks, high-fidelity prototyping, and cutting-edge technologies like React, TypeScript, Tailwind CSS, and Next. Committed to continuous improvement and exploring new tech, I blend creativity with problem-solving skills to deliver exceptional results.",
   canonical: "https://www.bermeo.dev/",
   openGraph: {
-    title: "Guilherme Bermêo - Front-end React Developer",
+    title: "Guilherme Bermêo - Senior Front-end React Developer",
     type: "website",
-    locale: "pt_BR",
+    locale: "en_CA",
     url: "https://www.bermeo.dev",
     site_name: "GuilhermeBermeo",
     images: [
@@ -33,6 +33,6 @@ export const SEO = {
     site: "@gm_bermeo",
     cardType: "summary_large_image",
     image: "http://bermeo.dev/opengraph.png",
-    title: "Guilherme Bermêo - Desenvolvedor Front-end",
+    title: "Guilherme Bermêo - Senior Front-end Developer",
   },
 };
