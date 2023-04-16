@@ -33,7 +33,9 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 ## EXPERIÊNCIA PROFISSIONAL
 
 ### **DESENVOLVEDOR FRONT-END SENIOR** na TTY2000
+
 #### Abril 2023 – Atual
+
 - Desenvolvimento ativo e integração de soluções inovadoras de front-end usando **React**, **Next 13**, **MUI**, **TypeScript** e **Tailwind CSS**, otimizando a experiência do usuário e agilizando os processos de desenvolvimento web.
 - Revitalização das interfaces front-end de sistemas legados através da **incorporação de tecnologias modernas** e **refatoração de código HTML e CSS em projetos PHP**, aderindo aos princípios do Clean Code para facilitar a manutenção.
 - Utilização de **Docker** e **Nest.js** para gerenciamento eficaz de projetos e implantação simplificada.
@@ -43,7 +45,9 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 **Ambiente técnico**: TypeScript, Blazor, Docker, SASS, React, JavaScript, HTML, Next, Nest, Git, CSS, Tailwind CSS, MUI, MudBlazor, Azure DevOps, PHP 7.4, Sonar.
 
 ### **DESENVOLVEDOR FRONT-END, CONSULTOR DE UX** na TTY2000
+
 #### Setembro 2022 – Abril 2023
+
 - Desenvolvimento e implementação de soluções robustas de front-end usando **React**, **Next 13**, **MUI 5**, **TypeScript** e **Tailwind CSS**, garantindo uma experiência do usuário ideal e desenvolvimento web contínuo.
 - Atuação em duas frentes: uma com **Next 13** e **MUI 5**, e outra com **C#** usando **Blazor**, **SASS** e desenvolvimento **MudBlazor**.
 - Atualização das interfaces front-end de sistemas legados utilizando novas tecnologias e refatoração de código HTML e CSS em projetos PHP, seguindo os princípios do Clean Code para facilitar a manutenção.
@@ -66,7 +70,9 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 
 
 ### **UX DESIGNER SENIOR** na AGU (Advocacia-Geral da União)
+
 #### Setembro 2018 – Janeiro 2022
+
 - Conceituação e design de **interfaces web** visualmente atraentes, focando na **experiência do usuário** e garantindo consistência entre plataformas digitais.
 - Análise de documentação de requisitos funcionais e não funcionais, gerenciamento de **equipes SCRUM** e melhoria da experiência e interface do usuário em softwares governamentais internos.
 - Realização de modificações front-end em softwares de sistemas de gerenciamento de serviços e criação de um aplicativo móvel de gerenciamento de eventos internos para os cursos e eventos ministrados pela "Escola da Advocacia-Geral da União" usando a plataforma **Microsoft PowerApps**, atendendo a mais de 1.000 usuários.
@@ -88,7 +94,9 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 **Ambiente Técnico**: SASS, HTML, User Experience, Git, CSS, Front-End Development, Digital Photography, Logo Design, Bootstrap, Adobe Creative Suite, Prototyping, Adobe XD, Creative Content Creation, Web Content Creation, Axure RP, Figma (Software).
 
 ### **DESIGNER GRÁFICO**, Autônomo na Redbubble
+
 #### Outubro 2011 – Novembro 2014
+
 
 - Criação de **designs originais para camisetas**, exibindo talento artístico e conceitos inovadores para diversos públicos.
 - Utilização de ferramentas de design, como **Inkscape, GIMP e Adobe Illustrator**, para criar obras de arte vetorial, garantindo resultados de alta qualidade e designs versáteis.
@@ -99,7 +107,9 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 **Ambiente técnico**: Digital Photography, Design, Graphic Design, Logo Design, Adobe Photoshop Lightroom, Adobe Photoshop, Adobe Illustrator, Adobe Creative Suite, GIMP, Figma (Software), Inkscape.
 
 ### **ASSISTENTE ADMINISTRATIVO (AUXILIAR DE CONTABILIDADE)** na CAER (Companhia de Águas e Esgotos de Roraima)
+
 #### Junho 2011 – Dezembro 2012
+
 - Auxílio na preparação e análise de **documentos financeiros**, incluindo balancetes, razão, demonstrativos de movimento por contas e balanços patrimoniais, contribuindo para a gestão financeira geral da organização.
 - Gerenciamento de lançamentos de dados usando **sistemas TOTVS** manualmente ou empregando a linguagem **MySQL** quando necessário, mantendo registros financeiros precisos.
 

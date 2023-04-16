@@ -33,8 +33,10 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
  
 ## PROFESSIONAL EXPERIENCE
 
-### **SENIOR FRONT-END DEVELOPER** at TTY2000
+### **SENIOR FRONT-END DEVELOPER** at TTY2000``
+
 #### April 2023 – Present
+
 - Actively developing and integrating innovative front-end solutions using **React**, **Next 13**, **MUI**, **TypeScript**, and **Tailwind CSS**, optimizing user experience and streamlining web development processes.
 - Revitalizing front-end interfaces of legacy systems by **incorporating modern technologies** and **refactoring HTML and CSS code in PHP projects**, adhering to Clean Code principles for ease of maintenance.
 - Employing **Docker** and **Nest.js** for effective project management and streamlined deployment.
@@ -44,7 +46,9 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 **Technical environment**: TypeScript, Blazor, Docker, SASS, React, JavaScript, HTML, Next, Nest, Git, CSS, Tailwind CSS, MUI, MudBlazor, Azure DevOps, PHP 7.4, Sonar.
 
 ### **FRONT-END DEVELOPER, UX CONSULTANT** at TTY2000
+
 #### September 2022 – April 2023
+
 - Developed and implemented robust front-end solutions using **React**, **Next 13**, **MUI 5**, **TypeScript**, and **Tailwind CSS**, ensuring optimal user experience and seamless web development.
 - Worked on two fronts: one with **Next 13** and **MUI 5**, and another with **C#** using **Blazor**, **SASS**, and **MudBlazor** development.
 - Updated front-end interfaces of legacy systems using new technologies and refactored HTML and CSS code in PHP projects following the principles of Clean Code to facilitate maintenance.
@@ -55,7 +59,9 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 **Technical environment**: TypeScript, Figma, Blazor, Docker, SASS, React, JavaScript, HTML, Next, Git, CSS, Tailwind CSS, MUI, MudBlazor, Azure DevOps, PHP 7.4.
 
 ### **FRONT-END DEVELOPER** at AGU (Brazil’s Attorney-General’s Office)
+
 #### January 2022 – September 2022
+
 - Developed **responsive and accessible** front-end solutions for internal **legacy** systems dating back from the 2000s, using **HTML**, **JavaScript**, **TypeScript**, and **Tailwind CSS**, enhancing user experience and ensuring seamless web development.
 - Utilized CSS frameworks like **Bootstrap**, **Tailwind CSS**, and **Bulma**, as well as Vanilla CSS 3.0, to create visually appealing and functional interfaces.
 - Employed **JavaScript frameworks** like **React**, **Vue**, and **Angular** for efficient front-end development.
@@ -66,7 +72,9 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 
 
 ### **SENIOR UX DESIGNER** at AGU (Brazil’s Attorney-General’s Office)
+
 #### September 2018 – January 2022
+
 - Conceptualized and designed visually appealing **web interfaces**, focusing on **user experience** and ensuring consistency across digital platforms.
 - Analyzed functional and non-functional requirements documentation, managed **SCRUM teams**, and improved the experience and UI of in-house governmental software.
 - Performed front-end modifications in service management system software and created an internal events management mobile app for the courses and events ministered by the "School of Advocacia-Geral da União" using the **Microsoft PowerApps** platform, serving more than 1,000 users.
@@ -77,7 +85,9 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 **Technical environment**: HTML, User Experience, Git, CSS, Front-End Development, Design, Logo Design, Bootstrap, Adobe Photoshop, Adobe Illustrator, Adobe Creative Suite, Prototyping, Microsoft PowerApps, Microsoft Flow, Adobe XD, SharePoint, Creative Content Creation, Web Content Creation, Figma (Software), Adobe InDesign.
 
 ### **OPERATIONS ANALYST, UX DESIGNER** at BBTS (Bank of Brazil Technology Branch)
+
 #### April 2015 – September 2018
+
 - Designed and developed **user interfaces** for various digital platforms, focusing on **user experience** and visual appeal.
 - Crafted **wireframes**, **mockups**, and **high-fidelity prototypes** using Axure RP to validate documentation and improve user experience and design through extensive testing with clients.
 - Collaborated in in-house projects, designing financial management software for companies (bank clients), **front-end development/maintenance**, and designing/prototyping functionalities and visual identity for the mobile app "Banco do Brasil," one of the most used apps in Brazil with 50+ million downloads, 4 million reviews, and a 4.5 rating on Google Play.
@@ -88,6 +98,7 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 **Technical environment**: SASS, HTML, User Experience, Git, CSS, Front-End Development, Digital Photography, Logo Design, Bootstrap, Adobe Creative Suite, Prototyping, Adobe XD, Creative Content Creation, Web Content Creation, Axure RP, Figma (Software).
 
 ### **GRAPHIC DESIGNER**, Self-employed at Redbubble
+
 #### October 2011 – November 2014
 
 - Created **original t-shirt designs**, showcasing artistic talent and innovative concepts for a variety of audiences.
@@ -100,7 +111,9 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 
 
 ### **ADMINISTRATIVE ASSISTANT (ACCOUNTING CLERK)** at CAER (Roraima’s Water and Sewage Company)
+
 #### June 2011 – December 2012
+
 - Assisted in the preparation and analysis of **financial documents**, including trial balances, ledgers, statements of movement by accounts, and balance sheets, contributing to the overall financial management of the organization.
 - Managed data entries using **TOTVS systems** manually or employing **MySQL** language when necessary, maintaining accurate financial records.
 

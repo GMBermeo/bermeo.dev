@@ -32,7 +32,7 @@ const BB: NextPage<{ content: string }> = ({ content }) => {
       <Head>
         <title>
           {isEng()
-            ? "Bank of Brazil Technology and Services"
+            ? "Bank of Brazil Technology Branch"
             : "Banco do Brasil Tecnologia & Serviços"}
           - Guilherme Bermeo
         </title>
@@ -41,7 +41,7 @@ const BB: NextPage<{ content: string }> = ({ content }) => {
           name="description"
           content={
             isEng()
-              ? "Bank of Brazil Technology and Services"
+              ? "Bank of Brazil Technology Branch"
               : "Banco do Brasil Tecnologia & Serviços"
           }
         />
