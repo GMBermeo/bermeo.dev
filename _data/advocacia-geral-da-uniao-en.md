@@ -1,11 +1,9 @@
-# Brazil’s Attorney-General’s Office (Advocacia-Geral da União - AGU)
-
-## Senior Frontend Developer
+# Senior Frontend Developer
 
 TTY2000
 April 2023 - Present
 
-### Programa de Gestão
+## Programa de Gestão (version 3)
 
 The Programa de Gestão is a web application that enables AGU public servants to access and manage their work activities, including remote work, meetings, and performance goals. The application is user-friendly, scalable, and adaptable to future changes, as well as accessible for various AGU departments. The responsive design, built using **MUI 5** components, ensures a smooth user experience. The **Nest.js** and Node.js backend manages **LDAP** user authentication and provides RESTful APIs for seamless interaction with the Oracle database.
 
@@ -14,12 +12,14 @@ The Programa de Gestão is a web application that enables AGU public servants to
 - **Action**: The team developed the Programa de Gestão using React.js (**Next.js 13**  with app directory) for the front-end and **MUI 5** interface, while utilizing Node.js (**Nest.js**) for the back-end. This web application enabled program participants to access and manage their work activities, including remote work, meetings, and performance goals. The responsive design, built using **MUI 5** components, ensured a smooth user experience. The **Nest.js** and Node.js backend managed user authentication and provided RESTful APIs for seamless interaction with the database.
 - **Result**: The Programa de Gestão successfully enhanced the quality of life and well-being for AGU public servants while optimizing the use of public resources. The AGU reported high productivity and quality in their work deliveries since the program's implementation. The Programa de Gestão has proven to be an effective tool in enabling flexible work options, meeting the needs of both the administration and the public servants involved.
 
-## UX Designer & Front-end Developer
+---
+
+# UX Designer & Front-end Developer
 
 TTY2000
 September 2022 - April 2023
 
-### AGU.Legis
+## AGU.Legis
 
 The AGU.Legis system is designed to consolidate publications from electronic service bulletins and the Diário Oficial da União (DOU) into one centralized and easily accessible location. AGU.Legis not only streamlines the daily work of AGU members, employees, and collaborators, but it also promotes public transparency by granting external users access to the latest acts and regulations.
 Built using **Blazor**, C##, and Bootstrap, the system offers a user-friendly, accessible, and transparent experience for both internal and external users. AGU.Legis not only optimizes the daily work of AGU members, employees, and collaborators but also enhances public transparency by providing easy access to the latest acts and regulations. With its intuitive search and filtering capabilities, automatic updates, and multi-device compatibility, AGU.Legis has become an essential tool for improving AGU's operational efficiency and fostering public trust.
@@ -29,7 +29,7 @@ Built using **Blazor**, C##, and Bootstrap, the system offers a user-friendly, a
 - **Action**: Leveraging **Blazor**, C##, and Bootstrap, the team built AGU.Legis, an intuitive platform that allows users to search and filter acts by categories such as act type, originating body, act numbers, act year, and act nature. Additionally, users can perform keyword searches to refine their queries. The system automatically displays publications from the last seven days and is accessible on various electronic devices, including computers, mobile phones, and tablets.
 - **Result**: AGU.Legis has successfully optimized the work of AGU members, employees, and collaborators by consolidating essential daily publications into a single virtual environment. The platform ensures that the retrieved acts are up-to-date and incorporates any revocations or amendments to the original provisions. Accessible 24/7 and adhering to the transparency requirements outlined in Decree No. 10,139/2019, AGU.Legis has become an indispensable tool for enhancing AGU's operational efficiency and public transparency.
 
-##### Longer Description
+### Longer Description
 
 AGU.Legis is a comprehensive web-based platform developed to revolutionize the storage and search capabilities of administrative and regulatory acts for Brazil's Advocacia-Geral da União (AGU). Utilizing **Blazor**, C##, and Bootstrap technologies, the platform boasts a seamless, modern, and responsive user interface, catering to the diverse needs of both internal and external users.
 The system is designed to consolidate publications from electronic service bulletins and the Diário Oficial da União (DOU) into one centralized and easily accessible location. AGU.Legis not only streamlines the daily work of AGU members, employees, and collaborators, but it also promotes public transparency by granting external users access to the latest acts and regulations.
@@ -37,6 +37,8 @@ AGU.Legis offers robust search and filtering features that allow users to locate
 The system automatically displays acts published within the last seven days, while also allowing users to expand their search to their desired date range. This efficient and secure platform ensures that users have access to the most up-to-date information, including any amendments or revocations to original acts.
 Available 24/7, AGU.Legis can be accessed via computers, smartphones, and tablets, making it a versatile and practical solution for all users. By adhering to the transparency requirements of Decree No. 10,139/2019, the platform demonstrates AGU's commitment to fostering open communication and public trust.
 AGU.Legis exemplifies the power of innovation and collaboration, combining top-notch technology and user-focused design to create an indispensable resource for the AGU community and the Brazilian public.
+
+---
 
 ## Frontend Web Developer
 
@@ -68,6 +70,8 @@ Launched on both iOS and Android platforms, the App Escola da AGU transformed th
 As a front-end developer on the team, we successfully designed and launched the App Escola da AGU, a mobile and desktop app for the Advocacia-Geral da União (AGU) using Microsoft Power Apps. The app's primary goal was to streamline the process of registering for events, courses, and lectures for AGU's 11,000 members.
 Initially, the team developed a high-fidelity prototype, intending to transition to a React Native app. However, the prototype demonstrated such exceptional performance and seamless integration with the MySQL database that it was adopted as the final application. The team optimized the app for a large user base, implementing views and filtering techniques to support AGU's extensive membership.
 Upon launch, the App Escola da AGU received positive coverage in specialized media, reflecting its impact on the AGU community. The app rapidly gained popularity, boasting 4,000 active users and approximately 500 simultaneous daily accesses by 2021. This project showcased the team's adaptability and commitment to delivering a high-quality user experience for AGU members.
+
+---
 
 #### SAD.Atende
 
@@ -101,10 +105,12 @@ The AGU.Visitas is a Visitors Management System designed to modernize and replac
 Our approach began with a high-fidelity prototype in Microsoft PowerApps, utilizing a MySQL database for testing and optimization. Once the prototype was refined, we transitioned to developing the front-end with PHP and Bootstrap. As the Scrum Master, I oversaw the program flowchart and database schema design, ensuring the project's smooth progression.
 The new AGU.Visitas system offers a user-friendly and efficient solution for managing visitors, integrating facial recognition through webcam technology for enhanced security. This modern and innovative system streamlines visitor management processes, resulting in improved user satisfaction and overall performance.
 
+---
+
 #### Brand Book DTI / AGU (at Advocacia-Geral da União as UX Designer, BBTS)
 
-###### Description
-
+![](https://bermeo.dev/images/agu/HOTSITE-2160.jpg)
 Developed a comprehensive style guideline and design system for the Technology core of the General Advocacy of the Union and the new logo of the Information Technology Directorate. By leveraging Google Material Design's best practices, the project aimed to standardize development projects, enhance usability, and ensure a consistent visual identity across all digital platforms.
 
-Skills: HTML · User Experience · Git · Cascading Style Sheets (CSS) · Front-End Development · Design · Web Design · Web Development · Logo Design · Bootstrap · Adobe Photoshop · Adobe Illustrator · Adobe Creative Suite · Prototyping · Microsoft PowerApps · Microsoft Flow · Adobe XD · SharePoint · Creative Content Creation · Web Content Creation · Figma (Software) · Adobe InDesignSkills: HTML · User Experience · Git · Cascading Style Sheets (CSS) · Front-End Development · Design · Web Design · Web Development · Logo Design · Bootstrap · Adobe Photoshop · Adobe Illustrator · Adobe Creative Suite · Prototyping · Microsoft PowerApps · Microsoft Flow · Adobe XD · SharePoint · Creative Content Creation · Web Content Creation · Figma (Software) · Adobe InDesign…see more
+## Other Projects
+
