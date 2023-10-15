@@ -1,5 +1,5 @@
-import { experiences } from "@data/experiences";
-import { TExperience } from "../types/TExperience";
+import { experiences } from "@data";
+import { TExperience } from "@types";
 
 export function loadExperience(locale: "en" | "br") {
   const response = experiences.map((experience: TExperience) => ({

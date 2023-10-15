@@ -14,7 +14,7 @@
     ".gitattributes": true,
     // "public": true,
     "dist": true,
-    "tsconfig.json": true,
+    "tsconfig.json": false,
     ".eslintrc.json": true,
     // "next.config.js": true,
     "postcss.config.js": true

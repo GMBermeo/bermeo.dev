@@ -1,4 +1,4 @@
-import { TSkill } from "../types/TSkill";
+import { TSkill } from "@types";
 
 export const skills: TSkill[] = [
   { label: "HTML & CSS", level: 6, linkedin: true },

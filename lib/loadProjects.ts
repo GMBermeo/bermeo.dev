@@ -1,7 +1,6 @@
-import { projects } from "@data/projects";
-import { allImages } from "@pages/api/images";
-import { TImage } from "../types/TImage";
-import { TProject, TProjectRaw } from "../types/TProject";
+import { projects } from "@data";
+import { allImages } from "app/api/images";
+import { TImage } from "@types";
 
 export function loadProjects(locale: "en" | "br") {
   const response = projects.map((project) => ({

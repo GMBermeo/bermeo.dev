@@ -1,4 +1,4 @@
-import { TProjectRaw } from "../types/TProject";
+import { TProjectRaw } from "@types";
 
 export const projects: TProjectRaw[] = [
   {

@@ -1,4 +1,4 @@
-import { TImage } from "./TImage";
+import { TImage } from "@types";
 
 export interface TProject {
   title: { en: string; br: string };

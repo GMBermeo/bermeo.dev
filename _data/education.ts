@@ -1,4 +1,4 @@
-import { TDegree, TCourse, TCertification } from "../types/TEducation";
+import { TDegree, TCourse, TCertification } from "@types";
 
 export interface DataEducation {
   degrees: TDegree[];

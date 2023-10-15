@@ -1,8 +1,4 @@
-import { TExperience } from "../types/TExperience";
-
-export interface DataEducation {
-  experiences: TExperience[];
-}
+import { TExperience } from "@types";
 
 export const experiences: TExperience[] = [
   {
@@ -20,7 +16,7 @@ export const experiences: TExperience[] = [
         "- Revitalizing front-end interfaces of legacy systems by **incorporating modern technologies** and **refactoring HTML and CSS code in PHP projects**, adhering to Clean Code principles for ease of maintenance.",
         "- Employing **Docker** and **Nest.js** for effective project management and streamlined deployment.",
         "- Cooperating with **cross-functional teams**, leveraging Git for efficient version control and seamless project coordination.",
-        "- Overseeing maintenance of **Azure DevOps** projects, offering support and guidance on project organization and utilization within the tool."
+        "- Overseeing maintenance of **Azure DevOps** projects, offering support and guidance on project organization and utilization within the tool.",
       ],
       br: [
         "- Desenvolvimento ativo e integração de soluções inovadoras de front-end usando **React**, **Next 13**, **MUI**, **TypeScript** e **Tailwind CSS**, otimizando a experiência do usuário e agilizando os processos de desenvolvimento web.",
@@ -47,7 +43,7 @@ export const experiences: TExperience[] = [
         "- Updated front-end interfaces of legacy systems using new technologies and refactored HTML and CSS code in PHP projects following the principles of Clean Code to facilitate maintenance.",
         "- Utilized **Docker** and **Nest** for efficient project management and deployment.",
         "- Leveraged advanced **UX Design** techniques to create visually appealing and user-friendly interfaces.",
-        "- Collaborated with cross-functional teams, utilizing **Git** for efficient version control and seamless project coordination."
+        "- Collaborated with cross-functional teams, utilizing **Git** for efficient version control and seamless project coordination.",
       ],
       br: [
         "- Desenvolvimento e implementação de soluções robustas de front-end usando **React**, **Next 13**, **MUI 5**, **TypeScript** e **Tailwind CSS**, garantindo uma experiência do usuário ideal e desenvolvimento web contínuo.",

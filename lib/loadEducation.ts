@@ -1,4 +1,4 @@
-import { education } from "@data/education";
+import { education } from "@data";
 import { TCertification, TCourse, TDegree } from "../types/TEducation";
 
 export function loadEducation(locale: "en" | "br") {
