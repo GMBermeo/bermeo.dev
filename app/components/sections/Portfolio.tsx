@@ -4,9 +4,12 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import { ProjectCard, Title } from "@components";
 import { LocaleContext } from "@contexts/LocaleContext";
+import { loadProjects } from "lib";
+import { TProject } from "@types";
 
-export const Portfolio = ({ projects }: any) => {
-  const { isEng } = useContext(LocaleContext);
+export const Portfolio = () => {
+  const { isEng, locale } = useContext(LocaleContext);
+  const projects = loadProjects(locale);
 
   const [ref] = useKeenSlider<HTMLDivElement>({
     loop: true,

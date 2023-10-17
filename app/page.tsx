@@ -17,7 +17,6 @@ const HomePage = () => {
   const { isEng, locale } = useContext(LocaleContext);
   const experiences = loadExperience(locale);
   const education = loadEducation(locale);
-  const projects = loadProjects(locale);
 
   return (
     <>
@@ -29,7 +28,7 @@ const HomePage = () => {
           <About />
           {/*👷🏻‍♂️ Work Experience  */}
           <Experience experiences={experiences} />
-          <Portfolio projects={projects} />
+          <Portfolio />
         </div>
         <div className="container mr-auto max-w-3xl px-6 sm:px-8">
           {/*📚 Education */}

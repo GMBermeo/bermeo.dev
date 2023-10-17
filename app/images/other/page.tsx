@@ -23,7 +23,7 @@ const AllImagesOtherPage = () => {
             key={image.src}
             className="my-auto"
           >
-            <Image
+            <img
               src={image.src}
               alt={!isEng() && image.altBr ? image.altBr : image.alt}
               height={image.height}
@@ -39,7 +39,7 @@ const AllImagesOtherPage = () => {
             key={image.src}
             className="my-auto"
           >
-            <Image
+            <img
               src={image.src}
               alt={!isEng() && image.altBr ? image.altBr : image.alt}
               height={image.height}

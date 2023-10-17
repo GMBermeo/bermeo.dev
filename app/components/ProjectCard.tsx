@@ -9,7 +9,7 @@ export const ProjectCard = ({
 }: any) => {
   return (
     <figure className="flex h-full max-h-full w-5/6 flex-col justify-end pb-2">
-      <Image
+      <img
         className="mb-2 w-full"
         src={coverImage}
         alt={`${title} made with ${skills.join(", ")}`}

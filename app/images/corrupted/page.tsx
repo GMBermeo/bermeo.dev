@@ -24,7 +24,7 @@ const AllImagesCorruptedPage = () => {
             className="my-auto"
           >
             <figure className="flex flex-col">
-              <Image
+              <img
                 src={image.src}
                 alt={!isEng() && image.altBr ? image.altBr : image.alt}
                 height={image.height}

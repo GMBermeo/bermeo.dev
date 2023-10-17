@@ -30,7 +30,7 @@ export const Hero = () => {
 
         <div className="mx-auto flex h-1/6 justify-end gap-x-6 px-8">
           <a href="https://github.com/GMBermeo">
-            <Image
+            <img
               src="/social/github.svg"
               height={50}
               width={50}
@@ -38,7 +38,7 @@ export const Hero = () => {
             />
           </a>
           <a href="https://www.linkedin.com/in/gmbermeo/">
-            <Image
+            <img
               src="/social/linkedin.svg"
               height={50}
               width={50}

@@ -13,7 +13,7 @@ export const NavBar = () => {
     <nav className={s.navBar}>
       <div className="hidden sm:inline-block">
         <a href="https://www.bermeo.dev">
-          <Image
+          <img
             src="/logo.svg"
             alt="Guilherme Bermêo's Logo"
             height={50}

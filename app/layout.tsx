@@ -1,10 +1,9 @@
-import "styles/globals.css";
+import "../styles/globals.css";
 
 import { Metadata } from "next";
 import { LocaleStorage } from "@contexts/LocaleContext";
 
 export const metadata: Metadata = {
-  metadataBase: null,
   title: {
     template: "Guilherme Bermeo | %s",
     absolute: "Guilherme Bermeo | Front-end Developer",
@@ -54,7 +53,6 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  alternates: null,
   icons: [
     {
       rel: "icon",
@@ -78,7 +76,7 @@ export const metadata: Metadata = {
       sizes: "180x180",
     },
   ],
-  manifest: "https://bermeo.dev/site.webmanifest",
+  manifest: "/site.webmanifest",
   twitter: {
     card: "summary_large_image",
     site: "https://bermeo.dev",

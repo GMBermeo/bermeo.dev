@@ -19,7 +19,7 @@ const AllWorks = () => {
             key={image.src}
             className="my-auto rounded"
           >
-            <Image
+            <img
               src={image.src}
               alt={isEng() && image.altBr ? image.altBr : image.alt}
               height={image.height}
@@ -35,7 +35,7 @@ const AllWorks = () => {
             key={image.src}
             className="my-auto rounded"
           >
-            <Image
+            <img
               src={image.src}
               alt={isEng() && image.altBr ? image.altBr : image.alt}
               height={image.height}

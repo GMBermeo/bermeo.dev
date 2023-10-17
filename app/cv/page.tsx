@@ -2,6 +2,8 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import s from "@styles/markdown.module.css";
 import { Metadata } from "next";
+import fs from "fs";
+import matter from "gray-matter";
 
 export const metadata: Metadata = {
   title:
@@ -10,7 +12,8 @@ export const metadata: Metadata = {
 };
 
 const MarkDownCurriculumPage = () => {
-  const markdownContent = ``;
+  const filename = fs.readFileSync(`public/cv/GuilhermeBermeo-en.md`, "utf8");
+  const { content } = matter(filename);
 
   return (
     <>
@@ -18,7 +21,7 @@ const MarkDownCurriculumPage = () => {
         <ReactMarkdown
           className={`${s.markdown} px-6 pt-0 text-sm md:px-3 xl:px-0`}
         >
-          {markdownContent}
+          {content}
         </ReactMarkdown>
       </div>
     </>
