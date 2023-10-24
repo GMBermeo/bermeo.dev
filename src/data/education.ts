@@ -1,12 +1,12 @@
 import { TDegree, TCourse, TCertification } from "@types";
 
-export interface DataEducation {
+interface DataEducation {
   degrees: TDegree[];
   courses: TCourse[];
   certifications: TCertification[];
 }
 
-export const education: DataEducation = {
+export const education = {
   degrees: [
     {
       type: {

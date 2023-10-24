@@ -3,4 +3,4 @@ export * from "./Experience";
 export * from "./Image";
 export * from "./Project";
 export * from "./Skill";
-export * from "./Translate";
+export * from "./Translation";
