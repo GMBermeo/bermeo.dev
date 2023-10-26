@@ -1,13 +1,12 @@
 "use client";
-import { theme } from "@contexts";
-import { CustomThemeProvider, LocaleProvider } from "@contexts";
+import { CustomThemeProvider } from "@/hooks";
 
 export const Providers = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
-      <LocaleProvider>
+      <CustomThemeProvider>
         <CustomThemeProvider>{children}</CustomThemeProvider>
-      </LocaleProvider>
+      </CustomThemeProvider>
     </>
   );
 };

@@ -1,42 +1,39 @@
 "use client";
-import { useContext } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useLocaleContext } from "@contexts";
-import { Logo } from "@components";
 import { Box, Typography } from "@mui/material";
 
 interface NavButtonProps {
   label: string;
 }
 
-export const LangButton = ({ localeSet }: { localeSet: "en" | "br" }) => {
-  const { isEng, asPath, locale, defaultLocale } = useLocaleContext();
+// export const LangButton = ({ localeSet }: { localeSet: "en" | "br" }) => {
+//   // const { isEng, asPath, locale, defaultLocale } = useLocaleContext();
 
-  const changeLocale = () => {
-    if (localeSet !== locale) {
-      setLocale(localeSet);
-    }
-  };
+//   // const changeLocale = () => {
+//   //   if (localeSet !== locale) {
+//   //     setLocale(localeSet);
+//   //   }
+//   // };
 
-  return (
-    <Box
-      sx={{
-        opacity: locale === localeSet ? 1 : 0.5,
-        "&:hover": {
-          transform: locale === localeSet ? "scale(1.05)" : "scale(1)",
-        },
-        ml: 2,
-        fontSize: "2rem",
-      }}
-      onClick={changeLocale}
-    >
-      <Link href={asPath || ""} locale={localeSet}>
-        {localeSet === defaultLocale ? "🇬🇧" : "🇧🇷"}
-      </Link>
-    </Box>
-  );
-};
+//   return (
+//     <Box
+//       sx={{
+//         opacity: locale === localeSet ? 1 : 0.5,
+//         "&:hover": {
+//           transform: locale === localeSet ? "scale(1.05)" : "scale(1)",
+//         },
+//         ml: 2,
+//         fontSize: "2rem",
+//       }}
+//       onClick={changeLocale}
+//     >
+//       <Link href={asPath || ""} locale={localeSet}>
+//         {localeSet === defaultLocale ? "🇬🇧" : "🇧🇷"}
+//       </Link>
+//     </Box>
+//   );
+// };
 
 export const NavButton = ({ label }: NavButtonProps) => {
   function scrollToSection(section: string): void {
@@ -69,7 +66,7 @@ export const NavButton = ({ label }: NavButtonProps) => {
 };
 
 export const Header = () => {
-  const { isEng, asPath } = useLocaleContext();
+  // const { isEng, asPath } = useLocaleContext();
 
   return (
     <Box
@@ -101,14 +98,15 @@ export const Header = () => {
           <Typography variant="body1">CV</Typography>
         </Link>
         <NavButton
-          label={isEng() ? "About" : "Sobre"}
-          sx={{ display: { xs: "none", sm: "inline-block" } }}
+          // label={isEng() ? "About" : "Sobre"}
+          label="About"
+          // sx={{ display: { xs: "none", sm: "inline-block" } }}
         />
-        <NavButton label={isEng() ? "Experience" : "Experiência"} />
-        <NavButton label={isEng() ? "Projects" : "Projetos"} />
-        <NavButton label={isEng() ? "Education" : "Formação"} />
-        <LangButton localeSet={"en"} />
-        <LangButton localeSet={"br"} />
+        {/* <NavButton label={isEng() ? "Experience" : "Experiência"} /> */}
+        {/* <NavButton label={isEng() ? "Projects" : "Projetos"} /> */}
+        {/* <NavButton label={isEng() ? "Education" : "Formação"} /> */}
+        {/* <LangButton localeSet={"en"} /> */}
+        {/* <LangButton localeSet={"br"} /> */}
         {/* <NavButton label={isEng() ? "Contact" : "Contato"} /> */}
       </Box>
     </Box>

@@ -1,16 +1,17 @@
 "use client";
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
+import { Box, Card, Container, Typography } from "@mui/material";
+import { redirect } from "next/navigation";
 
-export default function Home() {
+// This page only renders when the app is built statically (output: 'export')
+export default function RootPage() {
   return (
     <main>
       <Container>
         <Box>
           <Card>
-            <Typography variant="h2">Hello World ~</Typography>
+            <Typography variant="overline">Hello World</Typography>
+            <Typography variant="h1">sadf</Typography>
+            <Typography variant="h3">xczvzxvc</Typography>
           </Card>
         </Box>
       </Container>
