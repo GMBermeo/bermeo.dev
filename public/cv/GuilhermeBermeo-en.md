@@ -1,4 +1,5 @@
 # GUILHERME YURI BERMÊO COSTA
+
 [LinkedIn](https://www.linkedin.com/in/gmbermeo) | [Github](https://github.com/gmbermeo) | [https://bermeo.dev](bermeo.dev) | Phone: +55 (61) 99634-2237 | E-mail: [guilherme.bermeo@gmail.com](mailto:guilherme.bermeo@gmail.com)
 
 Location: Brasilia, Federal District, Brazil
@@ -9,7 +10,7 @@ A versatile and detail-oriented professional, I bring passion and expertise in f
 
 ## TECHNICAL SKILLS
 
-Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Figma, FMOD, **Git**, **HTML**, Illustrator, InDesign, Javascript, Lightroom, Logic Pro, MUI 5, **Next**, Node, **React**, **Typescript**, Unity 3D, Vercel, Vue, Nest, PHP, PowerApps, *SASS*, Spline 3D, **Tailwind CSS**.
+Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Figma, FMOD, **Git**, **HTML**, Illustrator, InDesign, Javascript, Lightroom, Logic Pro, MUI 5, **Next.js**, Node, **React**, **Typescript**, Unity 3D, Vercel, Vue, Nest, PHP, PowerApps, **SASS**, Spline 3D, **Tailwind CSS**.
 
 ## EDUCATION
 
@@ -30,12 +31,22 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 
 - **DELF A2** Diplome d'Etudes en Langue Française (**84** / 100)
 - **IELTS** General Training (**6.5** / 9)
- 
+
 ## PROFESSIONAL EXPERIENCE
 
-### **SENIOR FRONT-END DEVELOPER** at TTY2000``
+### **SENIOR FRONT-END DEVELOPER** at [First Decision](https://www.firstdecision.com.br)
 
-#### April 2023 – Present
+#### December 2023 – Present
+
+- Actively engaged in the development and supervision of multiple projects, orchestrating the integration of innovative front-end solutions utilizing React.js, **Next.js 14**, **MUI**, **TypeScript**. The primary focus remains on optimizing user experience and enhancing the efficiency of web development processes.
+- Collaborating seamlessly with cross-functional teams, adeptly utilizing Git for precise version control and ensuring a smooth orchestration of project activities.
+- Taking charge of the oversight concerning the maintenance and deployment facets of **GitLab** projects through the proficient application of **Rancher** and **SonarQube**. Concurrently, offering valuable support and strategic guidance on the organization and utilization of projects within GitLab.Actively engaged in the development and supervision of multiple projects, orchestrating the integration of innovative front-end solutions. The primary focus remains on optimizing user experience and enhancing the efficiency of web development processes. Collaborating seamlessly with cross-functional teams, adeptly utilizing Git for precise version control and ensuring a smooth orchestration of project activities. Taking charge of the oversight concerning the maintenance and deployment facets of GitLab projects through the proficient application of Rancher and SonarQube. Concurrently, offering valuable support and strategic guidance on the organization and utilization of projects within GitLab.
+
+**Technical environment**: MUI, Docker, Nest.js, React.js, HTML, Next.js 14, User Experience, Git, TypeScript, Front-End Development, Web Development, SonarQube, Rancher, GitLab.
+
+### **SENIOR FRONT-END DEVELOPER** at [TTY2000](https://tty2000.com.br)
+
+#### April 2023 – November 2024
 
 - Actively developing and integrating innovative front-end solutions using **React**, **Next 13**, **MUI**, **TypeScript**, and **Tailwind CSS**, optimizing user experience and streamlining web development processes.
 - Revitalizing front-end interfaces of legacy systems by **incorporating modern technologies** and **refactoring HTML and CSS code in PHP projects**, adhering to Clean Code principles for ease of maintenance.
@@ -43,9 +54,9 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 - Cooperating with **cross-functional teams**, leveraging Git for efficient version control and seamless project coordination.
 - Overseeing maintenance of **Azure DevOps** projects, offering support and guidance on project organization and utilization within the tool.
 
-**Technical environment**: TypeScript, Blazor, Docker, SASS, React, JavaScript, HTML, Next, Nest, Git, CSS, Tailwind CSS, MUI, MudBlazor, Azure DevOps, PHP 7.4, Sonar.
+**Technical environment**: TypeScript, Blazor, Docker, SASS, React, JavaScript, HTML, Next.js 13, Nest, Git, CSS, Tailwind CSS, MUI, MudBlazor, Azure DevOps, PHP 7.4, Sonar.
 
-### **FRONT-END DEVELOPER, UX CONSULTANT** at TTY2000
+### **FRONT-END DEVELOPER, UX CONSULTANT** at [TTY2000](https://tty2000.com.br)
 
 #### September 2022 – April 2023
 
@@ -58,7 +69,7 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 
 **Technical environment**: TypeScript, Figma, Blazor, Docker, SASS, React, JavaScript, HTML, Next, Git, CSS, Tailwind CSS, MUI, MudBlazor, Azure DevOps, PHP 7.4.
 
-### **FRONT-END DEVELOPER** at AGU (Brazil’s Attorney-General’s Office)
+### **FRONT-END DEVELOPER** at [AGU (Brazil’s Attorney-General’s Office)](https://agu.gov.br)
 
 #### January 2022 – September 2022
 
@@ -70,8 +81,7 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 
 **Technical environment**: Blazor, SASS, JavaScript, HTML, User Experience, Git, CSS, TypeScript, Tailwind CSS, C#, Bootstrap, Bulma, React, Vue, Angular.
 
-
-### **SENIOR UX DESIGNER** at AGU (Brazil’s Attorney-General’s Office)
+### **SENIOR UX DESIGNER** at [AGU (Brazil’s Attorney-General’s Office)](https://agu.gov.br)
 
 #### September 2018 – January 2022
 
@@ -84,7 +94,7 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 
 **Technical environment**: HTML, User Experience, Git, CSS, Front-End Development, Design, Logo Design, Bootstrap, Adobe Photoshop, Adobe Illustrator, Adobe Creative Suite, Prototyping, Microsoft PowerApps, Microsoft Flow, Adobe XD, SharePoint, Creative Content Creation, Web Content Creation, Figma (Software), Adobe InDesign.
 
-### **OPERATIONS ANALYST, UX DESIGNER** at BBTS (Bank of Brazil Technology Branch)
+### **OPERATIONS ANALYST, UX DESIGNER** at [BBTS (Bank of Brazil Technology Branch)](https://bbts.com.br)
 
 #### April 2015 – September 2018
 
@@ -97,7 +107,7 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 
 **Technical environment**: SASS, HTML, User Experience, Git, CSS, Front-End Development, Digital Photography, Logo Design, Bootstrap, Adobe Creative Suite, Prototyping, Adobe XD, Creative Content Creation, Web Content Creation, Axure RP, Figma (Software).
 
-### **GRAPHIC DESIGNER**, Self-employed at Redbubble
+### **GRAPHIC DESIGNER**, Self-employed at [Redbubble](https://redbubble.com)
 
 #### October 2011 – November 2014
 
@@ -109,8 +119,7 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 
 **Technical environment**: Digital Photography, Design, Graphic Design, Logo Design, Adobe Photoshop Lightroom, Adobe Photoshop, Adobe Illustrator, Adobe Creative Suite, GIMP, Figma (Software), Inkscape.
 
-
-### **ADMINISTRATIVE ASSISTANT (ACCOUNTING CLERK)** at CAER (Roraima’s Water and Sewage Company)
+### **ADMINISTRATIVE ASSISTANT (ACCOUNTING CLERK)** at [CAER (Roraima’s Water and Sewage Company)](https://www.caer.com.br)
 
 #### June 2011 – December 2012
 
