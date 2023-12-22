@@ -1,4 +1,4 @@
-export interface TExperience {
+export interface Experience {
   title: { en: string; br: string };
   company: string;
   companyShort: string;
@@ -8,7 +8,7 @@ export interface TExperience {
   linkTo?: string;
 }
 
-export interface TExperienceResponse {
+export interface ExperienceResponse {
   title: string;
   company: string;
   companyShort: string;
@@ -18,7 +18,7 @@ export interface TExperienceResponse {
   linkTo?: string;
 }
 
-export interface TExperienceProps {
+export interface ExperienceProps {
   title: string;
   company: string;
   companyShort: string;
