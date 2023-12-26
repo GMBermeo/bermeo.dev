@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { TExperienceProps } from "@types";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";

@@ -7,7 +7,7 @@ import s from "@styles/NavBar.module.css";
 import { LocaleContext } from "@contexts/LocaleContext";
 
 export const NavBar = () => {
-  const { isEng, asPath } = useContext(LocaleContext);
+  const { isEng } = useContext(LocaleContext);
 
   return (
     <nav className={s.navBar}>

@@ -17,14 +17,14 @@ export const NavButton = ({ label, class: className }: TNavButtonProps) => {
 
   return (
     <li>
-      <a
+      <button
         className={`hover:decoration-primary ml-1 pl-2 pr-2 hover:underline hover:decoration-2 ${
-          className ? className : ""
+          className ?? ""
         }`}
         onClick={() => scrollToSection(label)}
       >
         {label}
-      </a>
+      </button>
     </li>
   );
 };

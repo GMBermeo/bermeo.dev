@@ -6,10 +6,32 @@ export const experiences: TExperience[] = [
       en: "Senior Front-end Developer",
       br: "Desenvolvedor Front-end Senior",
     },
+    companyShort: "FirstDecision",
+    company: "First Decision",
+    dateStart: "12.2023",
+    dateEnd: "Present",
+    description: {
+      en: [
+        "- Actively engaged in the development and supervision of multiple projects, orchestrating the integration of innovative front-end solutions utilizing React.js, **Next.js 14**, **MUI**, **TypeScript**. The primary focus remains on optimizing user experience and enhancing the efficiency of web development processes.",
+        "- Collaborating seamlessly with cross-functional teams, adeptly utilizing Git for precise version control and ensuring a smooth orchestration of project activities.",
+        "- Taking charge of the oversight concerning the maintenance and deployment facets of **GitLab** projects through the proficient application of **Rancher** and **SonarQube**. Concurrently, offering valuable support and strategic guidance on the organization and utilization of projects within GitLab.Actively engaged in the development and supervision of multiple projects, orchestrating the integration of innovative front-end solutions. The primary focus remains on optimizing user experience and enhancing the efficiency of web development processes. Collaborating seamlessly with cross-functional teams, adeptly utilizing Git for precise version control and ensuring a smooth orchestration of project activities. Taking charge of the oversight concerning the maintenance and deployment facets of GitLab projects through the proficient application of Rancher and SonarQube. Concurrently, offering valuable support and strategic guidance on the organization and utilization of projects within GitLab.",
+      ],
+      br: [
+        "- Ativamente envolvido no desenvolvimento e supervisão de múltiplos projetos, orquestrando a integração de soluções inovadoras de front-end utilizando React.js, **Next.js 14**, **MUI** e **TypeScript**. O foco principal permanece na otimização da experiência do usuário e no aprimoramento da eficiência dos processos de desenvolvimento web.",
+        "- Colaborando de maneira fluida com equipes multifuncionais, utilizando habilmente o Git para um controle preciso de versões e assegurando uma orquestração tranquila das atividades do projeto.",
+        "- Assumindo a responsabilidade pela supervisão das facetas de manutenção e implantação dos projetos no GitLab por meio da aplicação proficiente do Rancher e do SonarQube. Simultaneamente, oferecendo suporte valioso e orientação estratégica sobre a organização e utilização de repositórios dentro da ferramenta GitLab.",
+      ],
+    },
+  },
+  {
+    title: {
+      en: "Senior Front-end Developer",
+      br: "Desenvolvedor Front-end Senior",
+    },
     companyShort: "TTY",
     company: "TTY2000",
     dateStart: "04.2023",
-    dateEnd: "Present",
+    dateEnd: "12.2023",
     description: {
       en: [
         "- Actively developing and integrating innovative front-end solutions using **React**, **Next 13**, **MUI**, **TypeScript**, and **Tailwind CSS**, optimizing user experience and streamlining web development processes.",

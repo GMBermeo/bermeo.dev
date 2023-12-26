@@ -27,12 +27,12 @@ export const About = () => {
             games and movies.
           </ReactMarkdown>
           <p>
-            At the moment, my favorite technologies are
-            <span className="text-balde-blue"> React.js </span>,
-            <span className="text-balde-blue"> Typescript </span>,
-            <span className="text-balde-blue"> Tailwind CSS </span> and
-            <span className="text-balde-blue"> Next.js</span>. The tech stack
-            I&apos;ve used to build this site.
+            At the moment, my favorite technologies are{" "}
+            <span className="text-balde-blue"> React.js </span>,{" "}
+            <span className="text-balde-blue"> MUI </span>,{" "}
+            <span className="text-balde-blue"> Typescript </span>,{" "}
+            <span className="text-balde-blue"> Tailwind CSS </span> and{" "}
+            <span className="text-balde-blue"> Next.js</span>.
           </p>
         </article>
       </div>
@@ -56,11 +56,11 @@ export const About = () => {
             do trabalho, gosto de jogos de tabuleiro e filmes.
           </ReactMarkdown>
           <br /> <br /> No momento minhas tecnologias favoritas são
-          <span className="text-balde-blue"> React.js </span> com
-          <span className="text-balde-blue"> Typescript </span>,
-          <span className="text-balde-blue"> Tailwind CSS </span> e
-          <span className="text-balde-blue"> Next.js</span>. Que foram as
-          tecnologias utilizadas para fazer este site.
+          <span className="text-balde-blue"> React.js </span> com{" "}
+          <span className="text-balde-blue"> MUI </span>,{" "}
+          <span className="text-balde-blue"> Typescript </span>,{" "}
+          <span className="text-balde-blue"> Tailwind CSS </span> e{" "}
+          <span className="text-balde-blue"> Next.js</span>.
         </article>
       </>
     );

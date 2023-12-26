@@ -1,5 +1,5 @@
 "use client";
-import { NavBar } from "@components";
+import { useContext } from "react";
 import { loadEducation, loadExperience, loadProjects } from "lib";
 import {
   Hero,
@@ -8,13 +8,13 @@ import {
   OtherProjects,
   Portfolio,
   Education,
+  NavBar,
   Skills,
 } from "@components";
-import { useContext } from "react";
 import { LocaleContext } from "@contexts/LocaleContext";
 
 const HomePage = () => {
-  const { isEng, locale } = useContext(LocaleContext);
+  const { locale } = useContext(LocaleContext);
   const experiences = loadExperience(locale);
   const education = loadEducation(locale);
   const projects = loadProjects(locale);

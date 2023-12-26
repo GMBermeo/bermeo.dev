@@ -4,7 +4,7 @@ import Link from "next/link";
 import { LocaleContext } from "@contexts/LocaleContext";
 
 export const LangButton = ({ localeSet }: { localeSet: "en" | "br" }) => {
-  const { isEng, asPath, locale, defaultLocale } = useContext(LocaleContext);
+  const { asPath, locale, defaultLocale } = useContext(LocaleContext);
 
   return (
     <li

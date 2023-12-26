@@ -1,5 +1,5 @@
-import Image from "next/image";
-
+"use client";
+/* eslint-disable @next/next/no-img-element */
 export const ProjectCard = ({
   title,
   description,
@@ -9,7 +9,7 @@ export const ProjectCard = ({
 }: any) => {
   return (
     <figure className="flex h-full max-h-full w-5/6 flex-col justify-end pb-2">
-      <Image
+      <img
         className="mb-2 w-full"
         src={coverImage}
         alt={`${title} made with ${skills.join(", ")}`}
@@ -17,12 +17,10 @@ export const ProjectCard = ({
       />
 
       <figcaption className="text-center text-sm font-medium sm:text-lg">
-        <>
-          {title}{" "}
-          {company !== "Other" && (
-            <span className="text-primary text-sm">@{company}</span>
-          )}
-        </>
+        {title}{" "}
+        {company !== "Other" && (
+          <span className="text-primary text-sm">@{company}</span>
+        )}
       </figcaption>
       <div className="flex items-center justify-center gap-x-1 text-sm">
         {skills.map((skill: any, index: React.Key | null | undefined) => (

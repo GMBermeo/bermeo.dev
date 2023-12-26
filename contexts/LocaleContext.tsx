@@ -1,10 +1,11 @@
 "use client";
-import React, { useCallback } from "react";
+import React, { useCallback, useMemo } from "react";
 
 export const LocaleContext = React.createContext(null as any);
 
+const locales = ["en", "br"];
+
 export const LocaleStorage = ({ children }: any) => {
-  const locales = ["en", "br"];
   const defaultLocale = "en";
   const locale = "en";
 
@@ -12,8 +13,12 @@ export const LocaleStorage = ({ children }: any) => {
     return locale === "en";
   }, [locale]);
 
+  const contextValue = useMemo(() => {
+    return { locale, locales, defaultLocale, isEng };
+  }, [isEng]);
+
   return (
-    <LocaleContext.Provider value={{ locale, locales, defaultLocale, isEng }}>
+    <LocaleContext.Provider value={contextValue}>
       {children}
     </LocaleContext.Provider>
   );

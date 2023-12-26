@@ -32,9 +32,19 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 
 ## EXPERIÊNCIA PROFISSIONAL
 
+### **DESENVOLVEDOR FRONT-END SENIOR** na First Decision
+
+#### Dezembro 2023 – Atualmente
+
+- Ativamente envolvido no desenvolvimento e supervisão de múltiplos projetos, orquestrando a integração de soluções inovadoras de front-end utilizando React.js, **Next.js 14**, **MUI** e **TypeScript**. O foco principal permanece na otimização da experiência do usuário e no aprimoramento da eficiência dos processos de desenvolvimento web.
+- Colaborando de maneira fluida com equipes multifuncionais, utilizando habilmente o Git para um controle preciso de versões e assegurando uma orquestração tranquila das atividades do projeto.
+- Assumindo a responsabilidade pela supervisão das facetas de manutenção e implantação dos projetos no GitLab por meio da aplicação proficiente do Rancher e do SonarQube. Simultaneamente, oferecendo suporte valioso e orientação estratégica sobre a organização e utilização de repositórios dentro da ferramenta GitLab.
+
+**Ambiente técnico**:: MUI, Docker, Nest.js, React.js, HTML, Next.js 14, User Experience, Git, TypeScript, Front-End Development, Web Development, SonarQube, Rancher, GitLab.
+
 ### **DESENVOLVEDOR FRONT-END SENIOR** na TTY2000
 
-#### Abril 2023 – Atual
+#### Abril 2023 – Novembro 2023
 
 - Desenvolvimento ativo e integração de soluções inovadoras de front-end usando **React**, **Next 13**, **MUI**, **TypeScript** e **Tailwind CSS**, otimizando a experiência do usuário e agilizando os processos de desenvolvimento web.
 - Revitalização das interfaces front-end de sistemas legados através da **incorporação de tecnologias modernas** e **refatoração de código HTML e CSS em projetos PHP**, aderindo aos princípios do Clean Code para facilitar a manutenção.
@@ -59,7 +69,9 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 **Ambiente técnico**: TypeScript, Figma, Blazor, Docker, SASS, React, JavaScript, HTML, Next, Git, CSS, Tailwind CSS, MUI, MudBlazor, Azure DevOps, PHP 7.4.
 
 ### **DESENVOLVEDOR FRONT-END** na AGU (Advocacia-Geral da União)
+
 #### Janeiro 2022 – Setembro 2022
+
 - Desenvolvimento de soluções front-end **responsivas e acessíveis** para sistemas internos **legados** dos anos 2000, usando **HTML**, **JavaScript**, **TypeScript** e **Tailwind CSS**, melhorando a experiência do usuário e garantindo um desenvolvimento web contínuo.
 - Utilização de frameworks CSS como **Bootstrap**, **Tailwind CSS** e **Bulma**, bem como CSS 3.0 Vanilla, para criar interfaces visualmente atraentes e funcionais.
 - Emprego de **frameworks JavaScript** como **React**, **Vue** e **Angular** para um desenvolvimento front-end eficiente.
@@ -67,7 +79,6 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 - Utilização de **Git** para controle de versão e colaboração em projetos, trabalhando em estreita colaboração com equipes multifuncionais para garantir entregas pontuais e resultados de alta qualidade.
 
 **Technical environment**: Blazor, SASS, JavaScript, HTML, User Experience, Git, CSS, TypeScript, Tailwind CSS, C#, Bootstrap, Bulma, React, Vue, Angular.
-
 
 ### **UX DESIGNER SENIOR** na AGU (Advocacia-Geral da União)
 
@@ -83,7 +94,9 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 **Ambiente técnico**: HTML, User Experience, Git, CSS, Front-End Development, Design, Logo Design, Bootstrap, Adobe Photoshop, Adobe Illustrator, Adobe Creative Suite, Prototyping, Microsoft PowerApps, Microsoft Flow, Adobe XD, SharePoint, Creative Content Creation, Web Content Creation, Figma (Software), Adobe InDesign.
 
 ### **ANALISTA DE OPERAÇÕES, DESIGNER UX** na BBTS (Tecnologia do Banco do Brasil)
+
 #### Abril 2015 – Setembro 2018
+
 - Design e desenvolvimento de **interfaces de usuário** para diversas plataformas digitais, focando na **experiência do usuário** e apelo visual.
 - Criação de **wireframes**, **mockups** e **protótipos de alta fidelidade** usando Axure RP para validar documentação e melhorar a experiência do usuário e design por meio de testes extensivos com clientes.
 - Colaboração em projetos internos, desenhando software de gerenciamento financeiro para empresas (clientes bancários), **desenvolvimento/manutenção de front-end** e projetando/prototipando funcionalidades e identidade visual para o aplicativo móvel "Banco do Brasil", um dos aplicativos mais utilizados no Brasil com mais de 50 milhões de downloads, 4 milhões de avaliações e nota 4,5 na Google Play.
@@ -96,7 +109,6 @@ Adobe XD, Axure RP, **Azure DevOps**, **Blazor**, Bootstrap, **C#**, **CSS**, Fi
 ### **DESIGNER GRÁFICO**, Autônomo na Redbubble
 
 #### Outubro 2011 – Novembro 2014
-
 
 - Criação de **designs originais para camisetas**, exibindo talento artístico e conceitos inovadores para diversos públicos.
 - Utilização de ferramentas de design, como **Inkscape, GIMP e Adobe Illustrator**, para criar obras de arte vetorial, garantindo resultados de alta qualidade e designs versáteis.

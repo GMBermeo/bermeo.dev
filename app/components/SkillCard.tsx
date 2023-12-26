@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { TSkill } from "@types";
 import { SkillBadge } from "@components";

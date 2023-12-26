@@ -8,7 +8,7 @@ import s from "styles/markdown.module.css";
 import { NavBar } from "app/components/NavBar/NavBar";
 
 const AguPage = () => {
-  const { isEng, locale } = useContext(LocaleContext);
+  const { locale } = useContext(LocaleContext);
   const filename = fs.readFileSync(
     `_data/advocacia-geral-da-uniao-${locale}.md`,
     "utf8"
