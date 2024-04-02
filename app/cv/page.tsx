@@ -1,8 +1,9 @@
 "use client";
-import React, { useContext, useEffect } from "react";
+import React, { useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import s from "@styles/markdown.module.css";
-import { LocaleContext } from "@contexts/LocaleContext";
+
+import { DownloadCv } from "@components";
 
 // export const metadata: Metadata = {
 //   title:
@@ -12,22 +13,26 @@ import { LocaleContext } from "@contexts/LocaleContext";
 
 const MarkDownCurriculumPage = () => {
   const [markdownContent, setMarkdownContent] = React.useState("");
-  const { locale } = useContext(LocaleContext);
 
   useEffect(() => {
-    fetch(`/cv/GuilhermeBermeo-${locale}.md`)
+    fetch(`/cv/GuilhermeBermeo-en.md`)
       .then((response) => response.text())
       .then((text) => setMarkdownContent(text));
-  }, [locale]);
+  }, []);
 
   return (
-    <div className="mx-auto max-w-3xl">
-      <ReactMarkdown
-        className={`${s.markdown} px-6 pt-0 text-sm md:px-3 xl:px-0`}
-      >
-        {markdownContent}
-      </ReactMarkdown>
-    </div>
+    <>
+      <header className="flex px-6 pt-0 md:px-3 xl:px-0">
+        <DownloadCv />
+      </header>
+      <div className="mx-auto mb-4 max-w-3xl">
+        <ReactMarkdown
+          className={`${s.markdown} px-6 pt-0 text-sm md:px-3 xl:px-0`}
+        >
+          {markdownContent}
+        </ReactMarkdown>
+      </div>
+    </>
   );
 };
 

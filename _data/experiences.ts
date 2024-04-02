@@ -1,6 +1,6 @@
-import { TExperience } from "@types";
+import { Experience } from "@types";
 
-export const experiences: TExperience[] = [
+export const experiences: Experience[] = [
   {
     title: {
       en: "Senior Front-end Developer",

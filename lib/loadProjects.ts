@@ -1,6 +1,6 @@
 import { projects } from "@data";
-import { allImages } from "app/api/images";
-import { TImage } from "@types";
+import { allImages } from "@api/images";
+import { Image } from "@types";
 
 export function loadProjects(locale: "en" | "br") {
   const response = projects.map((project) => ({
@@ -10,7 +10,7 @@ export function loadProjects(locale: "en" | "br") {
     coverImage: project.coverImage,
     images:
       project.imagesPath &&
-      allImages.filter((image: TImage) =>
+      allImages.filter((image: Image) =>
         image.src.includes(project.imagesPath as string)
       ),
     company: project.company,

@@ -1,35 +1,27 @@
-"use client";
-import { useContext } from "react";
 import { EducationCard, Subtitle, Title } from "@components";
-import {
-  TCertificationResponse,
-  TCourseResponse,
-  TDegreeResponse,
-} from "@types";
-import { LocaleContext } from "@contexts/LocaleContext";
+import { CertificationResponse, CourseResponse, DegreeResponse } from "@types";
 
 export const Education = ({ education }: any) => {
   const { degrees, courses, certifications } = education;
-  const { isEng } = useContext(LocaleContext);
 
   return (
     <div>
-      <Title title={isEng() ? "Education" : "Formação"} />
+      <Title title={"Education"} />
       <div className="mb-8">
         <ul className="mb-8">
-          {degrees.map((degree: TDegreeResponse) => (
+          {degrees.map((degree: DegreeResponse) => (
             <EducationCard {...degree} key={degree.title} />
           ))}
         </ul>
-        <Subtitle title={isEng() ? "Courses" : "Cursos"} />
+        <Subtitle title={"Courses"} />
         <ul className="mb-8">
-          {courses.map((course: TCourseResponse) => (
+          {courses.map((course: CourseResponse) => (
             <EducationCard {...course} key={course.title} />
           ))}
         </ul>
-        <Subtitle title={isEng() ? "Certificates" : "Certificações"} />
+        <Subtitle title={"Certificates"} />
         <ul>
-          {certifications.map((certification: TCertificationResponse) => (
+          {certifications.map((certification: CertificationResponse) => (
             <EducationCard {...certification} key={certification.title} />
           ))}
         </ul>

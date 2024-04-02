@@ -12,7 +12,7 @@ export * from "./sections/OtherProjects";
 export * from "./sections/Portfolio";
 export * from "./sections/Skills";
 export * from "./ui/Button";
-export * from "./ui/LangButton";
+export * from "./ui/DownloadCv";
 export * from "./ui/ReadMore";
 export * from "./ui/SkillBadge";
 export * from "./ui/Subtitle";

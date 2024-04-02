@@ -1,6 +1,6 @@
-import { TSkill } from "@types";
+import { Skill } from "@types";
 
-export const skills: TSkill[] = [
+export const skills: Skill[] = [
   { label: "HTML & CSS", level: 6, linkedin: true },
   { label: "React", level: 6, linkedin: true },
   { label: "Next.js", level: 6 },

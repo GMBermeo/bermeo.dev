@@ -1,14 +1,10 @@
-"use client";
-import { LocaleContext } from "@contexts/LocaleContext";
-import { TImage } from "@types";
+import { Image as TImage } from "@types";
 import Image from "next/image";
-import { useContext } from "react";
-import { allImages, altSizesImages } from "../api/images";
+import { allImages, altSizesImages } from "@api/images";
 
 const AllWorks = () => {
-  const { isEng } = useContext(LocaleContext);
   const images = allImages;
-  const altImages = altSizesImages;
+  const alImages = altSizesImages;
 
   return (
     <>
@@ -21,7 +17,7 @@ const AllWorks = () => {
           >
             <Image
               src={image.src}
-              alt={isEng() && image.altBr ? image.altBr : image.alt}
+              alt={image.alt}
               height={image.height}
               width={image.width}
             />
@@ -37,7 +33,7 @@ const AllWorks = () => {
           >
             <Image
               src={image.src}
-              alt={isEng() && image.altBr ? image.altBr : image.alt}
+              alt={image.alt}
               height={image.height}
               width={image.width}
             />

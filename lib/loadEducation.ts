@@ -1,11 +1,11 @@
 import { education } from "@data";
-import { TCertification, TCourse, TDegree } from "../types/TEducation";
+import { Certification, Course, Degree } from "@types";
 
 export function loadEducation(locale: "en" | "br") {
   const { degrees, courses, certifications } = education;
 
   const response = {
-    degrees: degrees.map((item: TDegree) => ({
+    degrees: degrees.map((item: Degree) => ({
       title: item.title[locale as keyof typeof item.title],
       type: item.type[locale as keyof typeof item.type],
       thesis: item.thesis
@@ -15,13 +15,13 @@ export function loadEducation(locale: "en" | "br") {
       dateStart: item.dateStart,
       dateEnd: item.dateEnd,
     })),
-    courses: courses.map((item: TCourse) => ({
+    courses: courses.map((item: Course) => ({
       title: item.title[locale as keyof typeof item.title],
       institution: item.institution,
       dateEnd: item.dateEnd,
       hours: item.hours,
     })),
-    certifications: certifications.map((item: TCertification) => ({
+    certifications: certifications.map((item: Certification) => ({
       title: item.title,
       institution: item.institution,
       dateEnd: item.dateEnd,

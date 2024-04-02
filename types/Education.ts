@@ -1,4 +1,4 @@
-export interface TDegree {
+export interface Degree {
   type: {
     en: "Postgraduate Degree" | "Undergraduate Degree";
     br: "Pós-graduação Lato Sensu" | "Ensino Superior";
@@ -15,38 +15,38 @@ export interface TDegree {
   dateStart: string;
   dateEnd: string;
 }
-export interface TCourse {
+export interface Course {
   title: { en: string; br: string };
   institution: string;
   dateEnd: string;
   hours: number;
 }
-export interface TCertification {
+export interface Certification {
   title: string;
   institution: string;
   dateEnd: string;
 }
 
-export interface TDegreeResponse {
+export interface DegreeResponse {
   type: string;
   title: string;
   institution: string;
   dateStart: string;
   dateEnd: string;
 }
-export interface TCourseResponse {
+export interface CourseResponse {
   title: string;
   institution: string;
   dateEnd: string;
   hours: number;
 }
-export interface TCertificationResponse {
+export interface CertificationResponse {
   title: string;
   institution: string;
   dateEnd: string;
 }
 
-export interface TEducationProps {
+export interface EducationProps {
   type?: string;
   title: string;
   thesis?: string;

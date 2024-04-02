@@ -1,6 +1,6 @@
-import { TProjectRaw } from "@types";
+import { ProjectRaw } from "@types";
 
-export const projects: TProjectRaw[] = [
+export const projects: ProjectRaw[] = [
   {
     title: {
       en: "Business Management Software",

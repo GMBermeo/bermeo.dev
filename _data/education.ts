@@ -1,9 +1,9 @@
-import { TDegree, TCourse, TCertification } from "@types";
+import { Degree, Course, Certification } from "@types";
 
 export interface DataEducation {
-  degrees: TDegree[];
-  courses: TCourse[];
-  certifications: TCertification[];
+  degrees: Degree[];
+  courses: Course[];
+  certifications: Certification[];
 }
 
 export const education: DataEducation = {

@@ -1,6 +1,4 @@
 import { Title } from "@components";
-import { useContext } from "react";
-import { LocaleContext } from "@contexts/LocaleContext";
 import fs from "fs";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
@@ -8,9 +6,8 @@ import s from "styles/markdown.module.css";
 import { NavBar } from "app/components/NavBar/NavBar";
 
 const AguPage = () => {
-  const { locale } = useContext(LocaleContext);
   const filename = fs.readFileSync(
-    `_data/advocacia-geral-da-uniao-${locale}.md`,
+    `_data/advocacia-geral-da-uniao-en.md`,
     "utf8"
   );
   const { content } = matter(filename);

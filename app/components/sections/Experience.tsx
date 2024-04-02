@@ -1,17 +1,12 @@
-"use client";
-import { useContext } from "react";
 import { Title, WorkCard } from "@components";
-import { TExperienceResponse } from "@types";
-import { LocaleContext } from "@contexts/LocaleContext";
+import { ExperienceResponse } from "@types";
 
 export const Experience = ({ experiences }: any) => {
-  const { isEng } = useContext(LocaleContext);
-
   return (
     <div>
-      <Title title={isEng() ? "Experience" : "Experiência"} />
+      <Title title={"Experience"} />
       <ol>
-        {experiences.map((experience: TExperienceResponse) => (
+        {experiences.map((experience: ExperienceResponse) => (
           <WorkCard {...experience} key={experience.dateEnd} />
         ))}
       </ol>

@@ -1,10 +1,8 @@
 import "../styles/globals.css";
 
 import { Metadata } from "next";
-import { LocaleStorage } from "@contexts/LocaleContext";
 
 export const metadata: Metadata = {
-  metadataBase: null,
   title: {
     template: "Guilherme Bermeo | %s",
     absolute: "Guilherme Bermeo | Front-end Developer",
@@ -128,10 +126,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children, params }: any) {
   return (
-    <LocaleStorage>
-      <html lang={"en"}>
-        <body>{children}</body>
-      </html>
-    </LocaleStorage>
+    <html lang={"en"}>
+      <body>{children}</body>
+    </html>
   );
 }

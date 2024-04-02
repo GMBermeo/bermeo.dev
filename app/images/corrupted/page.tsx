@@ -1,12 +1,8 @@
-"use client";
-import { LocaleContext } from "@contexts/LocaleContext";
-import { useContext } from "react";
-import { allImages } from "../../api/images";
-import { TImage } from "@types";
+import { allImages } from "@api/images";
+import { Image as TImage } from "@types";
 import Image from "next/image";
 
 const AllImagesCorruptedPage = () => {
-  const { isEng } = useContext(LocaleContext);
   const images = allImages.filter((item: TImage) =>
     item.src.includes("/CORRUPTED-")
   );
@@ -26,13 +22,13 @@ const AllImagesCorruptedPage = () => {
             <figure className="flex flex-col">
               <Image
                 src={image.src}
-                alt={!isEng() && image.altBr ? image.altBr : image.alt}
+                alt={image.alt}
                 height={image.height}
                 width={image.width}
                 className="rounded-xl"
               />
               <figcaption className="mb-4 mt-2 text-sm font-medium text-slate-700">
-                {!isEng() && image.altBr ? image.altBr : image.alt}
+                {image.alt}
               </figcaption>
             </figure>
           </a>

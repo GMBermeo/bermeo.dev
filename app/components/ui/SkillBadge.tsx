@@ -1,6 +1,4 @@
-"use client";
-
-interface TSkillBadgeProps {
+interface SkillBadgeProps {
   fill?: string;
   size?: number;
 }
@@ -8,7 +6,7 @@ interface TSkillBadgeProps {
 export const SkillBadge = ({
   fill = "currentColor",
   size = 24,
-}: TSkillBadgeProps) => {
+}: SkillBadgeProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

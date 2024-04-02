@@ -1,16 +1,12 @@
-"use client";
-import { useContext } from "react";
 import Image from "next/image";
-import { LocaleContext } from "@contexts/LocaleContext";
-import { TImage } from "@types";
-import { allImages, altSizesImages } from "../../api/images";
+import { Image as TImage } from "@types";
+import { allImages, altSizesImages } from "@api/images";
 
 const AllImagesOtherPage = () => {
-  const { isEng } = useContext(LocaleContext);
   const images = allImages.filter((item: TImage) =>
     item.src.includes("/other/" || "/gif/")
   );
-  const altImages = altSizesImages.filter((item: TImage) =>
+  const alImages = altSizesImages.filter((item: TImage) =>
     item.src.includes("/other/" || "/gif/")
   );
 
@@ -25,7 +21,7 @@ const AllImagesOtherPage = () => {
           >
             <Image
               src={image.src}
-              alt={!isEng() && image.altBr ? image.altBr : image.alt}
+              alt={image.alt}
               height={image.height}
               width={image.width}
             />
@@ -33,7 +29,7 @@ const AllImagesOtherPage = () => {
         ))}
       </div>
       <div className="grid grid-cols-6 gap-2 p-4 md:grid-cols-8 md:gap-4 md:p-8 xl:grid-cols-12">
-        {altImages.map((image: TImage) => (
+        {alImages.map((image: TImage) => (
           <a
             href={"https://bermeo.dev" + image.src}
             key={image.src}
@@ -41,7 +37,7 @@ const AllImagesOtherPage = () => {
           >
             <Image
               src={image.src}
-              alt={!isEng() && image.altBr ? image.altBr : image.alt}
+              alt={image.alt}
               height={image.height}
               width={image.width}
             />

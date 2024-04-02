@@ -1,13 +1,9 @@
 "use client";
-import { useContext } from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import { ProjectCard, Title } from "@components";
-import { LocaleContext } from "@contexts/LocaleContext";
 
 export const Portfolio = ({ projects }: any) => {
-  const { isEng } = useContext(LocaleContext);
-
   const [ref] = useKeenSlider<HTMLDivElement>({
     loop: true,
     mode: "free-snap",
@@ -20,10 +16,10 @@ export const Portfolio = ({ projects }: any) => {
 
   return (
     <div className="mx-auto">
-      <Title title={isEng() ? "Projects" : "Projetos"} />
+      <Title title={"Projects"} />
       <div
         ref={ref}
-        className="keen-slider bg-dracula-background rounded-lg px-0 pt-4 md:mx-auto"
+        className="keen-slider rounded-lg bg-dracula-background px-0 pt-4 md:mx-auto"
       >
         {projects.map(
           (projeto: any, index: number) =>

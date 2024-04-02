@@ -1,29 +1,25 @@
-"use client";
-import { useContext } from "react";
 import { loadEducation, loadExperience, loadProjects } from "lib";
 import {
   Hero,
   About,
   Experience,
-  OtherProjects,
   Portfolio,
   Education,
   NavBar,
   Skills,
+  DownloadCv,
 } from "@components";
-import { LocaleContext } from "@contexts/LocaleContext";
 
 const HomePage = () => {
-  const { locale } = useContext(LocaleContext);
-  const experiences = loadExperience(locale);
-  const education = loadEducation(locale);
-  const projects = loadProjects(locale);
+  const experiences = loadExperience("en");
+  const education = loadEducation("en");
+  const projects = loadProjects("en");
 
   return (
     <>
       <NavBar />
       <Hero />
-      <main className="3xl:grid-cols-[1fr_39vw] mx-auto grid max-w-fit grid-cols-1">
+      <main className="mx-auto grid max-w-fit grid-cols-1 3xl:grid-cols-[1fr_39vw]">
         <div className="container ml-auto max-w-5xl px-6 sm:px-8">
           {/*📰 Bio */}
           <About />
@@ -37,12 +33,12 @@ const HomePage = () => {
           <Skills />
         </div>
       </main>
-      <div
-      //  className="customContainer"
-      ></div>
+      <footer className="flex justify-center pb-6">
+        <DownloadCv />
+      </footer>
 
       {/*🔥 Projects */}
-      <OtherProjects />
+      {/* <OtherProjects /> */}
 
       {/*📝 Button to download your Resume */}
 

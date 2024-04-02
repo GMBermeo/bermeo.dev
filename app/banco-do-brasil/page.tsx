@@ -1,18 +1,12 @@
-import { Title } from "@components";
-import { useContext } from "react";
-import { LocaleContext } from "@contexts/LocaleContext";
 import fs from "fs";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import s from "styles/markdown.module.css";
 import { NavBar } from "app/components/NavBar/NavBar";
+import { Title } from "@components";
 
 const BB = () => {
-  const { locale } = useContext(LocaleContext);
-  const filename = fs.readFileSync(
-    `_data/banco-do-brasil-${locale}.md`,
-    "utf8"
-  );
+  const filename = fs.readFileSync(`_data/banco-do-brasil-en.md`, "utf8");
   const { content } = matter(filename);
 
   return (
