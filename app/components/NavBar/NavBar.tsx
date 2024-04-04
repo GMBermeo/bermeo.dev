@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { NavButton } from "@components";
 import s from "@styles/NavBar.module.css";
+import sLink from "@styles/Link.module.css";
 
 export const NavBar = () => {
   return (
@@ -17,10 +18,7 @@ export const NavBar = () => {
         </a>
       </div>
       <ul className="flex items-center">
-        <Link
-          href={"/cv"}
-          className="ml-1 pl-2 pr-2 hover:underline hover:decoration-primary hover:decoration-2"
-        >
+        <Link href={"/cv"} className={sLink.link}>
           CV
         </Link>
         <NavButton label="About" class="hidden sm:inline-block" />

@@ -15,7 +15,7 @@ const AllImagesCorruptedPage = () => {
       <div className="grid grid-cols-1 gap-4 p-4 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
         {images.map((image: TImage) => (
           <a
-            href={"https://bermeo.dev" + image.src}
+            href={"https://www.bermeo.dev" + image.src}
             key={image.src}
             className="my-auto"
           >

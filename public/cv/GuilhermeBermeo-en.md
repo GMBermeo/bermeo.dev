@@ -1,6 +1,6 @@
 # GUILHERME YURI BERMÊO COSTA
 
-[LinkedIn](https://www.linkedin.com/in/gmbermeo) | [Github](https://github.com/gmbermeo) | [https://bermeo.dev](bermeo.dev) | Phone: +55 (61) 99634-2237 | E-mail: [guilherme.bermeo@gmail.com](mailto:guilherme.bermeo@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/gmbermeo) | [Github](https://github.com/gmbermeo) | [https://www.bermeo.dev](bermeo.dev) | Phone: +55 (61) 99634-2237 | E-mail: [guilherme.bermeo@gmail.com](mailto:guilherme.bermeo@gmail.com)
 
 Location: Brasilia, Federal District, Brazil
 

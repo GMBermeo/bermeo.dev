@@ -109,7 +109,7 @@ The new AGU.Visitas system offers a user-friendly and efficient solution for man
 
 #### Brand Book DTI / AGU (at Advocacia-Geral da União as UX Designer, BBTS)
 
-![](https://bermeo.dev/images/agu/HOTSITE-2160.jpg)
+![](https://www.bermeo.dev/images/agu/HOTSITE-2160.jpg)
 Developed a comprehensive style guideline and design system for the Technology core of the General Advocacy of the Union and the new logo of the Information Technology Directorate. By leveraging Google Material Design's best practices, the project aimed to standardize development projects, enhance usability, and ensure a consistent visual identity across all digital platforms.
 
 ## Other Projects

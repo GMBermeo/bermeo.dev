@@ -29,28 +29,28 @@ Keywords: Leitmotif. Vertical Re-orchestration. Horizontal Re-sequencing. Narrat
 
 ## SUMÁRIO
 
-1.     INTRODUÇÃO
-2.     DESENVOLVIMENTO
-2.1       NARRATIVA EM MÚSICA
-2.2       TRILHA SONORA EM CINEMA
-2.3       MÚSICA ADAPTATIVA EM JOGOS DIGITAIS
-3.     REVISÃO BIBLIOGRÁFICA
-4.     METODOLOGIA
-5.     ANÁLISE DOS RESULTADOS
-6.     CONSIDERAÇÕES FINAIS
-7.     REFERÊNCIAS BIBLIOGRÁFICAS
+1. [INTRODUÇÃO](#1-introdução)
+2. [DESENVOLVIMENTO](#2-desenvolvimento)
+    1. [NARRATIVA EM MÚSICA](#21-narrativa-em-música)
+    2. [TRILHA SONORA EM CINEMA](#22-trilha-sonora-em-cinema)
+    3. [MÚSICA ADAPTATIVA EM JOGOS DIGITAIS](#23-música-adaptativa-em-jogos-digitais)
+3. [REVISÃO BIBLIOGRÁFICA](#3-revisão-bibliográfica)
+4. [METODOLOGIA](#4-metodologia)
+5. [ANÁLISE DOS RESULTADOS](#5-análise-dos-resultados)
+6. [CONSIDERAÇÕES FINAIS](#6-considerações-finais)
+7. [REFERÊNCIAS BIBLIOGRÁFICAS](#7-referências-bibliográficas)
 
 ## LISTA DE FIGURAS
 
-Figura 1: Temas do Sultão e Scheherazade, respectivamente.
-Figura 2: Tema de Scheherazade, segundo movimento compassos de 1 a 4.
-Figura 3: Tema de Scheherazade, quarto movimento compassos de 8 a 9.
-Figura 4: Tema de Scheherazade, quarto movimento compassos de 659 a 665.
-Figura 5: As seis artes de capa de Everywhere At The End Of Time.
-Figura 6: Comparação entre o tema de Star Wars e o tema de Siegfried.
-Figura 7: Interface do FMOD onde é possível visualizar 6 trechos musicais que podem tocar em uma sequência definida via parâmetro, de forma dinâmica em tempo real. No trecho em destaque está tocando uma transição 10 entre as seções 4 e 0.
-Figura 8: Tema Field (day) original, e parte das fragmentações usadas no jogo como trilha.
-Figura 9: Gráfico explicativo da sobreposição vertical na música do segundo cenário de Journey.
+- [Figura 1: Temas do Sultão e Scheherazade, respectivamente.](https://www.bermeo.dev/thesis/img/fig1.png)
+- [Figura 2: Tema de Scheherazade, segundo movimento compassos de 1 a 4.](https://www.bermeo.dev/thesis/img/fig2.png)
+- [Figura 3: Tema de Scheherazade, quarto movimento compassos de 8 a 9.](https://www.bermeo.dev/thesis/img/fig3.png)
+- [Figura 4: Tema de Scheherazade, quarto movimento compassos de 659 a 665.](https://www.bermeo.dev/thesis/img/fig4.png)
+- [Figura 5: As seis artes de capa de Everywhere At The End Of Time.](https://www.bermeo.dev/thesis/img/fig5.jpg)
+- [Figura 6: Comparação entre o tema de Star Wars e o tema de Siegfried.](https://www.bermeo.dev/thesis/img/fig6.png)
+- [Figura 7: Interface do FMOD onde é possível visualizar 6 trechos musicais que podem tocar em uma sequência definida via parâmetro, de forma dinâmica em tempo real. No trecho em destaque está tocando uma transição 10 entre as seções 4 e 0.](https://www.bermeo.dev/thesis/img/fig7.png)
+- [Figura 8: Tema Field (day) original, e parte das fragmentações usadas no jogo como trilha.](https://www.bermeo.dev/thesis/img/fig8.jpg)
+- [Figura 9: Gráfico explicativo da sobreposição vertical na música do segundo cenário de Journey.](https://www.bermeo.dev/thesis/img/fig9.png)
 
 ## 1. INTRODUÇÃO
 
@@ -75,25 +75,21 @@ O sultão Shahriar persuadido da falsidade e falta de lealdade das mulheres juro
 O leitmotiv grave e sombrio que abre o primeiro movimento é suposto representar o sultão dominador (figura 1, abaixo), este tema enfatiza quatro notas descendentes em uma escala de tons inteiros[^14] geralmente interpretado nos naipes de metal da orquestra. Após a introdução do leitmotiv do Sultão, ouvimos belos acordes em instrumentos de sopro (representando delicadeza) e em seguida ouvimos o leitmotiv que representa Scheherazade, sua esposa, representado por um violino solo[^15] (figura 1, abaixo) acompanhado por uma harpa. (ALMEIDA, 2015).
 
 Figura 1: Temas do Sultão e Scheherazade, respectivamente.
-￼
-Fonte 1: ROFFEL (2020).
+![Fonte 1: ROFFEL (2020)](https://www.bermeo.dev/thesis/img/fig1.png)
 
 Durante a sinfonia, quanto mais histórias Scheherazade conta ao Sultão, mais confiança ela ganha e seus solos ficam mais complexos, enquanto o tema do Sultão fica a cada movimento, mais “fraco” e submisso à protagonista. A segunda aparição de seu leitmotiv durante o segundo movimento é musicalmente mais complexa e leva a uma explosão incrível de paradas duplas[^16] no quarto compasso (figura 2, abaixo), o que é tecnicamente desafiador. (DICTEROW, 2008).
 Figura 2: Tema de Scheherazade, segundo movimento compassos de 1 a 4.
-￼
-Fonte 2: DICTEROW (2008).
+![Fonte 2: DICTEROW (2008)](https://www.bermeo.dev/thesis/img/fig2.png)
 
 O terceiro movimento da peça, “O Jovem Príncipe e a Princesa” é o relato de uma grande história de amor, para isso se utiliza de longas melodias se entrelaçando-se em uníssono com uma percussão mais leve, estética que anos depois podem ser reconhecidas em filmes românticos como o tema principal de “...E o Vento Levou” de 1938. (VASCONCELOS, 2012). Durante este movimento o leitmotiv de Scheherazade aparece somente durante os compassos 142 a 157, através de uma entrada muito sutil acompanhado de instrumentos de sopro.
 
 Figura 3: Tema de Scheherazade, quarto movimento compassos de 8 a 9.
-￼
-Fonte 3: DICTEROW (2008).
+![Fonte 3: DICTEROW (2008)](https://www.bermeo.dev/thesis/img/fig3.png)
 
 O quarto movimento conta com um sultão prestes a perder a paciência, mas rapidamente é de novo envolvido nos contos de Scheherazade, que conta com um leitmotiv muito cansado em um ritmo lento, cheio de dissonâncias em paradas triplas[^17] e pausas que simulam uma voz falhada (figura 3, acima). (VASCONCELOS, 2012). Esse movimento conta com uma “cena” em que o barco de Sinbad se choca contra as rochas, como a peça passa pela interpretação de cada grupo orquestral, há um vídeo famoso da Sinfônica de Galícia em que o condutor Leif Segerstam começa a gritar com alguns de seus companheiros de orquestra[^18], simulando o que seria o desespero dos marinheiros tentando (em vão) desviar das rochas, aprimorando muito mais a narrativa da história. (SINFÓNICA DE GALICIA, 2015). Ao final, resolve-se a conflitante relação entre os dois quando o leitmotiv do Sultão é apresentado como subdominante menor em relação ao leitmotiv com cadência tônica maior de Scheherazade encerrando o conflito de forma lírica, fantástica e pacífica, representado por um leitmotiv leve, melódico e com um harmônico final altíssimo (figura 4, abaixo). (GRIFFITHS, 1989).
 
 Figura 4: Tema de Scheherazade, quarto movimento compassos de 659 a 665.
-￼
-Fonte 4: DICTEROW (2008).
+![Fonte 4: DICTEROW (2008)](https://www.bermeo.dev/thesis/img/fig4.png)
 
 Durante a história da música contemporânea, vários grupos e artistas passaram a utilizar-se de técnicas que guiam um álbum em uma ideia ou narrativa linear. Conhecidos como álbuns conceituais, é um álbum em que todas as músicas contribuem para o mesmo efeito final ou para uma história única. (ARAÚJO, 2015). Dos álbuns conceituais mais famosos considera-se o Sgt. Pepper's Lonely Hearts Club Band dos Beatles de 1967 como um dos primeiros, onde era suposto que cada membro da banda adotasse um personagem de ficção e a canção-título apresentasse a banda como “Lonely Hearts Club Band”, no entanto a maior parte das músicas não têm relação com a narrativa proposta além da sonoridade. Em 1969, é lançado o que viria a ser considerado o primeiro álbum de ópera rock da história, Tommy da banda britânica The Who, com um total de 24 faixas o álbum começa com uma abertura[^19] e conta a história do garoto cego, surdo e mudo, Tommy Walker, que passa a ter essa condição depois de ver seu pai sendo morto pelo amante da mãe. Em 1975, o disco foi adaptado para o cinema pelo diretor Ken Russell. Logo na sequência, a banda The Who lançou seu segundo álbum de ópera rock, Quadrophenia, em 1973, cobrindo na perspectiva de primeira pessoa a história de aproximadamente dois dias da vida de um certo Jimmy, um protagonista com personalidade quádrupla, cada uma delas associadas a um integrante da banda. Em 1979, a banda britânica Pink Floyd lança o disco duplo The Wall, com um total de 26 faixas o disco conta a história de Pink, cujo pai é morto durante a Segunda Guerra Mundial e o garoto se vê obrigado a conviver com uma mãe superprotetora e que o oprime, na história, “o muro” é uma metáfora que a banda encontrou para que o personagem fosse construindo barreiras até chegar ao isolamento. O disco usa uma narrativa cheia de interlúdios entre faixas que compõe uma visão da história, enquanto evoca leitmotivs para representar personagens e ideias. (FREIRE, 2020). O disco marca como o segundo trabalho feito em torno de uma narrativa, em 1977 já havia lançado Animals, seu primeiro trabalho no estúdio independente montado pela banda. Animals é inspirado no romance A revolução dos bichos do escritor George Orwell, onde no álbum, a sociedade é dividida em 3 tipos de animais, cada um sendo apresentado em uma música diferente, e sendo reevocado através da sonoridade em outras faixas. O álbum é uma crítica direta ao capitalismo, em razão da preocupação de Roger Waters sobre desigualdade, preconceito e atitudes sociais e políticas alinhadas ao movimento punk britânico, crescente à época. (LAST FM, 2016).
 
@@ -110,8 +106,7 @@ A banda Titãs em 2018 lança o álbum duplo “Doze Flores Amarelas”, a prime
 Das diferentes maneiras de se construir uma narrativa através da estética sonora, destaca-se o pouco conhecido trabalho de The Caretaker, alter-ego[^23] de Leyland Kirby, na hexalogia[^24] “Everywhere at the end of time”, o conceito da hexalogia baseia-se no que uma pessoa com Alzheimer[^25] ou com demência pode sentir durante as fases da doença. O artista dá muito uso de trechos de música de salão dos anos 30 e 40, uma época em que nas palavras do artista, era uma época meio perdida, por estar no intervalo entre duas guerras mundiais e caracterizada por muita incerteza. De uma forma muito sutil e aparentemente aleatória somos confrontados com alguns indícios de que algo ruim está por vir, por exemplo, cortes repentinos na música ou até mesmo de um forte uso da repetição de melodias. Suavemente sem nos darmos conta da progressão, entramos nas fases mais avançadas da doença e as mesmas melodias calmas transformam-se em sons cada vez mais etéreos e distantes com o uso pesado de efeitos de reverberação. Enquanto as três primeiras obras têm cerca de 40 minutos de duração cada, as três últimas faixas são muito mais longas, com durações sempre acima de 1 hora e 25 minutos. Esse simbolismo pode estar associado à rapidez inicial com que a memória de uma pessoa com a doença se desintegra e a sensação posterior de infinitude associada a estas doenças. É a partir da quarta obra em que o limite entre música e barulho se tornam cada mais tênues, porém, no meio de tanto som ainda é possível discernir uma ou outra reminiscência daquilo que foram memórias felizes da música que ouvimos durantes as três primeiras obras. Ainda assim, estas vagas memórias são apenas uma pequena migalha daquilo que é uma sinfonia perfeita de horror e que reitera continuamente a sensação de impotência, confusão e conflito interno. Finalmente, na sexta e última obra, é possível discernir alguma aceitação em relação ao destino enquanto a música caminha para longos ruídos de sintetizadores carregados de efeitos. As melodias que nos acompanharam especialmente nas primeiras três obras, perdem-se e não se ouvem de todo, fazendo aumentar uma sensação muito profunda de vazio e abandono. A faixa final, “Place in the world fades away”, é um crescendo de energia, uma aceitação da inevitabilidade do tempo e do fim de uma vida e a entrega total para o vazio que fica. A um minuto do fim do álbum, a música simplesmente para, numa tentativa de demonstrar o fim definitivo e demorado de uma vida que durante os momentos finais pareceu encontrar a sua paz. (CALDEIRA, 2020).
 
 Figura 5: As seis artes de capa de Everywhere At The End Of Time.
-￼
-Fonte 5: CALDEIRA (2020).
+![Fonte 5: CALDEIRA (2020)](https://www.bermeo.dev/thesis/img/fig5.jpg)
 
 A arte de capa (Figura 5, acima) em cada uma das seis obras, todas pintadas pelo artista Ivan Seal, reflete no estado mental da progressão da doença, na primeira capa, pode-se dizer que é o retrato de um livro, ou simplesmente de papeis, enrolados, facilmente identificável. Na segunda capa, pode-se identificar que é um vaso de flores, abstrato, porém é fato de que é um vaso de flores. Na terceira capa, identifica-se o que seria uma árvore, uma planta ou alga, pintado de forma agressiva e abstrata. Na quarta capa, faz-se lembrar o último autorretrato pintado por William Utermohlen, artista vítima de Alzheimer. Já quinta capa é uma estátua totalmente abstrata, onde não se identifica nada. Enquanto na sexta e última capa, talvez a mais assustadora, pois você reconhece o objeto, mas não faz sentido algum, seria um pedaço de madeira com fitas coladas. (JOSEPH, 2020).
 
@@ -120,7 +115,7 @@ A arte de capa (Figura 5, acima) em cada uma das seis obras, todas pintadas pelo
 Para nós, espectadores contemporâneos, estamos acostumados a ver o acompanhamento musical servindo como forma de melhorar a experiência mostrada na tela, porém nem sempre foi assim. Até os anos 1950, a trilha sonora era apenas um acompanhamento de um piano com a intenção de preencher o silêncio ou cenas em que os atores não estavam falando. Já nos anos 50, orquestras começam a ser convidadas a criar música para filmes. Ennio Morricone foi um dos primeiros a elevar a técnica do leitmotiv em seu trabalho na Trilogia dos Dólares[^26] no período entre 1964 e 1966. Morricone decidiu usar a técnica popularizada por Richard Wagner para criar o acompanhamento perfeito para os personagens principais sem saturar o filme com música, através de inserções musicais com um tema para cada um dos personagens principais. (KEANE, 2021). Uma década depois, John Williams compõe a trilha de Star Wars, um blockbuster[^27] que viria a ter tanto sucesso que acabaria ganhando duas continuações logo na sequência, e consequentemente, mais seis filmes ao longo dos anos até 2019. A influencia estética de Richard Wagner na obra de John Williams é clara, onde o tema principal da trilha é diretamente influenciada pelo leitmotiv do herói Siegfried, da terceira ópera de Der Ring des Nibelungen, de Richard Wagner (Figura 6, abaixo).
 
 Figura 6: Comparação entre o tema de Star Wars e o tema de Siegfried.
-![Fonte 6: KREROWICZ (2014)](https://bermeo.dev/thesis/img/fig6.png)
+![Fonte 6: KREROWICZ (2014)](https://www.bermeo.dev/thesis/img/fig6.png)
 
 Elementos relacionados à Sound Design em cinema podem ser encontrados em trilhas assinadas pelo compositor Hans Zimmer. Em Inception (2010), Non, Je Ne Regrette Rien, a música é utilizada como um sinal para outra realidade. A música não só está presente como trilha de diegética[^28], como também está presente na estrutura genética de toda a trilha sonora. Em entrevista ao New York Times (2011), Hans Zimmer comenta: "toda a música na trilha são subdivisões e multiplicações do tempo da música de Edith Piaf." O exemplo mais claro é o tema de Inception, onde é revelada o tema da música de Piaf tocada pelos trombones ao se acelerar a trilha. "Eu fiquei surpreso com quanto tempo eles levaram para descobrir. [^Isso] não era para ser um segredo." (MICHAELS, 2010). No filme Interstellar (2020), os personagens visitam um planeta onde é mencionado que cada hora é aproximadamente sete anos em tempo terrestre por conta da dilatação do tempo[^29] entre os dois planetas em questão. O compositor utiliza cliques na trilha sonora a cada 1.25 segundos para representar um dia terrestre, com a trilha dando um ar de urgência e tensão à cena. (KOMOI, 2020).
 
@@ -140,21 +135,19 @@ No livro "A Composer's Guide to Game Music", o tópico sobre re-sequenciamento h
 Na técnica de re-sequenciamento horizontal o compositor deve levar em consideração a fragmentação da trilha e como se dará a costura entre os diferentes trechos e estruturas. Com a evolução do software, fora possibilitada não apenas a transição de um trecho de trilha para outro como também é possibilitada a transição em pontos específicos e com fragmentos de pontes específicas, hoje a ferramenta possibilita que seja marcado os tempos e os possíveis sinais de entrada de uma micro composição e outra, permitindo que a transição entre seção A e C, possua uma ponte B, sem se alterar o tempo ou musicalidade de forma brusca, tornando imperceptível ao jogador a transição de um trecho ao outro e passando a impressão de ser uma única trilha linear.
 
 Figura 7: Interface do FMOD onde é possível visualizar 6 trechos musicais que podem tocar em uma sequência definida via parâmetro, de forma dinâmica em tempo real. No trecho em destaque está tocando uma transição 10 entre as seções 4 e 0.
-￼
-Fonte 7: (FARLEY, 2018).
+![Fonte 7: (FARLEY, 2018)](https://www.bermeo.dev/thesis/img/fig7.png)
 
 No jogo The Legend of Zelda: A Breath of the Wild (2017), o mundo de Hyrule onde se passa o jogo, está em ruínas após uma guerra, como forma narrativa de representar esse pano de fundo toda a trilha sonora é trabalhada com micro composições (representando a fragmentação do mundo) minimalistas (representando o vazio que restou após a devastação) tocado em piano (se afastando de todas as fanfarras épicas dos jogos anteriores), onde o foco está mais nas ambiências e narrativas contadas com o sound design. (BROWN, 2014). Como exemplo, o tema “Field (Day)” (Figura 8, abaixo) consiste em 6 compassos minimalistas de piano, fragmentados em 12 micro composições que são tocadas em ordem aleatória, com intervalos (silêncio) aleatórios, e podendo até mesmo conter notas com áudio revertido, com o som reproduzido de trás para frente. (SCRUFFY, 2019).
 
 Figura 8: Tema Field (day) original, e parte das fragmentações usadas no jogo como trilha.
-￼
-Fonte 8: (SCRUFFY, 2019).
+![Fonte 8: (SCRUFFY, 2019)](https://www.bermeo.dev/thesis/img/fig8.jpg)
+
 Em Breath of the Wild, a trilha sonora de combate alterna entre três escalas[38] possíveis, equidistantes entre si, juntamente com uma versão estendida, elaborada e mais intensa em três escalas possíveis para inimigos mais difíceis. O tema junta muitos sons diferentes em ritmos estranhos, formando uma sopa de textura, quase como uma peça minimalista. Há alguns sons que só tocam quando você acerta um inimigo, não exatamente no momento, graças ao middleware que faz a gestão do áudio, esses sons tocam sincronizadamente na próxima batida[39] apropriada da música, com camadas de som baseadas na força com que você acerta, com três trechos diferentes de piano nas três escalas possíveis do tema de combate. (SCRUFFY, 2019).
 
 Além do re-sequenciamento horizontal, outra técnica muito importante e inerente à tecnologia sonora em jogos digitais é a re-orquestração vertical, também conhecida como sobreposição vertical ou estratificação. (MENEGUETTE, 2016). A re-orquestração vertical consiste em construir o som através de camadas, adicionando ou subtraindo instrumentos e/ou efeitos sonoros, que podem ser controladas por estados pré-definidos ou parâmetros (agrupados e/ou individuais), oferecendo uma vantagem ao mascarar cortes e permitir a construção de transições não-aparentes sem a necessidade de criação de novas micro composições. (MENEGUETTE, 2016). Em Journey (2012), a construção de camadas na música é notável no segundo cenário do jogo. O jogador precisa ativar mecanismos para construir uma grande ponte de tecido para chegar ao próximo destino. A trilha sonora reage a cada parte construída da ponte. A música começa com uma nota drone tocada por contrabaixos enquanto longos acordes de sintetizador proveem o material harmônico. Fragmentos do tema principal são tocados tanto por instrumentos de madeira quanto de metal. Quando o segundo mecanismo é acionado, um solo de contrabaixo em pizzicato é adicionado, dando uma sensação de pulso mais clara à música anteriormente difusa. Com a ativação do terceiro mecanismo, uma variação da melodia do tema é tocada pela primeira vez por uma flauta baixo, tornando a frase musical discernível. (ROVERAN, 2017).
 
 Figura 9: Gráfico explicativo da sobreposição vertical na música do segundo cenário de Journey.
-￼
-Fonte 8: (ROVERAN, 2017).
+![Fonte 9: (ROVERAN, 2017)](https://www.bermeo.dev/thesis/img/fig9.png)
 
 A completude dessa seção do jogo leva cerca de sete minutos, tempo suficiente para o compositor explorar as camadas sonoras. A transição para outra música é feita quando o jogador começa a atravessar a ponte recém-construída. Uma nova música, agora mais agitada com amplo uso de percussão e sonoridade maior, indica o sucesso do jogador e o convida a descobrir o próximo estágio. (ROVERAN, 2017).
 
@@ -248,7 +241,7 @@ REED, R. Coheed and Cambria Pause Sci-Fi Concept for Personal New Album. Rolling
 
 MUELBOY. I just decided to track the Keywork leitmotif through the discography. It would be great to create a visual map of recurring themes! Reddit, 2014. Disponivel em: <https://www.reddit.com/r/TheFence/comments/1xx8ji/i_just_decided_to_track_the_keywork_leitmotif/>. Acesso em: 14 Maio 2021.
 
-MEDEIROS, E. Odair José: A saga da primeira ópera-rock brasileira Leia mais em: https://whiplash.net/materias/biografias/233023-odairjose.html. Whiplash, 2015. Disponivel em: <https://whiplash.net/materias/biografias/233023-odairjose.html>. Acesso em: 17 Maio 2021.
+MEDEIROS, E. [Odair José: A saga da primeira ópera-rock brasileira](https://whiplash.net/materias/biografias/233023-odairjose.html). Whiplash, 2015. Disponivel em: <https://whiplash.net/materias/biografias/233023-odairjose.html>. Acesso em: 17 Maio 2021.
 
 ASCARI, B. A Ópera Rock de Odair José - O Filho de José e Maria. Youtube, 2020. Disponivel em: <https://youtu.be/1Vv0MTsSXWY>. Acesso em: 17 Maio 2021.
 
@@ -373,7 +366,7 @@ montagem e o tratamento de som e imagem visual para a sincronização final. (L
 
 [^17] Parada tripla é a técnica de tocar três notas simultaneamente em um instrumento de cordas, como violino, viola, violoncelo e contrabaixo. (HUGILL, 2005).
 
-[^18] Vídeo disponível em https://youtu.be/zY4w4_W30aQ, cena em questão aos 44:59.
+[^18] [Vídeo disponível no Youtube](https://youtu.be/zY4w4_W30aQ), cena em questão na minutagem 44:59.
 
 [^19] Peça que serve de introdução a uma ópera ou a outro tipo de composição ou espetáculo musical. (ORQUESTRA SINFÔNICA BRASILEIRA, 2021).
 

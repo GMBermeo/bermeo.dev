@@ -1,4 +1,5 @@
 "use client";
+import sLink from "@styles/Link.module.css";
 
 interface TNavButtonProps {
   label: string;
@@ -18,9 +19,7 @@ export const NavButton = ({ label, class: className }: TNavButtonProps) => {
   return (
     <li>
       <button
-        className={`ml-1 pl-2 pr-2 hover:underline hover:decoration-primary hover:decoration-2 ${
-          className ?? ""
-        }`}
+        className={`${sLink.link} ${className}`}
         onClick={() => scrollToSection(label)}
       >
         {label}

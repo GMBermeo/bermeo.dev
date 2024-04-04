@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import sLink from "@styles/Link.module.css";
 
 export const DownloadCv = () => {
   const isWindows =
@@ -7,15 +8,13 @@ export const DownloadCv = () => {
       ? navigator.userAgent.toUpperCase().indexOf("WIN") >= 0
       : false;
 
-  const tailwind =
-    " ml-1 pl-2 pr-2 hover:decoration-primary hover:underline hover:decoration-2";
-
   return (
     <>
       <Link
         href={"/download/CV-202312[en].pdf"}
         hrefLang="en"
-        className={tailwind}
+        className={sLink.link}
+        prefetch={false}
       >
         <span className={isWindows ? "hidden" : ""}>🇬🇧 </span>Download CV
       </Link>
@@ -23,7 +22,8 @@ export const DownloadCv = () => {
       <Link
         href={"/download/CV-202312[br].pdf"}
         hrefLang="pt-BR"
-        className={tailwind}
+        className={sLink.link}
+        prefetch={false}
       >
         <span className={isWindows ? "hidden" : ""}>🇧🇷 </span>Baixar currículo
       </Link>

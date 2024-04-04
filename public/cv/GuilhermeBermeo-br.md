@@ -1,6 +1,6 @@
 # GUILHERME YURI BERMÊO COSTA
 
-[LinkedIn](https://www.linkedin.com/in/gmbermeo) | [Github](https://github.com/gmbermeo) | [Website](https://bermeo.dev) | Telefone: +55 (61) 99634-2237 | E-mail: [guilherme.bermeo@gmail.com](mailto:guilherme.bermeo@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/gmbermeo) | [Github](https://github.com/gmbermeo) | [Website](https://www.bermeo.dev) | Telefone: +55 (61) 99634-2237 | E-mail: [guilherme.bermeo@gmail.com](mailto:guilherme.bermeo@gmail.com)
 
 ## DESENVOLVEDOR FRONT-END SENIOR / ANALISTA DE UX
 
