@@ -11,7 +11,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-const AllImagesAGUPage = () => {
+const AllImagesAGUPage = async () => {
   const images = allImages.filter((item) => item.src.includes("/agu/"));
   const alImages = altSizesImages.filter((item: TImage) =>
     item.src.includes("/agu/")
