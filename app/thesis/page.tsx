@@ -54,6 +54,7 @@ const ThesisPage = async () => {
       <ReactMarkdown
         className={`${s.markdown} px-6 pt-0 text-sm  md:px-3 xl:px-0`}
         remarkPlugins={[remarkGfm]}
+        remarkRehypeOptions={{ footnoteLabel: "Notas de rodapé" }}
       >
         {content}
       </ReactMarkdown>
