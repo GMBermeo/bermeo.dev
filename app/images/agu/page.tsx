@@ -1,6 +1,15 @@
-import { Image as TImage } from "@types";
+"use server";
+import { Metadata } from "next";
 import Image from "next/image";
 import { allImages, altSizesImages } from "@api/images";
+import { Image as TImage } from "@types";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Attorney General's Office images | Guilherme Bermeo",
+    description: "Attorney General's Office images in one page for indexing.",
+  };
+}
 
 const AllImagesAGUPage = () => {
   const images = allImages.filter((item) => item.src.includes("/agu/"));

@@ -19,6 +19,7 @@
       "@data": ["_data/index"],
       "@components": ["app/components/index"],
       "@api/*": ["pages/api/*"],
+      "@lib": ["lib/index"],
       "@hooks/*": ["hooks/*"],
       "@pages/*": ["pages/*"],
       "@styles/*": ["styles/*"],

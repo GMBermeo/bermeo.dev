@@ -1,5 +1,6 @@
 .markdown {
   font-weight: lighter;
+  overflow-wrap: break-word;
 }
 
 .markdown h1 {

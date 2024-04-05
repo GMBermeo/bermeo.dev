@@ -19,6 +19,7 @@ export default function manifest(): MetadataRoute.Manifest {
       "css",
       "html",
       "brazil",
+      "relocate",
     ],
     lang: "en",
     description: "",
