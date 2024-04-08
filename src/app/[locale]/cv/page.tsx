@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { DownloadCv } from "@components";
 import { loadMarkdown } from "@lib";
-import s from "@styles/markdown.module.css";
+import s from "@styles/Markdown.module.css";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {

@@ -19,7 +19,7 @@ export const Portfolio = ({ projects }: any) => {
       <Title title={"Projects"} />
       <div
         ref={ref}
-        className="keen-slider rounded-lg bg-dracula-background px-0 pt-4 md:mx-auto"
+        className="keen-slider bg-dracula-background rounded-lg px-0 pt-4 md:mx-auto"
       >
         {projects.map(
           (projeto: any, index: number) =>

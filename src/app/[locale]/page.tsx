@@ -1,5 +1,5 @@
 "use server";
-import { loadEducation, loadExperience, loadProjects } from "lib";
+import { loadEducation, loadExperience, loadProjects } from "@lib";
 import {
   Hero,
   About,
