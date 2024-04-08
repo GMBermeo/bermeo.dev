@@ -14,10 +14,12 @@ const AllWorks = () => {
             href={"https://www.bermeo.dev" + image.src}
             key={image.src}
             className="my-auto rounded"
+            title={image.alt}
           >
             <Image
               src={image.src}
               alt={image.alt}
+              title={image.alt}
               height={image.height}
               width={image.width}
             />
@@ -30,10 +32,12 @@ const AllWorks = () => {
             href={"https://www.bermeo.dev" + image.src}
             key={image.src}
             className="my-auto rounded"
+            title={image.alt}
           >
             <Image
               src={image.src}
               alt={image.alt}
+              title={image.alt}
               height={image.height}
               width={image.width}
             />

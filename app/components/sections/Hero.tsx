@@ -1,6 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 
-export const Hero = () => {
+export function Hero() {
   return (
     <div>
       <header className="mx-auto h-screen px-6 md:px-16 lg:px-32">
@@ -10,7 +11,7 @@ export const Hero = () => {
               {"//hello world!"}
             </h3>
             <h1 className="pb-4 text-3xl font-medium leading-tight sm:text-5xl md:text-7xl">
-              {"My name is"}
+              {"My name is "}
               <br />
               Guilherme Bermêo.
             </h1>
@@ -24,24 +25,32 @@ export const Hero = () => {
         </div>
 
         <div className="mx-auto flex h-1/6 justify-end gap-x-6 px-8">
-          <a href="https://github.com/GMBermeo">
+          <Link
+            href="https://github.com/GMBermeo"
+            title="Visit Guilherme Bermêo's Github"
+          >
             <Image
               src="/social/github.svg"
               height={50}
               width={50}
               alt="Github Invertocat Logo"
+              title="Github"
             />
-          </a>
-          <a href="https://www.linkedin.com/in/gmbermeo/">
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/gmbermeo/"
+            title="Visit Guilherme Bermêo's LinkedIn"
+          >
             <Image
               src="/social/linkedin.svg"
               height={50}
               width={50}
               alt="Linkedin Logo"
+              title="Linkedin"
             />
-          </a>
+          </Link>
         </div>
       </header>
     </div>
   );
-};
+}

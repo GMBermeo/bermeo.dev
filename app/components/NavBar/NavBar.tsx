@@ -8,17 +8,18 @@ export const NavBar = () => {
   return (
     <nav className={s.navBar}>
       <div className="hidden sm:inline-block">
-        <a href="https://www.bermeo.dev">
+        <Link href="https://www.bermeo.dev" title="Bermeo.dev">
           <Image
             src="/logo.svg"
-            alt="Guilherme Bermêo's Logo"
+            alt="Guilherme Bermêo"
+            title="Guilherme Bermêo's Logo"
             height={50}
             width={50}
           />
-        </a>
+        </Link>
       </div>
       <ul className="flex items-center">
-        <Link href={"/cv"} className={sLink.link}>
+        <Link href={"/cv"} className={sLink.link} title="Curriculum Vitae">
           CV
         </Link>
         <NavButton label="About" class="hidden sm:inline-block" />

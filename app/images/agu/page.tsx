@@ -25,10 +25,12 @@ const AllImagesAGUPage = async () => {
             href={"https://www.bermeo.dev" + image.src}
             key={image.src}
             className="my-auto rounded"
+            title={image.alt}
           >
             <Image
               src={image.src}
-              alt={image.alt ?? image.altBr}
+              alt={image.alt}
+              title={image.alt}
               height={image.height}
               width={image.width}
             />
@@ -40,11 +42,13 @@ const AllImagesAGUPage = async () => {
           <a
             href={"https://www.bermeo.dev" + image.src}
             key={image.src}
+            title={image.alt}
             className="my-auto rounded"
           >
             <Image
               src={image.src}
-              alt={image.alt ?? image.altBr}
+              alt={image.alt}
+              title={image.alt}
               height={image.height}
               width={image.width}
             />

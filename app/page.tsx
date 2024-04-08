@@ -1,10 +1,10 @@
 "use server";
 import { loadEducation, loadExperience, loadProjects } from "lib";
 import {
-  Hero,
   About,
   Experience,
   Portfolio,
+  Hero,
   Education,
   NavBar,
   Skills,
@@ -20,7 +20,7 @@ const HomePage = async () => {
     <>
       <NavBar />
       <Hero />
-      <main className="3xl:grid-cols-[1fr_39vw] mx-auto grid max-w-fit grid-cols-1">
+      <main className="mx-auto grid max-w-fit grid-cols-1 3xl:grid-cols-[1fr_39vw]">
         <div className="container ml-auto max-w-5xl px-6 sm:px-8">
           {/*📰 Bio */}
           <About />

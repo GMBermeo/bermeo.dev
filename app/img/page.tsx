@@ -19,11 +19,13 @@ const AllWorksPage = async () => {
         <a
           href={"https://www.bermeo.dev" + image.src}
           key={image.src}
+          title={image.alt}
           className="my-auto rounded"
         >
           <Image
             src={image.src}
             alt={image.alt}
+            title={image.alt}
             height={image.height}
             width={image.width}
           />

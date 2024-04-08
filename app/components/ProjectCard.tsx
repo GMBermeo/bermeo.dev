@@ -6,6 +6,10 @@ export const ProjectCard = ({ title, coverImage, company, skills }: any) => {
         className="mb-2 w-full"
         src={coverImage}
         alt={`${title} made with ${skills.join(", ")}`}
+        title={title}
+        loading="lazy"
+        width={697}
+        height={368}
         // alt={title.en : title.br}
       />
 
