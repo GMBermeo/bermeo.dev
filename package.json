@@ -12,7 +12,6 @@
     "fs": "^0.0.1-security",
     "keen-slider": "^6.8.1",
     "next": "^14.1.4",
-    "next-intl": "^3.11.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-markdown": "^9.0.1",

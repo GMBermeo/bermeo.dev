@@ -1,5 +1,5 @@
 "use server";
-import "@styles/globals.css";
+import "../styles/globals.css";
 import { Metadata, Viewport } from "next";
 
 export async function generateViewport(): Promise<Viewport> {
@@ -132,21 +132,9 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-const locales = ["en", "br"];
-
-export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
-}
-
-export default async function RootLayout({
-  children,
-  params: { locale },
-}: {
-  children: React.ReactNode;
-  params: { locale: "en" | "br" };
-}) {
+export default async function RootLayout({ children, params }: any) {
   return (
-    <html lang={locale}>
+    <html lang={"en"}>
       <body>{children}</body>
     </html>
   );

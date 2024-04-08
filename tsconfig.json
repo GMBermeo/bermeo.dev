@@ -17,13 +17,13 @@
     "baseUrl": "./",
     "paths": {
       "@data": ["_data/index"],
-      "@components": ["src/app/[locale]/components/index"],
-      "@api/*": ["src/pages/api/*"],
-      "@lib": ["src/lib/index"],
-      "@hooks/*": ["src/hooks/*"],
-      "@pages/*": ["src/pages/*"],
-      "@styles/*": ["src/styles/*"],
-      "@types": ["src/types/index"],
+      "@components": ["app/components/index"],
+      "@api/*": ["pages/api/*"],
+      "@lib": ["lib/index"],
+      "@hooks/*": ["hooks/*"],
+      "@pages/*": ["pages/*"],
+      "@styles/*": ["styles/*"],
+      "@types": ["types/index"],
       "react": ["./node_modules/@types/react"]
     },
     "plugins": [

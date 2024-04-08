@@ -1,7 +1,7 @@
 import React from "react";
 import { ExperienceProps } from "@types";
 import ReactMarkdown from "react-markdown";
-import s from "@styles/Markdown.module.css";
+import s from "styles/markdown.module.css";
 
 export const WorkCard = ({
   title,

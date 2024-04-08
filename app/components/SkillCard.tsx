@@ -9,7 +9,7 @@ export const SkillCard = ({ label, level, linkedin }: Skill) => {
 
   return (
     <li
-      className="text-dracula-foreground flex items-center gap-x-1 duration-100 ease-in-out hover:scale-105"
+      className="flex items-center gap-x-1 text-dracula-foreground duration-100 ease-in-out hover:scale-105"
       style={{ opacity: opacityCalc(level) }}
     >
       {label}
