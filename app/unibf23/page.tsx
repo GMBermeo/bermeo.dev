@@ -105,7 +105,13 @@ const ThesisPage = async () => {
             </Link>
           ),
           img: ({ src, alt }) => (
-            <img src={src} alt={alt} title={alt} className="mx-auto" />
+            <img
+              src={src}
+              alt={alt}
+              title={alt}
+              className="mx-auto"
+              loading="lazy"
+            />
           ),
         }}
         remarkPlugins={[remarkGfm]}
