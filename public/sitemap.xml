@@ -78,17 +78,17 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.bermeo.dev/thesis</loc>
+    <loc>https://www.bermeo.dev/unibf23</loc>
     <image:image>
-      <image:loc>https://www.bermeo.dev/thesis/img/fig1.png</image:loc>
-      <image:loc>https://www.bermeo.dev/thesis/img/fig2.png</image:loc>
-      <image:loc>https://www.bermeo.dev/thesis/img/fig3.png</image:loc>
-      <image:loc>https://www.bermeo.dev/thesis/img/fig4.png</image:loc>
-      <image:loc>https://www.bermeo.dev/thesis/img/fig5.jpg</image:loc>
-      <image:loc>https://www.bermeo.dev/thesis/img/fig6.png</image:loc>
-      <image:loc>https://www.bermeo.dev/thesis/img/fig7.png</image:loc>
-      <image:loc>https://www.bermeo.dev/thesis/img/fig8.jpg</image:loc>
-      <image:loc>https://www.bermeo.dev/thesis/img/fig9.png</image:loc>
+      <image:loc>https://www.bermeo.dev/unibf23/img/fig1.jpg</image:loc>
+      <image:loc>https://www.bermeo.dev/unibf23/img/fig2.jpg</image:loc>
+      <image:loc>https://www.bermeo.dev/unibf23/img/fig3.jpg</image:loc>
+      <image:loc>https://www.bermeo.dev/unibf23/img/fig4.jpg</image:loc>
+      <image:loc>https://www.bermeo.dev/unibf23/img/fig5.jpg</image:loc>
+      <image:loc>https://www.bermeo.dev/unibf23/img/fig6.jpg</image:loc>
+      <image:loc>https://www.bermeo.dev/unibf23/img/fig7.jpg</image:loc>
+      <image:loc>https://www.bermeo.dev/unibf23/img/fig8.jpg</image:loc>
+      <image:loc>https://www.bermeo.dev/unibf23/img/fig9.jpg</image:loc>
     </image:image>
     <priority>1.0</priority>
   </url>

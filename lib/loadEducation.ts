@@ -14,6 +14,7 @@ export function loadEducation(locale: "en" | "br") {
       institution: item.institution,
       dateStart: item.dateStart,
       dateEnd: item.dateEnd,
+      link: item.link,
     })),
     courses: courses.map((item: Course) => ({
       title: item.title[locale as keyof typeof item.title],

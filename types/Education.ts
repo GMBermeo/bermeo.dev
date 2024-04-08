@@ -14,6 +14,7 @@ export interface Degree {
   institution: string;
   dateStart: string;
   dateEnd: string;
+  link?: string;
 }
 export interface Course {
   title: { en: string; br: string };
@@ -33,6 +34,7 @@ export interface DegreeResponse {
   institution: string;
   dateStart: string;
   dateEnd: string;
+  link?: string;
 }
 export interface CourseResponse {
   title: string;
@@ -54,4 +56,5 @@ export interface EducationProps {
   dateStart?: string;
   dateEnd: string;
   hours?: number;
+  link?: string;
 }

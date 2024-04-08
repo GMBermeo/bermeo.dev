@@ -24,6 +24,7 @@ export const education: DataEducation = {
       institution: "Instituto Brasileiro de Formação",
       dateStart: "2021",
       dateEnd: "2023",
+      link: "/unibf23/",
     },
     {
       type: {

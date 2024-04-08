@@ -42,15 +42,15 @@ Keywords: Leitmotif. Vertical Re-orchestration. Horizontal Re-sequencing. Narrat
 
 ## LISTA DE FIGURAS
 
-- [Figura 1: Temas do Sultão e Scheherazade, respectivamente.](https://www.bermeo.dev/thesis/img/fig1.png)
-- [Figura 2: Tema de Scheherazade, segundo movimento compassos de 1 a 4.](https://www.bermeo.dev/thesis/img/fig2.png)
-- [Figura 3: Tema de Scheherazade, quarto movimento compassos de 8 a 9.](https://www.bermeo.dev/thesis/img/fig3.png)
-- [Figura 4: Tema de Scheherazade, quarto movimento compassos de 659 a 665.](https://www.bermeo.dev/thesis/img/fig4.png)
-- [Figura 5: As seis artes de capa de Everywhere At The End Of Time.](https://www.bermeo.dev/thesis/img/fig5.jpg)
-- [Figura 6: Comparação entre o tema de Star Wars e o tema de Siegfried.](https://www.bermeo.dev/thesis/img/fig6.png)
-- [Figura 7: Interface do FMOD onde é possível visualizar 6 trechos musicais que podem tocar em uma sequência definida via parâmetro, de forma dinâmica em tempo real. No trecho em destaque está tocando uma transição 10 entre as seções 4 e 0.](https://www.bermeo.dev/thesis/img/fig7.png)
-- [Figura 8: Tema Field (day) original, e parte das fragmentações usadas no jogo como trilha.](https://www.bermeo.dev/thesis/img/fig8.jpg)
-- [Figura 9: Gráfico explicativo da sobreposição vertical na música do segundo cenário de Journey.](https://www.bermeo.dev/thesis/img/fig9.png)
+- [Figura 1: Temas do Sultão e Scheherazade, respectivamente.](https://www.bermeo.dev/unibf23/img/fig1.jpg)
+- [Figura 2: Tema de Scheherazade, segundo movimento compassos de 1 a 4.](https://www.bermeo.dev/unibf23/img/fig2.jpg)
+- [Figura 3: Tema de Scheherazade, quarto movimento compassos de 8 a 9.](https://www.bermeo.dev/unibf23/img/fig3.jpg)
+- [Figura 4: Tema de Scheherazade, quarto movimento compassos de 659 a 665.](https://www.bermeo.dev/unibf23/img/fig4.jpg)
+- [Figura 5: As seis artes de capa de Everywhere At The End Of Time.](https://www.bermeo.dev/unibf23/img/fig5.jpg)
+- [Figura 6: Comparação entre o tema de Star Wars e o tema de Siegfried.](https://www.bermeo.dev/unibf23/img/fig6.jpg)
+- [Figura 7: Interface do FMOD onde é possível visualizar 6 trechos musicais que podem tocar em uma sequência definida via parâmetro, de forma dinâmica em tempo real. No trecho em destaque está tocando uma transição 10 entre as seções 4 e 0.](https://www.bermeo.dev/unibf23/img/fig7.jpg)
+- [Figura 8: Tema Field (day) original, e parte das fragmentações usadas no jogo como trilha.](https://www.bermeo.dev/unibf23/img/fig8.jpg)
+- [Figura 9: Gráfico explicativo da sobreposição vertical na música do segundo cenário de Journey.](https://www.bermeo.dev/unibf23/img/fig9.jpg)
 
 ## 1. INTRODUÇÃO
 
@@ -75,21 +75,21 @@ O sultão Shahriar persuadido da falsidade e falta de lealdade das mulheres juro
 O leitmotiv grave e sombrio que abre o primeiro movimento é suposto representar o sultão dominador (figura 1, abaixo), este tema enfatiza quatro notas descendentes em uma escala de tons inteiros[^14] geralmente interpretado nos naipes de metal da orquestra. Após a introdução do leitmotiv do Sultão, ouvimos belos acordes em instrumentos de sopro (representando delicadeza) e em seguida ouvimos o leitmotiv que representa Scheherazade, sua esposa, representado por um violino solo[^15] (figura 1, abaixo) acompanhado por uma harpa. (ALMEIDA, 2015).
 
 Figura 1: Temas do Sultão e Scheherazade, respectivamente.
-![Fonte 1: ROFFEL (2020)](https://www.bermeo.dev/thesis/img/fig1.png)
+![Fonte 1: ROFFEL (2020)](https://www.bermeo.dev/unibf23/img/fig1.jpg)
 
 Durante a sinfonia, quanto mais histórias Scheherazade conta ao Sultão, mais confiança ela ganha e seus solos ficam mais complexos, enquanto o tema do Sultão fica a cada movimento, mais “fraco” e submisso à protagonista. A segunda aparição de seu leitmotiv durante o segundo movimento é musicalmente mais complexa e leva a uma explosão incrível de paradas duplas[^16] no quarto compasso (figura 2, abaixo), o que é tecnicamente desafiador. (DICTEROW, 2008).
 Figura 2: Tema de Scheherazade, segundo movimento compassos de 1 a 4.
-![Fonte 2: DICTEROW (2008)](https://www.bermeo.dev/thesis/img/fig2.png)
+![Fonte 2: DICTEROW (2008)](https://www.bermeo.dev/unibf23/img/fig2.jpg)
 
 O terceiro movimento da peça, “O Jovem Príncipe e a Princesa” é o relato de uma grande história de amor, para isso se utiliza de longas melodias se entrelaçando-se em uníssono com uma percussão mais leve, estética que anos depois podem ser reconhecidas em filmes românticos como o tema principal de “...E o Vento Levou” de 1938. (VASCONCELOS, 2012). Durante este movimento o leitmotiv de Scheherazade aparece somente durante os compassos 142 a 157, através de uma entrada muito sutil acompanhado de instrumentos de sopro.
 
 Figura 3: Tema de Scheherazade, quarto movimento compassos de 8 a 9.
-![Fonte 3: DICTEROW (2008)](https://www.bermeo.dev/thesis/img/fig3.png)
+![Fonte 3: DICTEROW (2008)](https://www.bermeo.dev/unibf23/img/fig3.jpg)
 
 O quarto movimento conta com um sultão prestes a perder a paciência, mas rapidamente é de novo envolvido nos contos de Scheherazade, que conta com um leitmotiv muito cansado em um ritmo lento, cheio de dissonâncias em paradas triplas[^17] e pausas que simulam uma voz falhada (figura 3, acima). (VASCONCELOS, 2012). Esse movimento conta com uma “cena” em que o barco de Sinbad se choca contra as rochas, como a peça passa pela interpretação de cada grupo orquestral, há um vídeo famoso da Sinfônica de Galícia em que o condutor Leif Segerstam começa a gritar com alguns de seus companheiros de orquestra[^18], simulando o que seria o desespero dos marinheiros tentando (em vão) desviar das rochas, aprimorando muito mais a narrativa da história. (SINFÓNICA DE GALICIA, 2015). Ao final, resolve-se a conflitante relação entre os dois quando o leitmotiv do Sultão é apresentado como subdominante menor em relação ao leitmotiv com cadência tônica maior de Scheherazade encerrando o conflito de forma lírica, fantástica e pacífica, representado por um leitmotiv leve, melódico e com um harmônico final altíssimo (figura 4, abaixo). (GRIFFITHS, 1989).
 
 Figura 4: Tema de Scheherazade, quarto movimento compassos de 659 a 665.
-![Fonte 4: DICTEROW (2008)](https://www.bermeo.dev/thesis/img/fig4.png)
+![Fonte 4: DICTEROW (2008)](https://www.bermeo.dev/unibf23/img/fig4.jpg)
 
 Durante a história da música contemporânea, vários grupos e artistas passaram a utilizar-se de técnicas que guiam um álbum em uma ideia ou narrativa linear. Conhecidos como álbuns conceituais, é um álbum em que todas as músicas contribuem para o mesmo efeito final ou para uma história única. (ARAÚJO, 2015). Dos álbuns conceituais mais famosos considera-se o Sgt. Pepper's Lonely Hearts Club Band dos Beatles de 1967 como um dos primeiros, onde era suposto que cada membro da banda adotasse um personagem de ficção e a canção-título apresentasse a banda como “Lonely Hearts Club Band”, no entanto a maior parte das músicas não têm relação com a narrativa proposta além da sonoridade. Em 1969, é lançado o que viria a ser considerado o primeiro álbum de ópera rock da história, Tommy da banda britânica The Who, com um total de 24 faixas o álbum começa com uma abertura[^19] e conta a história do garoto cego, surdo e mudo, Tommy Walker, que passa a ter essa condição depois de ver seu pai sendo morto pelo amante da mãe. Em 1975, o disco foi adaptado para o cinema pelo diretor Ken Russell. Logo na sequência, a banda The Who lançou seu segundo álbum de ópera rock, Quadrophenia, em 1973, cobrindo na perspectiva de primeira pessoa a história de aproximadamente dois dias da vida de um certo Jimmy, um protagonista com personalidade quádrupla, cada uma delas associadas a um integrante da banda. Em 1979, a banda britânica Pink Floyd lança o disco duplo The Wall, com um total de 26 faixas o disco conta a história de Pink, cujo pai é morto durante a Segunda Guerra Mundial e o garoto se vê obrigado a conviver com uma mãe superprotetora e que o oprime, na história, “o muro” é uma metáfora que a banda encontrou para que o personagem fosse construindo barreiras até chegar ao isolamento. O disco usa uma narrativa cheia de interlúdios entre faixas que compõe uma visão da história, enquanto evoca leitmotivs para representar personagens e ideias. (FREIRE, 2020). O disco marca como o segundo trabalho feito em torno de uma narrativa, em 1977 já havia lançado Animals, seu primeiro trabalho no estúdio independente montado pela banda. Animals é inspirado no romance A revolução dos bichos do escritor George Orwell, onde no álbum, a sociedade é dividida em 3 tipos de animais, cada um sendo apresentado em uma música diferente, e sendo reevocado através da sonoridade em outras faixas. O álbum é uma crítica direta ao capitalismo, em razão da preocupação de Roger Waters sobre desigualdade, preconceito e atitudes sociais e políticas alinhadas ao movimento punk britânico, crescente à época. (LAST FM, 2016).
 
@@ -106,7 +106,7 @@ A banda Titãs em 2018 lança o álbum duplo “Doze Flores Amarelas”, a prime
 Das diferentes maneiras de se construir uma narrativa através da estética sonora, destaca-se o pouco conhecido trabalho de The Caretaker, alter-ego[^23] de Leyland Kirby, na hexalogia[^24] “Everywhere at the end of time”, o conceito da hexalogia baseia-se no que uma pessoa com Alzheimer[^25] ou com demência pode sentir durante as fases da doença. O artista dá muito uso de trechos de música de salão dos anos 30 e 40, uma época em que nas palavras do artista, era uma época meio perdida, por estar no intervalo entre duas guerras mundiais e caracterizada por muita incerteza. De uma forma muito sutil e aparentemente aleatória somos confrontados com alguns indícios de que algo ruim está por vir, por exemplo, cortes repentinos na música ou até mesmo de um forte uso da repetição de melodias. Suavemente sem nos darmos conta da progressão, entramos nas fases mais avançadas da doença e as mesmas melodias calmas transformam-se em sons cada vez mais etéreos e distantes com o uso pesado de efeitos de reverberação. Enquanto as três primeiras obras têm cerca de 40 minutos de duração cada, as três últimas faixas são muito mais longas, com durações sempre acima de 1 hora e 25 minutos. Esse simbolismo pode estar associado à rapidez inicial com que a memória de uma pessoa com a doença se desintegra e a sensação posterior de infinitude associada a estas doenças. É a partir da quarta obra em que o limite entre música e barulho se tornam cada mais tênues, porém, no meio de tanto som ainda é possível discernir uma ou outra reminiscência daquilo que foram memórias felizes da música que ouvimos durantes as três primeiras obras. Ainda assim, estas vagas memórias são apenas uma pequena migalha daquilo que é uma sinfonia perfeita de horror e que reitera continuamente a sensação de impotência, confusão e conflito interno. Finalmente, na sexta e última obra, é possível discernir alguma aceitação em relação ao destino enquanto a música caminha para longos ruídos de sintetizadores carregados de efeitos. As melodias que nos acompanharam especialmente nas primeiras três obras, perdem-se e não se ouvem de todo, fazendo aumentar uma sensação muito profunda de vazio e abandono. A faixa final, “Place in the world fades away”, é um crescendo de energia, uma aceitação da inevitabilidade do tempo e do fim de uma vida e a entrega total para o vazio que fica. A um minuto do fim do álbum, a música simplesmente para, numa tentativa de demonstrar o fim definitivo e demorado de uma vida que durante os momentos finais pareceu encontrar a sua paz. (CALDEIRA, 2020).
 
 Figura 5: As seis artes de capa de Everywhere At The End Of Time.
-![Fonte 5: CALDEIRA (2020)](https://www.bermeo.dev/thesis/img/fig5.jpg)
+![Fonte 5: CALDEIRA (2020)](https://www.bermeo.dev/unibf23/img/fig5.jpg)
 
 A arte de capa (Figura 5, acima) em cada uma das seis obras, todas pintadas pelo artista Ivan Seal, reflete no estado mental da progressão da doença, na primeira capa, pode-se dizer que é o retrato de um livro, ou simplesmente de papeis, enrolados, facilmente identificável. Na segunda capa, pode-se identificar que é um vaso de flores, abstrato, porém é fato de que é um vaso de flores. Na terceira capa, identifica-se o que seria uma árvore, uma planta ou alga, pintado de forma agressiva e abstrata. Na quarta capa, faz-se lembrar o último autorretrato pintado por William Utermohlen, artista vítima de Alzheimer. Já quinta capa é uma estátua totalmente abstrata, onde não se identifica nada. Enquanto na sexta e última capa, talvez a mais assustadora, pois você reconhece o objeto, mas não faz sentido algum, seria um pedaço de madeira com fitas coladas. (JOSEPH, 2020).
 
@@ -115,7 +115,7 @@ A arte de capa (Figura 5, acima) em cada uma das seis obras, todas pintadas pelo
 Para nós, espectadores contemporâneos, estamos acostumados a ver o acompanhamento musical servindo como forma de melhorar a experiência mostrada na tela, porém nem sempre foi assim. Até os anos 1950, a trilha sonora era apenas um acompanhamento de um piano com a intenção de preencher o silêncio ou cenas em que os atores não estavam falando. Já nos anos 50, orquestras começam a ser convidadas a criar música para filmes. Ennio Morricone foi um dos primeiros a elevar a técnica do leitmotiv em seu trabalho na Trilogia dos Dólares[^26] no período entre 1964 e 1966. Morricone decidiu usar a técnica popularizada por Richard Wagner para criar o acompanhamento perfeito para os personagens principais sem saturar o filme com música, através de inserções musicais com um tema para cada um dos personagens principais. (KEANE, 2021). Uma década depois, John Williams compõe a trilha de Star Wars, um blockbuster[^27] que viria a ter tanto sucesso que acabaria ganhando duas continuações logo na sequência, e consequentemente, mais seis filmes ao longo dos anos até 2019. A influencia estética de Richard Wagner na obra de John Williams é clara, onde o tema principal da trilha é diretamente influenciada pelo leitmotiv do herói Siegfried, da terceira ópera de Der Ring des Nibelungen, de Richard Wagner (Figura 6, abaixo).
 
 Figura 6: Comparação entre o tema de Star Wars e o tema de Siegfried.
-![Fonte 6: KREROWICZ (2014)](https://www.bermeo.dev/thesis/img/fig6.png)
+![Fonte 6: KREROWICZ (2014)](https://www.bermeo.dev/unibf23/img/fig6.jpg)
 
 Elementos relacionados à Sound Design em cinema podem ser encontrados em trilhas assinadas pelo compositor Hans Zimmer. Em Inception (2010), Non, Je Ne Regrette Rien, a música é utilizada como um sinal para outra realidade. A música não só está presente como trilha de diegética[^28], como também está presente na estrutura genética de toda a trilha sonora. Em entrevista ao New York Times (2011), Hans Zimmer comenta: "toda a música na trilha são subdivisões e multiplicações do tempo da música de Edith Piaf." O exemplo mais claro é o tema de Inception, onde é revelada o tema da música de Piaf tocada pelos trombones ao se acelerar a trilha. "Eu fiquei surpreso com quanto tempo eles levaram para descobrir. [^Isso] não era para ser um segredo." (MICHAELS, 2010). No filme Interstellar (2020), os personagens visitam um planeta onde é mencionado que cada hora é aproximadamente sete anos em tempo terrestre por conta da dilatação do tempo[^29] entre os dois planetas em questão. O compositor utiliza cliques na trilha sonora a cada 1.25 segundos para representar um dia terrestre, com a trilha dando um ar de urgência e tensão à cena. (KOMOI, 2020).
 
@@ -135,19 +135,19 @@ No livro "A Composer's Guide to Game Music", o tópico sobre re-sequenciamento h
 Na técnica de re-sequenciamento horizontal o compositor deve levar em consideração a fragmentação da trilha e como se dará a costura entre os diferentes trechos e estruturas. Com a evolução do software, fora possibilitada não apenas a transição de um trecho de trilha para outro como também é possibilitada a transição em pontos específicos e com fragmentos de pontes específicas, hoje a ferramenta possibilita que seja marcado os tempos e os possíveis sinais de entrada de uma micro composição e outra, permitindo que a transição entre seção A e C, possua uma ponte B, sem se alterar o tempo ou musicalidade de forma brusca, tornando imperceptível ao jogador a transição de um trecho ao outro e passando a impressão de ser uma única trilha linear.
 
 Figura 7: Interface do FMOD onde é possível visualizar 6 trechos musicais que podem tocar em uma sequência definida via parâmetro, de forma dinâmica em tempo real. No trecho em destaque está tocando uma transição 10 entre as seções 4 e 0.
-![Fonte 7: (FARLEY, 2018)](https://www.bermeo.dev/thesis/img/fig7.png)
+![Fonte 7: (FARLEY, 2018)](https://www.bermeo.dev/unibf23/img/fig7.jpg)
 
 No jogo The Legend of Zelda: A Breath of the Wild (2017), o mundo de Hyrule onde se passa o jogo, está em ruínas após uma guerra, como forma narrativa de representar esse pano de fundo toda a trilha sonora é trabalhada com micro composições (representando a fragmentação do mundo) minimalistas (representando o vazio que restou após a devastação) tocado em piano (se afastando de todas as fanfarras épicas dos jogos anteriores), onde o foco está mais nas ambiências e narrativas contadas com o sound design. (BROWN, 2014). Como exemplo, o tema “Field (Day)” (Figura 8, abaixo) consiste em 6 compassos minimalistas de piano, fragmentados em 12 micro composições que são tocadas em ordem aleatória, com intervalos (silêncio) aleatórios, e podendo até mesmo conter notas com áudio revertido, com o som reproduzido de trás para frente. (SCRUFFY, 2019).
 
 Figura 8: Tema Field (day) original, e parte das fragmentações usadas no jogo como trilha.
-![Fonte 8: (SCRUFFY, 2019)](https://www.bermeo.dev/thesis/img/fig8.jpg)
+![Fonte 8: (SCRUFFY, 2019)](https://www.bermeo.dev/unibf23/img/fig8.jpg)
 
 Em Breath of the Wild, a trilha sonora de combate alterna entre três escalas[^38] possíveis, equidistantes entre si, juntamente com uma versão estendida, elaborada e mais intensa em três escalas possíveis para inimigos mais difíceis. O tema junta muitos sons diferentes em ritmos estranhos, formando uma sopa de textura, quase como uma peça minimalista. Há alguns sons que só tocam quando você acerta um inimigo, não exatamente no momento, graças ao middleware que faz a gestão do áudio, esses sons tocam sincronizadamente na próxima batida[^39] apropriada da música, com camadas de som baseadas na força com que você acerta, com três trechos diferentes de piano nas três escalas possíveis do tema de combate. (SCRUFFY, 2019).
 
 Além do re-sequenciamento horizontal, outra técnica muito importante e inerente à tecnologia sonora em jogos digitais é a re-orquestração vertical, também conhecida como sobreposição vertical ou estratificação. (MENEGUETTE, 2016). A re-orquestração vertical consiste em construir o som através de camadas, adicionando ou subtraindo instrumentos e/ou efeitos sonoros, que podem ser controladas por estados pré-definidos ou parâmetros (agrupados e/ou individuais), oferecendo uma vantagem ao mascarar cortes e permitir a construção de transições não-aparentes sem a necessidade de criação de novas micro composições. (MENEGUETTE, 2016). Em Journey (2012), a construção de camadas na música é notável no segundo cenário do jogo. O jogador precisa ativar mecanismos para construir uma grande ponte de tecido para chegar ao próximo destino. A trilha sonora reage a cada parte construída da ponte. A música começa com uma nota drone tocada por contrabaixos enquanto longos acordes de sintetizador proveem o material harmônico. Fragmentos do tema principal são tocados tanto por instrumentos de madeira quanto de metal. Quando o segundo mecanismo é acionado, um solo de contrabaixo em pizzicato é adicionado, dando uma sensação de pulso mais clara à música anteriormente difusa. Com a ativação do terceiro mecanismo, uma variação da melodia do tema é tocada pela primeira vez por uma flauta baixo, tornando a frase musical discernível. (ROVERAN, 2017).
 
 Figura 9: Gráfico explicativo da sobreposição vertical na música do segundo cenário de Journey.
-![Fonte 9: (ROVERAN, 2017)](https://www.bermeo.dev/thesis/img/fig9.png)
+![Fonte 9: (ROVERAN, 2017)](https://www.bermeo.dev/unibf23/img/fig9.jpg)
 
 A completude dessa seção do jogo leva cerca de sete minutos, tempo suficiente para o compositor explorar as camadas sonoras. A transição para outra música é feita quando o jogador começa a atravessar a ponte recém-construída. Uma nova música, agora mais agitada com amplo uso de percussão e sonoridade maior, indica o sucesso do jogador e o convida a descobrir o próximo estágio. (ROVERAN, 2017).
 
@@ -179,155 +179,156 @@ O presente trabalho mostra a importância da música como elemento narrativo em 
 
 ## 7. REFERÊNCIAS BIBLIOGRÁFICAS
 
-- MOORE, C.; MARISH, E.; DUSABLON, K. Design Is Audible - Designing sound for human experiences. Youtube, 2019. Disponivel em: <https://youtu.be/FVNuVKy90Do>. Acesso em: 27 Abril 2021.
+- MOORE, C.; MARISH, E.; DUSABLON, K. [Design Is Audible - Designing sound for human experiences](https://youtu.be/FVNuVKy90Do). Youtube, 2019. Acesso em: 27 Abril 2021.
 
-- KLEIN, C. That Time America Outlawed Pinball. History, 2016. Disponivel em: <https://www.history.com/news/that-time-america-outlawed-pinball>. Acesso em: 1 Maio 2021.
+- KLEIN, C. [That Time America Outlawed Pinball](https://www.history.com/news/that-time-america-outlawed-pinball). History, 2016. Acesso em: 1 Maio 2021.
 
-LOBRUTTO, V. The Filmmaker's Guide to Production Design. Nova Iorque: Allworth Press, 2002.
+- LOBRUTTO, V. The Filmmaker's Guide to Production Design. Nova Iorque: Allworth Press, 2002.
 
-KREUTZ, K. Quero ser Diretor de Arte. Academia Internacional de Cinema, 2017. Disponivel em: <https://www.aicinema.com.br/quero-ser-diretor-de-arte/#:~:text=O%20termo%20production%20designer%20(ou,The%20Wind%E2%80%9D%20(1939).>. Acesso em: 5 Maio 2021.
+- KREUTZ, K. [Quero ser Diretor de Arte](https://www.aicinema.com.br/quero-ser-diretor-de-arte/). Academia Internacional de Cinema, 2017. Acesso em: 5 Maio 2021.
 
-BARDINI, J. Especial Oscar 2018: entendendo melhor as categorias técnicas – Som. Cinema com Rapadura, 2018. Disponivel em: <https://cinemacomrapadura.com.br/colunas/480946/especial-oscar-2018-entendendo-melhor-as-categorias-tecnicas-som/#:~:text=O%20primeiro%20longa%20a%20ter,grava%C3%A7%C3%A3o%20de%20efeitos%20sonoros%20at%C3%A9>. Acesso em: 6 Maio 2021.
+- BARDINI, J. [Especial Oscar 2018: entendendo melhor as categorias técnicas – Som](https://cinemacomrapadura.com.br/colunas/480946/especial-oscar-2018-entendendo-melhor-as-categorias-tecnicas-som/). Cinema com Rapadura, 2018. Acesso em: 6 Maio 2021.
 
-PAULETTO, S.; HILLMAN, N. The Craftsman: The use of sound design to elicit emotions. The Soundtrack, Heslington, v. 7, n. 1, p. 5-23, Abril 2014. ISSN 1751-4207.
+- PAULETTO, S.; HILLMAN, N. The Craftsman: The use of sound design to elicit emotions. The Soundtrack, Heslington, v. 7, n. 1, p. 5-23, Abril 2014. ISSN 1751-4207.
 
-DORLING KINDERSLEY LIMITED DK. Musicals: The Definitive Illustrated Story. 1. ed. Nova Iorque: DK Publishing, 2015.
+- DORLING KINDERSLEY LIMITED DK. Musicals: The Definitive Illustrated Story. 1. ed. Nova Iorque: DK Publishing, 2015.
 
-GLOBO LIVROS. O Livro da Música Clássica. 1. ed. Rio de Janeiro: Editora Globo SA, 2019.
-BEZERRA, J. Idade Média. Toda Matéria, 2021. Disponivel em: <https://www.todamateria.com.br/idade-media/>. Acesso em: 6 Maio 2021.
+- GLOBO LIVROS. O Livro da Música Clássica. 1. ed. Rio de Janeiro: Editora Globo SA, 2019.
+BEZERRA, J. [Idade Média](https://www.todamateria.com.br/idade-media/). Toda Matéria, 2021. Acesso em: 6 Maio 2021.
 
-NOVAES, A. O que são jogos AAA na atualidade, você conhece esse termo? Universo Reverso, 2018. Disponivel em: <https://universoreverso.com.br/o-que-sao-jogos-aaa-na-atualidade-voce-esse-termo/#:~:text=Depois%20surgiu%20finalmente%20o%20termo,alta%20qualidade%20em%20diferentes%20aspectos.>. Acesso em: 6 Maio 2021.
+- NOVAES, A. [O que são jogos AAA na atualidade, você conhece esse termo?](https://universoreverso.com.br/o-que-sao-jogos-aaa-na-atualidade-voce-esse-termo/) Universo Reverso, 2018. Acesso em: 6 Maio 2021.
 
-FERREIRA DA SILVA, M. A Poética do Teatro Urgente: No Eixo do Teatro Pós-Dramático. Vitória: Tese (Doutorado em Tecnologias da Inteligência e Design Digital) - Pontifica Universidade Católica de São Paulo, 2018.
+- FERREIRA DA SILVA, M. A Poética do Teatro Urgente: No Eixo do Teatro Pós-Dramático. Vitória: Tese (Doutorado em Tecnologias da Inteligência e Design Digital) - Pontifica Universidade Católica de São Paulo, 2018.
 
-CADERNO DE MÚSICA EBC. Você sabe o que é "Leitmotiv"? Empresa Brasil de Comunicação, 2016. Disponivel em: <https://radios.ebc.com.br/caderno-de-musica/edicao/2016-02/voce-sabe-o-que-e-leitmotiv#:~:text=Caderno%20de%20M%C3%BAsica,-O%20Caderno%20de&text=Apesar%20de%20nunca%20ter%20especificado,como%20o%20cinema%20e%20telenovelas.>. Acesso em: 11 Maio 2021.
+- CADERNO DE MÚSICA EBC. [Você sabe o que é "Leitmotiv"?](https://radios.ebc.com.br/caderno-de-musica/edicao/2016-02/voce-sabe-o-que-e-leitmotiv) Empresa Brasil de Comunicação, 2016. Acesso em: 11 Maio 2021.
 
-MARTINELLI, L. Vida de Nikolai Rimsky-Korsakov. Concerto, 2019. Disponivel em: <https://www.concerto.com.br/noticias/arquivo/acervo-concerto-vida-de-nikolai-rimsky-korsakov>. Acesso em: 12 Maio 2021.
-LEITURIA. As mil e uma noites – 6 volumes - Tradução de Manuel João Gomes. Leituria, 2021. Disponivel em: <http://www.leituria.com/pt/os-livros/prosa/as-mil-e-uma-noites-6-volumes-traducao-de-manuel-joao-gomes#:~:text=As%20Mil%20e%20Uma%20Noites%20%C3%A9%20uma%20colec%C3%A7%C3%A3o%20de%20hist%C3%B3rias,a%20partir%20do%20s%C3%A9culo%20IX.&text=N%C3%A3o%20existe>. Acesso em: 12 Maio 2021.
+- MARTINELLI, L. [Vida de Nikolai Rimsky-Korsakov](https://www.concerto.com.br/noticias/arquivo/acervo-concerto-vida-de-nikolai-rimsky-korsakov). Acesso em: 12 Maio 2021.
 
-CADERNO DE MÚSICA EBC. Ópera Completa traz "Príncipe Igor", de Borodin. Empresa Brasil de Comunicação, 2017. Disponivel em: <https://radios.ebc.com.br/opera-completa/2017/11/opera-completa-traz-principe-igor-de-borodin>. Acesso em: 12 Maio 2021.
+- LEITURIA. [As mil e uma noites – 6 volumes - Tradução de Manuel João Gomes](https://leituria.com/pt/os-livros/prosa/as-mil-e-uma-noites-6-volumes-traducao-de-manuel-joao-gomes). Leituria, 2021. Acesso em: 12 Maio 2021.
 
-METROPOLITANA. Sinfonia Scheherazade. Metropolitana, 2020. Disponivel em: <https://www.metropolitana.pt/musicalia/sinfonia-scheherazade/>. Acesso em: 12 Maio 2021.
+- CADERNO DE MÚSICA EBC. [Ópera Completa traz "Príncipe Igor", de Borodin](https://radios.ebc.com.br/opera-completa/2017/11/opera-completa-traz-principe-igor-de-borodin). Empresa Brasil de Comunicação, 2017. Acesso em: 12 Maio 2021.
 
-CONCERTOS ASTRA-FINAMAX. Música erudita: diferentes gêneros dentro de um mesmo estilo. Concertos Astra-Finamax, 2020. Disponivel em: <http://www.concertosastra-finamax.com.br/index.php/musica-erudita-diferentes-generos-dentro-de-um-mesmo-estilo/>. Acesso em: 12 Maio 2021.
+- METROPOLITANA. [Sinfonia Scheherazade](https://www.metropolitana.pt/musicalia/sinfonia-scheherazade/). Metropolitana, 2020. Acesso em: 12 Maio 2021.
 
-FOLHA ONLINE. Ícone russo nacionaliza estilo de óperas. Coleção Folha de Música Clássica. Disponivel em: <https://musicaclassica.folha.com.br/cds/12/>. Acesso em: 12 Maio 2021.
+- CONCERTOS ASTRA-FINAMAX. [Música erudita: diferentes gêneros dentro de um mesmo estilo](http://www.concertosastra-finamax.com.br/index.php/musica-erudita-diferentes-generos-dentro-de-um-mesmo-estilo/). Concertos Astra-Finamax, 2020. Acesso em: 12 Maio 2021.
 
-RÁDIO E TELEVISÃO DE PORTUGAL. Anatoly Lyadov. RTP Antena 2, 2014. Disponivel em: <https://www.rtp.pt/antena2/destaques/anatoly-lyadov_2919>. Acesso em: 13 Maio 2021.
+- FOLHA ONLINE. [Ícone russo nacionaliza estilo de óperas](https://musicaclassica.folha.com.br/cds/12/). Coleção Folha de Música Clássica. Acesso em: 12 Maio 2021.
 
-JAMES, J. Rimsky-Korsakov's Scheherazade - Inside The Music with Jonathan James. Youtube, 2017. Disponivel em: <https://youtu.be/v7U8gGl5IIk>. Acesso em: 13 Maio 2021.
+- RÁDIO E TELEVISÃO DE PORTUGAL. [Anatoly Lyadov](https://www.rtp.pt/antena2/destaques/anatoly-lyadov_2919). RTP Antena 2, 2014. Acesso em: 13 Maio 2021.
 
-GUAÍRA. O que é um Solista? Guaíra Academia de Música e Artes, 2020. Disponivel em: <http://guairamusica.com.br/2019/04/08/solista/>. Acesso em: 13 Maio 2021.
+- JAMES, J. [Rimsky-Korsakov's Scheherazade - Inside The Music with Jonathan James](https://youtu.be/v7U8gGl5IIk). Youtube, 2017. Acesso em: 13 Maio 2021.
 
-ALMEIDA, D. Ballet de Repertório - Scherazade. Mundo Bailarinístico, 2015. Disponivel em: <http://www.mundobailarinistico.com.br/2015/03/ballet-de-repertorio-scherazade.html>. Acesso em: 13 Maio 2021.
+- GUAÍRA. [O que é um Solista?](http://guairamusica.com.br/2019/04/08/solista/) Guaíra Academia de Música e Artes, 2020. Acesso em: 13 Maio 2021.
 
-DICTEROW, G. Rimsky-Korsakov' Sheherazade: Solo Violin Part. Violin Excerpts, 2008. Disponivel em: <http://www.violinexcerpts.com/wp-content/uploads/2012/07/DicterowMasterclass.pdf>. Acesso em: 13 Maio 2021.
+- ALMEIDA, D. [Ballet de Repertório - Scherazade](http://www.mundobailarinistico.com.br/2015/03/ballet-de-repertorio-scherazade.html). Mundo Bailarinístico, 2015. Acesso em: 13 Maio 2021.
 
-GRIFFITHS, S. A Critical Study of the Music of Rimsky-Korsakov,1844-1890. 2. ed. Nova Iorque: Garland, 1989.
+- DICTEROW, G. [Rimsky-Korsakov' Sheherazade: Solo Violin Part](http://www.violinexcerpts.com/wp-content/uploads/2012/07/DicterowMasterclass.pdf). Violin Excerpts, 2008. Acesso em: 13 Maio 2021.
 
-SINFÓNICA DE GALICIA. Rimsky-Korsakov: Scheherazade op.35 - Leif Segerstam - Sinfónica de Galicia. Youtube, 2015. Disponivel em: <https://youtu.be/zY4w4_W30aQ>. Acesso em: 14 Maio 2021.
+- GRIFFITHS, S. A Critical Study of the Music of Rimsky-Korsakov,1844-1890. 2. ed. Nova Iorque: Garland, 1989.
 
-ARAÚJO, M. Álbuns Conceituais: blog elege o top 10 do Metal. Whiplash, 2015. Disponivel em: <https://whiplash.net/materias/melhores/222568-avantasia.html>. Acesso em: 14 Maio 2021.
+- SINFÓNICA DE GALICIA. [Rimsky-Korsakov: Scheherazade op.35 - Leif Segerstam - Sinfónica de Galicia](https://youtu.be/zY4w4_W30aQ). Youtube, 2015. Acesso em: 14 Maio 2021.
 
-ORQUESTRA SINFÔNICA BRASILEIRA. Glossário. Orquestra Sinfônica Brasileira, 2021. Disponivel em: <https://www.osb.com.br/glossario>. Acesso em: 14 Maio 2021.
+- ARAÚJO, M. [Álbuns Conceituais: blog elege o top 10 do Metal](https://whiplash.net/materias/melhores/222568-avantasia.html). Whiplash, 2015. Acesso em: 14 Maio 2021.
 
-BENNET, R. Música do Século XIX. Simonton Rios, 2020. Disponivel em: <https://simontonrios.wixsite.com/simontonrios/musica-xix>. Acesso em: 14 Maio 2021.
+- ORQUESTRA SINFÔNICA BRASILEIRA. [Glossário](https://www.osb.com.br/glossario). Orquestra Sinfônica Brasileira, 2021. Acesso em: 14 Maio 2021.
 
-FREIRE, É. Álbuns conceituais: 8 clássicos que fizeram história. Letras, 2020. Disponivel em: <https://www.letras.mus.br/blog/albuns-conceituais/>. Acesso em: 14 Maio 2021.
+- BENNET, R. [Música do Século XIX](https://simontonrios.wixsite.com/simontonrios/musica-xix). Simonton Rios, 2020. Acesso em: 14 Maio 2021.
 
-LAST FM. Pink Floyd Animals. Last.fm, 2016. Disponivel em: <https://www.last.fm/pt/music/Pink+Floyd/Animals/+wiki>. Acesso em: 14 Maio 2021.
+- FREIRE, É. [Álbuns conceituais: 8 clássicos que fizeram história](https://www.letras.mus.br/blog/albuns-conceituais/). Letras, 2020. Acesso em: 14 Maio 2021.
 
-REED, R. Coheed and Cambria Pause Sci-Fi Concept for Personal New Album. Rolling Stone, 2015. Disponivel em: <https://www.rollingstone.com/music/music-news/coheed-and-cambria-pause-sci-fi-concept-for-personal-new-album-53017/>. Acesso em: 14 Maio 2021.
+- LAST FM. [Pink Floyd Animals](https://www.last.fm/pt/music/Pink+Floyd/Animals/+wiki). Last.fm, 2016.. Acesso em: 14 Maio 2021.
 
-MUELBOY. I just decided to track the Keywork leitmotif through the discography. It would be great to create a visual map of recurring themes! Reddit, 2014. Disponivel em: <https://www.reddit.com/r/TheFence/comments/1xx8ji/i_just_decided_to_track_the_keywork_leitmotif/>. Acesso em: 14 Maio 2021.
+- REED, R. [Coheed and Cambria Pause Sci-Fi Concept for Personal New Album](https://www.rollingstone.com/music/music-news/coheed-and-cambria-pause-sci-fi-concept-for-personal-new-album-53017/). Rolling Stone, 2015. Acesso em: 14 Maio 2021.
 
-MEDEIROS, E. [Odair José: A saga da primeira ópera-rock brasileira](https://whiplash.net/materias/biografias/233023-odairjose.html). Whiplash, 2015. Disponivel em: <https://whiplash.net/materias/biografias/233023-odairjose.html>. Acesso em: 17 Maio 2021.
+- MUELBOY. [I just decided to track the Keywork leitmotif through the discography. It would be great to create a visual map of recurring themes!](https://www.reddit.com/r/TheFence/comments/1xx8ji/i_just_decided_to_track_the_keywork_leitmotif/) Reddit, 2014. Acesso em: 14 Maio 2021.
 
-ASCARI, B. A Ópera Rock de Odair José - O Filho de José e Maria. Youtube, 2020. Disponivel em: <https://youtu.be/1Vv0MTsSXWY>. Acesso em: 17 Maio 2021.
+- MEDEIROS, E. [Odair José: A saga da primeira ópera-rock brasileira](https://whiplash.net/materias/biografias/233023-odairjose.html). Whiplash, 2015. Disponivel em: <https://whiplash.net/materias/biografias/233023-odairjose.html>. Acesso em: 17 Maio 2021.
 
-FANTOM, A. Drive na Voz. André Fantom, 2006. Disponivel em: <https://www.andrefantom.com.br/p6556.aspx>. Acesso em: 17 Maio 2021.
+- ASCARI, B. A [Ópera Rock de Odair José - O Filho de José e Maria](https://youtu.be/1Vv0MTsSXWY). Youtube, 2020. Acesso em: 17 Maio 2021.
 
-SILVEIRA, L. A Sinfonia de Tudo Que Há. São Paulo: Fresno, Dark Matter, Tratore, 2016.
+- FANTOM, A. [Drive na Voz](https://www.andrefantom.com.br/p6556.aspx). André Fantom, 2006. Acesso em: 17 Maio 2021.
 
-SOBRINHO, T. Novo disco de Fresno apresenta montanha-russa sonora. Gazeta Online, 2016. Disponivel em: <https://www.gazetaonline.com.br/entretenimento/cultura/2016/12/novo-disco-de-fresno-apresenta-montanha-russa-sonora-1014005576.html>. Acesso em: 17 Maio 2021.
+- SILVEIRA, L. A Sinfonia de Tudo Que Há. São Paulo: Fresno, Dark Matter, Tratore, 2016.
 
-VIEIRA, D. Jornada do Herói: as 12 etapas de Christopher Vogler e Joseph Campbell para contar uma história impecável! Rock Content, 2019. Disponivel em: <https://comunidade.rockcontent.com/jornada-do-heroi/>. Acesso em: 17 Maio 2021.
+- SOBRINHO, T. [Novo disco de Fresno apresenta montanha-russa sonora](https://www.gazetaonline.com.br/entretenimento/cultura/2016/12/novo-disco-de-fresno-apresenta-montanha-russa-sonora-1014005576.html). Gazeta Online, 2016. Acesso em: 17 Maio 2021.
 
-HUGILL, A. Chords. The Orchestra: A User's Manual, 2005. Disponivel em: <https://andrewhugill.com/manuals/violin/chords.html>. Acesso em: 17 Maio 2021.
+- VIEIRA, D. [Jornada do Herói: as 12 etapas de Christopher Vogler e Joseph Campbell para contar uma história impecável!](https://comunidade.rockcontent.com/jornada-do-heroi/) Rock Content, 2019. Acesso em: 17 Maio 2021.
 
-VON BORELL, G. Fresno incendeia o público do RJ na estreia da turnê “A Sinfonia de Tudo que Há”. Tenho Mais Discos Que Amigos, 2016. Disponivel em: <https://www.tenhomaisdiscosqueamigos.com/2016/11/25/fresno-incendeia-o-publico-no-rj-na-estreia-da-turne-a-sinfonia-de-tudo-que-ha/>. Acesso em: 17 Maio 2021.
+- HUGILL, A. [Chords](https://andrewhugill.com/manuals/violin/chords.html). The Orchestra: A User's Manual, 2005. Acesso em: 17 Maio 2021.
 
-FOSTER, G. Com participação de Caetano Veloso e sem alarde, Fresno lança novo disco. GHZ Música, 2016. Disponivel em: <https://gauchazh.clicrbs.com.br/cultura-e-lazer/musica/noticia/2016/10/com-participacao-de-caetano-veloso-e-sem-alarde-fresno-lanca-novo-disco-ouca-7777474.html>. Acesso em: 17 Maio 2021.
+- VON BORELL, G. [Fresno incendeia o público do RJ na estreia da turnê “A Sinfonia de Tudo que Há”](https://www.tenhomaisdiscosqueamigos.com/2016/11/25/fresno-incendeia-o-publico-no-rj-na-estreia-da-turne-a-sinfonia-de-tudo-que-ha/). Tenho Mais Discos Que Amigos, 2016. Acesso em: 17 Maio 2021.
 
-RAFAEL, T. Titãs lança primeira ópera-rock nacional. Sucesso, 2018. Disponivel em: <https://web.portalsucesso.com.br/home/titas-lanca-primeira-opera-rock-nacional>. Acesso em: 17 Maio 2021.
+- FOSTER, G. [Com participação de Caetano Veloso e sem alarde, Fresno lança novo disco](https://gauchazh.clicrbs.com.br/cultura-e-lazer/musica/noticia/2016/10/com-participacao-de-caetano-veloso-e-sem-alarde-fresno-lanca-novo-disco-ouca-7777474.html). GHZ Música, 2016. Acesso em: 17 Maio 2021.
 
-FAUSTINO, J. 'Trilogia e outras designações de grupos de obras com temática comum ' in Ciberdúvidas da Língua Portuguesa, 2010. Disponivel em: <https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/trilogia-e-outras-designacoes-de-grupos-de-obras-com-tematica-comum/29181>. Acesso em: 17 Maio 2021.
+- RAFAEL, T. [Titãs lança primeira ópera-rock nacional](https://web.portalsucesso.com.br/home/titas-lanca-primeira-opera-rock-nacional). Sucesso, 2018. Acesso em: 17 Maio 2021.
 
-DICIO. alter ego. Dicio, 2021. Disponivel em: <https://www.dicio.com.br/alter-ego/>. Acesso em: 17 Maio 2021.
+- FAUSTINO, J. [Trilogia e outras designações de grupos de obras com temática comum](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/trilogia-e-outras-designacoes-de-grupos-de-obras-com-tematica-comum/29181). Ciberdúvidas da Língua Portuguesa, 2010. Acesso em: 17 Maio 2021.
 
-HOSPITAL ISRAELITA ALBERT EINSTEIN. Alzheimer. Hospital Israelita Albert Einstein, 2021. Disponivel em: <https://www.einstein.br/guia-doencas-sintomas/info/#5>. Acesso em: 17 Maio 2021.
+- DICIO. [alter ego.](https://www.dicio.com.br/alter-ego/) Dicio, 2021. Acesso em: 17 Maio 2021.
 
-CALDEIRA, P. Uma experiência musical sobre demência: Everywhere at the end of time. Shifter, 2020. Disponivel em: <https://shifter.sapo.pt/2020/12/everywhere-at-the-end-of-time/>. Acesso em: 17 Maio 2021.
+- HOSPITAL ISRAELITA ALBERT EINSTEIN. [Alzheimer](https://www.einstein.br/guia-doencas-sintomas/info/#5). Hospital Israelita Albert Einstein, 2021. Acesso em: 17 Maio 2021.
 
-JOSEPH, J. The Darkest Album I Have Ever Heard - Everywhere at The End of Time - A Bucket of Jake. Youtube, 2020. Disponivel em: <https://youtu.be/l_x08kbj-Fk>. Acesso em: 17 Maio 2021.
+- CALDEIRA, P. [Uma experiência musical sobre demência: Everywhere at the end of time](https://shifter.sapo.pt/2020/12/everywhere-at-the-end-of-time/). Shifter, 2020. Acesso em: 17 Maio 2021.
 
-KEANE, P. Howard Shore in The Lord of The Rings: How to use leitmotif technique to create a masterpiece? TakeTones, 2021. Disponivel em: <https://taketones.com/blog/howard-shore-in-the-lord-of-the-rings-how-to-use-leitmotif-technique-to-create-a-masterpiece>. Acesso em: 21 Maio 2021.
+- JOSEPH, J. [The Darkest Album I Have Ever Heard - Everywhere at The End of Time - A Bucket of Jake](https://youtu.be/l_x08kbj-Fk). Youtube, 2020. Acesso em: 17 Maio 2021.
 
-AMORA, G. Trilogia dos Dólares é exibida no Cineteatro São Luiz neste sábado. O Povo Online, 2017. Disponivel em: <https://www.opovo.com.br/jornal/vidaearte/2017/09/trilogia-dos-dolares-e-exibida-no-cineteatro-sao-luiz-neste-sabado.html>. Acesso em: 21 Maio 2021.
+- KEANE, P. [Howard Shore in The Lord of The Rings: How to use leitmotif technique to create a masterpiece?](https://taketones.com/blog/howard-shore-in-the-lord-of-the-rings-how-to-use-leitmotif-technique-to-create-a-masterpiece) TakeTones, 2021. Acesso em: 21 Maio 2021.
 
-LIRA, E. Como surgiu o cinema blockbuster? Legião dos Heróis, 2019. Disponivel em: <https://www.legiaodosherois.com.br/2019/como-surgiu-o-cinema-blockbuster.html>. Acesso em: 21 Maio 2021.
+- AMORA, G. [Trilogia dos Dólares é exibida no Cineteatro São Luiz neste sábado](https://www.opovo.com.br/jornal/vidaearte/2017/09/trilogia-dos-dolares-e-exibida-no-cineteatro-sao-luiz-neste-sabado.html). O Povo Online, 2017. Acesso em: 21 Maio 2021.
 
-VASCONCELOS, F. Schehérezade - Rimsky Korsakov. Guia da Música Clássica, 2012. Disponivel em: <http://guiadamusicaclassica.blogspot.com/2012/02/scheherezade-rimsky-korsakov.html>. Acesso em: 12 Maio 2021.
+- LIRA, E. [Como surgiu o cinema blockbuster?](https://www.legiaodosherois.com.br/2019/como-surgiu-o-cinema-blockbuster.html) Legião dos Heróis, 2019. Acesso em: 21 Maio 2021.
 
-GIL, A. C. Como elaborar Projetos de Pesquisa. Quarta edição. ed. São Paulo: Editora Atlas S.A., 2002.
+- VASCONCELOS, F. [Schehérezade - Rimsky Korsakov](http://guiadamusicaclassica.blogspot.com/2012/02/scheherezade-rimsky-korsakov.html). Guia da Música Clássica, 2012. Acesso em: 12 Maio 2021.
 
-LUCAS, M. Áudio dinâmico para games: conceitos fundamentais e procedimentos de composição adaptativa. X SBGames. Salvador: SBGames. 2011.
+- GIL, A. C. Como elaborar Projetos de Pesquisa. Quarta edição. ed. São Paulo: Editora Atlas S.A., 2002.
 
-HUIZINGA, J. Homo Ludens. 4. ed. [S.l.]: Editora Perspectiva, v. Coleção Estudos #4, 2000.
+- LUCAS, M. Áudio dinâmico para games: conceitos fundamentais e procedimentos de composição adaptativa. X SBGames. Salvador: SBGames. 2011.
 
-BOOTH, P. An Introduction to Human-Computer Interaction. 1ª edição. ed. [S.l.]: Psychology Press, 1989.
+- HUIZINGA, J. Homo Ludens. 4. ed. [S.l.]: Editora Perspectiva, v. Coleção Estudos #4, 2000.
 
-PHILLIPS, W. Horizontal Resquencing and Song Structure for Game Music Composers (From Spyder to Sackboy: GDC 2021). Composer Winifred Phillips – Thoughts about music, video games, etc., 2021. Disponivel em: <https://winifredphillips.wpcomstaging.com/2021/08/15/horizontal-resquencing-and-song-structure-for-game-music-composers-from-spyder-to-sackboy-gdc-2021/>. Acesso em: 26 Janeiro 2023.
+- BOOTH, P. An Introduction to Human-Computer Interaction. 1ª edição. ed. [S.l.]: Psychology Press, 1989.
 
-PHILLIPS, W. A Composer's Guide to Game Music. 1. ed. Londres: The MIT Press, 2014.
+- PHILLIPS, W. [Horizontal Resquencing and Song Structure for Game Music Composers (From Spyder to Sackboy: GDC 2021)](https://winifredphillips.wpcomstaging.com/2021/08/15/horizontal-resquencing-and-song-structure-for-game-music-composers-from-spyder-to-sackboy-gdc-2021/). Composer Winifred Phillips – Thoughts about music, video games, etc., 2021. Acesso em: 26 Janeiro 2023.
 
-VALENCIA-GARCIA, R. Technologies and Innovation. Guaiaquil: Springer International Publishing, 2016.
+- PHILLIPS, W. A Composer's Guide to Game Music. 1. ed. Londres: The MIT Press, 2014.
 
-NEFF , F.; PITT, I. Using Spatial Audio in Game Technology for Expressing Mathematical Problems to Blind Students. IGI Global: International Academic Publisher, 2011. Disponivel em: <https://www.igi-global.com/chapter/using-spatial-audio-game-technology/52507>. Acesso em: 26 Janeiro 2023.
+- VALENCIA-GARCIA, R. Technologies and Innovation. Guaiaquil: Springer International Publishing, 2016.
 
-COLLINS, K. An Introduction to the History, Theory, and Practice of Video Game Music and Sound Design. Massachusetts: Massachusetts Institute of Technology, 2008.
+- NEFF , F.; PITT, I. [Using Spatial Audio in Game Technology for Expressing Mathematical Problems to Blind Students](https://www.igi-global.com/chapter/using-spatial-audio-game-technology/52507). IGI Global: International Academic Publisher, 2011. Acesso em: 26 Janeiro 2023.
 
-KING, D. Conjuring the Sound Of Sand and Spice. The New York Times, Nova Iorque, v. C, n. 23, p. 1, Outubro 2021. Disponivel em: <https://www.nytimes.com/2021/10/22/movies/hans-zimmer-dune.html?smid=url-share>.
+- COLLINS, K. An Introduction to the History, Theory, and Practice of Video Game Music and Sound Design. Massachusetts: Massachusetts Institute of Technology, 2008.
 
-JÚNIOR, A. Som Diegético, Não Diegético e Meta Diegético. avmakers, 2020. Disponivel em: <https://www.avmakers.com.br/blog/som-diegetico-nao-diegetico-e-meta-diegetico>. Acesso em: 27 Janeiro 2023.
+- KING, D. [Conjuring the Sound Of Sand and Spice](https://www.nytimes.com/2021/10/22/movies/hans-zimmer-dune.html). The New York Times, Nova Iorque, v. C, n. 23, p. 1, Outubro 2021.
 
-MICHAELS, S. Inception soundtrack created entirely from Edith Piaf song. The Guardian, 2010. Disponivel em: <https://www.theguardian.com/music/2010/jul/29/inception-soundtrack-edith-piaf>. Acesso em: 27 Janeiro 2023.
+- JÚNIOR, A. [Som Diegético, Não Diegético e Meta Diegético](https://www.avmakers.com.br/blog/som-diegetico-nao-diegetico-e-meta-diegetico). avmakers, 2020. Acesso em: 27 Janeiro 2023.
 
-HELERBROCK, R. Dilatação do tempo. Brasil Escola. Disponivel em: <https://brasilescola.uol.com.br/fisica/dilatacao-tempo.htm>. Acesso em: 27 Janeiro 2023.
+- MICHAELS, S. [Inception soundtrack created entirely from Edith Piaf song](https://www.theguardian.com/music/2010/jul/29/inception-soundtrack-edith-piaf). The Guardian, 2010. Acesso em: 27 Janeiro 2023.
 
-KOMOI. This Interstellar Fan Theory About ‘Water Planet’ & The Ticking Sound In Background Proves Christopher Nolan’s Sheer Brilliance. Komoi, 2020. Disponivel em: <https://www.koimoi.com/hollywood-news/this-interstellar-fan-theory-about-water-planet-the-ticking-sound-in-background-proves-christopher-nolans-sheer-brilliance/>. Acesso em: 27 Janeiro 2023.
+- HELERBROCK, R. [Dilatação do tempo](https://brasilescola.uol.com.br/fisica/dilatacao-tempo.htm). Brasil Escola. Acesso em: 27 Janeiro 2023.
 
-FONSECA, D. R. O que é Melismas? Enfeite (ornamento) vocal. WiMELO, 2018. Disponivel em: <https://wimelo.com/vozecanto/tecnicas/o-que-e-melismas-enfeite-ornamento-vocal/>. Acesso em: 27 Janeiro 2023.
+- KOMOI. [This Interstellar Fan Theory About ‘Water Planet’ & The Ticking Sound In Background Proves Christopher Nolan’s Sheer Brilliance](https://www.koimoi.com/hollywood-news/this-interstellar-fan-theory-about-water-planet-the-ticking-sound-in-background-proves-christopher-nolans-sheer-brilliance/). Komoi, 2020. Acesso em: 27 Janeiro 2023.
 
-O REBE. Nigunim. O Rebe, 2010. Disponivel em: <https://pt.chabad.org/library/article_cdo/aid/602997/jewish/Nigunim.htm>. Acesso em: 27 Janeiro 2023.
+- FONSECA, D. R. [O que é Melismas? Enfeite (ornamento) vocal](https://wimelo.com/vozecanto/tecnicas/o-que-e-melismas-enfeite-ornamento-vocal/). WiMELO, 2018. Acesso em: 27 Janeiro 2023.
 
-ARNOLD, L. Como som afeta você: Usando Drones em sua música. Ask Audio, 2013. Disponivel em: <https://ask.audio/articles/how-sound-affects-you-using-drones-in-your-music/pt>. Acesso em: 27 Janeiro 2023.
+- O REBE. [Nigunim](https://pt.chabad.org/library/article_cdo/aid/602997/jewish/Nigunim.htm). O Rebe, 2010. Acesso em: 27 Janeiro 2023.
 
-ESTADÃO. Gargantas prodigiosas. Estadão, 2016. Disponivel em: <https://www.estadao.com.br/politica/neumanne/gargantas-prodigiosas/>. Acesso em: 27 Janeiro 2023.
+- ARNOLD, L. [Como som afeta você: Usando Drones em sua música](https://ask.audio/articles/how-sound-affects-you-using-drones-in-your-music/pt). Ask Audio, 2013. Acesso em: 27 Janeiro 2023.
 
-BROWN, M. Adaptive Soundtracks in Games. Youtube, 2014. Disponivel em: <https://youtu.be/b0gvM4q2hdI>. Acesso em: 27 Janeiro 2023.
+- ESTADÃO. [Gargantas prodigiosas](https://www.estadao.com.br/politica/neumanne/gargantas-prodigiosas/). Estadão, 2016. Acesso em: 27 Janeiro 2023.
 
-ROVERAN, L. Interatividade e música no videogame: um estudo de caso sobre as técnicas de composição para áudio dinâmio empregadas na trilha musical de Journey (2012). XXVII Congresso da Associação Nacional de Pesquisa e Pós-Gradução em Música. Campinas: [s.n.]. 2017. p. 1-10.
+- BROWN, M. [Adaptive Soundtracks in Games](https://youtu.be/b0gvM4q2hdI). Youtube, 2014. Acesso em: 27 Janeiro 2023.
 
-FARLEY, D. FMOD Adaptive Music Example. Youtube, 2018. Disponivel em: <https://youtu.be/xZuLoeF7Xpg>. Acesso em: 29 Janeiro 2023.
+- ROVERAN, L. Interatividade e música no videogame: um estudo de caso sobre as técnicas de composição para áudio dinâmio empregadas na trilha musical de Journey (2012). XXVII Congresso da Associação Nacional de Pesquisa e Pós-Gradução em Música. Campinas: [s.n.]. 2017. p. 1-10.
 
-MENEGUETTE, L. A afinação do mundo virtual: identidade sonora em jogos digitais. São Paulo: Tese (Doutorado em Tecnologias da Inteligência e Design Digital) - Pontifica Universidade Católica de São Paulo, 2016. 232 p.
+- FARLEY, D. [FMOD Adaptive Music Example](https://youtu.be/xZuLoeF7Xpg). Youtube, 2018. Acesso em: 29 Janeiro 2023.
 
-SCRUFFY. "Invisible" Sound Design in Breath of the Wild. Youtube, 2019. Disponivel em: <https://youtu.be/Vgev9Gzybk8>. Acesso em: 29 Janeiro 2023.
+- MENEGUETTE, L. A afinação do mundo virtual: identidade sonora em jogos digitais. São Paulo: Tese (Doutorado em Tecnologias da Inteligência e Design Digital) - Pontifica Universidade Católica de São Paulo, 2016. 232 p.
 
-SOTER, M. Quais são as escalas musicais? MusicDot, 2021. Disponivel em: <https://www.musicdot.com.br/artigos/escalas-m>. Acesso em: 29 Janeiro 2023.
+- SCRUFFY. ["Invisible" Sound Design in Breath of the Wild](https://youtu.be/Vgev9Gzybk8). Youtube, 2019. Acesso em: 29 Janeiro 2023.
 
-VALENTE, G. O Que é Ritmo: Como o Tempo, a Batida e a Métrica Funcionam na Música. Landr Blog, 2020. Disponivel em: <https://blog.landr.com/pt-br/o-que-e-ritmo-como-o-tempo-a-batida-e-a-metrica-funcionam-na-musica/>. Acesso em: 29 Janeiro 2023.
+- SOTER, M. [Quais são as escalas musicais?](https://www.musicdot.com.br/artigos/escalas-m) MusicDot, 2021. Acesso em: 29 Janeiro 2023.
+
+- VALENTE, G. [O Que é Ritmo: Como o Tempo, a Batida e a Métrica Funcionam na Música](https://blog.landr.com/pt-br/o-que-e-ritmo-como-o-tempo-a-batida-e-a-metrica-funcionam-na-musica/). Landr Blog, 2020. Acesso em: 29 Janeiro 2023.
 
 [^1]: O termo production designer (ou “designer de produção”) basicamente define o que costumamos chamar de diretor de arte – já que, nos Estados Unidos, art diretor significa cenógrafo. Aqui no Brasil, o primeiro longa em que um profissional assinou essa função foi “O Beijo da Mulher Aranha” em 1985. (KREUTZ, 2017)
 

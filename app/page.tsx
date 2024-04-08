@@ -28,7 +28,7 @@ const HomePage = async () => {
           <Experience experiences={experiences} />
           <Portfolio projects={projects} />
         </div>
-        <div className="container mr-auto max-w-3xl px-6 sm:px-8">
+        <div className="container mr-auto max-w-5xl px-6 sm:px-8">
           {/*📚 Education */}
           <Education education={education} />
           <Skills />
