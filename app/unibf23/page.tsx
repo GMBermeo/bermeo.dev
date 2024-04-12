@@ -14,12 +14,10 @@ const tituloTese =
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Introdução sobre Narrativa em Música",
-    description:
-      tituloTese +
-      ". Trabalho de Conclusão do Curso, apresentado para obtenção de certificado no Curso de Especialização - Latu Sensu em Desenvolvimento de Jogos Digitais da União Brasileira de Faculdades.",
+    description: tituloTese + ". TCC Latu Sensu em Jogos Digitais da UNIBF.",
     applicationName: "Guilherme Yuri Bermêo Costa - " + tituloTese,
     abstract:
-      "The main theme of this study is to discuss the importance and evolution of narrative elements in music and how these elements have influenced digital games. Through varied research that ranges from the study of the leitmotif in music as a narrative role since Scheherazade (1888) to contemporary popular music works, including the application of sound design techniques in the history of cinema and in the film Dune (2021), culminating in the emergence of tools that have enabled real-time re-sequencing and re-orchestration in digital games through player inputs, game states, and avatars. Finally, a final exploration of contemporary digital games that have used all these techniques for a better narrative construction and/or player immersion, such as The Legend of Zelda: Breath of the Wild (2017) and Journey (2012).",
+      "Este estudo tem como tema principal discutir a importância e a evolução do papel dos elementos narrativos na música e como tais elementos influenciaram os jogos digitais. Através de uma pesquisa variada que vai do estudo do motivo condutor na música como papel narrativo desde Scheherazade (1888) a obras de música popular contemporânea, passando por aplicação de técnicas de sound design na história do cinema e na obra Duna (2021), culminando no surgimento de ferramentas que possibilitaram re-sequenciamento e re-orquestração em tempo real em jogos digitais através de inputs do jogador e estados do jogo e avatares. Por fim, uma exploração final de jogos digitais contemporâneos que se utilizaram de todo esse conjunto de técnicas para uma melhor construção narrativa e/ou imersão do jogador, como The Legend of Zelda: Breath of the Wild (2017) e Journey (2012).",
     authors: {
       url: "https://www.bermeo.dev",
       name: "Guilherme Yuri Bermêo Costa",
