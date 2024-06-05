@@ -19,8 +19,12 @@ export const NavBar = () => {
         </Link>
       </div>
       <ul className="flex items-center">
-        <Link href={"/cv"} className={sLink.link} title="Curriculum Vitae">
-          CV
+        <Link
+          href={"/resume"}
+          className={sLink.link}
+          title="Resume (Curriculum Vitae)"
+        >
+          Resume
         </Link>
         <NavButton label="About" class="hidden sm:inline-block" />
         <NavButton label="Experience" />

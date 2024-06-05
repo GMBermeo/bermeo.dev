@@ -28,6 +28,15 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/resume",
+        destination: "/cv",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

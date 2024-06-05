@@ -3,7 +3,7 @@ import React from "react";
 import { Metadata } from "next";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { DownloadCv } from "@components";
+import { DownloadResume } from "@components";
 import { loadMarkdown } from "@lib";
 import s from "@styles/markdown.module.css";
 
@@ -16,12 +16,12 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 const MarkDownCurriculumPage = async () => {
-  const content = await loadMarkdown("public/cv/GuilhermeBermeo-en.md");
+  const content = await loadMarkdown("public/resume/GuilhermeBermeo-en.md");
 
   return (
     <>
       <header className="mx-auto flex max-w-3xl px-6 pt-0 md:px-3 xl:px-0">
-        <DownloadCv />
+        <DownloadResume />
       </header>
       <div className="mx-auto mb-4 max-w-3xl">
         <ReactMarkdown

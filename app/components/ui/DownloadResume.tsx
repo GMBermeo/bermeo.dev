@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 
-export const DownloadCv = () => {
+export const DownloadResume = () => {
   const isWindows =
     typeof window !== "undefined"
       ? navigator.userAgent.toUpperCase().indexOf("WIN") >= 0
@@ -13,12 +13,12 @@ export const DownloadCv = () => {
   return (
     <>
       <Link
-        href={"/download/CV-202312[en].pdf"}
+        href={"/download/Resume-202405[en].pdf"}
         hrefLang="en"
         className={tailwind}
         title="Download CV"
       >
-        <span className={isWindows ? "hidden" : ""}>🇬🇧 </span>Download CV
+        <span className={isWindows ? "hidden" : ""}>🇬🇧 </span>Download Resume
       </Link>
       |
       <Link

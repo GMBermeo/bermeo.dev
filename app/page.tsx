@@ -8,7 +8,7 @@ import {
   Education,
   NavBar,
   Skills,
-  DownloadCv,
+  DownloadResume,
 } from "@components";
 
 const HomePage = async () => {
@@ -20,7 +20,7 @@ const HomePage = async () => {
     <>
       <NavBar />
       <Hero />
-      <main className="mx-auto grid max-w-fit grid-cols-1 3xl:grid-cols-[1fr_39vw]">
+      <main className="3xl:grid-cols-[1fr_39vw] mx-auto grid max-w-fit grid-cols-1">
         <div className="container ml-auto max-w-5xl px-6 sm:px-8">
           {/*📰 Bio */}
           <About />
@@ -35,7 +35,7 @@ const HomePage = async () => {
         </div>
       </main>
       <footer className="flex justify-center pb-6 xl:mt-6">
-        <DownloadCv />
+        <DownloadResume />
       </footer>
 
       {/*🔥 Projects */}
