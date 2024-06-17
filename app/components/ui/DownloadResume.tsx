@@ -13,12 +13,12 @@ export const DownloadResume = () => {
   return (
     <>
       <Link
-        href={"/download/Resume-202405[en].pdf"}
+        href={"/download/resume-202405[en].pdf"}
         hrefLang="en"
         className={tailwind}
-        title="Download CV"
+        title="Download resume"
       >
-        <span className={isWindows ? "hidden" : ""}>🇬🇧 </span>Download Resume
+        <span className={isWindows ? "hidden" : ""}>🇬🇧 </span>Download resume
       </Link>
       |
       <Link
