@@ -3,5 +3,4 @@ export interface Image {
   width: number;
   height: number;
   alt: string;
-  altBr?: string;
 }

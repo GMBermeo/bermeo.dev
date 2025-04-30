@@ -9,42 +9,31 @@ export interface DataEducation {
 export const education: DataEducation = {
   degrees: [
     {
-      type: {
-        en: "Postgraduate Degree",
-        br: "Pós-graduação Lato Sensu",
-      },
-      title: {
-        en: "Digital Games Development",
-        br: "Desenvolvimento de Jogos Digitais",
-      },
-      thesis: {
-        en: "Thesis on 'Leitmotif, Sound Design, Horizontal Re-sequencing, Vertical re-orchestration: An Introduction to Narrative in Music'",
-        br: "TCC sobre 'Motivo Condutor, Design Sonoro, Re-sequenciamento Horizontal e Re-orquestração vertical: Uma Introdução à Narrativa em Música'",
-      },
+      type: "Postgraduate Degree",
+      title: "Digital Games Development",
+      thesis:
+        "Thesis on 'Leitmotif, Sound Design, Horizontal Re-sequencing, Vertical re-orchestration: An Introduction to Narrative in Music'",
       institution: "Instituto Brasileiro de Formação",
       dateStart: "2021",
       dateEnd: "2023",
       link: "/unibf23/",
     },
+    // {
+    //   type: {
+    //     en: "Postgraduate Degree",
+    //     br: "Pós-graduação Lato Sensu",
+    //   },
+    //   title: {
+    //     en: "Teaching in Communications with Emphasis in Publicity and Advertising",
+    //     br: "Docência em Comunicação com Ênfase em Publicidade e Propaganda",
+    //   },
+    //   institution: "Instituto Brasileiro de Formação",
+    //   dateStart: "2020",
+    //   dateEnd: "2021",
+    // },
     {
-      type: {
-        en: "Postgraduate Degree",
-        br: "Pós-graduação Lato Sensu",
-      },
-      title: {
-        en: "Teaching in Communications with Emphasis in Publicity and Advertising",
-        br: "Docência em Comunicação com Ênfase em Publicidade e Propaganda",
-      },
-      institution: "Instituto Brasileiro de Formação",
-      dateStart: "2020",
-      dateEnd: "2021",
-    },
-    {
-      type: { en: "Undergraduate Degree", br: "Ensino Superior" },
-      title: {
-        en: "Analysis and Development of Computer Systems",
-        br: "Análise e Desenvolvimento de Sistemas",
-      },
+      type: "Undergraduate Degree",
+      title: "Analysis and Development of Computer Systems",
       institution: "Faculdade de Ensino Superior Cathedral",
       dateStart: "2011",
       dateEnd: "2014",
@@ -52,40 +41,37 @@ export const education: DataEducation = {
   ],
   courses: [
     {
-      title: {
-        en: "React Complete with Hooks",
-        br: "React Completo com Hooks",
-      },
+      title: "React Complete with Hooks",
       institution: "Origamid.dev",
       dateEnd: "2022",
       hours: 36,
     },
     {
-      title: { en: "Motion Design", br: "Motion Design" },
+      title: "Motion Design",
       institution: "Alura",
       dateEnd: "2021",
       hours: 110,
     },
     {
-      title: { en: "Game Design", br: "Game Design" },
+      title: "Game Design",
       institution: "Alura",
       dateEnd: "2021",
       hours: 60,
     },
     {
-      title: { en: "Agile SCRUM Methodology", br: "Metodologia Ágil SCRUM" },
+      title: "Agile SCRUM Methodology",
       institution: "SENAC/DF",
       dateEnd: "2019",
       hours: 20,
     },
     {
-      title: { en: "HTML & CSS", br: "HTML & CSS" },
+      title: "HTML & CSS",
       institution: "Alura",
       dateEnd: "2016",
       hours: 52,
     },
     {
-      title: { en: "Administrative Assistant", br: "Auxiliar Administrativo" },
+      title: "Administrative Assistant",
       institution: "SENAI/RR",
       dateEnd: "2012",
       hours: 800,
@@ -93,6 +79,17 @@ export const education: DataEducation = {
   ],
 
   certifications: [
+    {
+      title:
+        "Associate Cloud Engineer Certification - ID 4a54a3f5c1d64dd39f64172b63a1c606",
+      institution: "Google",
+      dateEnd: "2025",
+    },
+    {
+      title: "IELTS General - Score 6.5",
+      institution: "Cambridge University Press & Assessment",
+      dateEnd: "2023",
+    },
     {
       title: "Diplome d'Etudes en Langue Française (DELF) A2",
       institution: "Alliance Française de Brasília",

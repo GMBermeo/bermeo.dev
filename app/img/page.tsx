@@ -1,5 +1,5 @@
 "use server";
-import { allImages } from "@api/images";
+import { allImages } from "app/api/images";
 import { Image as TImage } from "@types";
 import { Metadata } from "next";
 import Image from "next/image";

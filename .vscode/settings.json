@@ -15,7 +15,7 @@
     // "public": true,
     "dist": true,
     "tsconfig.json": false,
-    ".eslintrc.json": true,
+    ".eslintrc.json": false,
     // "next.config.js": true,
     "postcss.config.js": true
   },

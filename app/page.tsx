@@ -1,5 +1,4 @@
 "use server";
-import { loadEducation, loadExperience, loadProjects } from "lib";
 import {
   About,
   Experience,
@@ -11,11 +10,7 @@ import {
   DownloadResume,
 } from "@components";
 
-const HomePage = async () => {
-  const experiences = loadExperience("en");
-  const education = loadEducation("en");
-  const projects = loadProjects("en");
-
+export default async function HomePage() {
   return (
     <>
       <NavBar />
@@ -25,12 +20,12 @@ const HomePage = async () => {
           {/*📰 Bio */}
           <About />
           {/*👷🏻‍♂️ Work Experience  */}
-          <Experience experiences={experiences} />
-          <Portfolio projects={projects} />
+          <Experience />
+          <Portfolio />
         </div>
         <div className="container mr-auto max-w-5xl px-6 sm:px-8">
           {/*📚 Education */}
-          <Education education={education} />
+          <Education />
           <Skills />
         </div>
       </main>
@@ -50,36 +45,4 @@ const HomePage = async () => {
       {/*💎 Skills */}
     </>
   );
-};
-
-export default HomePage;
-
-type JSONValue =
-  | null
-  | boolean
-  | number
-  | string
-  | JSONValue[]
-  | { [key: string]: JSONValue };
-type OnceFn = (...args: JSONValue[]) => JSONValue | undefined;
-
-function once(fn: Function): OnceFn {
-  let once: boolean = false;
-
-  return function (...args) {
-    if (!once) {
-      return undefined;
-    } else {
-      once = true;
-      return fn(...args);
-    }
-  };
 }
-
-/**
- * let fn = (a,b,c) => (a + b + c)
- * let onceFn = once(fn)
- *
- * onceFn(1,2,3); // 6
- * onceFn(2,3,6); // returns undefined without calling fn
- */

@@ -1,10 +1,10 @@
 export interface Experience {
-  title: { en: string; br: string };
+  title: string;
   company: string;
   companyShort: string;
   dateStart: string;
   dateEnd: string;
-  description: { en: string[]; br: string[] };
+  description: string[];
   linkTo?: string;
 }
 

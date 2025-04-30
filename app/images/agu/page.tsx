@@ -1,7 +1,7 @@
 "use server";
 import { Metadata } from "next";
 import Image from "next/image";
-import { allImages, altSizesImages } from "@api/images";
+import { allImages, altSizesImages } from "app/api/images";
 import { Image as TImage } from "@types";
 
 export async function generateMetadata(): Promise<Metadata> {

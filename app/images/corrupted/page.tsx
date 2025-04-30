@@ -1,4 +1,4 @@
-import { allImages } from "@api/images";
+import { allImages } from "app/api/images";
 import { Image as TImage } from "@types";
 import Image from "next/image";
 

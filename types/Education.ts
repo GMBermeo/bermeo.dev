@@ -1,23 +1,14 @@
 export interface Degree {
-  type: {
-    en: "Postgraduate Degree" | "Undergraduate Degree";
-    br: "Pós-graduação Lato Sensu" | "Ensino Superior";
-  };
-  title: {
-    en: string;
-    br: string;
-  };
-  thesis?: {
-    en: string;
-    br: string;
-  };
+  type: "Postgraduate Degree" | "Undergraduate Degree";
+  title: string;
+  thesis?: string;
   institution: string;
   dateStart: string;
   dateEnd: string;
   link?: string;
 }
 export interface Course {
-  title: { en: string; br: string };
+  title: string;
   institution: string;
   dateEnd: string;
   hours: number;

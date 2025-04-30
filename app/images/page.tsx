@@ -1,10 +1,9 @@
 import { Image as TImage } from "@types";
 import Image from "next/image";
-import { allImages, altSizesImages } from "@api/images";
+import { allImages } from "app/api/images";
 
 const AllWorks = () => {
   const images = allImages;
-  const alImages = altSizesImages;
 
   return (
     <>

@@ -1,7 +1,8 @@
 import { Title, WorkCard } from "@components";
+import { experiences } from "@data";
 import { ExperienceResponse } from "@types";
 
-export const Experience = ({ experiences }: any) => {
+export const Experience = (): JSX.Element => {
   return (
     <div>
       <Title title={"Experience"} />

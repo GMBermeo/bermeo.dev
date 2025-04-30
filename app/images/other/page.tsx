@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Image as TImage } from "@types";
-import { allImages, altSizesImages } from "@api/images";
+import { allImages, altSizesImages } from "app/api/images";
 
 const AllImagesOtherPage = () => {
   const images = allImages.filter((item: TImage) =>

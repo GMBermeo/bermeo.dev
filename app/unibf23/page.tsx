@@ -2,11 +2,11 @@
 "use server";
 import React from "react";
 import { Metadata } from "next";
-import ReactMarkdown from "react-markdown";
+import Link from "next/link";
+import ReactMarkdown, { Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
 import s from "@styles/markdown.module.css";
 import { loadMarkdown } from "@lib";
-import Link from "next/link";
 
 const tituloTese =
   "Motivo Condutor, Desenho de Som, Re-Sequenciamento Horizontal e Re-Orquestração Vertical: Introdução sobre Narrativa em Música";
@@ -87,6 +87,19 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
+const CustomLink: Components["a"] = ({ href, title, children }) => (
+  <Link
+    title={title ?? (typeof children === "string" ? children : undefined)}
+    href={href ?? ""}
+  >
+    {children}
+  </Link>
+);
+
+const CustomImage: Components["img"] = ({ src, alt }) => (
+  <img src={src} alt={alt} title={alt} className="mx-auto" loading="lazy" />
+);
+
 const ThesisPage = async () => {
   const content = await loadMarkdown(
     "public/unibf23/article-introduction-to-narrative-in-music[br].md"
@@ -97,20 +110,8 @@ const ThesisPage = async () => {
       <ReactMarkdown
         className={`${s.markdown} px-6 pt-0 text-sm  md:px-3 xl:px-0`}
         components={{
-          a: ({ href, title, children }) => (
-            <Link title={title ?? children?.toString()} href={href ?? ""}>
-              {children}
-            </Link>
-          ),
-          img: ({ src, alt }) => (
-            <img
-              src={src}
-              alt={alt}
-              title={alt}
-              className="mx-auto"
-              loading="lazy"
-            />
-          ),
+          a: CustomLink,
+          img: CustomImage,
         }}
         remarkPlugins={[remarkGfm]}
         remarkRehypeOptions={{

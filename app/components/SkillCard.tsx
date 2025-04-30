@@ -3,7 +3,7 @@ import { Skill } from "@types";
 import { SkillBadge } from "@components";
 
 export const SkillCard = ({ label, level, linkedin }: Skill) => {
-  function opacityCalc(level: number): any {
+  function opacityCalc(level: number): number {
     return (level * 0.5) / 3;
   }
 
