@@ -17,13 +17,3 @@ export interface ExperienceResponse {
   description: string[];
   linkTo?: string;
 }
-
-export interface ExperienceProps {
-  title: string;
-  company: string;
-  companyShort: string;
-  dateStart: string;
-  dateEnd: string;
-  description: string[];
-  linkTo?: string;
-}

@@ -1,4 +1,4 @@
-import { Image } from "@types";
+import type { Image } from "@types";
 
 export interface Project {
   title: string;

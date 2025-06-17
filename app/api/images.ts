@@ -1,9 +1,9 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import { Image } from "@types";
 import { NextResponse } from "next/server";
+import type { Image } from "@types";
 
-export async function GET() {
-  return NextResponse.json(allImages);
+export async function GET(): Promise<NextResponse<Image[]>> {
+  return Promise.resolve(NextResponse.json(allImages));
 }
 
 export const allImages: Image[] = [

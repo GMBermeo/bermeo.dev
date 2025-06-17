@@ -1,9 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
 "use server";
-import React from "react";
-import { Metadata } from "next";
+import type { JSX } from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
-import ReactMarkdown, { Components } from "react-markdown";
+import ReactMarkdown, { type Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
 import s from "@styles/markdown.module.css";
 import { loadMarkdown } from "@lib";
@@ -12,7 +11,7 @@ const tituloTese =
   "Motivo Condutor, Desenho de Som, Re-Sequenciamento Horizontal e Re-Orquestração Vertical: Introdução sobre Narrativa em Música";
 
 export async function generateMetadata(): Promise<Metadata> {
-  return {
+  return Promise.resolve({
     title: "Introdução sobre Narrativa em Música",
     description: tituloTese + ". TCC Latu Sensu em Jogos Digitais da UNIBF.",
     applicationName: "Guilherme Yuri Bermêo Costa - " + tituloTese,
@@ -84,10 +83,14 @@ export async function generateMetadata(): Promise<Metadata> {
       "/unibf23#6-considera%C3%A7%C3%B5es-finais",
       "/unibf23#7-refer%C3%AAncias-bibliogr%C3%A1ficas",
     ],
-  };
+  });
 }
 
-const CustomLink: Components["a"] = ({ href, title, children }) => (
+const CustomLink: Components["a"] = ({
+  href,
+  title,
+  children,
+}: Readonly<{ href?: string; title?: string; children?: React.ReactNode }>) => (
   <Link
     title={title ?? (typeof children === "string" ? children : undefined)}
     href={href ?? ""}
@@ -96,13 +99,19 @@ const CustomLink: Components["a"] = ({ href, title, children }) => (
   </Link>
 );
 
-const CustomImage: Components["img"] = ({ src, alt }) => (
+const CustomImage: Components["img"] = ({
+  src,
+  alt,
+}: Readonly<{
+  src?: string;
+  alt?: string;
+}>) => (
   <img src={src} alt={alt} title={alt} className="mx-auto" loading="lazy" />
 );
 
-const ThesisPage = async () => {
+export default async function ThesisPage(): Promise<JSX.Element> {
   const content = await loadMarkdown(
-    "public/unibf23/article-introduction-to-narrative-in-music[br].md"
+    "public/unibf23/article-introduction-to-narrative-in-music[br].md",
   );
 
   return (
@@ -123,6 +132,4 @@ const ThesisPage = async () => {
       </ReactMarkdown>
     </article>
   );
-};
-
-export default ThesisPage;
+}

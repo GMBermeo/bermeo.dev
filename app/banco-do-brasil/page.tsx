@@ -1,19 +1,19 @@
 "use server";
-import ReactMarkdown from "react-markdown";
+import type { JSX } from "react";
 import s from "styles/markdown.module.css";
-import { NavBar } from "app/components/NavBar/NavBar";
-import { Title } from "@components";
-import { Metadata } from "next";
+import ReactMarkdown from "react-markdown";
+import type { Metadata } from "next";
+import { Title, NavBar } from "@components";
 import { loadMarkdown } from "@lib";
 
 export async function generateMetadata(): Promise<Metadata> {
-  return {
+  return Promise.resolve({
     title: "Bank of Brazil Technology Branch | Guilherme Bermeo",
     description: "Banco do Brasil Tecnologia & Serviços",
-  };
+  });
 }
 
-const BankBrazilPage = async () => {
+export default async function BankBrazilPage(): Promise<JSX.Element> {
   const content = await loadMarkdown("_data/banco-do-brasil-en.md");
 
   return (
@@ -25,6 +25,4 @@ const BankBrazilPage = async () => {
       </main>
     </>
   );
-};
-
-export default BankBrazilPage;
+}

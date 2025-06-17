@@ -1,7 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/app/building-your-application/routing/route-handlers
 import { NextResponse } from "next/server";
-import { education } from "@data";
+import { education, type DataEducation } from "@data";
 
-export async function GET() {
-  return NextResponse.json(education);
+export async function GET(): Promise<NextResponse<DataEducation>> {
+  return Promise.resolve(NextResponse.json(education));
 }

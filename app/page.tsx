@@ -1,4 +1,5 @@
 "use server";
+import type { JSX } from "react";
 import {
   About,
   Experience,
@@ -10,7 +11,8 @@ import {
   DownloadResume,
 } from "@components";
 
-export default async function HomePage() {
+export default async function HomePage(): Promise<JSX.Element> {
+  await Promise.resolve();
   return (
     <>
       <NavBar />

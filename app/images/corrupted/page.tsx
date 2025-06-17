@@ -1,10 +1,18 @@
-import { allImages } from "app/api/images";
-import { Image as TImage } from "@types";
+import type { JSX } from "react";
+import type { Metadata } from "next";
 import Image from "next/image";
+import { allImages } from "app/api/images";
+import type { Image as TypeImage } from "@types";
 
-const AllImagesCorruptedPage = () => {
-  const images = allImages.filter((item: TImage) =>
-    item.src.includes("/CORRUPTED-")
+export const metadata: Metadata = {
+  title: "CØЯЯuptΞd cØding дЯt images | Guilherme Bermeo",
+  description: "All CØЯЯuptΞd cØding дЯt images in one page for indexing.",
+};
+
+export default async function AllImagesCorruptedPage(): Promise<JSX.Element> {
+  await Promise.resolve();
+  const images: TypeImage[] = allImages.filter((item: TypeImage) =>
+    item.src.includes("/CORRUPTED-"),
   );
 
   return (
@@ -13,7 +21,7 @@ const AllImagesCorruptedPage = () => {
         CØЯЯuptΞd cØding дЯt
       </h1>
       <div className="grid grid-cols-1 gap-4 p-4 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-        {images.map((image: TImage) => (
+        {images.map((image: TypeImage) => (
           <a
             href={"https://www.bermeo.dev" + image.src}
             key={image.src}
@@ -36,6 +44,4 @@ const AllImagesCorruptedPage = () => {
       </div>
     </>
   );
-};
-
-export default AllImagesCorruptedPage;
+}

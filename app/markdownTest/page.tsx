@@ -1,11 +1,9 @@
-import React from "react";
+import type { JSX } from "react";
 import ReactMarkdown from "react-markdown";
 import s from "@styles/markdown.module.css";
 
-const MarkDownTestPage = () => {
+export default function MarkDownTestPage(): JSX.Element {
   return (
     <ReactMarkdown className={s.markdown}># Hello, *World*!</ReactMarkdown>
   );
-};
-
-export default MarkDownTestPage;
+}

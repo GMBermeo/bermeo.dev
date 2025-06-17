@@ -1,12 +1,13 @@
 "use client";
+import type { JSX } from "react";
 import sLink from "@styles/Link.module.css";
 
-interface TNavButtonProps {
+interface NavButtonProps {
   label: string;
-  class?: string;
+  className?: string;
 }
 
-export const NavButton = ({ label, class: className }: TNavButtonProps) => {
+export const NavButton = (props: Readonly<NavButtonProps>): JSX.Element => {
   function scrollToSection(section: string): void {
     const element = document.getElementById(section)?.getBoundingClientRect().y;
     if (element) {
@@ -19,10 +20,13 @@ export const NavButton = ({ label, class: className }: TNavButtonProps) => {
   return (
     <li>
       <button
-        className={`${sLink.link} ${className}`}
-        onClick={() => scrollToSection(label)}
+        className={`${sLink.link} ${props.className ?? ""}`}
+        onClick={() => {
+          scrollToSection(props.label);
+        }}
+        type="button"
       >
-        {label}
+        {props.label}
       </button>
     </li>
   );

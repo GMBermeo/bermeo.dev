@@ -1,10 +1,11 @@
 "use client";
+import type { JSX } from "react";
 import Link from "next/link";
 
-export const DownloadResume = () => {
+export const DownloadResume = (): JSX.Element => {
   const isWindows =
     typeof window !== "undefined"
-      ? navigator.userAgent.toUpperCase().indexOf("WIN") >= 0
+      ? navigator.userAgent.toUpperCase().includes("WIN")
       : false;
 
   const tailwind =

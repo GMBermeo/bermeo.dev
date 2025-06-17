@@ -1,14 +1,19 @@
-import { Image as TImage } from "@types";
+import type { JSX } from "react";
 import Image from "next/image";
+import type { Metadata } from "next";
 import { allImages } from "app/api/images";
+import type { Image as TypeImage } from "@types";
 
-const AllWorks = () => {
-  const images = allImages;
+export const metadata: Metadata = {
+  title: "Images | Guilherme Bermeo",
+  description: "All images.",
+};
 
+export default function AllWorksPage(): JSX.Element {
   return (
     <>
       <div className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8 md:p-8">
-        {images.map((image: TImage) => (
+        {allImages.map((image: TypeImage) => (
           <a
             href={"https://www.bermeo.dev" + image.src}
             key={image.src}
@@ -26,7 +31,7 @@ const AllWorks = () => {
         ))}
       </div>
       <div className="grid grid-cols-6 gap-2 p-4 md:grid-cols-8 md:gap-4 md:p-8 xl:grid-cols-12">
-        {images.map((image: TImage) => (
+        {allImages.map((image: TypeImage) => (
           <a
             href={"https://www.bermeo.dev" + image.src}
             key={image.src}
@@ -45,6 +50,4 @@ const AllWorks = () => {
       </div>
     </>
   );
-};
-
-export default AllWorks;
+}

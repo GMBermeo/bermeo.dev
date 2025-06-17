@@ -1,13 +1,19 @@
+import type { JSX } from "react";
 import Link from "next/link";
 
-export const ReadMore = ({ label, url }: { label: string; url: string }) => {
+interface ReadMoreProps {
+  label: string;
+  url: string;
+}
+
+export const ReadMore = (props: Readonly<ReadMoreProps>): JSX.Element => {
   return (
     <Link
-      href={url || ""}
-      title={label}
+      href={props.url || ""}
+      title={props.label}
       className="rounded px-4 py-1 text-sm lowercase text-dracula-currentLine hover:bg-primary hover:text-black"
     >
-      {label}
+      {props.label}
     </Link>
   );
 };

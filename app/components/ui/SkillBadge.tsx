@@ -1,3 +1,5 @@
+import type { JSX } from "react";
+
 interface SkillBadgeProps {
   fill?: string;
   size?: number;
@@ -6,7 +8,7 @@ interface SkillBadgeProps {
 export const SkillBadge = ({
   fill = "currentColor",
   size = 24,
-}: SkillBadgeProps) => {
+}: Readonly<SkillBadgeProps>): JSX.Element => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

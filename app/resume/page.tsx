@@ -1,21 +1,21 @@
 "use server";
-import React from "react";
-import { Metadata } from "next";
+import s from "@styles/markdown.module.css";
+import type { JSX } from "react";
+import type { Metadata } from "next";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { DownloadResume } from "@components";
 import { loadMarkdown } from "@lib";
-import s from "@styles/markdown.module.css";
 
 export async function generateMetadata(): Promise<Metadata> {
-  return {
+  return Promise.resolve({
     title:
       "Guilherme Yuri Bermêo Costa - Senior Front-end Developer | Curriculum Vitae",
     description: "Guilherme Yuri Bermêo Costa's Curriculum Vitae",
-  };
+  });
 }
 
-const MarkDownCurriculumPage = async () => {
+export default async function MarkDownCurriculumPage(): Promise<JSX.Element> {
   const content = await loadMarkdown("public/resume/GuilhermeBermeo-en.md");
 
   return (
@@ -33,6 +33,4 @@ const MarkDownCurriculumPage = async () => {
       </div>
     </>
   );
-};
-
-export default MarkDownCurriculumPage;
+}

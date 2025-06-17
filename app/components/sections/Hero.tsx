@@ -1,7 +1,8 @@
+import type { JSX } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-export function Hero() {
+export const Hero = (): JSX.Element => {
   return (
     <div>
       <header className="mx-auto h-screen px-6 md:px-16 lg:px-32">
@@ -53,4 +54,4 @@ export function Hero() {
       </header>
     </div>
   );
-}
+};

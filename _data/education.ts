@@ -1,4 +1,4 @@
-import { Degree, Course, Certification } from "@types";
+import type { Degree, Course, Certification } from "@types";
 
 export interface DataEducation {
   degrees: Degree[];

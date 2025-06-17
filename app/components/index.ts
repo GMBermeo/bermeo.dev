@@ -8,7 +8,6 @@ export * from "./sections/About";
 export * from "./sections/Education";
 export * from "./sections/Experience";
 export * from "./sections/Hero";
-export * from "./sections/OtherProjects";
 export * from "./sections/Portfolio";
 export * from "./sections/Skills";
 export * from "./ui/Button";

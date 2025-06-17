@@ -1,6 +1,7 @@
-import { Title, WorkCard } from "@components";
+import type { JSX } from "react";
+import { Title, ExperienceCard } from "@components";
 import { experiences } from "@data";
-import { ExperienceResponse } from "@types";
+import type { ExperienceResponse } from "@types";
 
 export const Experience = (): JSX.Element => {
   return (
@@ -8,7 +9,7 @@ export const Experience = (): JSX.Element => {
       <Title title={"Experience"} />
       <ol>
         {experiences.map((experience: ExperienceResponse) => (
-          <WorkCard {...experience} key={experience.dateEnd} />
+          <ExperienceCard key={experience.dateEnd} experience={experience} />
         ))}
       </ol>
     </div>

@@ -1,4 +1,4 @@
-import { Skill } from "@types";
+import type { Skill } from "@types";
 
 export const skills: Skill[] = [
   { label: "HTML & CSS", level: 6, linkedin: true },

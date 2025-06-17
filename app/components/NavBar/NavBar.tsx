@@ -1,10 +1,11 @@
+import type { JSX } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { NavButton } from "@components";
 import s from "@styles/NavBar.module.css";
 import sLink from "@styles/Link.module.css";
 
-export const NavBar = () => {
+export const NavBar = (): JSX.Element => {
   return (
     <nav className={s.navBar}>
       <div className="hidden sm:inline-block">
@@ -26,7 +27,7 @@ export const NavBar = () => {
         >
           Resume
         </Link>
-        <NavButton label="About" class="hidden sm:inline-block" />
+        <NavButton label="About" className="hidden sm:inline-block" />
         <NavButton label="Experience" />
         <NavButton label="Projects" />
         <NavButton label="Education" />

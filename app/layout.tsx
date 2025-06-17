@@ -1,18 +1,19 @@
 "use server";
+import type { JSX } from "react";
 import "../styles/globals.css";
-import { Metadata, Viewport } from "next";
+import type { Metadata, Viewport } from "next";
 
 export async function generateViewport(): Promise<Viewport> {
-  return {
+  return Promise.resolve({
     width: "device-width",
     initialScale: 1,
     colorScheme: "dark",
     themeColor: "#0e1012",
-  };
+  });
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  return {
+  return Promise.resolve({
     title: {
       template: "Guilherme Bermeo | %s",
       absolute: "Guilherme Bermeo | Front-end Developer",
@@ -210,12 +211,13 @@ export async function generateMetadata(): Promise<Metadata> {
         },
       ],
     },
-  };
+  });
 }
 
 export default async function RootLayout({
   children,
-}: Readonly<{ children: React.ReactNode }>) {
+}: Readonly<{ children: React.ReactNode }>): Promise<JSX.Element> {
+  await Promise.resolve();
   return (
     <html lang={"en"}>
       <body>{children}</body>

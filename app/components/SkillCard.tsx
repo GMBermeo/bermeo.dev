@@ -1,8 +1,12 @@
-import React from "react";
-import { Skill } from "@types";
+import type { JSX } from "react";
+import type { Skill } from "@types";
 import { SkillBadge } from "@components";
 
-export const SkillCard = ({ label, level, linkedin }: Skill) => {
+interface SkillCardProps {
+  skill: Skill;
+}
+
+export const SkillCard = (props: Readonly<SkillCardProps>): JSX.Element => {
   function opacityCalc(level: number): number {
     return (level * 0.5) / 3;
   }
@@ -10,10 +14,10 @@ export const SkillCard = ({ label, level, linkedin }: Skill) => {
   return (
     <li
       className="flex items-center gap-x-1 text-dracula-foreground duration-100 ease-in-out hover:scale-105"
-      style={{ opacity: opacityCalc(level) }}
+      style={{ opacity: opacityCalc(props.skill.level) }}
     >
-      {label}
-      {linkedin && <SkillBadge size={12} />}
+      {props.skill.label}
+      {props.skill.linkedin && <SkillBadge size={12} />}
     </li>
   );
 };

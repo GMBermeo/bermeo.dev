@@ -1,7 +1,8 @@
+import type { JSX } from "react";
 import ReactMarkdown from "react-markdown";
 import { Title } from "@components";
 
-export const About = () => {
+export const About = (): JSX.Element => {
   return (
     <div>
       <Title title={"About"} />

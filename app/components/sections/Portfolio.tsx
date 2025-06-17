@@ -1,11 +1,12 @@
 "use client";
+import type { JSX } from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import { ProjectCard, Title } from "@components";
 import { projects } from "@data";
-import { Project } from "@types";
+import type { Project } from "@types";
 
-export const Portfolio = () => {
+export const Portfolio = (): JSX.Element => {
   const [ref] = useKeenSlider<HTMLDivElement>({
     loop: true,
     mode: "free-snap",
@@ -24,13 +25,13 @@ export const Portfolio = () => {
         className="keen-slider rounded-lg bg-dracula-background px-0 pt-4 md:mx-auto"
       >
         {projects.map(
-          (projeto: Project, index: number) =>
-            projeto.value > 3 && (
+          (project: Project, index: number) =>
+            project.value > 3 && (
               <div
-                className={`keen-slider__slide number-slide${index + 1}`}
-                key={index}
+                className={`keen-slider__slide number-slide${(index + 1).toString()}`}
+                key={project.title}
               >
-                <ProjectCard {...projeto} />
+                <ProjectCard project={project} />
               </div>
             ),
         )}
